@@ -11,8 +11,12 @@ for (let i=0; i<args.length;++i){
 }
 
 console.log(parts);
+let seleccionado=decodeURIComponent(parts[0][1])
+console.log(seleccionado)
+seleccionado=seleccionado.replace(/\+/g," ")
+console.log(seleccionado)
 
-document.getElementById("seleccionado").innerHTML=parts[0][1];
+document.getElementById("seleccionado").innerHTML=seleccionado
 
 document.getElementById("boton").addEventListener("click", get_args);
 
@@ -21,6 +25,6 @@ function get_args(){
     let f=document.getElementById("fecha").value
     let i=document.getElementById("PEP").value
     url_simple= window.location.pathname.slice(1,-14)
-    url_compuesta=url_simple+"/tareas.html?contratista="+parts[0][1]+"&descripcion="+d+"&fecha="+f+"&PEP="+i
+    url_compuesta=url_simple+"/tareas.html?contratista="+seleccionado+"&descripcion="+d+"&fecha="+f+"&PEP="+i
     location= url_compuesta
 }

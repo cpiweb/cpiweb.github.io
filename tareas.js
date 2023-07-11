@@ -23,7 +23,7 @@ let proveedores=JSON.parse(JSON.stringify(
       },
       {
         "Proveedor": 1016685,
-        "Contratista": "Wilion Conte & Asociados",
+        "Contratista": "Wilion Conte y Asociados",
         "NPA": 7600017925
       },
       {
@@ -4220,10 +4220,9 @@ function generar_OE(){
     let precio_total
 
     for (i=1; i<tabla.rows.length; i++){
-        let posNPA=tabla.rows[i].cells[1].textContent
-        let cantidad=tabla.rows[i].cells[3].children.cantidad.value
-
-        if (parseInt(posNPA)==posNPA){
+         let posNPA=tabla.rows[i].cells[1].textContent
+         let cantidad=tabla.rows[i].cells[3].children.cantidad.value
+         if (parseInt(posNPA)==posNPA){
             posicion= posNPA
             cantidad_oe=cantidad
             descripcion= tabla.rows[i].cells[2].textContent
@@ -4315,3 +4314,29 @@ function eliminar_tarea(fila){
         }
     }
 }
+
+function agregar_viatico(){
+  let tecnicos= prompt('Cant de técnicos:')
+  let dias= prompt('Cant de días:')
+  let km= prompt('Cant de km recorridos:')
+
+  const desarraigo = 5371 + 4854
+  const nafta= 198.45
+
+  cantidad_viatico=tecnicos*dias*desarraigo+km*nafta*0.2
+  let id_row
+  if (table2.rows[table2.rows.length-1].cells[0].textContent=="#"){
+     id_row=1
+  } else {
+     id_row=parseInt(table2.rows[table2.rows.length-1].cells[0].textContent)+1
+  }
+
+  tr = table2.insertRow(-1);
+
+  tr.insertCell(-1).innerHTML = id_row;
+  tr.insertCell(-1).innerHTML = "100";
+  tr.insertCell(-1).innerHTML = "ADICIONAL TRASLADO Y UBICACIÓN DE OBRA";
+  tr.insertCell(-1).innerHTML = '<input type="text" name="cantidad" value="'+cantidad_viatico+'">';
+  tr.insertCell(-1).innerHTML = '$1.0'
+  tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
+      }
