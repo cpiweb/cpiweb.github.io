@@ -4141,6 +4141,7 @@ let col2 = ["#","Pos NPA","Tarea","Cantidad","Precio","Acción"];
 
 const table2 = document.createElement("table");
 table2.setAttribute("id", "myTable2");
+table2.setAttribute("class", "table");
 let tr2 = table2.insertRow(-1);                   // table row.
 
 for (let i = 0; i < col2.length; i++) {
@@ -4227,7 +4228,7 @@ function generar_OE(){
             cantidad_oe=cantidad
             descripcion= tabla.rows[i].cells[2].textContent
             precio= parseInt(tabla.rows[i].cells[4].textContent.slice(1))
-            precio_total= parseInt(cantidad)*precio
+            precio_total= parseFloat(cantidad)*precio
             fila=[nro_npa, "0010", posicion, descripcion, fecha_entrega, cantidad_oe, precio, precio_total]
             filas.push(fila)
             } else {
@@ -4265,6 +4266,9 @@ function generar_OE(){
     let titulo4=document.getElementById("contratista")
     titulo4.innerHTML= "Proveedor: "+ nro_proveedor+" ("+contratista_seleccionado+")"
 
+    let titulo6=document.getElementById("desc_tarea")
+    titulo6.innerHTML= "Descripción Tarea: " + descripcion_tarea
+
     let titulo5=document.getElementById("imputacion")
     titulo5.innerHTML= "Imputación: " + imputacion
 
@@ -4272,6 +4276,7 @@ function generar_OE(){
 
     const table3 = document.createElement("table");
     table3.setAttribute("id", "myTable3");
+    table3.setAttribute("class", "table");
     let tr3 = table3.insertRow(-1);                   // table row.
 
     for (let i = 0; i < col3.length; i++) {
@@ -4292,7 +4297,7 @@ function generar_OE(){
               posicion=filas[j][2]
               descripcion=filas[j][3]
               precio=filas[j][6]
-              cantidad_oe=cantidad_oe+filas[j][5]
+              cantidad_oe=parseFloat(cantidad_oe)+parseFloat(filas[j][5])
             }
         }
         tr.insertCell(-1).innerHTML = nro_npa;
