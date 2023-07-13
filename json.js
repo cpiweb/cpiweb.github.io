@@ -1176,2883 +1176,2344 @@ let tareas=JSON.parse(JSON.stringify({
 
 let tareas_agrupadas=JSON.parse(JSON.stringify(
     {
-        "Agrupados": [
-          {
-            "Cableado": "Set 12 UTP",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 1.75,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "Set 24 UTP",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 3.25,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "Set 36 UTP",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 4.75,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "Set 48 UTP",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 6.25,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "Bda Ranur Bjo Piso",
-            "Código": 5010341,
-            "Descripción": "INST. DE BANDEJA RANURADA P/INTERNA",
-            "Cantidad": 1.4,
-            "Pos NPA": 420
-          },
-          {
-            "Cableado": "Bda Escal Bjo Piso",
-            "Código": 5010340,
-            "Descripción": "INST. DE BANDEJA ESCALERA P/INTERNA",
-            "Cantidad": 1.4,
-            "Pos NPA": 410
-          },
-          {
-            "Cableado": "Acc Ranur Bjo Piso",
-            "Código": 5010336,
-            "Descripción": "INST. ACCESORIOS BJA RANURADAS P/INTERNA",
-            "Cantidad": 1.4,
-            "Pos NPA": 380
-          },
-          {
-            "Cableado": "ACC Escal Bjo Piso",
-            "Código": 5010335,
-            "Descripción": "INST. ACCESORIOS BJA ESCALERA P/INTERNA",
-            "Cantidad": 1.4,
-            "Pos NPA": 370
-          },
-          {
-            "Cableado": "Caño Bjo Piso/Techo",
-            "Código": 5010503,
-            "Descripción": "INSTALACIÓN DE CAÑO DAISA RECTO",
-            "Cantidad": 1.52,
-            "Pos NPA": 470
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5013986,
-            "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 740
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 119,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 116,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5008284,
-            "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 260
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5013584,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 680
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5008282,
-            "Descripción": "COLOCAR BASTI VERTICAL ACTIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 240
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5013580,
-            "Descripción": "ORGANIZAR CAB BASTI VER ACT P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 640
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "Rack AC Legacy",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Cantidad": 26,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "Rack E6K 1G",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "Rack E6K 1G",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 96,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "Rack E6K 1G",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 144,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "Rack E6K 1G",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 96,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "Rack E6K 1G",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 96,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "Rack E6K 1G",
-            "Código": 5008284,
-            "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 260
-          },
-          {
-            "Cableado": "Rack E6K 1G",
-            "Código": 5013584,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 680
-          },
-          {
-            "Cableado": "Rack E6K 1G",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Cantidad": 16,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "Rack E6K 1G",
-            "Código": 5013984,
-            "Descripción": "PREPARAR ACRÍLICO MATRIZ CMTS P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 720
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 112,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 112,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 8,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 112,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5008284,
-            "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 260
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5013584,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 680
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Cantidad": 19,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "Rack cBR8",
-            "Código": 5013984,
-            "Descripción": "PREPARAR ACRÍLICO MATRIZ CMTS P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 720
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 148,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 6,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 136,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 136,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5008284,
-            "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 260
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5013584,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 680
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Cantidad": 44,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 7,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 64 SD",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 39,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 12,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 64,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 232,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5008284,
-            "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 260
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5013584,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 680
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Cantidad": 79,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 112 SD",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 206,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 136,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 93,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 64 HD Comb",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 142,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 136,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 77,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 64 HD DC",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 6,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 10,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 24,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 140,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 128,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5008284,
-            "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 260
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5013584,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 680
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Cantidad": 58,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 7,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "AC 96 SD",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 267,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 56,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 113,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 96 HD DC",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5013986,
-            "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 740
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 80,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 120,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "Rack 120 TX",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5013986,
-            "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 740
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 80,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "Rack 80 TX",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "Cables RX-MTZ (120)",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 120,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "Cables RX-MTZ (120)",
-            "Código": 5013984,
-            "Descripción": "PREPARAR ACRÍLICO MATRIZ CMTS P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 720
-          },
-          {
-            "Cableado": "Cables RX-MTZ (96)",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 96,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "Cables RX-MTZ (96)",
-            "Código": 5013984,
-            "Descripción": "PREPARAR ACRÍLICO MATRIZ CMTS P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 720
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 130,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 120,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 74,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 64 HD DC s/VOD",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 32,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 12,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 64,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 176,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5008284,
-            "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 260
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5013584,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 680
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Cantidad": 72,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 112 SD s/VOD",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 67,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 118,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 68,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 56 HD DC",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5007437,
-            "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 120
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 160,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 59,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 118,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 66,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 56 HD DC s/VOD",
-            "Código": 5013579,
-            "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 630
-          },
-          {
-            "Cableado": "Rack 120 RX PBN",
-            "Código": 5013986,
-            "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 740
-          },
-          {
-            "Cableado": "Rack 120 RX PBN",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 270,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "Rack 120 RX PBN",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 120,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "Rack 120 RX PBN",
-            "Código": 5008284,
-            "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 260
-          },
-          {
-            "Cableado": "Rack 120 RX PBN",
-            "Código": 5013584,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 680
-          },
-          {
-            "Cableado": "Rack 120 RX PBN",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 18,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "Rack 120 RX PBN",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Cantidad": 55,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "Rack 16 CH Ana",
-            "Código": 5013986,
-            "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 740
-          },
-          {
-            "Cableado": "Rack 16 CH Ana",
-            "Código": 5008282,
-            "Descripción": "COLOCAR BASTI VERTICAL ACTIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 240
-          },
-          {
-            "Cableado": "Rack 16 CH Ana",
-            "Código": 5015531,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Cantidad": 32,
-            "Pos NPA": 790
-          },
-          {
-            "Cableado": "Rack 16 CH Ana",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 32,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "Rack 16 CH Ana",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "Rack 16 CH Ana",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 930,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 358,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 266,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 13,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 13,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 301,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 224 HD DC",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 10,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 459,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5015528,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Cantidad": 179,
-            "Pos NPA": 760
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 55,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 122,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 112 HD DC VODx32",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 10,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 341,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 26,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5010547,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO(24) P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 520
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5010547,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO(24) P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 520
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5010549,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO(48) P/INTERNA",
-            "Cantidad": 1.7,
-            "Pos NPA": 540
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5010550,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO(72) P/INTERNA",
-            "Cantidad": 1.7,
-            "Pos NPA": 550
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 1.75,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "AC 112 UHD VOD",
-            "Código": 5010334,
-            "Descripción": "INST. 2 CANALES ENERGÍA RACK/CABLE/PAT",
-            "Cantidad": 2,
-            "Pos NPA": 360
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5015530,
-            "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 780
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5007436,
-            "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Cantidad": 9,
-            "Pos NPA": 110
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5015529,
-            "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Cantidad": 315,
-            "Pos NPA": 770
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5008281,
-            "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 230
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5013582,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 660
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5008280,
-            "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 220
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5013581,
-            "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 650
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5008286,
-            "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Cantidad": 37,
-            "Pos NPA": 280
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5013583,
-            "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Cantidad": 0,
-            "Pos NPA": 670
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5008288,
-            "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 300
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5010547,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO(24) P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 520
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5010547,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO(24) P/INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 520
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5010549,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO(48) P/INTERNA",
-            "Cantidad": 3.1,
-            "Pos NPA": 540
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 1.75,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "AC 96 UHD VOD",
-            "Código": 5010334,
-            "Descripción": "INST. 2 CANALES ENERGÍA RACK/CABLE/PAT",
-            "Cantidad": 2,
-            "Pos NPA": 360
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 7,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5010550,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
-            "Cantidad": 8,
-            "Pos NPA": 550
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 2,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD PLANTA INTERNA",
-            "Cantidad": 6,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "HW2V220",
-            "Código": 5010334,
-            "Descripción": "TENDIDO DE DOS CANALES DE ENERGÍA AL RACK + CABLE + PAT",
-            "Cantidad": 2,
-            "Pos NPA": 360
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 6,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5010550,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 550
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 2,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD PLANTA INTERNA",
-            "Cantidad": 6,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "HW1V220",
-            "Código": 5010334,
-            "Descripción": "TENDIDO DE DOS CANALES DE ENERGÍA AL RACK + CABLE + PAT",
-            "Cantidad": 2,
-            "Pos NPA": 360
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 7,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5010550,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
-            "Cantidad": 8,
-            "Pos NPA": 550
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 2,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD PLANTA INTERNA",
-            "Cantidad": 6,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "NK2V220",
-            "Código": 5010334,
-            "Descripción": "TENDIDO DE DOS CANALES DE ENERGÍA AL RACK + CABLE + PAT",
-            "Cantidad": 2,
-            "Pos NPA": 360
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 7,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5010550,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 550
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 2,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5008285,
-            "Descripción": "COLOCAR PASIVOS BD PLANTA INTERNA",
-            "Cantidad": 6,
-            "Pos NPA": 270
-          },
-          {
-            "Cableado": "NK1V220",
-            "Código": 5010334,
-            "Descripción": "TENDIDO DE DOS CANALES DE ENERGÍA AL RACK + CABLE + PAT",
-            "Cantidad": 2,
-            "Pos NPA": 360
-          },
-          {
-            "Cableado": "HW2V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 5,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW2V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 7,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW2V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW2V48",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW2V48",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "HW2V48",
-            "Código": 5010550,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
-            "Cantidad": 8,
-            "Pos NPA": 550
-          },
-          {
-            "Cableado": "HW2V48",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 2,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "HW2V48",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW2V48",
-            "Código": 5007936,
-            "Descripción": "CABLEADO  ( MAYOR A 10 MM)  POR UNIDAD Y POR METRO",
-            "Cantidad": 50,
-            "Pos NPA": 150
-          },
-          {
-            "Cableado": "HW1V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 6,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW1V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW1V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "HW1V48",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW1V48",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "HW1V48",
-            "Código": 5010550,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 550
-          },
-          {
-            "Cableado": "HW1V48",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 2,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "HW1V48",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "HW1V48",
-            "Código": 5007936,
-            "Descripción": "CABLEADO  ( MAYOR A 10 MM)  POR UNIDAD Y POR METRO",
-            "Cantidad": 50,
-            "Pos NPA": 150
-          },
-          {
-            "Cableado": "NK2V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 3,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK2V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 7,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK2V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK2V48",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 2,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK2V48",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "NK2V48",
-            "Código": 5010550,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
-            "Cantidad": 8,
-            "Pos NPA": 550
-          },
-          {
-            "Cableado": "NK2V48",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 2,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "NK2V48",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK2V48",
-            "Código": 5007936,
-            "Descripción": "CABLEADO  ( MAYOR A 10 MM)  POR UNIDAD Y POR METRO",
-            "Cantidad": 50,
-            "Pos NPA": 150
-          },
-          {
-            "Cableado": "NK1V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 7,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK1V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK1V48",
-            "Código": 5008287,
-            "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 290
-          },
-          {
-            "Cableado": "NK1V48",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK1V48",
-            "Código": 5013985,
-            "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 730
-          },
-          {
-            "Cableado": "NK1V48",
-            "Código": 5010550,
-            "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
-            "Cantidad": 4,
-            "Pos NPA": 550
-          },
-          {
-            "Cableado": "NK1V48",
-            "Código": 5010530,
-            "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Cantidad": 2,
-            "Pos NPA": 480
-          },
-          {
-            "Cableado": "NK1V48",
-            "Código": 5008283,
-            "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
-            "Cantidad": 1,
-            "Pos NPA": 250
-          },
-          {
-            "Cableado": "NK1V48",
-            "Código": 5007936,
-            "Descripción": "CABLEADO  ( MAYOR A 10 MM)  POR UNIDAD Y POR METRO",
-            "Cantidad": 50,
-            "Pos NPA": 150
-          }
-        ]
-          }))
+      "Agrupados": [
+        {
+          "Cableado": "Set 12 UTP",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 1.75,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "Set 24 UTP",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 3.25,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "Set 36 UTP",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 4.75,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "Set 48 UTP",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 6.25,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "Bda Ranur Bjo Piso",
+          "Código": 5010341,
+          "Descripción": "INST. DE BANDEJA RANURADA P/INTERNA",
+          "Cantidad": 1.4,
+          "Pos NPA": 420
+        },
+        {
+          "Cableado": "Bda Escal Bjo Piso",
+          "Código": 5010340,
+          "Descripción": "INST. DE BANDEJA ESCALERA P/INTERNA",
+          "Cantidad": 1.4,
+          "Pos NPA": 410
+        },
+        {
+          "Cableado": "Acc Ranur Bjo Piso",
+          "Código": 5010336,
+          "Descripción": "INST. ACCESORIOS BJA RANURADAS P/INTERNA",
+          "Cantidad": 1.4,
+          "Pos NPA": 380
+        },
+        {
+          "Cableado": "ACC Escal Bjo Piso",
+          "Código": 5010335,
+          "Descripción": "INST. ACCESORIOS BJA ESCALERA P/INTERNA",
+          "Cantidad": 1.4,
+          "Pos NPA": 370
+        },
+        {
+          "Cableado": "Caño Bjo Piso/Techo",
+          "Código": 5010503,
+          "Descripción": "INSTALACIÓN DE CAÑO DAISA RECTO",
+          "Cantidad": 1.52,
+          "Pos NPA": 470
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5013986,
+          "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 740
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5007437,
+          "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
+          "Cantidad": 119,
+          "Pos NPA": 120
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5015531,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
+          "Cantidad": 116,
+          "Pos NPA": 790
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5013583,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 670
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5008284,
+          "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 260
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5013584,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 680
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5008282,
+          "Descripción": "COLOCAR BASTI VERTICAL ACTIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 240
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5013580,
+          "Descripción": "ORGANIZAR CAB BASTI VER ACT P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 640
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "Rack AC Legacy",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
+          "Cantidad": 26,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "Rack E6K 1G",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "Rack E6K 1G",
+          "Código": 5015531,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
+          "Cantidad": 96,
+          "Pos NPA": 790
+        },
+        {
+          "Cableado": "Rack E6K 1G",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 144,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "Rack E6K 1G",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 96,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "Rack E6K 1G",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 96,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "Rack E6K 1G",
+          "Código": 5008284,
+          "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 260
+        },
+        {
+          "Cableado": "Rack E6K 1G",
+          "Código": 5013584,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 680
+        },
+        {
+          "Cableado": "Rack E6K 1G",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
+          "Cantidad": 16,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "Rack E6K 1G",
+          "Código": 5013984,
+          "Descripción": "PREPARAR ACRÍLICO MATRIZ CMTS P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 720
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5015531,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
+          "Cantidad": 112,
+          "Pos NPA": 790
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 112,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 8,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 112,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5008284,
+          "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 260
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5013584,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 680
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
+          "Cantidad": 19,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "Rack cBR8",
+          "Código": 5013984,
+          "Descripción": "PREPARAR ACRÍLICO MATRIZ CMTS P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 720
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5007437,
+          "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
+          "Cantidad": 148,
+          "Pos NPA": 120
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 6,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 136,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 136,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5008284,
+          "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 260
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5013584,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 680
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
+          "Cantidad": 44,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5013583,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 670
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 7,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5008288,
+          "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 300
+        },
+        {
+          "Cableado": "AC 64 SD",
+          "Código": 5013579,
+          "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 630
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5007437,
+          "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
+          "Cantidad": 39,
+          "Pos NPA": 120
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 12,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 64,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 232,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5008284,
+          "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 260
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5013584,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 680
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
+          "Cantidad": 79,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5013583,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 670
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5008288,
+          "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 300
+        },
+        {
+          "Cableado": "AC 112 SD",
+          "Código": 5013579,
+          "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 630
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 206,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 136,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5008280,
+          "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 220
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5013581,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 650
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 93,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 64 HD Comb",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 142,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 136,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5008280,
+          "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 220
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5013581,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 650
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 77,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 64 HD DC",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5007437,
+          "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
+          "Cantidad": 6,
+          "Pos NPA": 120
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 10,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5015531,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
+          "Cantidad": 24,
+          "Pos NPA": 790
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 140,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 128,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5008284,
+          "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 260
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5013584,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 680
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
+          "Cantidad": 58,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5013583,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 670
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 7,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5008288,
+          "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 300
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5008288,
+          "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 300
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5013579,
+          "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 630
+        },
+        {
+          "Cableado": "AC 96 SD",
+          "Código": 5013579,
+          "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 630
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 267,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 56,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5008280,
+          "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 220
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5013581,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 650
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 113,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 96 HD DC",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "Rack 120 TX",
+          "Código": 5013986,
+          "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 740
+        },
+        {
+          "Cableado": "Rack 120 TX",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "Rack 120 TX",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 80,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "Rack 120 TX",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 120,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "Rack 120 TX",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "Rack 120 TX",
+          "Código": 5008288,
+          "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 300
+        },
+        {
+          "Cableado": "Rack 120 TX",
+          "Código": 5008288,
+          "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 300
+        },
+        {
+          "Cableado": "Rack 120 TX",
+          "Código": 5013579,
+          "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 630
+        },
+        {
+          "Cableado": "Rack 120 TX",
+          "Código": 5013579,
+          "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 630
+        },
+        {
+          "Cableado": "Rack 80 TX",
+          "Código": 5013986,
+          "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 740
+        },
+        {
+          "Cableado": "Rack 80 TX",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "Rack 80 TX",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 80,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "Rack 80 TX",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "Rack 80 TX",
+          "Código": 5008288,
+          "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 300
+        },
+        {
+          "Cableado": "Rack 80 TX",
+          "Código": 5013579,
+          "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 630
+        },
+        {
+          "Cableado": "Cables RX-MTZ (120)",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 120,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "Cables RX-MTZ (120)",
+          "Código": 5013984,
+          "Descripción": "PREPARAR ACRÍLICO MATRIZ CMTS P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 720
+        },
+        {
+          "Cableado": "Cables RX-MTZ (96)",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 96,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "Cables RX-MTZ (96)",
+          "Código": 5013984,
+          "Descripción": "PREPARAR ACRÍLICO MATRIZ CMTS P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 720
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 130,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 120,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5008280,
+          "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 220
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5013581,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 650
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 74,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 64 HD DC s/VOD",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5007437,
+          "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
+          "Cantidad": 32,
+          "Pos NPA": 120
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 12,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 64,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 176,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5008284,
+          "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 260
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5013584,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 680
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
+          "Cantidad": 72,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5008288,
+          "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 300
+        },
+        {
+          "Cableado": "AC 112 SD s/VOD",
+          "Código": 5013579,
+          "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 630
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 67,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 118,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5008280,
+          "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 220
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5013581,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 650
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 68,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 56 HD DC",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 160,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 59,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 118,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5008280,
+          "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 220
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5013581,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 650
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 66,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 56 HD DC s/VOD",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "Rack 120 RX PBN",
+          "Código": 5013986,
+          "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 740
+        },
+        {
+          "Cableado": "Rack 120 RX PBN",
+          "Código": 5015531,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
+          "Cantidad": 270,
+          "Pos NPA": 790
+        },
+        {
+          "Cableado": "Rack 120 RX PBN",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 120,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "Rack 120 RX PBN",
+          "Código": 5008284,
+          "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 260
+        },
+        {
+          "Cableado": "Rack 120 RX PBN",
+          "Código": 5013584,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 680
+        },
+        {
+          "Cableado": "Rack 120 RX PBN",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 18,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "Rack 120 RX PBN",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
+          "Cantidad": 55,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "Rack 16 CH Ana",
+          "Código": 5013986,
+          "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 740
+        },
+        {
+          "Cableado": "Rack 16 CH Ana",
+          "Código": 5008282,
+          "Descripción": "COLOCAR BASTI VERTICAL ACTIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 240
+        },
+        {
+          "Cableado": "Rack 16 CH Ana",
+          "Código": 5015531,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
+          "Cantidad": 32,
+          "Pos NPA": 790
+        },
+        {
+          "Cableado": "Rack 16 CH Ana",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 32,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "Rack 16 CH Ana",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "Rack 16 CH Ana",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 930,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 358,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 266,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 13,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 13,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5008280,
+          "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 220
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5013581,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 650
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 301,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5013583,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 670
+        },
+        {
+          "Cableado": "AC 224 HD DC",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 10,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 459,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5015528,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
+          "Cantidad": 179,
+          "Pos NPA": 760
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 55,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5008280,
+          "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 220
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5013581,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 650
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 122,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5013583,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 670
+        },
+        {
+          "Cableado": "AC 112 HD DC VODx32",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 10,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 341,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 26,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5013583,
+          "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 670
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5010547,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO(24) P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 520
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5010547,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO(24) P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 520
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5010549,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO(48) P/INTERNA",
+          "Cantidad": 1.7,
+          "Pos NPA": 540
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5010550,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO(72) P/INTERNA",
+          "Cantidad": 1.7,
+          "Pos NPA": 550
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 1.75,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "AC 112 UHD VOD",
+          "Código": 5010334,
+          "Descripción": "INST. 2 CANALES ENERGÍA RACK/CABLE/PAT",
+          "Cantidad": 2,
+          "Pos NPA": 360
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5015530,
+          "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 780
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5007436,
+          "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
+          "Cantidad": 9,
+          "Pos NPA": 110
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5015529,
+          "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
+          "Cantidad": 315,
+          "Pos NPA": 770
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5008281,
+          "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 230
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5013582,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 660
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5008280,
+          "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 220
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5013581,
+          "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 650
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5008286,
+          "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
+          "Cantidad": 37,
+          "Pos NPA": 280
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5008288,
+          "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 300
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5010547,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO(24) P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 520
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5010547,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO(24) P/INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 520
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5010549,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO(48) P/INTERNA",
+          "Cantidad": 3.1,
+          "Pos NPA": 540
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 1.75,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "AC 96 UHD VOD",
+          "Código": 5010334,
+          "Descripción": "INST. 2 CANALES ENERGÍA RACK/CABLE/PAT",
+          "Cantidad": 2,
+          "Pos NPA": 360
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 7,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5010550,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
+          "Cantidad": 8,
+          "Pos NPA": 550
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 2,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD PLANTA INTERNA",
+          "Cantidad": 6,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "HW2V220",
+          "Código": 5010334,
+          "Descripción": "TENDIDO DE DOS CANALES DE ENERGÍA AL RACK + CABLE + PAT",
+          "Cantidad": 2,
+          "Pos NPA": 360
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 6,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5010550,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 550
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 2,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD PLANTA INTERNA",
+          "Cantidad": 6,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "HW1V220",
+          "Código": 5010334,
+          "Descripción": "TENDIDO DE DOS CANALES DE ENERGÍA AL RACK + CABLE + PAT",
+          "Cantidad": 2,
+          "Pos NPA": 360
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 7,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5010550,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
+          "Cantidad": 8,
+          "Pos NPA": 550
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 2,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD PLANTA INTERNA",
+          "Cantidad": 6,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "NK2V220",
+          "Código": 5010334,
+          "Descripción": "TENDIDO DE DOS CANALES DE ENERGÍA AL RACK + CABLE + PAT",
+          "Cantidad": 2,
+          "Pos NPA": 360
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 7,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5010550,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 550
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 2,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5008285,
+          "Descripción": "COLOCAR PASIVOS BD PLANTA INTERNA",
+          "Cantidad": 6,
+          "Pos NPA": 270
+        },
+        {
+          "Cableado": "NK1V220",
+          "Código": 5010334,
+          "Descripción": "TENDIDO DE DOS CANALES DE ENERGÍA AL RACK + CABLE + PAT",
+          "Cantidad": 2,
+          "Pos NPA": 360
+        },
+        {
+          "Cableado": "HW2V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 5,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW2V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 7,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW2V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW2V48",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW2V48",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "HW2V48",
+          "Código": 5010550,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
+          "Cantidad": 8,
+          "Pos NPA": 550
+        },
+        {
+          "Cableado": "HW2V48",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 2,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "HW2V48",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW2V48",
+          "Código": 5007936,
+          "Descripción": "CABLEADO  ( MAYOR A 10 MM)  POR UNIDAD Y POR METRO",
+          "Cantidad": 50,
+          "Pos NPA": 150
+        },
+        {
+          "Cableado": "HW1V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 6,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW1V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW1V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "HW1V48",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW1V48",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "HW1V48",
+          "Código": 5010550,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 550
+        },
+        {
+          "Cableado": "HW1V48",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 2,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "HW1V48",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "HW1V48",
+          "Código": 5007936,
+          "Descripción": "CABLEADO  ( MAYOR A 10 MM)  POR UNIDAD Y POR METRO",
+          "Cantidad": 50,
+          "Pos NPA": 150
+        },
+        {
+          "Cableado": "NK2V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 3,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK2V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 7,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK2V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK2V48",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 2,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK2V48",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "NK2V48",
+          "Código": 5010550,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
+          "Cantidad": 8,
+          "Pos NPA": 550
+        },
+        {
+          "Cableado": "NK2V48",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 2,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "NK2V48",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK2V48",
+          "Código": 5007936,
+          "Descripción": "CABLEADO  ( MAYOR A 10 MM)  POR UNIDAD Y POR METRO",
+          "Cantidad": 50,
+          "Pos NPA": 150
+        },
+        {
+          "Cableado": "NK1V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 7,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK1V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK1V48",
+          "Código": 5008287,
+          "Descripción": "COLOCAR SEPARADOR  HORIZONTAL PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 290
+        },
+        {
+          "Cableado": "NK1V48",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK1V48",
+          "Código": 5013985,
+          "Descripción": "PREPARAR RACK 1000 MM O MAYOR PROFUNDIDAD PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 730
+        },
+        {
+          "Cableado": "NK1V48",
+          "Código": 5010550,
+          "Descripción": "INSTALACIÓN MULTIPATCH MPO 72 FIBRAS PLANTA INTERNA",
+          "Cantidad": 4,
+          "Pos NPA": 550
+        },
+        {
+          "Cableado": "NK1V48",
+          "Código": 5010530,
+          "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
+          "Cantidad": 2,
+          "Pos NPA": 480
+        },
+        {
+          "Cableado": "NK1V48",
+          "Código": 5008283,
+          "Descripción": "COLOCAR BASTIDOR HORIZONTAL  PLANTA INTERNA",
+          "Cantidad": 1,
+          "Pos NPA": 250
+        },
+        {
+          "Cableado": "NK1V48",
+          "Código": 5007936,
+          "Descripción": "CABLEADO  ( MAYOR A 10 MM)  POR UNIDAD Y POR METRO",
+          "Cantidad": 50,
+          "Pos NPA": 150
+        }
+      ]
+              }))

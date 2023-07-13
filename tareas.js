@@ -172,6 +172,7 @@ divShowData2.appendChild(boton2);
 function agregar(id_tarea){
     
     divShowData2.style.display="block"
+    divShowData2.scrollIntoView()
 
     let id_row
      if (table2.rows[table2.rows.length-1].cells[0].textContent=="#"){
@@ -283,6 +284,7 @@ function generar_OE(){
     boton3.setAttribute("id","boton3")
     boton3.setAttribute("onclick", "copiar_tabla()");
     boton3.setAttribute("class", "btn btn-success");
+    boton3.setAttribute("title", "copia en el portapapel, para luego poder pegar en el excel");
 
     const boton4 = document.createElement("button")
     boton4.innerHTML = "Editar"
@@ -386,4 +388,3 @@ function copiar_tabla() {
         // execute 'copy', can't 'cut' in this case
         document.execCommand('copy');
       }
-
