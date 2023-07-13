@@ -22,7 +22,7 @@ for (let i = 0; i < proveedores.NPAyProveedor.length; i++) {
 // Crear tabla
 const table4 = document.createElement("table");
 table4.setAttribute("id", "myTable4");
-table4.setAttribute("class", "table");
+table4.setAttribute("class", "table table-light table-striped");
 
 // Crear header
 let tr4 = table4.insertRow(-1);
@@ -31,6 +31,9 @@ for (let i = 0; i < col4.length; i++) {
     th4.innerHTML = col4[i];
     tr4.appendChild(th4);
 }
+let th4 = document.createElement("th");
+th4.innerHTML = "Acción";
+tr4.appendChild(th4);
 
 // agregar datos del JSON como filas
 for (let i = 0; i < proveedores.NPAyProveedor.length; i++) {
@@ -44,8 +47,9 @@ for (let i = 0; i < proveedores.NPAyProveedor.length; i++) {
     tr4.insertCell(-1).innerHTML ='<button id="'+proveedores.NPAyProveedor[i][col4[0]]+'" class="btn btn-primary" onclick="seleccionar_contratista(this.id)">Seleccionar</button>'
 }
 
-const header4 = document.createElement("h5")
+const header4 = document.createElement("p")
 header4.innerHTML = "Seleccionar contratista"
+header4.setAttribute("class","h4")
 const saltolinea4 = document.createElement("br")
 // sumar la tabla creada al contenedor
 const divShowData4 = document.getElementById('showData4');
@@ -69,20 +73,24 @@ function seleccionar_contratista(proveedor){
         npa_proveedor = proveedores.NPAyProveedor[i]["NPA"]
     }
     header4.innerHTML = "Contratista seleccionado: " + nro_proveedor + " (" + nombre_proveedor + ")"
+    header4.setAttribute ("class","h5")
+
     divShowData4.appendChild(header4)
+    divShowData4.appendChild(saltolinea4)
     divShowData.style.display = "block"
     }
 }
 
 const table = document.createElement("table");
 table.setAttribute("id", "myTable");
+table.setAttribute("class", "table table-light table-striped");
 
 let tr = table.insertRow(-1);
 
-let th = document.createElement("th");
+/* let th = document.createElement("th");
 th.innerHTML = "Seleccionar Tareas";
 tr.appendChild(th);
-
+ */
 for (let i = 0; i < tareas.Agrupados.length; i++) {
 
     tr = table.insertRow(-1);
@@ -132,6 +140,8 @@ let col2 = ["#","Pos NPA","Tarea","Cantidad","Precio","Acción"];
 const table2 = document.createElement("table");
 table2.setAttribute("id", "myTable2");
 table2.setAttribute("class", "table");
+table2.setAttribute("class", "table table-light table-striped");
+
 let tr2 = table2.insertRow(-1);                   // table row.
 
 for (let i = 0; i < col2.length; i++) {
@@ -151,6 +161,7 @@ const boton2 = document.createElement("button")
 boton2.innerHTML = "Agregar viático"
 boton2.setAttribute("onclick", "agregar_viatico()");
 boton2.setAttribute("class", "btn btn-success");
+boton2.setAttribute("id", "boton2");
 
 divShowData2.innerHTML = "";
 divShowData2.appendChild(titulo2)
@@ -207,8 +218,9 @@ function traer_precio(tipo_tarea){
 
 function generar_OE(){
 
-    const fecha = new Date();
-    let fecha_entrega = (fecha.getDate()+15)+"/"+fecha.getMonth()+"/"+fecha.getFullYear()
+    let fecha = new Date();
+    fecha.setDate(fecha.getDate()+15)
+    let fecha_entrega = fecha.getDate()+"/"+(fecha.getMonth()+1)+"/"+fecha.getFullYear()
 
     divShowData4.style.display="none"
     divShowData.style.display="none"
@@ -261,27 +273,45 @@ function generar_OE(){
       if(ordenador.indexOf(ordenador[i]) !== i) ordenador.splice(i,1);
     }    
 
-    const titulo3=document.createElement("h3")
-    titulo3.innerHTML= "Solicitud generada"
+    const titulo3=document.createElement("span")
+    titulo3.innerHTML= "Plantilla generada"
+    titulo3.setAttribute("id","generado")
+    titulo3.setAttribute("class","h4")
+
+    const boton3 = document.createElement("button")
+    boton3.innerHTML = "Copiar"
+    boton3.setAttribute("id","boton3")
+    boton3.setAttribute("onclick", "copiar_tabla()");
+    boton3.setAttribute("class", "btn btn-success");
+
+    const boton4 = document.createElement("button")
+    boton4.innerHTML = "Editar"
+    boton4.setAttribute("id","boton4")
+    boton4.setAttribute("onclick", "editar_tareas()");
+    boton4.setAttribute("class", "btn btn-success");
 
     const titulo4=document.createElement("p")
     titulo4.innerHTML= "Proveedor: "+ nro_proveedor+" ("+nombre_proveedor+")"
+    titulo4.setAttribute("id","proveedor")
+    titulo4.setAttribute("class","h5")
 
-    let col3 = ["NPA","Posición","Línea","Descripción", "Fecha", "Cantidad","P. Unit","P. Total"];
+//    let col3 = ["NPA","Posición","Línea","Descripción", "Fecha", "Cantidad","P. Unit","P. Total"];
 
     const table3 = document.createElement("table");
     table3.setAttribute("id", "myTable3");
     table3.setAttribute("class", "table");
-    let tr3 = table3.insertRow(-1);                   // table row.
+/*     let tr3 = table3.insertRow(-1);                   // table row.
 
     for (let i = 0; i < col3.length; i++) {
         let th3 = document.createElement("th");      // table header.
         th3.innerHTML = col3[i];
         tr3.appendChild(th3);
     }
-
+ */
     divShowData3.innerHTML = "";
     divShowData3.appendChild(titulo3)
+    divShowData3.appendChild(boton3)
+    divShowData3.appendChild(boton4)
     divShowData3.appendChild(titulo4)
     divShowData3.appendChild(table3);
 
@@ -301,9 +331,9 @@ function generar_OE(){
         tr.insertCell(-1).innerHTML = posicion;
         tr.insertCell(-1).innerHTML = descripcion;
         tr.insertCell(-1).innerHTML = fecha_entrega;
-        tr.insertCell(-1).innerHTML = cantidad_oe;
-        tr.insertCell(-1).innerHTML = precio;
-        tr.insertCell(-1).innerHTML = precio*cantidad_oe
+        tr.insertCell(-1).innerHTML = cantidad_oe.toString().replace('.', ',');
+        tr.insertCell(-1).innerHTML = precio.toString().replace('.', ',');
+        tr.insertCell(-1).innerHTML = (precio*cantidad_oe).toString().replace('.', ',')
       }
   }
 
@@ -339,5 +369,21 @@ function agregar_viatico(){
   tr.insertCell(-1).innerHTML = "ADICIONAL TRASLADO Y UBICACIÓN DE OBRA";
   tr.insertCell(-1).innerHTML = '<input type="text" name="cantidad" value="'+cantidad_viatico+'">';
   tr.insertCell(-1).innerHTML = '$1.0'
-  tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
+  tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
       }
+
+function copiar_tabla() {
+
+        var urlField = document.getElementById("myTable3")
+         
+        // create a Range object
+        var range = document.createRange();  
+        // set the Node to select the "range"
+        range.selectNode(urlField);
+        // add the Range to the set of window selections
+        window.getSelection().addRange(range);
+         
+        // execute 'copy', can't 'cut' in this case
+        document.execCommand('copy');
+      }
+
