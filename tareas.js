@@ -135,7 +135,7 @@ function myFunction() {
     }
   }
 
-let col2 = ["#","Pos NPA","Tarea","Cantidad","Precio","Acción"];
+let col2 = ["#","Pos NPA","Tarea","Cantidad","Precio","Subtotal","Acción"];
 
 const table2 = document.createElement("table");
 table2.setAttribute("id", "myTable2");
@@ -163,14 +163,21 @@ boton2.setAttribute("onclick", "agregar_viatico()");
 boton2.setAttribute("class", "btn btn-success");
 boton2.setAttribute("id", "boton2");
 
+const titulo6 = document.createElement("p")
+titulo6.setAttribute("id","subtotal_OE")
+titulo6.setAttribute("class","h5")
+
 divShowData2.innerHTML = "";
 divShowData2.appendChild(titulo2)
 divShowData2.appendChild(table2);
+divShowData2.appendChild(titulo6);
 divShowData2.appendChild(boton1);
 divShowData2.appendChild(boton2);
 
 function agregar(id_tarea){
     
+    let subtotal=0
+
     divShowData2.style.display="block"
     divShowData2.scrollIntoView()
 
@@ -189,9 +196,10 @@ function agregar(id_tarea){
             tr.insertCell(-1).innerHTML = id_row;
             tr.insertCell(-1).innerHTML = tareas.Agrupados[j]["Pos NPA"];
             tr.insertCell(-1).innerHTML = tareas.Agrupados[j]["Tarea"];
-            tr.insertCell(-1).innerHTML = '<input type="text" name="cantidad">'
+            tr.insertCell(-1).innerHTML = '<input type="text" id="'+id_row+'" name="cantidad" onkeyup="calcular_subtotal(this.value, this.id)">'
             precio= traer_precio (tareas.Agrupados[j]["Pos NPA"])
             tr.insertCell(-1).innerHTML = '$'+ precio
+            tr.insertCell(-1).innerHTML = subtotal
             tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
         }
     }
@@ -236,6 +244,7 @@ function generar_OE(){
     let descripcion
     let precio
     let precio_total
+    let total=0
 
     for (i=1; i<tabla.rows.length; i++){
          let posNPA=tabla.rows[i].cells[1].textContent
@@ -314,8 +323,6 @@ function generar_OE(){
     divShowData3.appendChild(titulo3)
     divShowData3.appendChild(boton3)
     divShowData3.appendChild(boton4)
-    divShowData3.appendChild(titulo4)
-    divShowData3.appendChild(table3);
 
     for (let i = 0; i < ordenador.length; i++){
         cantidad_oe=0
@@ -336,7 +343,15 @@ function generar_OE(){
         tr.insertCell(-1).innerHTML = cantidad_oe.toString().replace('.', ',');
         tr.insertCell(-1).innerHTML = precio.toString().replace('.', ',');
         tr.insertCell(-1).innerHTML = (precio*cantidad_oe).toString().replace('.', ',')
-      }
+        total=total+(precio*cantidad_oe)
+    }
+    let titulo5 = document.createElement("span")
+    titulo5.innerHTML= "Monto total OE:  $" + total
+    titulo5.setAttribute("id","total_OE")
+    titulo5.setAttribute("class","h5")
+    divShowData3.appendChild(titulo4)
+    divShowData3.appendChild(titulo5);
+    divShowData3.appendChild(table3);
   }
 
 function eliminar_tarea(fila){
@@ -388,3 +403,23 @@ function copiar_tabla() {
         // execute 'copy', can't 'cut' in this case
         document.execCommand('copy');
       }
+
+function editar_tareas(){
+    divShowData.style.display="block"
+    divShowData2.style.display="block"
+    divShowData3.style.display="none"
+}      
+
+function calcular_subtotal(cantidad,id_row){
+
+    let tabla = document.getElementById("myTable2")
+    let subtotal=0
+    for (i=1; i<tabla.rows.length; i++){
+        if (tabla.rows[i].cells[0].textContent==id_row){
+            tabla.rows[i].cells[5].textContent= "$"+(parseFloat(tabla.rows[i].cells[4].textContent.slice(1))*cantidad).toString()
+        }
+        subtotal=subtotal+parseFloat(tabla.rows[i].cells[5].textContent.slice(1))
+        console.log(subtotal)
+    }
+//    titulo6.innerHTML= "Monto Total OE:  $"+subtotal       
+}
