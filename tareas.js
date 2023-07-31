@@ -386,6 +386,7 @@ function agregar_viatico(){
   tr.insertCell(-1).innerHTML = "ADICIONAL TRASLADO Y UBICACIÓN DE OBRA";
   tr.insertCell(-1).innerHTML = '<input type="text" name="cantidad" value="'+cantidad_viatico+'">';
   tr.insertCell(-1).innerHTML = '$1.0'
+  tr.insertCell(-1).innerHTML = '$'+cantidad_viatico
   tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
       }
 
@@ -421,5 +422,5 @@ function calcular_subtotal(cantidad,id_row){
         subtotal=subtotal+parseFloat(tabla.rows[i].cells[5].textContent.slice(1))
         console.log(subtotal)
     }
-    titulo6.innerHTML= "Monto Total OE:  $"+subtotal       
+//    titulo6.innerHTML= "Monto Total OE:  $"+subtotal       
 }
