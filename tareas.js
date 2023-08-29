@@ -220,6 +220,7 @@ function traer_precio(tipo_tarea){
                     if (posiciones.NPAyPosiciones[i]["Servicio"]==tareas_agrupadas.Agrupados[j]["Código"]){
                         suma= suma+(parseFloat(posiciones.NPAyPosiciones[i]["Precio"])*parseFloat(tareas_agrupadas.Agrupados[j]["Cantidad"]))
                     }
+                suma= (Math.round(suma*100))/100
             }
         }
     } return suma
@@ -253,8 +254,8 @@ function generar_OE(){
             posicion= posNPA
             cantidad_oe=cantidad
             descripcion= tabla.rows[i].cells[2].textContent
-            precio= parseInt(tabla.rows[i].cells[4].textContent.slice(1))
-            precio_total= parseFloat(cantidad)*precio
+            precio= parseFloat(tabla.rows[i].cells[4].textContent.slice(1))
+            precio_total= (Math.round(parseFloat(cantidad)*precio*100))/100
             fila=[npa_proveedor, "0010", posicion, descripcion, fecha_entrega, cantidad_oe, precio, precio_total]
             filas.push(fila)
             } else {
@@ -342,8 +343,8 @@ function generar_OE(){
         tr.insertCell(-1).innerHTML = fecha_entrega;
         tr.insertCell(-1).innerHTML = cantidad_oe.toString().replace('.', ',');
         tr.insertCell(-1).innerHTML = precio.toString().replace('.', ',');
-        tr.insertCell(-1).innerHTML = (precio*cantidad_oe).toString().replace('.', ',')
-        total=total+(precio*cantidad_oe)
+        tr.insertCell(-1).innerHTML = ((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
+        total=(Math.round((total+(precio*cantidad_oe)))*100)/100
     }
     let titulo5 = document.createElement("span")
     titulo5.innerHTML= "Monto total OE:  $" + total
@@ -368,8 +369,9 @@ function agregar_viatico(){
   let dias= prompt('Cant de días:')
   let km= prompt('Cant de km recorridos:')
 
-  const desarraigo = 5371 + 4854
-  const nafta= 198.45
+  const desarraigo = 8782
+  //5371 + 4854
+  const nafta= 240.5
 
   cantidad_viatico=tecnicos*dias*desarraigo+km*nafta*0.2
   let id_row
