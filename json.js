@@ -1170,8 +1170,13 @@ let tareas=JSON.parse(JSON.stringify({
             "Pos NPA": "820",
             "Tarea": "TRASLADO MATERIALES P.I. – PORTE MENOR",
             "Agrupado": "NO"
+        },
+        {
+            "Pos NPA": "830",
+            "Tarea": "RETROACTIVO - AJUSTE DE PRECIOS",
+            "Agrupado": "NO"
         }
-    ]
+  ]
 }))
 
 let tareas_agrupadas=JSON.parse(JSON.stringify(

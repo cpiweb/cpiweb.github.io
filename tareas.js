@@ -419,7 +419,7 @@ function calcular_subtotal(cantidad,id_row){
     let subtotal=0
     for (i=1; i<tabla.rows.length; i++){
         if (tabla.rows[i].cells[0].textContent==id_row){
-            tabla.rows[i].cells[5].textContent= "$"+(parseFloat(tabla.rows[i].cells[4].textContent.slice(1))*cantidad).toString()
+            tabla.rows[i].cells[5].textContent= "$"+((Math.round(parseFloat(tabla.rows[i].cells[4].textContent.slice(1))*cantidad*100))/100).toString()
         }
         subtotal=subtotal+parseFloat(tabla.rows[i].cells[5].textContent.slice(1))
         console.log(subtotal)
