@@ -113,13 +113,45 @@ function mostrarIssue (issue){
 
     let divshow= document.getElementById("div_show")
     divshow.style.display= "block"
+    divshow.scrollIntoView()
 
-    let showKey= document.getElementById("show_key")
-    showKey.innerHTML = issue.key
+/*     let showKey= document.getElementById("show_key")
+    showKey.innerHTML = issue.key + "  -  "
 
     let showSummary= document.getElementById("show_summary")
     showSummary.innerHTML = issue.fields.summary
-}
+ */
+    let tarea = document.createElement("p")
+    tarea.setAttribute ("class", "titulo_issue")
+    tarea.innerHTML = issue.key + " / " + issue.fields.summary
+    divshow.appendChild(tarea)
+
+    let responsable = document.createElement("p")
+    responsable.setAttribute ("class", "texto_issue")
+    responsable.innerHTML = "Responsable: " + issue.fields.assignee.displayName
+    divshow.appendChild(responsable)
+
+    let informador = document.createElement("p")
+    informador.setAttribute ("class", "texto_issue")
+    informador.innerHTML = "Informador: " + issue.fields.reporter.displayName
+    divshow.appendChild(informador)
+
+    let fecha_creacion = document.createElement("p")
+    fecha_creacion.setAttribute ("class", "texto_issue")
+    fecha_creacion.innerHTML = "Creada: " + issue.fields.customfield_11282
+    divshow.appendChild(fecha_creacion)
+
+    let fecha_necesidad = document.createElement("p")
+    fecha_necesidad.setAttribute ("class", "texto_issue")
+    fecha_necesidad.innerHTML = "Fecha Necesidad: " + issue.fields.customfield_13402
+    divshow.appendChild(fecha_necesidad)
+
+    let fecha_planificada = document.createElement("p")
+    fecha_planificada.setAttribute ("class", "texto_issue")
+    fecha_planificada.innerHTML = "Fecha Planificada: " + issue.fields.customfield_12174
+    divshow.appendChild(fecha_planificada)
+
+  }
 
 function sortTable(n) {
     var table,

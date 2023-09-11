@@ -40,3 +40,8 @@ h2 {
     border-radius: 20px;
     padding: 10px;
 }
+
+.titulo_issue {
+    font-size: 20px;
+    font-weight: bold;
+}
