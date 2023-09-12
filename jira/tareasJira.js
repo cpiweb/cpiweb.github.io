@@ -103,24 +103,25 @@ function obtenerIssue(issue) {
     const END_POINT = "getIssue/"+issue
 
     fetch(BASE_URL+END_POINT)
-    .then(response => response.json())  // convertir a json
-    .then(json => mostrarIssue(json))    //imprimir los datos en la consola
-    .catch(err => alert('Solicitud fallida', err)); // Capturar errores}
+    .then(response => response.json())
+    .then(json => mostrarIssue(json))
+    .catch(err => alert('Solicitud fallida', err));
 
 }
 
 function mostrarIssue (issue){
 
     let divshow= document.getElementById("div_show")
-    divshow.style.display= "block"
+    divshow.style.display= "flex"
+    divshow.style.flexDirection= "column"
     divshow.scrollIntoView()
 
-/*     let showKey= document.getElementById("show_key")
-    showKey.innerHTML = issue.key + "  -  "
+    let icono= document.createElement("img")
+    icono.setAttribute("src","./close.svg")
+    icono.setAttribute("width","20 rem")
+    icono.setAttribute("onclick","borrarHijos()")
+    divshow.appendChild(icono)
 
-    let showSummary= document.getElementById("show_summary")
-    showSummary.innerHTML = issue.fields.summary
- */
     let tarea = document.createElement("p")
     tarea.setAttribute ("class", "titulo_issue")
     tarea.innerHTML = issue.key + " / " + issue.fields.summary
@@ -128,7 +129,11 @@ function mostrarIssue (issue){
 
     let responsable = document.createElement("p")
     responsable.setAttribute ("class", "texto_issue")
-    responsable.innerHTML = "Responsable: " + issue.fields.assignee.displayName
+    try {
+      responsable.innerHTML = "Responsable: " + issue.fields.assignee.displayName
+    } catch {
+      responsable.innerHTML = "Responsable: No asignado"
+    }
     divshow.appendChild(responsable)
 
     let informador = document.createElement("p")
@@ -214,4 +219,12 @@ function sortTable(n) {
         }
       }
     }
+  }
+
+  function borrarHijos() {
+    const myNode = document.getElementById("div_show");
+    while (myNode.firstChild) {
+      myNode.removeChild(myNode.lastChild);
+    }
+    myNode.style.display="None"
   }

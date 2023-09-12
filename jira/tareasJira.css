@@ -41,6 +41,10 @@ h2 {
     padding: 10px;
 }
 
+#div_show img {
+    align-self: flex-end;
+}
+
 .titulo_issue {
     font-size: 20px;
     font-weight: bold;
