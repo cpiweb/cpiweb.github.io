@@ -10,9 +10,10 @@
 <body>
 
     <h2>Navegador de Tareas Jira</h2>
+    <br>
     <div class="contenedor_flex">
-        <div class="div_form">
-            <h4>Filtrar por Stream</h4>
+        <div class="div_form" id="form1">
+            <h5>Filtrar por Stream</h5>
             <input type="checkbox" id="stream1" name="stream1">
             <label for="stream1"> Stream Caba y Sur</label><br>
             <input type="checkbox" id="stream2" name="stream2">
@@ -29,8 +30,8 @@
             <label for="tipo3"> Subtareas</label>
         </div>
  -->
-        <div class="div_form">
-            <h4>Filtrar por Estado</h4>
+        <div class="div_form" id="form2">
+            <h5>Filtrar por Estado</h5>
             <input type="checkbox" id="estado1" name="estado1">
             <label for="estado1"> Sprint Backlog</label><br>
             <input type="checkbox" id="estado2" name="estado2">
@@ -46,6 +47,22 @@
         <div class="div_form" id="div_button">
             <button id="buscar" onclick="buscar_tareas()">Buscar</button> 
         </div>
+
+        <div class="div_form">
+            <h5>Buscar por Incidencia</h5>
+            <br>
+            <input type="text" name="buscar1" id="buscar1">
+            <button id="buscarKey" onclick="obtenerIssue(document.getElementById('buscar1').value)">Buscar</button> 
+        </div>
+
+        <div class="div_form">
+            <h5>Buscar por descripción</h5>
+            <br>
+            <input type="text" name="buscar2" id="buscar2">
+            <button id="buscarSummary" onclick="buscarSummary(document.getElementById('buscar2').value)">Buscar</button> 
+        </div>
+        
+
     </div>
     <div class="div_tabla">
         <p id="p_show1"></p>

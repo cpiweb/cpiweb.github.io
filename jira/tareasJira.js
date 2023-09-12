@@ -156,6 +156,20 @@ function mostrarIssue (issue){
     fecha_planificada.innerHTML = "Fecha Planificada: " + issue.fields.customfield_12174
     divshow.appendChild(fecha_planificada)
 
+    let edificio = document.createElement("p")
+    edificio.setAttribute ("class", "texto_issue")
+    try{
+      edificio.innerHTML = "Edificio: " + issue.fields.customfield_13399.value
+    } catch {
+      edificio.innerHTML = "Edificio: No informado"
+    }
+    divshow.appendChild(edificio)
+
+    let pep = document.createElement("p")
+    pep.setAttribute ("class", "texto_issue")
+    pep.innerHTML = "PEP: " + issue.fields.customfield_13414
+    divshow.appendChild(pep)
+
   }
 
 function sortTable(n) {
@@ -227,4 +241,15 @@ function sortTable(n) {
       myNode.removeChild(myNode.lastChild);
     }
     myNode.style.display="None"
+  }
+
+  function buscarSummary(jql) {
+
+    const END_POINT = "searchIssues/"+jql
+    
+    fetch(BASE_URL+END_POINT)
+    .then(response => response.json())  // convertir a json
+    .then(json => mostrar(json))    //imprimir los datos en la consola
+    .catch(err => alert('Solicitud fallida', err)); // Capturar errores}
+
   }

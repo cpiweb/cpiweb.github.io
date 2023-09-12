@@ -5,20 +5,28 @@
 
 h2 {
     text-align: center;
+    font-size: large;
 }
+
 
 .contenedor_flex {
     display: flex;
     align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .div_form {
-    display: inline-block;
     padding-left: 20px;
 }
 
 #div_button {
     align-self: flex-end;
+    justify-self: left;
+}
+
+#form1 {
+    justify-self: right;
 }
 
 .headers:hover {
@@ -31,7 +39,7 @@ h2 {
 
 #div_show {
     width: 80%;
-    height: 80%;
+    height: auto;
     background-color: beige;
     position: absolute;
     top: 10%;
