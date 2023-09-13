@@ -44,12 +44,10 @@ function buscar_tareas(){
 
     const END_POINT = "getIssues/"+pond
     
-//    alert(END_POINT)
-    
     fetch(BASE_URL+END_POINT)
-    .then(response => response.json())  // convertir a json
-    .then(json => mostrar(json))    //imprimir los datos en la consola
-    .catch(err => alert('Solicitud fallida', err)); // Capturar errores}
+    .then(response => response.json())
+    .then(json => mostrar(json))
+    .catch(err => alert('Solicitud fallida', err));
     
     }
     
@@ -71,10 +69,6 @@ function mostrar (issues){
         tr1.appendChild(th1);
     }
 
-//    let th1 = document.createElement("th");
-//    th1.innerHTML = "Acción";
-//    tr1.appendChild(th1);
-
     // agregar datos del JSON como filas
     for (let i = 0; i < issues.issues.length; i++) {
 
@@ -85,7 +79,6 @@ function mostrar (issues){
         celda.setAttribute("class","key_class")
         celda.setAttribute("onclick","obtenerIssue(this.id)")
         tr1.insertCell(-1).innerHTML = issues.issues[i].fields.summary
-//        tr1.insertCell(-1).innerHTML = issues.issues[i].fields.issuetype.name
         tr1.insertCell(-1).innerHTML = issues.issues[i].fields.customfield_13402
         tr1.insertCell(-1).innerHTML = issues.issues[i].fields.status.name
 //        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="seleccionar_contratista(this.id)">Seleccionar</button>'
@@ -266,8 +259,8 @@ function sortTable(n) {
     const END_POINT = "searchIssues/"+jql
     
     fetch(BASE_URL+END_POINT)
-    .then(response => response.json())  // convertir a json
-    .then(json => mostrar(json))    //imprimir los datos en la consola
-    .catch(err => alert('Solicitud fallida', err)); // Capturar errores}
+    .then(response => response.json())
+    .then(json => mostrar(json))
+    .catch(err => alert('Solicitud fallida', err));
 
   }

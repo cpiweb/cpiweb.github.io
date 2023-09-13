@@ -1,11 +1,14 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color: #f8f9fa;
 }
 
 h2 {
     text-align: center;
     font-size: large;
+    background-color: #f8f9fa;
+    margin-bottom: 0px;
 }
 
 
@@ -15,25 +18,35 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 10px;
+    background-color: #f8f9fa;
 }
 
 .subcontenedor_flex1 {
     display: flex;
     justify-content: flex-start;
-    background-color: beige;
+    background-color: #ecedee;
 }
 
 .subcontenedor_flex2 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    background-color: beige;
+    background-color:  #ecedee;
 }
 
 
 .div_form {
     padding-left: 10px;
     margin-top: 10px;
+    background-color:  #ecedee;
+}
+
+h5 {
+    background-color:  #ecedee;
+}
+
+label {
+    background-color:  #ecedee;
 }
 
 #div_button {
@@ -72,4 +85,9 @@ h2 {
 .titulo_issue {
     font-size: 20px;
     font-weight: bold;
+    background-color: beige;
+}
+
+.texto_issue {
+    background-color: beige;
 }
