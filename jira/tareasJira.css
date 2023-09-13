@@ -14,19 +14,35 @@ h2 {
     align-content: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 
+.subcontenedor_flex1 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: beige;
+}
+
+.subcontenedor_flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: beige;
+}
+
+
 .div_form {
-    padding-left: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
 }
 
 #div_button {
     align-self: flex-end;
-    justify-self: left;
+    justify-self: flex-start;
 }
 
 #form1 {
-    justify-self: right;
+    justify-self: flex-end;
 }
 
 .headers:hover {

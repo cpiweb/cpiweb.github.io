@@ -170,6 +170,24 @@ function mostrarIssue (issue){
     pep.innerHTML = "PEP: " + issue.fields.customfield_13414
     divshow.appendChild(pep)
 
+/*     let dor = document.createElement("p")
+    dor.setAttribute ("class", "texto_issue")
+    try{
+      dor.innerHTML = "Definition of Ready: " + issue.fields.customfield_13399.value
+    } catch {
+      dor.innerHTML = "Definition of Ready: No informado"
+    }
+    divshow.appendChild(dor)
+
+    let dod = document.createElement("p")
+    dod.setAttribute ("class", "texto_issue")
+    try{
+      dod.innerHTML = "Definition of Done: " + issue.fields.customfield_13399.value
+    } catch {
+      dod.innerHTML = "Definition of Done: No informado"
+    }
+    divshow.appendChild(dod)
+ */
   }
 
 function sortTable(n) {
