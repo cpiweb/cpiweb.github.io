@@ -81,7 +81,7 @@ function mostrar (issues){
         tr1.insertCell(-1).innerHTML = issues.issues[i].fields.summary
         tr1.insertCell(-1).innerHTML = issues.issues[i].fields.customfield_13402
         tr1.insertCell(-1).innerHTML = issues.issues[i].fields.status.name
-//        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="seleccionar_contratista(this.id)">Seleccionar</button>'
+        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
     }
 
     // sumar la tabla creada al contenedor
@@ -264,3 +264,14 @@ function sortTable(n) {
     .catch(err => alert('Solicitud fallida', err));
 
   }
+
+function openURL (issue) {
+  alert(issue)
+  if (issue.search('EASCGS'==0)){
+    url='https://tecocloud.atlassian.net/jira/software/c/projects/EASCGS/issues/'
+  } else if (issue.search('EASGNO'==0)) {
+    url='https://tecocloud.atlassian.net/jira/software/c/projects/EASGNO/issues/'
+  }
+  alert(url+issue)
+  window.open(url+issue)
+}
