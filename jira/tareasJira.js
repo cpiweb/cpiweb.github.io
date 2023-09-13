@@ -266,12 +266,10 @@ function sortTable(n) {
   }
 
 function openURL (issue) {
-  alert(issue)
   if (issue.search('EASCGS'==0)){
     url='https://tecocloud.atlassian.net/jira/software/c/projects/EASCGS/issues/'
   } else if (issue.search('EASGNO'==0)) {
     url='https://tecocloud.atlassian.net/jira/software/c/projects/EASGNO/issues/'
   }
-  alert(url+issue)
   window.open(url+issue)
 }
