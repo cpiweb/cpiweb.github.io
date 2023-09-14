@@ -81,7 +81,7 @@ function mostrar (issues){
         tr1.insertCell(-1).innerHTML = issues.issues[i].fields.summary
         tr1.insertCell(-1).innerHTML = issues.issues[i].fields.customfield_13402
         tr1.insertCell(-1).innerHTML = issues.issues[i].fields.status.name
-        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
+//        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
     }
 
     // sumar la tabla creada al contenedor
@@ -181,6 +181,13 @@ function mostrarIssue (issue){
     }
     divshow.appendChild(dod)
  */
+
+    let boton = document.createElement("button")
+    boton.setAttribute ("class", "btn btn-primary")
+    boton.setAttribute ("onclick",`openURL('${issue.key}')`)
+    boton.innerHTML = "Abrir en Jira"
+    divshow.appendChild(boton)
+    
   }
 
 function sortTable(n) {
