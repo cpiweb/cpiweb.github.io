@@ -44,7 +44,7 @@ for (let i = 0; i < proveedores.NPAyProveedor.length; i++) {
     let tabCell = tr4.insertCell(-1);
     tabCell.innerHTML = proveedores.NPAyProveedor[i][col4[j]];
     }
-    tr4.insertCell(-1).innerHTML ='<button id="'+proveedores.NPAyProveedor[i][col4[0]]+'" class="btn btn-primary" onclick="seleccionar_contratista(this.id)">Seleccionar</button>'
+    tr4.insertCell(-1).innerHTML ='<button id="'+proveedores.NPAyProveedor[i][col4[2]]+'" class="btn btn-primary" onclick="seleccionar_contratista(this.id)">Seleccionar</button>'
 }
 
 const header4 = document.createElement("p")
@@ -62,12 +62,12 @@ let nro_proveedor
 let nombre_proveedor
 let npa_proveedor
 
-function seleccionar_contratista(proveedor){
+function seleccionar_contratista(NPA){
     divShowData4.removeChild(header4)
     divShowData4.removeChild(saltolinea4)
     divShowData4.removeChild(table4);
     for (let i = 0; i < proveedores.NPAyProveedor.length; i++) {
-      if (proveedores.NPAyProveedor[i]["Proveedor"]==proveedor){
+      if (proveedores.NPAyProveedor[i]["NPA"]==NPA){
         nro_proveedor = proveedores.NPAyProveedor[i]["Proveedor"]
         nombre_proveedor = proveedores.NPAyProveedor[i]["Contratista"]
         npa_proveedor = proveedores.NPAyProveedor[i]["NPA"]
