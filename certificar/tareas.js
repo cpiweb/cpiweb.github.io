@@ -463,7 +463,7 @@ function obtenerNPA (npa) {
 
             divshow.style.display= "flex"
             divshow.style.flexDirection= "column"
-//            divshow.scrollIntoView()
+            divshow.scrollIntoView()
         
             let icono= document.createElement("img")
             icono.setAttribute("src","./close.svg")
@@ -483,7 +483,7 @@ function obtenerNPA (npa) {
 
             let texto3 = document.createElement("p")
             texto3.setAttribute ("class", "texto_issue")
-            texto3.innerHTML = "Vencimiento: " + npas.Hoja1[i]["Fin Contrato"]
+            texto3.innerHTML = "Vencimiento: " + obtenerFecha(npas.Hoja1[i]["Fin Contrato"])
             divshow.appendChild(texto3)
 
             let texto4 = document.createElement("p")
@@ -493,11 +493,15 @@ function obtenerNPA (npa) {
 
             let texto5 = document.createElement("p")
             texto5.setAttribute ("class", "texto_issue")
-            texto5.innerHTML = "Info actualizada el " + npas.Hoja1[i].Hoy
+            texto5.innerHTML = "Info actualizada al " + obtenerFecha(npas.Hoja1[i].Hoy)
             divshow.appendChild(texto5)
-
         }
-
     }
+}
 
+function obtenerFecha(fechaExcel) {
+
+        fechaJS= new Date (Date.UTC(0,0,fechaExcel))
+
+        return fechaJS.getDate() + "/" + (fechaJS.getMonth()+1) + "/" + fechaJS.getFullYear()
 }
