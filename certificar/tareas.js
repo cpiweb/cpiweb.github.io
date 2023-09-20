@@ -488,7 +488,7 @@ function obtenerNPA (npa) {
 
             let texto4 = document.createElement("p")
             texto4.setAttribute ("class", "texto_issue")
-            texto4.innerHTML = "Saldo: $ " + npas.Hoja1[i]["Saldo Disponible"]
+            texto4.innerHTML = "Saldo: $ " + new Intl.NumberFormat("de-DE").format(npas.Hoja1[i]["Saldo Disponible"])
             divshow.appendChild(texto4)
 
             let texto5 = document.createElement("p")
