@@ -40,10 +40,18 @@ for (let i = 0; i < proveedores.NPAyProveedor.length; i++) {
 
     tr4 = table4.insertRow(-1);
 
-    for (let j = 0; j < col4.length; j++) {
+/*     for (let j = 0; j < col4.length; j++) {
     let tabCell = tr4.insertCell(-1);
     tabCell.innerHTML = proveedores.NPAyProveedor[i][col4[j]];
     }
+ */    
+    tr4.insertCell(-1).innerHTML = proveedores.NPAyProveedor[i][col4[0]];
+    tr4.insertCell(-1).innerHTML = proveedores.NPAyProveedor[i][col4[1]];
+    let celda= tr4.insertCell(-1);
+    celda.innerHTML = proveedores.NPAyProveedor[i][col4[2]];
+    celda.setAttribute("id",`${proveedores.NPAyProveedor[i][col4[2]]}`)
+    celda.setAttribute("class","link_class")
+    celda.setAttribute("onclick","obtenerNPA(this.id)")
     tr4.insertCell(-1).innerHTML ='<button id="'+proveedores.NPAyProveedor[i][col4[2]]+'" class="btn btn-primary" onclick="seleccionar_contratista(this.id)">Seleccionar</button>'
 }
 
@@ -425,4 +433,69 @@ function calcular_subtotal(cantidad,id_row){
         console.log(subtotal)
     }
 //    titulo6.innerHTML= "Monto Total OE:  $"+subtotal       
+}
+
+function borrarHijos() {
+    const myNode = document.getElementById("div_show");
+    while (myNode.firstChild) {
+      myNode.removeChild(myNode.lastChild);
+    }
+    myNode.style.display="None"
+  }
+
+
+function obtenerNPA (npa) {
+
+//    alert(npa);
+
+    for (let i = 0; i < npas.Hoja1.length; i++) {
+
+        if (npas.Hoja1[i].NPA==npa) {
+ //           alert(npas.Hoja1[i].Proveedor)
+
+            let padre= document.getElementById("showData4")           
+
+            let divshow= document.createElement('div')
+            padre.appendChild(divshow)
+
+            divshow.setAttribute("id","div_show")
+//            divshow.style.display= "flex"
+//            divshow.style.flexDirection= "column"
+            divshow.scrollIntoView()
+        
+            let icono= document.createElement("img")
+            icono.setAttribute("src","./close.svg")
+            icono.setAttribute("width","20 rem")
+            icono.setAttribute("onclick","borrarHijos()")
+            divshow.appendChild(icono)
+        
+            let texto1 = document.createElement("p")
+            texto1.setAttribute ("class", "texto_issue")
+            texto1.innerHTML = "NPA: " + npas.Hoja1[i].NPA
+            divshow.appendChild(texto1)
+
+            let texto2 = document.createElement("p")
+            texto2.setAttribute ("class", "texto_issue")
+            texto2.innerHTML = "Proveedor: " + npas.Hoja1[i].Proveedor
+            divshow.appendChild(texto2)
+
+            let texto3 = document.createElement("p")
+            texto3.setAttribute ("class", "texto_issue")
+            texto3.innerHTML = "Vencimiento: " + npas.Hoja1[i]["Fin Contrato"]
+            divshow.appendChild(texto3)
+
+            let texto4 = document.createElement("p")
+            texto4.setAttribute ("class", "texto_issue")
+            texto4.innerHTML = "Saldo: $ " + npas.Hoja1[i]["Saldo Disponible"]
+            divshow.appendChild(texto4)
+
+            let texto5 = document.createElement("p")
+            texto5.setAttribute ("class", "texto_issue")
+            texto5.innerHTML = "Info actualizada el " + npas.Hoja1[i].Hoy
+            divshow.appendChild(texto5)
+
+        }
+
+    }
+
 }

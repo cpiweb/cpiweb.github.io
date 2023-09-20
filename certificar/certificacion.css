@@ -17,3 +17,19 @@ h1{
 #boton2{
     margin-left: 10px;
 }
+
+#div_show {
+    width: 80%;
+    height: auto;
+    background-color: beige;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#div_show img {
+    align-self: flex-end;
+}
