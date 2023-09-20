@@ -7,6 +7,9 @@ divShowData2.style.display="None"
 const divShowData3 = document.getElementById('showData3');
 divShowData3.style.display="None"
 
+const divshow = document.getElementById('div_show');
+divshow.style.display="None"
+
 // Llenar tabla contratistas con JSON 
 
 // Obtener columnas desde el JSON
@@ -447,20 +450,15 @@ function borrarHijos() {
 function obtenerNPA (npa) {
 
 //    alert(npa);
+    borrarHijos()
 
     for (let i = 0; i < npas.Hoja1.length; i++) {
 
         if (npas.Hoja1[i].NPA==npa) {
  //           alert(npas.Hoja1[i].Proveedor)
 
-            let padre= document.getElementById("showData4")           
-
-            let divshow= document.createElement('div')
-            padre.appendChild(divshow)
-
-            divshow.setAttribute("id","div_show")
-//            divshow.style.display= "flex"
-//            divshow.style.flexDirection= "column"
+            divshow.style.display= "flex"
+            divshow.style.flexDirection= "column"
             divshow.scrollIntoView()
         
             let icono= document.createElement("img")
