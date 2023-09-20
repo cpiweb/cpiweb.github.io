@@ -7,8 +7,6 @@ divShowData2.style.display="None"
 const divShowData3 = document.getElementById('showData3');
 divShowData3.style.display="None"
 
-const divshow = document.getElementById('div_show');
-divshow.style.display="None"
 
 // Llenar tabla contratistas con JSON 
 
@@ -68,6 +66,12 @@ divShowData4.innerHTML = "";
 divShowData4.appendChild(header4)
 divShowData4.appendChild(saltolinea4)
 divShowData4.appendChild(table4);
+
+const divshow= document.createElement("div")
+divshow.setAttribute("id","div_show")
+divshow.style.display="None"
+divShowData4.appendChild(divshow)
+
 
 let nro_proveedor
 let nombre_proveedor
@@ -459,7 +463,7 @@ function obtenerNPA (npa) {
 
             divshow.style.display= "flex"
             divshow.style.flexDirection= "column"
-            divshow.scrollIntoView()
+//            divshow.scrollIntoView()
         
             let icono= document.createElement("img")
             icono.setAttribute("src","./close.svg")
