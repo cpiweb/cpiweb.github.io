@@ -21,11 +21,11 @@ let proveedores=JSON.parse(JSON.stringify(
         "Contratista": "ANNESE VICTOR ANGEL",
         "NPA": 7600019074
       },
-      {
-        "Proveedor": 1034690,
-        "Contratista": "Lizarraga Carolina",
-        "NPA": 7600017929
-      },
+//      {
+//        "Proveedor": 1034690,
+//        "Contratista": "Lizarraga Carolina",
+//        "NPA": 7600017929
+//      },
       {
         "Proveedor": 1034690,
         "Contratista": "Lizarraga Carolina",
@@ -66,11 +66,11 @@ let proveedores=JSON.parse(JSON.stringify(
         "Contratista": "Techfar-Tel",
         "NPA": 7600017937
       },
-      {
-        "Proveedor": 1010502,
-        "Contratista": "ElectroTotal",
-        "NPA": 7600017936
-      },
+//      {
+//        "Proveedor": 1010502,
+//        "Contratista": "ElectroTotal",
+//        "NPA": 7600017936
+//      },
       {
         "Proveedor": 1010502,
         "Contratista": "ElectroTotal",
