@@ -33,3 +33,7 @@ h1{
 #div_show img {
     align-self: flex-end;
 }
+
+.link_class:hover {
+    color:blueviolet;
+}
