@@ -6,6 +6,73 @@ pshow1.style.display= "None"
 let divshow= document.getElementById("div_show")
 divshow.style.display= "None"
 
+
+
+function buscarIncidencias() {
+
+    let project= document.getElementById("filtro_project").value
+    let summary= document.getElementById("filtro_summary").value
+    let edificio= document.getElementById("filtro_edificio").value
+    let responsable= document.getElementById("filtro_assignee").value
+
+    let estado1= document.getElementById("estado1").checked
+    let estado2= document.getElementById("estado2").checked
+    let estado3= document.getElementById("estado3").checked
+    let estado4= document.getElementById("estado4").checked
+    let estado5= document.getElementById("estado5").checked
+
+    let jql_list=[]
+
+    if (project!="") {
+      jql_list.push('project='+project)
+    }
+
+    if (summary!="") {
+      jql_list.push('summary ~ '+summary)
+    }
+
+    if (!(estado1||estado2||estado3||estado4||estado5)) {
+      jql_list.push('status=10800')
+    } 
+    else {
+      if (estado1) {
+        jql_list.push('status=10800')
+      }
+      if (estado2) {
+        jql_list.push('status=12386')
+      }
+      if (estado3) {
+        jql_list.push('status=12797')
+      }
+      if (estado4) {
+        jql_list.push('status=10001')
+      }
+      if (estado5) {
+        jql_list.push('status=12553')
+      }
+    }
+
+    let jql_str = jql_list[0]
+
+    for (let i=1; i<jql_list.length; i++) {
+      jql_str= jql_str + ' AND '+ jql_list[i]
+    }
+
+    const html = encodeURIComponent(jql_str); 
+
+    const END_POINT = "searchIssues2/" + html
+
+    alert(END_POINT)
+    
+    fetch(BASE_URL+END_POINT)
+    .then(response => response.json())
+    .then(json => mostrar(json))
+    .catch(err => alert('Solicitud fallida', err));
+
+}
+
+
+
 function buscar_tareas(){
 
     let stream1= document.getElementById("stream1").checked
@@ -253,26 +320,14 @@ function sortTable(n) {
     }
   }
 
-  function borrarHijos() {
-    const myNode = document.getElementById("div_show");
-    while (myNode.firstChild) {
-      myNode.removeChild(myNode.lastChild);
-    }
-    myNode.style.display="None"
+function borrarHijos() {
+  const myNode = document.getElementById("div_show");
+  while (myNode.firstChild) {
+    myNode.removeChild(myNode.lastChild);
   }
-
-function buscar(ruta,jql) {
-
-  const END_POINT = "search"+ruta+"/"+jql
-
-  alert(END_POINT)
-  
-  fetch(BASE_URL+END_POINT)
-  .then(response => response.json())
-  .then(json => mostrar(json))
-  .catch(err => alert('Solicitud fallida', err));
-
+  myNode.style.display="None"
 }
+
 
 function openURL (issue) {
   if (issue.search('EASCGS'==0)){

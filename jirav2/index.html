@@ -11,9 +11,59 @@
 
     <div class="contenedor_flex" id="main_div">
 
-        <h2>Navegador de Incidencias Jira</h2>
+        <h4>Navegador de Incidencias Jira</h4>
 
-        <div class="subcontenedor_flex2">
+        <div class="subcontenedor_flex4">
+            
+            <div>
+                <h6>Stream</h6>
+                <div>
+                    <input type="text" id="filtro_project" name="filtro_project" class="text">
+                </div>
+            </div>
+            <div>
+                <h6>Descripción Historia</h6>
+                <div>
+                    <input type="text" id="filtro_summary" name="filtro_summary" class="text">
+                </div>
+            </div>
+            <div>
+                <h6>Edificio</h6>
+                <div>
+                    <input type="text" id="filtro_edificio" name="filtro_edificio" class="text">
+                </div>
+            </div>
+            <div>
+                <h6>Responsable</h6>
+                <div>
+                    <input type="text" id="filtro_assignee" name="filtro_assignee" class="text">
+                </div>
+            </div>
+            <div>
+                <button id="boton_buscar" class="btn btn-primary btn-sm" onclick="buscarIncidencias()">Buscar</button>
+            </div>
+        </div>
+
+<!--         <div class="subcontenedor_flex3">
+            <h6>Edificio</h6>
+            <div>
+                <input type="text" id="filtro_edificio" name="filtro_edificio" class="text">
+            </div>
+
+            <h6>Responsable</h6>
+            <div>
+                <input type="text" id="filtro_assignee" name="filtro_assignee" class="text">
+            </div>
+
+            <h6>Informador</h6>
+            <div>
+                <input type="text" id="filtro_reporter" name="filtro_reporter" class="text">
+            </div>
+
+        </div>
+ -->
+<!--
+         <div class="subcontenedor_flex2">
 
             <div class="div_form">
                 <h5>Buscar por Incidencia</h5>
@@ -33,7 +83,7 @@
                 <button id="buscarProject" class="btn btn-primary btn-sm" onclick="buscar('Project',document.getElementById('buscar3').value)">Buscar</button> 
             </div>
 
-            <div class="div_form">
+             <div class="div_form">
                 <h5>Buscar por Edificio</h5>
                 <input type="text" name="buscar4" id="buscar4">
                 <button id="buscarEdificio" class="btn btn-primary btn-sm" onclick="buscar('Edificio',document.getElementById('buscar4').value)">Buscar</button> 
@@ -44,8 +94,9 @@
                 <input type="text" name="buscar5" id="buscar5">
                 <button id="buscarAssignee" class="btn btn-primary btn-sm" onclick="buscar('Assignee',document.getElementById('buscar5').value)">Buscar</button> 
             </div>
-        </div>
 
+        </div>
+ -->
         <div class="subcontenedor_flex1">
                 <h6>Filtrar por Estado</h6>
                 <div>
@@ -68,10 +119,8 @@
                     <input type="checkbox" id="estado5" name="estado5" class="box">
                     <label for="estado5">Cancelado</label>
                 </div>
-                <div>
-                    <button class="btn btn-primary btn-sm">Actualizar</button>
-                </div>
         </div>
+
     </div>
 
     <div class="div_tabla">
