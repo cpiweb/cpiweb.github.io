@@ -96,7 +96,7 @@ function buscarIncidencias() {
 
     const END_POINT = "searchIssues2/" + html
 
-//    alert(jql_str2)
+    alert(jql_str2)
     
     fetch(BASE_URL+END_POINT)
     .then(response => response.json())
@@ -126,38 +126,22 @@ function mostrar (issues){
         tr1.appendChild(th1);
     }
 
-    let edif
-    let resp
     let contador=0
     // agregar datos del JSON como filas
     for (let i = 0; i < issues.length; i++) {
       for (let j = 0; j < issues[i].issues.length; j++) {
 
-          try {
-            edif= ((issues[i].issues[j].fields.customfield_13399.value).toLowerCase()).match((edificio).toLowerCase()) || (edificio=="")
-          } catch {
-            edif= false || (edificio=="")
-          }
-          console.log(edificio, edif)
-          try {
-            resp= ((issues[i].issues[j].fields.assignee.displayName).toLowerCase()).match((responsable).toLowerCase()) || (responsable=="")
-          } catch {
-            resp= false || (edificio=="")
-          }
-          console.log(responsable,resp)
-          if (edif && resp) {
-              contador=contador+1
-              tr1 = table1.insertRow(-1);
-              let celda = tr1.insertCell(-1)
-              celda.innerHTML = issues[i].issues[j].key
-              celda.setAttribute("id",`${issues[i].issues[j].key}`)
-              celda.setAttribute("class","key_class")
-              celda.setAttribute("onclick","obtenerIssue(this.id)")
-              tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.summary
-              tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.customfield_13402
-              tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.status.name
-      //        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
-          }
+          contador=contador+1
+          tr1 = table1.insertRow(-1);
+          let celda = tr1.insertCell(-1)
+          celda.innerHTML = issues[i].issues[j].key
+          celda.setAttribute("id",`${issues[i].issues[j].key}`)
+          celda.setAttribute("class","key_class")
+          celda.setAttribute("onclick","obtenerIssue(this.id)")
+          tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.summary
+          tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.customfield_13402
+          tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.status.name
+  //        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
       }
     }
 

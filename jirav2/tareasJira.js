@@ -96,7 +96,7 @@ function buscarIncidencias() {
 
     const END_POINT = "searchIssues2/" + html
 
-//    alert(jql_str2)
+    alert(jql_str2)
     
     fetch(BASE_URL+END_POINT)
     .then(response => response.json())

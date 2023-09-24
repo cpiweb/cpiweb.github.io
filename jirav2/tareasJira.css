@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor_flex {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: #ecedee;
+    width: 100%
+}
+
+h4 {
+    text-align: center;
+    background-color: #ecedee;
+    margin-bottom: 0px;
+}
+
+.subcontenedor_flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ecedee;
+    margin-top: 1rem;
+    width: inherit;
+}
+
+.box {
+    margin-right: 1rem;
+}
+
+.subcontenedor_flex2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color:  #ecedee;
+    margin-top: 1rem;
+}
+
+.subcontenedor_flex3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color:  #ecedee;
+    margin-top: 1rem;
+}
+
+.subcontenedor_flex4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color:  #ecedee;
+    margin-top: 1rem;
+}
+
+.div_form {
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color:  #ecedee;
+}
+
+h5, h6 {
+    background-color:  #ecedee;
+}
+
+label {
+    background-color:  #ecedee;
+}
+
+#div_button {
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+
+#form1 {
+    justify-self: flex-end;
+}
+
+.headers:hover {
+    color: blueviolet;
+}
+
+.key_class:hover {
+    color: blueviolet;
+}
+
+#div_show {
+    width: 80%;
+    height: auto;
+    background-color: beige;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#div_show img {
+    align-self: flex-end;
+}
+
+.titulo_issue {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: beige;
+}
+
+.texto_issue {
+    background-color: beige;
+}
