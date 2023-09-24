@@ -6,109 +6,52 @@ pshow1.style.display= "None"
 let divshow= document.getElementById("div_show")
 divshow.style.display= "None"
 
-function buscarIncidencias() {
+function buscar_tareas(){
 
-    let project= document.getElementById("filtro_project").value
-    let summary= document.getElementById("filtro_summary").value
-
+    let stream1= document.getElementById("stream1").checked
+    let stream2= document.getElementById("stream2").checked
     let estado1= document.getElementById("estado1").checked
     let estado2= document.getElementById("estado2").checked
     let estado3= document.getElementById("estado3").checked
     let estado4= document.getElementById("estado4").checked
     let estado5= document.getElementById("estado5").checked
-
-    let jql_list=[]
-    let jql_list2=[]
-
-    if (project=="") {
-      jql_list.push('(project=EASCGS OR project=EASGNO)')
-      jql_list2.push('(project=EASCGS OR project=EASGNO)')
+    
+    let ponderador = 0
+    
+    if (stream1){
+        ponderador=ponderador+1000000
     }
-    else {
-      jql_list.push('project='+project)
-      jql_list2.push('project='+project)
+    if (stream2){
+        ponderador=ponderador+100000
     }
-
-    if (summary!="") {
-      jql_list.push('summary ~ '+summary)
-      jql_list2.push('summary ~ '+summary)
+    if (estado1){
+        ponderador=ponderador+10000
     }
-
-    estado_list = []
-    estado_list2 = []
-
-    if (!(estado1||estado2||estado3||estado4||estado5)) {
-      estado_list.push('status=10800')
-      estado_list2.push('Backlog')
-    } 
-    else {
-      if (estado1) {
-        estado_list.push('status=10800')
-        estado_list2.push('Backlog')
-      }
-      if (estado2) {
-        estado_list.push('status=12386')
-        estado_list2.push('Por hacer')
-      }
-      if (estado3) {
-        estado_list.push('status=12797')
-        estado_list2.push('En Progreso')
-      }
-      if (estado4) {
-        estado_list.push('status=10001')
-        estado_list2.push('Finalizado')
-      }
-      if (estado5) {
-        estado_list.push('status=12553')
-        estado_list2.push('Cancelado')
-      }
+    if (estado2){
+        ponderador=ponderador+1000
     }
-
-    let estado_str= estado_list[0]
-    let estado_str2= estado_list2[0]
-
-    for (let i=1; i<estado_list.length; i++) {
-      estado_str= estado_str + ' OR '+ estado_list[i]
+    if (estado3){
+        ponderador=ponderador+100
     }
-
-    for (let i=1; i<estado_list2.length; i++) {
-      estado_str2= estado_str2 + ' OR '+ estado_list2[i]
+    if (estado4){
+        ponderador=ponderador+10
     }
-
-    estado_str = '('+estado_str+')'
-    estado_str2 = '('+estado_str2+')'
-
-    jql_list.push(estado_str)
-    jql_list2.push(estado_str2)
-
-    let jql_str = jql_list[0]
-    let jql_str2 = jql_list2[0]
-
-    for (let i=1; i<jql_list.length; i++) {
-      jql_str= jql_str + ' AND '+ jql_list[i]
+    if (estado5){
+        ponderador=ponderador+1
     }
+    
+    let pond= String(ponderador).padStart(7,'0')
 
-    for (let i=1; i<jql_list2.length; i++) {
-      jql_str2= jql_str2 + ' AND '+ jql_list2[i]
-    }
-
-    const html = encodeURIComponent(jql_str); 
-
-    const END_POINT = "searchIssues2/" + html
-
-    alert(jql_str2)
+    const END_POINT = "getIssues/"+pond
     
     fetch(BASE_URL+END_POINT)
     .then(response => response.json())
     .then(json => mostrar(json))
     .catch(err => alert('Solicitud fallida', err));
-
-}
-
+    
+    }
+    
 function mostrar (issues){
-
-    let edificio= document.getElementById("filtro_edificio").value
-    let responsable= document.getElementById("filtro_assignee").value
 
     // Crear tabla
     const table1 = document.createElement("table");
@@ -126,26 +69,20 @@ function mostrar (issues){
         tr1.appendChild(th1);
     }
 
-    let contador=0
     // agregar datos del JSON como filas
-    for (let i = 0; i < issues.length; i++) {
-      for (let j = 0; j < issues[i].issues.length; j++) {
+    for (let i = 0; i < issues.issues.length; i++) {
 
-          contador=contador+1
-          tr1 = table1.insertRow(-1);
-          let celda = tr1.insertCell(-1)
-          celda.innerHTML = issues[i].issues[j].key
-          celda.setAttribute("id",`${issues[i].issues[j].key}`)
-          celda.setAttribute("class","key_class")
-          celda.setAttribute("onclick","obtenerIssue(this.id)")
-          tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.summary
-          tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.customfield_13402
-          tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.status.name
-  //        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
-      }
+        tr1 = table1.insertRow(-1);
+        let celda = tr1.insertCell(-1)
+        celda.innerHTML = issues.issues[i].key
+        celda.setAttribute("id",`${issues.issues[i].key}`)
+        celda.setAttribute("class","key_class")
+        celda.setAttribute("onclick","obtenerIssue(this.id)")
+        tr1.insertCell(-1).innerHTML = issues.issues[i].fields.summary
+        tr1.insertCell(-1).innerHTML = issues.issues[i].fields.customfield_13402
+        tr1.insertCell(-1).innerHTML = issues.issues[i].fields.status.name
+//        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
     }
-
-    alert('Se encontraron ' + contador + ' registros.')
 
     // sumar la tabla creada al contenedor
     pshow1.innerHTML = "";
@@ -316,14 +253,24 @@ function sortTable(n) {
     }
   }
 
-function borrarHijos() {
-  const myNode = document.getElementById("div_show");
-  while (myNode.firstChild) {
-    myNode.removeChild(myNode.lastChild);
+  function borrarHijos() {
+    const myNode = document.getElementById("div_show");
+    while (myNode.firstChild) {
+      myNode.removeChild(myNode.lastChild);
+    }
+    myNode.style.display="None"
   }
-  myNode.style.display="None"
-}
 
+  function buscarSummary(jql) {
+
+    const END_POINT = "searchIssues/"+jql
+    
+    fetch(BASE_URL+END_POINT)
+    .then(response => response.json())
+    .then(json => mostrar(json))
+    .catch(err => alert('Solicitud fallida', err));
+
+  }
 
 function openURL (issue) {
   if (issue.search('EASCGS'==0)){
