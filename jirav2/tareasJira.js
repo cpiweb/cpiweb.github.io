@@ -18,65 +18,85 @@ function buscarIncidencias() {
     let estado5= document.getElementById("estado5").checked
 
     let jql_list=[]
+    let jql_list2=[]
 
     if (project=="") {
       jql_list.push('(project=EASCGS OR project=EASGNO)')
+      jql_list2.push('(project=EASCGS OR project=EASGNO)')
     }
     else {
       jql_list.push('project='+project)
+      jql_list2.push('project='+project)
     }
 
     if (summary!="") {
       jql_list.push('summary ~ '+summary)
+      jql_list2.push('summary ~ '+summary)
     }
 
-    alert(jql_list)
-
-    estado_list=[]
+    estado_list = []
+    estado_list2 = []
 
     if (!(estado1||estado2||estado3||estado4||estado5)) {
-      estado_list.push('NOT status=12553')
+      estado_list.push('status=10800')
+      estado_list2.push('Backlog')
     } 
     else {
       if (estado1) {
         estado_list.push('status=10800')
+        estado_list2.push('Backlog')
       }
       if (estado2) {
         estado_list.push('status=12386')
+        estado_list2.push('Por hacer')
       }
       if (estado3) {
         estado_list.push('status=12797')
+        estado_list2.push('En Progreso')
       }
       if (estado4) {
         estado_list.push('status=10001')
+        estado_list2.push('Finalizado')
       }
       if (estado5) {
         estado_list.push('status=12553')
+        estado_list2.push('Cancelado')
       }
     }
 
     let estado_str= estado_list[0]
+    let estado_str2= estado_list2[0]
 
     for (let i=1; i<estado_list.length; i++) {
       estado_str= estado_str + ' OR '+ estado_list[i]
     }
 
+    for (let i=1; i<estado_list2.length; i++) {
+      estado_str2= estado_str2 + ' OR '+ estado_list2[i]
+    }
+
     estado_str = '('+estado_str+')'
-    alert(estado_str)
+    estado_str2 = '('+estado_str2+')'
 
     jql_list.push(estado_str)
+    jql_list2.push(estado_str2)
 
     let jql_str = jql_list[0]
+    let jql_str2 = jql_list2[0]
 
     for (let i=1; i<jql_list.length; i++) {
       jql_str= jql_str + ' AND '+ jql_list[i]
+    }
+
+    for (let i=1; i<jql_list2.length; i++) {
+      jql_str2= jql_str2 + ' AND '+ jql_list2[i]
     }
 
     const html = encodeURIComponent(jql_str); 
 
     const END_POINT = "searchIssues2/" + html
 
-    alert(END_POINT)
+    alert(jql_str2)
     
     fetch(BASE_URL+END_POINT)
     .then(response => response.json())
@@ -106,20 +126,26 @@ function mostrar (issues){
         tr1.appendChild(th1);
     }
 
+    let contador=0
     // agregar datos del JSON como filas
-    for (let i = 0; i < issues.issues.length; i++) {
+    for (let i = 0; i < issues.length; i++) {
+      for (let j = 0; j < issues[i].issues.length; j++) {
 
-        tr1 = table1.insertRow(-1);
-        let celda = tr1.insertCell(-1)
-        celda.innerHTML = issues.issues[i].key
-        celda.setAttribute("id",`${issues.issues[i].key}`)
-        celda.setAttribute("class","key_class")
-        celda.setAttribute("onclick","obtenerIssue(this.id)")
-        tr1.insertCell(-1).innerHTML = issues.issues[i].fields.summary
-        tr1.insertCell(-1).innerHTML = issues.issues[i].fields.customfield_13402
-        tr1.insertCell(-1).innerHTML = issues.issues[i].fields.status.name
-//        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
+          contador=contador+1
+          tr1 = table1.insertRow(-1);
+          let celda = tr1.insertCell(-1)
+          celda.innerHTML = issues[i].issues[j].key
+          celda.setAttribute("id",`${issues[i].issues[j].key}`)
+          celda.setAttribute("class","key_class")
+          celda.setAttribute("onclick","obtenerIssue(this.id)")
+          tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.summary
+          tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.customfield_13402
+          tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.status.name
+  //        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
+      }
     }
+
+    alert('Se encontraron ' + contador + ' registros.')
 
     // sumar la tabla creada al contenedor
     pshow1.innerHTML = "";
