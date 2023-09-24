@@ -6,14 +6,10 @@ pshow1.style.display= "None"
 let divshow= document.getElementById("div_show")
 divshow.style.display= "None"
 
-
-
 function buscarIncidencias() {
 
     let project= document.getElementById("filtro_project").value
     let summary= document.getElementById("filtro_summary").value
-    let edificio= document.getElementById("filtro_edificio").value
-    let responsable= document.getElementById("filtro_assignee").value
 
     let estado1= document.getElementById("estado1").checked
     let estado2= document.getElementById("estado2").checked
@@ -23,7 +19,10 @@ function buscarIncidencias() {
 
     let jql_list=[]
 
-    if (project!="") {
+    if (project=="") {
+      jql_list.push('(project=EASCGS OR project=EASGNO)')
+    }
+    else {
       jql_list.push('project='+project)
     }
 
@@ -31,26 +30,41 @@ function buscarIncidencias() {
       jql_list.push('summary ~ '+summary)
     }
 
+    alert(jql_list)
+
+    estado_list=[]
+
     if (!(estado1||estado2||estado3||estado4||estado5)) {
-      jql_list.push('status=10800')
+      estado_list.push('NOT status=12553')
     } 
     else {
       if (estado1) {
-        jql_list.push('status=10800')
+        estado_list.push('status=10800')
       }
       if (estado2) {
-        jql_list.push('status=12386')
+        estado_list.push('status=12386')
       }
       if (estado3) {
-        jql_list.push('status=12797')
+        estado_list.push('status=12797')
       }
       if (estado4) {
-        jql_list.push('status=10001')
+        estado_list.push('status=10001')
       }
       if (estado5) {
-        jql_list.push('status=12553')
+        estado_list.push('status=12553')
       }
     }
+
+    let estado_str= estado_list[0]
+
+    for (let i=1; i<estado_list.length; i++) {
+      estado_str= estado_str + ' OR '+ estado_list[i]
+    }
+
+    estado_str = '('+estado_str+')'
+    alert(estado_str)
+
+    jql_list.push(estado_str)
 
     let jql_str = jql_list[0]
 
@@ -71,54 +85,10 @@ function buscarIncidencias() {
 
 }
 
-
-
-function buscar_tareas(){
-
-    let stream1= document.getElementById("stream1").checked
-    let stream2= document.getElementById("stream2").checked
-    let estado1= document.getElementById("estado1").checked
-    let estado2= document.getElementById("estado2").checked
-    let estado3= document.getElementById("estado3").checked
-    let estado4= document.getElementById("estado4").checked
-    let estado5= document.getElementById("estado5").checked
-    
-    let ponderador = 0
-    
-    if (stream1){
-        ponderador=ponderador+1000000
-    }
-    if (stream2){
-        ponderador=ponderador+100000
-    }
-    if (estado1){
-        ponderador=ponderador+10000
-    }
-    if (estado2){
-        ponderador=ponderador+1000
-    }
-    if (estado3){
-        ponderador=ponderador+100
-    }
-    if (estado4){
-        ponderador=ponderador+10
-    }
-    if (estado5){
-        ponderador=ponderador+1
-    }
-    
-    let pond= String(ponderador).padStart(7,'0')
-
-    const END_POINT = "getIssues/"+pond
-    
-    fetch(BASE_URL+END_POINT)
-    .then(response => response.json())
-    .then(json => mostrar(json))
-    .catch(err => alert('Solicitud fallida', err));
-    
-    }
-    
 function mostrar (issues){
+
+    let edificio= document.getElementById("filtro_edificio").value
+    let responsable= document.getElementById("filtro_assignee").value
 
     // Crear tabla
     const table1 = document.createElement("table");
