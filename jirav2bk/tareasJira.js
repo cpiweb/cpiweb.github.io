@@ -116,7 +116,7 @@ function mostrar (issues){
     table1.setAttribute("class", "table table-light table-striped");
 
     // Crear header
-    col = ["Key","Resumen","Fecha Necesidad","Estado"]
+    col = ["ID","Descripción","Fecha Necesidad","Estado"]
     let tr1 = table1.insertRow(-1);
     for (let i = 0; i < col.length; i++) {
         let th1 = document.createElement("th");
