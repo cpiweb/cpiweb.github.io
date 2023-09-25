@@ -96,7 +96,7 @@ function buscarIncidencias() {
 
     const END_POINT = "searchIssues2/" + html
 
-    alert(jql_str2)
+//    alert(jql_str2)
     
     fetch(BASE_URL+END_POINT)
     .then(response => response.json())
@@ -116,7 +116,7 @@ function mostrar (issues){
     table1.setAttribute("class", "table table-light table-striped");
 
     // Crear header
-    col = ["ID","Descripción","Fecha Necesidad","Estado"]
+    col = ["Key","Resumen","Fecha Necesidad","Estado"]
     let tr1 = table1.insertRow(-1);
     for (let i = 0; i < col.length; i++) {
         let th1 = document.createElement("th");

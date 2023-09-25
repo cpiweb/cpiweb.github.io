@@ -18,85 +18,29 @@
             <div>
                 <h6>Stream</h6>
                 <div>
-                    <input type="text" id="filtro_project" name="filtro_project" class="text" title="Ingresá acrónimo de un equipo. Si no ingresás nada, trae EASCGS y EASGNO.">
+                    <input type="text" id="filtro_project" name="filtro_project" class="text" title="Ingresá acrónimo de un equipo. Si no ingresás nada, busca en EASCGS y EASGNO.">
                 </div>
             </div>
             <div>
                 <h6>Resumen</h6>
                 <div>
-                    <input type="text" id="filtro_summary" name="filtro_summary" class="text" title="Busca por palabre clave, solo en la descripción de la historia.">
+                    <input type="text" id="filtro_summary" name="filtro_summary" class="text" title="Acotá la búsqueda, busca cadena en el campo Resumen.">
                 </div>
             </div>
             <div>
                 <h6>Edificio</h6>
                 <div>
-                    <input type="text" id="filtro_edificio" name="filtro_edificio" class="text" title="En desarrollo...">
+                    <input type="text" id="filtro_edificio" name="filtro_edificio" class="text" title="Acotá la búsqueda, busca cadena en campo Edificio.">
                 </div>
             </div>
             <div>
                 <h6>Responsable</h6>
                 <div>
-                    <input type="text" id="filtro_assignee" name="filtro_assignee" class="text" title="En desarrollo...">
+                    <input type="text" id="filtro_assignee" name="filtro_assignee" class="text" title="Acotá la búsqueda, busca cadena en campo Responsable.">
                 </div>
             </div>
-            <div>
-                <button id="boton_buscar" class="btn btn-primary btn-la" onclick="buscarIncidencias()">Buscar</button>
-            </div>
         </div>
 
-<!--         <div class="subcontenedor_flex3">
-            <h6>Edificio</h6>
-            <div>
-                <input type="text" id="filtro_edificio" name="filtro_edificio" class="text">
-            </div>
-
-            <h6>Responsable</h6>
-            <div>
-                <input type="text" id="filtro_assignee" name="filtro_assignee" class="text">
-            </div>
-
-            <h6>Informador</h6>
-            <div>
-                <input type="text" id="filtro_reporter" name="filtro_reporter" class="text">
-            </div>
-
-        </div>
- -->
-<!--
-         <div class="subcontenedor_flex2">
-
-            <div class="div_form">
-                <h5>Buscar por Incidencia</h5>
-                <input type="text" name="buscar1" id="buscar1">
-                <button id="buscarKey" class="btn btn-primary btn-sm" onclick="obtenerIssue(document.getElementById('buscar1').value)">Buscar</button> 
-            </div>
-
-            <div class="div_form">
-                <h5>Buscar por Descripción</h5>
-                <input type="text" name="buscar2" id="buscar2">
-                <button id="buscarSummary" class="btn btn-primary btn-sm" onclick="buscar('Summary',document.getElementById('buscar2').value)">Buscar</button> 
-            </div>
-
-            <div class="div_form">
-                <h5>Buscar por Stream</h5>
-                <input type="text" name="buscar3" id="buscar3">
-                <button id="buscarProject" class="btn btn-primary btn-sm" onclick="buscar('Project',document.getElementById('buscar3').value)">Buscar</button> 
-            </div>
-
-             <div class="div_form">
-                <h5>Buscar por Edificio</h5>
-                <input type="text" name="buscar4" id="buscar4">
-                <button id="buscarEdificio" class="btn btn-primary btn-sm" onclick="buscar('Edificio',document.getElementById('buscar4').value)">Buscar</button> 
-            </div>
-
-            <div class="div_form">
-                <h5>Buscar por Responsable</h5>
-                <input type="text" name="buscar5" id="buscar5">
-                <button id="buscarAssignee" class="btn btn-primary btn-sm" onclick="buscar('Assignee',document.getElementById('buscar5').value)">Buscar</button> 
-            </div>
-
-        </div>
- -->
         <div class="subcontenedor_flex1">
                 <h6>Filtrar por Estado</h6>
                 <div>
@@ -119,6 +63,27 @@
                     <input type="checkbox" id="estado5" name="estado5" class="box" title="Si no marcás ninguno, trae HUs en estado Backlog.">
                     <label for="estado5">Cancelado</label>
                 </div>
+        </div>
+
+        <div class="subcontenedor_flex5">
+            <h6>Filtrar por Fecha</h6>
+            <div>
+                <input type="checkbox" id="fecha1" name="fecha1" class="box" title="En desarrollo...">
+                <label for="fecha">Fecha Necesidad Vencida</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="fecha2" name="fecha2" class="box" title="En desarrollo...">
+                <label for="fecha2">Fecha Planificada Vencida</label><br>
+            </div>
+            <div>
+                <button id="boton_buscar" class="btn btn-primary btn-sm" onclick="buscarIncidencias()">Buscar</button>
+            </div>
+        </div>
+
+        <div class="subcontenedor_flex2">
+                <h6>Ver una Incidencia</h6>
+                <input type="text" name="buscar1" id="buscar1" title="Ingresá una incidencia por su Key." placeholder="EASCGS-688">
+                <button id="buscarKey" class="btn btn-primary btn-sm" onclick="obtenerIssue(document.getElementById('buscar1').value)">Ver</button> 
         </div>
 
     </div>
