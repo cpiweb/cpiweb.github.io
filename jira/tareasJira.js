@@ -118,12 +118,20 @@ function mostrar (issues){
           try {
             edif= ((issues[i].issues[j].fields.customfield_13399.value).toLowerCase()).match((edificio).toLowerCase()) || (edificio=="")
           } catch {
-            edif= false || (edificio=="")
+            if (edificio=="") {
+              edif=true}
+            else {
+              edif=false
+            }
           }
           try {
             resp= ((issues[i].issues[j].fields.assignee.displayName).toLowerCase()).match((responsable).toLowerCase()) || (responsable=="")
           } catch {
-            resp= false || (edificio=="")
+            if (responsable=="") {
+              resp=true}
+            else {
+              resp=false
+            }
           }
           try{
             fechaN= ((new Date((issues[i].issues[j].fields.customfield_13402)+'T15:00:00Z') < hoy) && fecha1) || !fecha1
