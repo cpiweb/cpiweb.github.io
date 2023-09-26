@@ -86,6 +86,8 @@ function mostrar (issues){
 
     let edificio= document.getElementById("filtro_edificio").value
     let responsable= document.getElementById("filtro_assignee").value
+    let informador= document.getElementById("filtro_reporter").value
+
     let fecha1= document.getElementById("fecha1").checked
     let fecha2= document.getElementById("fecha2").checked
     let hoy = new Date (Date.now())
@@ -110,6 +112,7 @@ function mostrar (issues){
     let fechaP
     let edif
     let resp
+    let inf
     let contador=0
     // agregar datos del JSON como filas
     for (let i = 0; i < issues.length; i++) {
@@ -133,6 +136,15 @@ function mostrar (issues){
               resp=false
             }
           }
+          try {
+            inf= ((issues[i].issues[j].fields.reporter.displayName).toLowerCase()).match((informador).toLowerCase()) || (informador=="")
+          } catch {
+            if (informador=="") {
+              inf=true}
+            else {
+              inf=false
+            }
+          }
           try{
             fechaN= ((new Date((issues[i].issues[j].fields.customfield_13402)+'T15:00:00Z') < hoy) && fecha1) || !fecha1
           } catch {
@@ -144,7 +156,7 @@ function mostrar (issues){
             fechaP= false
           }
 
-          if (edif && resp && fechaN && fechaP) {
+          if (edif && resp && fechaN && fechaP && inf) {
               contador=contador+1
               tr1 = table1.insertRow(-1);
               let celda = tr1.insertCell(-1)
