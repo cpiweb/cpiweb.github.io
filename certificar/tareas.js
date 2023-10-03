@@ -293,7 +293,7 @@ function generar_OE(){
     for (let i=0; i<filas.length;i++){
       ordenador.push(filas[i][2])
     }
-    ordenador.sort()
+    ordenador.sort(function(a, b){return a - b})
 
     for(var i = ordenador.length -1; i >=0; i--){
       if(ordenador.indexOf(ordenador[i]) !== i) ordenador.splice(i,1);
