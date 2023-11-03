@@ -86,19 +86,19 @@ let proveedores=JSON.parse(JSON.stringify(
             "Posición": "10",
             "Servicio": "5035295",
             "Descripción": "CERT.ENLACE.FO.PI_DE.72.HASTA.144.PELOS",
-            "Precio": 47411.64
+            "Precio": 56419.85
           },
           {
             "Posición": "20",
             "Servicio": "5006962",
             "Descripción": "ACONDICIONADO DE LOCAL PLANTA INTERNA",
-            "Precio": 610
+            "Precio": 725.9
           },
           {
             "Posición": "30",
             "Servicio": "5006964",
             "Descripción": "ACOPLE CAÑO DAISA 7/8\" SOBRE ALA BJA.",
-            "Precio": 1647
+            "Precio": 1959.93
           },
           {
             "Posición": "40",
@@ -110,19 +110,19 @@ let proveedores=JSON.parse(JSON.stringify(
             "Posición": "50",
             "Servicio": "5007020",
             "Descripción": "ADICIONAL CAJA DAISA (TECHO O BAJO PISO)",
-            "Precio": 674.66
+            "Precio": 802.85
           },
           {
             "Posición": "60",
             "Servicio": "5007021",
             "Descripción": "ADICIONAL CAÑO DAISA (TECHO O BAJO PISO)",
-            "Precio": 1466.44
+            "Precio": 1745.06
           },
           {
             "Posición": "70",
             "Servicio": "5007022",
             "Descripción": "ADICIONAL CAÑO DAISA POR BORDEO",
-            "Precio": 5152.06
+            "Precio": 6130.95
           },
           {
             "Posición": "80",
@@ -146,433 +146,433 @@ let proveedores=JSON.parse(JSON.stringify(
             "Posición": "110",
             "Servicio": "5007436",
             "Descripción": "ARMADO CAB DE CONEX MINICOAXIL P/INTERNA",
-            "Precio": 1144.36
+            "Precio": 1361.79
           },
           {
             "Posición": "120",
             "Servicio": "5007437",
             "Descripción": "ARMADO DE CABLE DE CONEX RG-59 P/INTERNA",
-            "Precio": 592.92
+            "Precio": 705.57
           },
           {
             "Posición": "130",
             "Servicio": "5007438",
             "Descripción": "ARMADO DE FIBER GUIDE",
-            "Precio": 18395.16
+            "Precio": 21890.24
           },
           {
             "Posición": "140",
             "Servicio": "5022605",
             "Descripción": "AYUDANTE DE OBRA – PLANTA INTERNA",
-            "Precio": 1356.64
+            "Precio": 1614.40
           },
           {
             "Posición": "150",
             "Servicio": "5007936",
             "Descripción": "CABLEADO (MAYOR A 10 MM) P/UN Y P/M.",
-            "Precio": 812.52
+            "Precio": 966.9
           },
           {
             "Posición": "160",
             "Servicio": "5007938",
             "Descripción": "CABLEADO X METRO INSTALADO 1",
-            "Precio": 351.36
+            "Precio": 418.12
           },
           {
             "Posición": "170",
             "Servicio": "5007939",
             "Descripción": "CABLEADO X METRO INSTALADO 2",
-            "Precio": 470.92
+            "Precio": 590.39
           },
           {
             "Posición": "180",
             "Servicio": "5007940",
             "Descripción": "CABLEADO X METRO INSTALADO 3 O MAS",
-            "Precio": 581.94
+            "Precio": 692.51
           },
           {
             "Posición": "190",
             "Servicio": "5022744",
             "Descripción": "CERTIFICACIÓN ENLACE FO PLANTA INTERNA",
-            "Precio": 1193.16
+            "Precio": 1419.86
           },
           {
             "Posición": "200",
             "Servicio": "5035294",
             "Descripción": "CERT.ENLACE.FO.PI_HASTA.72.PELOS",
-            "Precio": 36470.68
+            "Precio": 43400.11
           },
           {
             "Posición": "210",
             "Servicio": "5022743",
             "Descripción": "CERTIFICACIÓN VINCULO FO PLANTA INTERNA",
-            "Precio": 910.12
+            "Precio": 1083.04
           },
           {
             "Posición": "220",
             "Servicio": "5008280",
             "Descripción": "COLOCAR BASTI VER HD ACTIVO P/INTERNA",
-            "Precio": 793
+            "Precio": 943.67
           },
           {
             "Posición": "230",
             "Servicio": "5008281",
             "Descripción": "COLOCAR BASTI VER HD PASIVO P/INTERNA",
-            "Precio": 1544.52
+            "Precio": 1837.98
           },
           {
             "Posición": "240",
             "Servicio": "5008282",
             "Descripción": "COLOCAR BASTI VERTICAL ACTIVO P/INTERNA",
-            "Precio": 325.74
+            "Precio": 387.63
           },
           {
             "Posición": "250",
             "Servicio": "5008283",
             "Descripción": "COLOCAR BASTIDOR HORIZONTAL - P/INTERNA",
-            "Precio": 162.26
+            "Precio": 193.09
           },
           {
             "Posición": "260",
             "Servicio": "5008284",
             "Descripción": "COLOCAR BASTIDOR VERTICAL - P/INTERNA",
-            "Precio": 325.74
+            "Precio": 387.63
           },
           {
             "Posición": "270",
             "Servicio": "5008285",
             "Descripción": "COLOCAR PASIVOS BD - PLANTA INTERNA",
-            "Precio": 242.78
+            "Precio": 288.91
           },
           {
             "Posición": "280",
             "Servicio": "5008286",
             "Descripción": "COLOCAR PASIVOS HD - PLANTA INTERNA",
-            "Precio": 353.8
+            "Precio": 421.02
           },
           {
             "Posición": "290",
             "Servicio": "5008287",
             "Descripción": "COLOCAR SEPARADOR HORIZONTAL P/INTERNA",
-            "Precio": 122
+            "Precio": 145.18
           },
           {
             "Posición": "300",
             "Servicio": "5008288",
             "Descripción": "COLOCAR TECHNETIX - PLANTA INTERNA",
-            "Precio": 3954.02
+            "Precio": 4705.28
           },
           {
             "Posición": "310",
             "Servicio": "5009028",
             "Descripción": "DESMONTE BANDEJA Y ACCESORIOS P/INTERNA",
-            "Precio": 2052.04
+            "Precio": 2441.93
           },
           {
             "Posición": "320",
             "Servicio": "5009043",
             "Descripción": "DESMONTE INSTALACIONES",
-            "Precio": 3711.24
+            "Precio": 4416.38
           },
           {
             "Posición": "330",
             "Servicio": "5009050",
             "Descripción": "DESMONTE TENDIDOS",
-            "Precio": 3530.68
+            "Precio": 4201.51
           },
           {
             "Posición": "340",
             "Servicio": "5009152",
             "Descripción": "DOBLADO DE CAÑO DAISA",
-            "Precio": 3528.24
+            "Precio": 4198.61
           },
           {
             "Posición": "350",
             "Servicio": "5009222",
             "Descripción": "EMPALME POR FUSIÓN FO EN PLANTA INTERNA",
-            "Precio": 1163.88
+            "Precio": 1385.02
           },
           {
             "Posición": "360",
             "Servicio": "5010334",
             "Descripción": "INST. 2 CANALES ENERGÍA RACK/CABLE/PAT",
-            "Precio": 9110.96
+            "Precio": 10842.04
           },
           {
             "Posición": "370",
             "Servicio": "5010335",
             "Descripción": "INST. ACCESORIOS BJA ESCALERA P/INTERNA",
-            "Precio": 6234.2
+            "Precio": 7418.7
           },
           {
             "Posición": "380",
             "Servicio": "5010336",
             "Descripción": "INST. ACCESORIOS BJA RANURADAS P/INTERNA",
-            "Precio": 3878.38
+            "Precio": 4615.27
           },
           {
             "Posición": "390",
             "Servicio": "5010337",
             "Descripción": "INST. CAJA DAISA C/DERIVACIÓN PARED",
-            "Precio": 2981.68
+            "Precio": 3548.2
           },
           {
             "Posición": "400",
             "Servicio": "5010338",
             "Descripción": "INST. CAJA DAISA S/DERIVACIÓN PARED",
-            "Precio": 2375.34
+            "Precio": 2826.65
           },
           {
             "Posición": "410",
             "Servicio": "5010340",
             "Descripción": "INST. DE BANDEJA ESCALERA P/INTERNA",
-            "Precio": 10213.84
+            "Precio": 12154.47
           },
           {
             "Posición": "420",
             "Servicio": "5010341",
             "Descripción": "INST. DE BANDEJA RANURADA P/INTERNA",
-            "Precio": 4842.18
+            "Precio": 5762.19
           },
           {
             "Posición": "430",
             "Servicio": "5010476",
             "Descripción": "INSTALACIÓN BOCA UTP DOBLE",
-            "Precio": 4648.2
+            "Precio": 5531.36
           },
           {
             "Posición": "440",
             "Servicio": "5010488",
             "Descripción": "INSTALACIÓN CRUZ O T SUSPENDIDA",
-            "Precio": 3780.78
+            "Precio": 4499.13
           },
           {
             "Posición": "450",
             "Servicio": "5010489",
             "Descripción": "INSTALACIÓN CURVA C/CUPLAS",
-            "Precio": 1903.2
+            "Precio": 2264.81
           },
           {
             "Posición": "460",
             "Servicio": "5010501",
             "Descripción": "INSTALACIÓN DE CABLECANAL O ZÓCALOCANAL",
-            "Precio": 3466.02
+            "Precio": 4124.56
           },
           {
             "Posición": "470",
             "Servicio": "5010503",
             "Descripción": "INSTALACIÓN DE CAÑO DAISA RECTO",
-            "Precio": 2830.4
+            "Precio": 3368.18
           },
           {
             "Posición": "480",
             "Servicio": "5010530",
             "Descripción": "INSTALACIÓN E IMPACTADO DE 6 UTP",
-            "Precio": 28489.44
+            "Precio": 33902.43
           },
           {
             "Posición": "490",
             "Servicio": "5010544",
             "Descripción": "INSTALACIÓN MULTIPATCH FO (12) P/INTERNA",
-            "Precio": 8692.5
+            "Precio": 10344.08
           },
           {
             "Posición": "500",
             "Servicio": "5010545",
             "Descripción": "INSTALACIÓN MULTIPATCH MPO(12) P/INTERNA",
-            "Precio": 8776.68
+            "Precio": 10444.25
           },
           {
             "Posición": "510",
             "Servicio": "5010546",
             "Descripción": "INSTALACIÓN MULTIPATCH MPO(144)P/INTERNA",
-            "Precio": 21328.04
+            "Precio": 25380.37
           },
           {
             "Posición": "520",
             "Servicio": "5010547",
             "Descripción": "INSTALACIÓN MULTIPATCH MPO(24) P/INTERNA",
-            "Precio": 11143.48
+            "Precio": 13260.74
           },
           {
             "Posición": "530",
             "Servicio": "5010548",
             "Descripción": "INSTALACIÓN MULTIPATCH MPO(36 )P/INTERNA",
-            "Precio": 13601.78
+            "Precio": 16186.12
           },
           {
             "Posición": "540",
             "Servicio": "5010549",
             "Descripción": "INSTALACIÓN MULTIPATCH MPO(48) P/INTERNA",
-            "Precio": 15468.38
+            "Precio": 18407.37
           },
           {
             "Posición": "550",
             "Servicio": "5010550",
             "Descripción": "INSTALACIÓN MULTIPATCH MPO(72) P/INTERNA",
-            "Precio": 17524.08
+            "Precio": 20853.66
           },
           {
             "Posición": "560",
             "Servicio": "5010569",
             "Descripción": "INSTALACIÓN PATCHERA X JACK",
-            "Precio": 1459.12
+            "Precio": 1736.35
           },
           {
             "Posición": "570",
             "Servicio": "5010570",
             "Descripción": "INSTALACIÓN PERFIL OLMAR SUSPENDIDO",
-            "Precio": 3924.74
+            "Precio": 4670.44
           },
           {
             "Posición": "580",
             "Servicio": "5010571",
             "Descripción": "INSTALACIÓN PISO TÉCNICO COMPLETO",
-            "Precio": 6572.14
+            "Precio": 7820.85
           },
           {
             "Posición": "590",
             "Servicio": "5010578",
             "Descripción": "INSTALACIÓN SENSOR, BOTON, CAMARA, ETC",
-            "Precio": 3611.2
+            "Precio": 4297.33
           },
           {
             "Posición": "600",
             "Servicio": "5010581",
             "Descripción": "INSTALACIÓN TABLERO CHICO",
-            "Precio": 7063.8
+            "Precio": 8405.92
           },
           {
             "Posición": "610",
             "Servicio": "5010582",
             "Descripción": "INSTALACIÓN TABLERO GRANDE",
-            "Precio": 16703.02
+            "Precio": 19876.59
           },
           {
             "Posición": "620",
             "Servicio": "5011220",
             "Descripción": "IZADO DE MATERIALES",
-            "Precio": 16975.08
+            "Precio": 20200.35
           },
           {
             "Posición": "630",
             "Servicio": "5013579",
             "Descripción": "ORGANIZAR CAB BASTI TECHNETIK P/INTERNA",
-            "Precio": 15668.46
+            "Precio": 18645.47
           },
           {
             "Posición": "640",
             "Servicio": "5013580",
             "Descripción": "ORGANIZAR CAB BASTI VER ACT P/INTERNA",
-            "Precio": 1579.9
+            "Precio": 1880.08
           },
           {
             "Posición": "650",
             "Servicio": "5013581",
             "Descripción": "ORGANIZAR CAB BASTI VER HD ACT P/INTERNA",
-            "Precio": 7787.26
+            "Precio": 9266.84
           },
           {
             "Posición": "660",
             "Servicio": "5013582",
             "Descripción": "ORGANIZAR CAB BASTI VER HD PAS P/INTERNA",
-            "Precio": 39424.3
+            "Precio": 46914.92
           },
           {
             "Posición": "670",
             "Servicio": "5013583",
             "Descripción": "ORGANIZAR CABLES BASTIDOR HOR P/INTERNA",
-            "Precio": 1577.46
+            "Precio": 1877.18
           },
           {
             "Posición": "680",
             "Servicio": "5013584",
             "Descripción": "ORGANIZAR CABLES BASTIDOR VER P/INTERNA",
-            "Precio": 7926.34
+            "Precio": 9432.34
           },
           {
             "Posición": "690",
             "Servicio": "5013752",
             "Descripción": "PASO DE LOSA",
-            "Precio": 14463.1
+            "Precio": 17211.09
           },
           {
             "Posición": "700",
             "Servicio": "5013753",
             "Descripción": "PASO DE MURO CON BANDEJA",
-            "Precio": 8339.92
+            "Precio": 9924.5
           },
           {
             "Posición": "710",
             "Servicio": "5013754",
             "Descripción": "PASO DE MURO CON CAÑO",
-            "Precio": 3608.76
+            "Precio": 4294.42
           },
           {
             "Posición": "720",
             "Servicio": "5013984",
             "Descripción": "PREPARAR ACRÍLICO MATRIZ CMTS P/INTERNA",
-            "Precio": 15921
+            "Precio": 18945.99
           },
           {
             "Posición": "730",
             "Servicio": "5013985",
             "Descripción": "PREPARAR RACK 1000 MM O MAYOR P/INTERNA",
-            "Precio": 3180.54
+            "Precio": 3784.84
           },
           {
             "Posición": "740",
             "Servicio": "5013986",
             "Descripción": "PREPARAR RACK 900 MM O MENOR P/INTERNA",
-            "Precio": 2449.76
+            "Precio": 2915.21
           },
           {
             "Posición": "750",
             "Servicio": "5014657",
             "Descripción": "RELEVAMIENTO Y DOCUMENTACIÓN PI",
-            "Precio": 21655
+            "Precio": 25769.45
           },
           {
             "Posición": "760",
             "Servicio": "5015528",
             "Descripción": "TENDIDO CAB MINICO ESTRUC BJA P/INTERNA",
-            "Precio": 2047.16
+            "Precio": 2436.12
           },
           {
             "Posición": "770",
             "Servicio": "5015529",
             "Descripción": "TENDIDO CAB MINICO ESTRUC RACK P/INTERNA",
-            "Precio": 1748.26
+            "Precio": 2080.43
           },
           {
             "Posición": "780",
             "Servicio": "5015530",
             "Descripción": "TENDIDO CAB RG-59 ESTRUC BJA P/INTERNA",
-            "Precio": 1345.66
+            "Precio": 1601.34
           },
           {
             "Posición": "790",
             "Servicio": "5015531",
             "Descripción": "TENDIDO CAB RG-59 ESTRUC RACK P/INTERNA",
-            "Precio": 1063.84
+            "Precio": 1265.97
           },
           {
             "Posición": "800",
             "Servicio": "5022604",
             "Descripción": "TRASLADO MATERIALES P.I. – PORTE ALTO",
-            "Precio": 424.56
+            "Precio": 505.23
           },
           {
             "Posición": "810",
             "Servicio": "5022603",
             "Descripción": "TRASLADO MATERIALES P.I. – PORTE MEDIO",
-            "Precio": 398.94
+            "Precio": 474.74
           },
           {
             "Posición": "820",
             "Servicio": "5022602",
             "Descripción": "TRASLADO MATERIALES P.I. – PORTE MENOR",
-            "Precio": 161.04
+            "Precio": 191.64
           },
           {
             "Posición": "830",
