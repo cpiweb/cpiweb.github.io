@@ -17,25 +17,25 @@ function buscarIncidencias() {
     let estado4= document.getElementById("estado4").checked
     let estado5= document.getElementById("estado5").checked
 
-    let jql_list=[]
-
-    if (project=="") {
-      jql_list.push('(project=EASCGS OR project=EASGNO)')
-    }
-    else {
-      jql_list.push('project='+project)
-    }
-
-    if (summary!="") {
-      jql_list.push('summary ~ '+summary)
-    }
-
-    estado_list = []
-
     if (!(estado1||estado2||estado3||estado4||estado5)) {
-      estado_list.push('status=10800')
+      alert('Tenés que elegir al menos un estado.')
     } 
     else {
+      let jql_list=[]
+
+      if (project=="") {
+        jql_list.push('(project=EASCGS OR project=EASGNO)')
+      }
+      else {
+        jql_list.push('project='+project)
+      }
+
+      if (summary!="") {
+        jql_list.push('summary ~ '+summary)
+      }
+
+      estado_list = []
+
       if (estado1) {
         estado_list.push('status=10800')
       }
@@ -51,35 +51,34 @@ function buscarIncidencias() {
       if (estado5) {
         estado_list.push('status=12553')
       }
-    }
 
-    let estado_str= estado_list[0]
+      let estado_str= estado_list[0]
 
-    for (let i=1; i<estado_list.length; i++) {
-      estado_str= estado_str + ' OR '+ estado_list[i]
-    }
+      for (let i=1; i<estado_list.length; i++) {
+        estado_str= estado_str + ' OR '+ estado_list[i]
+      }
 
-    estado_str = '('+estado_str+')'
+      estado_str = '('+estado_str+')'
 
-    jql_list.push(estado_str)
+      jql_list.push(estado_str)
 
-    let jql_str = jql_list[0]
+      let jql_str = jql_list[0]
 
-    for (let i=1; i<jql_list.length; i++) {
-      jql_str= jql_str + ' AND '+ jql_list[i]
-    }
+      for (let i=1; i<jql_list.length; i++) {
+        jql_str= jql_str + ' AND '+ jql_list[i]
+      }
 
-    const html = encodeURIComponent(jql_str); 
+      const html = encodeURIComponent(jql_str); 
 
-    const END_POINT = "searchIssues2/" + html
+      const END_POINT = "searchIssues2/" + html
 
-//    alert(jql_str2)
-    
-    fetch(BASE_URL+END_POINT)
-    .then(response => response.json())
-    .then(json => mostrar(json))
-    .catch(err => alert('Solicitud fallida', err));
-
+  //    alert(jql_str2)
+      
+      fetch(BASE_URL+END_POINT)
+      .then(response => response.json())
+      .then(json => mostrar(json))
+      .catch(err => alert('Solicitud fallida', err));
+  }
 }
 
 function mostrar (issues){
