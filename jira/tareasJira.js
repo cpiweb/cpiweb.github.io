@@ -12,19 +12,20 @@ function buscarIncidencias() {
     let summary= document.getElementById("filtro_summary").value
 
     let estado1= document.getElementById("estado1").checked
-    let estado2= document.getElementById("estado2").checked
-    let estado3= document.getElementById("estado3").checked
+//    let estado2= document.getElementById("estado2").checked
+//    let estado3= document.getElementById("estado3").checked
     let estado4= document.getElementById("estado4").checked
     let estado5= document.getElementById("estado5").checked
+    let subtareas= document.getElementById("subtareas").checked
 
-    if (!(estado1||estado2||estado3||estado4||estado5)) {
+    if (!(estado1||estado4||estado5)) {
       alert('Tenés que elegir al menos un estado.')
     } 
     else {
       let jql_list=[]
 
       if (project=="") {
-        jql_list.push('(project=EASCGS OR project=EASGNO)')
+        jql_list.push('(project=EASCGS)')
       }
       else {
         jql_list.push('project='+project)
@@ -34,17 +35,21 @@ function buscarIncidencias() {
         jql_list.push('summary ~ '+summary)
       }
 
+      if (!subtareas) {
+        jql_list.push('issuetype!=11766')
+      }
+
       estado_list = []
 
       if (estado1) {
-        estado_list.push('status=10800')
+        estado_list.push('status!=10001 AND status!=12553')
       }
-      if (estado2) {
-        estado_list.push('status=12386')
-      }
-      if (estado3) {
-        estado_list.push('status=12797')
-      }
+//      if (estado2) {
+//        estado_list.push('status=12386')
+//      }
+//      if (estado3) {
+//        estado_list.push('status=12797')
+//      }
       if (estado4) {
         estado_list.push('status=10001')
       }
@@ -83,6 +88,8 @@ function buscarIncidencias() {
 
 function mostrar (issues){
 
+    console.log(issues[1].issues)
+
     let edificio= document.getElementById("filtro_edificio").value
     let responsable= document.getElementById("filtro_assignee").value
     let informador= document.getElementById("filtro_reporter").value
@@ -113,12 +120,16 @@ function mostrar (issues){
     let resp
     let inf
     let contador=0
+    let total=0
+
     // agregar datos del JSON como filas
     for (let i = 0; i < issues.length; i++) {
       for (let j = 0; j < issues[i].issues.length; j++) {
+          
+          total= total +1
 
           try {
-            edif= ((issues[i].issues[j].fields.customfield_13399.value).toLowerCase()).match((edificio).toLowerCase()) || (edificio=="")
+            edif= ((issues[i].issues[j].fields.customfield_13399.value).toLowerCase()).includes((edificio).toLowerCase()) || (edificio=="")
           } catch {
             if (edificio=="") {
               edif=true}
@@ -127,7 +138,7 @@ function mostrar (issues){
             }
           }
           try {
-            resp= ((issues[i].issues[j].fields.assignee.displayName).toLowerCase()).match((responsable).toLowerCase()) || (responsable=="")
+            resp= ((issues[i].issues[j].fields.assignee.displayName).toLowerCase()).includes((responsable).toLowerCase()) || (responsable=="")
           } catch {
             if (responsable=="") {
               resp=true}
@@ -136,7 +147,7 @@ function mostrar (issues){
             }
           }
           try {
-            inf= ((issues[i].issues[j].fields.reporter.displayName).toLowerCase()).match((informador).toLowerCase()) || (informador=="")
+            inf= ((issues[i].issues[j].fields.reporter.displayName).toLowerCase()).includes((informador).toLowerCase()) || (informador=="")
           } catch {
             if (informador=="") {
               inf=true}
@@ -171,7 +182,7 @@ function mostrar (issues){
       }
     }
 
-    alert('Se encontraron ' + contador + ' registros.')
+    alert('Se encontraron ' + contador + ' registros ('+ total + ')')
 
     // sumar la tabla creada al contenedor
     pshow1.innerHTML = "";
