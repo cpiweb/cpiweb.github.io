@@ -9,12 +9,12 @@ let proveedores=JSON.parse(JSON.stringify(
       {
         "Proveedor": 1015084,
         "Contratista": "Pronetba",
-        "NPA": 7600017935
+        "NPA": 7600020061
       },
       {
         "Proveedor": 1015084,
         "Contratista": "Pronetba",
-        "NPA": 7600020061
+        "NPA": 7600021046
       },
       {
         "Proveedor": 1015969,
