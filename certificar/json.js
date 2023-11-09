@@ -19,7 +19,7 @@ let proveedores=JSON.parse(JSON.stringify(
       {
         "Proveedor": 1015969,
         "Contratista": "ANNESE VICTOR ANGEL",
-        "NPA": 7600019074
+        "NPA": 7600021122
       },
 //      {
 //        "Proveedor": 1034690,
