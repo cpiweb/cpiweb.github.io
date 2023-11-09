@@ -16,7 +16,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 130080739,
         "Consumo": 0,
         "Saldo Disponible": 130080739,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021099,
@@ -33,7 +34,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 42102726,
         "Consumo": 8166859.780000001,
         "Saldo Disponible": 33935866.22,
-        "Saldo Disponible %": 0.8060253918000464
+        "Saldo Disponible %": 0.8060253918000464,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021095,
@@ -50,7 +52,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15600000,
         "Consumo": 0,
         "Saldo Disponible": 15600000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021087,
@@ -68,7 +71,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 188953.6,
         "Consumo": 0,
         "Saldo Disponible": 188953.6,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021066,
@@ -86,7 +90,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 67978,
         "Consumo": 18095.6,
         "Saldo Disponible": 49882.4,
-        "Saldo Disponible %": 0.733802112448145
+        "Saldo Disponible %": 0.733802112448145,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021052,
@@ -103,7 +108,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6005142,
         "Consumo": 0,
         "Saldo Disponible": 6005142,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021049,
@@ -121,7 +127,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1257800,
         "Consumo": 1257800,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021046,
@@ -138,7 +145,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6000000,
         "Consumo": 0,
         "Saldo Disponible": 6000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021036,
@@ -155,7 +163,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15582.28,
         "Consumo": 15582.28,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021034,
@@ -172,7 +181,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4707829,
         "Consumo": 0,
         "Saldo Disponible": 4707829,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021033,
@@ -189,7 +199,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30000000,
         "Consumo": 5625624.219999999,
         "Saldo Disponible": 24374375.78,
-        "Saldo Disponible %": 0.8124791926666667
+        "Saldo Disponible %": 0.8124791926666667,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021031,
@@ -206,7 +217,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4600000,
         "Consumo": 0,
         "Saldo Disponible": 4600000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021027,
@@ -223,7 +235,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16200000,
         "Consumo": 0,
         "Saldo Disponible": 16200000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021022,
@@ -240,7 +253,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000000,
         "Consumo": 0,
         "Saldo Disponible": 20000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021020,
@@ -257,7 +271,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 457468.55,
         "Consumo": 457468.55,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021015,
@@ -274,7 +289,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30000000,
         "Consumo": 0,
         "Saldo Disponible": 30000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021013,
@@ -291,7 +307,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28000000,
         "Consumo": 0,
         "Saldo Disponible": 28000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021012,
@@ -308,7 +325,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000000,
         "Consumo": 0,
         "Saldo Disponible": 10000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021009,
@@ -325,7 +343,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5400000,
         "Consumo": 705026.9500000002,
         "Saldo Disponible": 4694973.05,
-        "Saldo Disponible %": 0.8694394537037037
+        "Saldo Disponible %": 0.8694394537037037,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021008,
@@ -342,7 +361,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15000000,
         "Consumo": 0,
         "Saldo Disponible": 15000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600021002,
@@ -359,7 +379,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9000000,
         "Consumo": 0,
         "Saldo Disponible": 9000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020959,
@@ -376,7 +397,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 21320000,
         "Consumo": 0,
         "Saldo Disponible": 21320000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020958,
@@ -393,7 +415,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1200000,
         "Consumo": 0,
         "Saldo Disponible": 1200000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020956,
@@ -410,7 +433,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3579.97,
         "Consumo": 3579.97,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020952,
@@ -427,7 +451,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 150000,
         "Consumo": 0,
         "Saldo Disponible": 150000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020947,
@@ -444,7 +469,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 107068,
         "Consumo": 12000,
         "Saldo Disponible": 95068,
-        "Saldo Disponible %": 0.8879216946239773
+        "Saldo Disponible %": 0.8879216946239773,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020943,
@@ -461,7 +487,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 220000,
         "Consumo": 54012.850000000006,
         "Saldo Disponible": 165987.15,
-        "Saldo Disponible %": 0.7544870454545455
+        "Saldo Disponible %": 0.7544870454545455,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020941,
@@ -478,7 +505,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 105476720,
         "Consumo": 0,
         "Saldo Disponible": 105476720,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020939,
@@ -495,7 +523,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 39500,
         "Consumo": 0,
         "Saldo Disponible": 39500,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020873,
@@ -512,7 +541,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12500,
         "Consumo": 0,
         "Saldo Disponible": 12500,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020865,
@@ -530,7 +560,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 40009.67,
         "Consumo": 0,
         "Saldo Disponible": 40009.67,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020861,
@@ -548,7 +579,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24415.75,
         "Consumo": 0,
         "Saldo Disponible": 24415.75,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020856,
@@ -565,7 +597,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 23692,
         "Consumo": 0,
         "Saldo Disponible": 23692,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020852,
@@ -582,7 +615,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 33000000,
         "Consumo": 13777995.52,
         "Saldo Disponible": 19222004.48,
-        "Saldo Disponible %": 0.5824849842424242
+        "Saldo Disponible %": 0.5824849842424242,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020794,
@@ -600,7 +634,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 0.55,
         "Consumo": 0,
         "Saldo Disponible": 0.55,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020775,
@@ -618,7 +653,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 128000000,
         "Consumo": 32958968.340000004,
         "Saldo Disponible": 95041031.66,
-        "Saldo Disponible %": 0.74250805984375
+        "Saldo Disponible %": 0.74250805984375,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020767,
@@ -636,7 +672,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 914705.56,
         "Consumo": 914705.56,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020765,
@@ -653,7 +690,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15000000,
         "Consumo": 4621870.51,
         "Saldo Disponible": 10378129.49,
-        "Saldo Disponible %": 0.6918752993333334
+        "Saldo Disponible %": 0.6918752993333334,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020764,
@@ -670,7 +708,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5000000,
         "Consumo": 1185242.7999999998,
         "Saldo Disponible": 3814757.2,
-        "Saldo Disponible %": 0.76295144
+        "Saldo Disponible %": 0.76295144,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020761,
@@ -687,7 +726,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 271147,
         "Consumo": 271147,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020760,
@@ -704,7 +744,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 44589017,
         "Consumo": 44589017,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020754,
@@ -721,7 +762,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 19800,
         "Consumo": 19800,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020746,
@@ -738,7 +780,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 33940.72,
         "Consumo": 33940.72,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020743,
@@ -756,7 +799,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 178000000,
         "Consumo": 67385386.06,
         "Saldo Disponible": 110614613.94,
-        "Saldo Disponible %": 0.6214304153932584
+        "Saldo Disponible %": 0.6214304153932584,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020732,
@@ -773,7 +817,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 35000000,
         "Consumo": 7416798.629999999,
         "Saldo Disponible": 27583201.37,
-        "Saldo Disponible %": 0.7880914677142857
+        "Saldo Disponible %": 0.7880914677142857,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020716,
@@ -791,7 +836,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 102977,
         "Consumo": 0,
         "Saldo Disponible": 102977,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020714,
@@ -809,7 +855,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2185,
         "Consumo": 0,
         "Saldo Disponible": 2185,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020704,
@@ -826,7 +873,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7722120,
         "Consumo": 0,
         "Saldo Disponible": 7722120,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020699,
@@ -844,7 +892,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 260255,
         "Consumo": 0,
         "Saldo Disponible": 260255,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020697,
@@ -862,7 +911,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3151500,
         "Consumo": 0,
         "Saldo Disponible": 3151500,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020696,
@@ -880,7 +930,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 604750,
         "Consumo": 0,
         "Saldo Disponible": 604750,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020695,
@@ -898,7 +949,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 161475.2,
         "Consumo": 5187,
         "Saldo Disponible": 156288.2,
-        "Saldo Disponible %": 0.9678774201858862
+        "Saldo Disponible %": 0.9678774201858862,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020694,
@@ -916,7 +968,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 285847.28,
         "Consumo": 57024.00000000003,
         "Saldo Disponible": 228823.28,
-        "Saldo Disponible %": 0.8005088591362491
+        "Saldo Disponible %": 0.8005088591362491,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020693,
@@ -934,7 +987,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 276125,
         "Consumo": 52200,
         "Saldo Disponible": 223925,
-        "Saldo Disponible %": 0.8109551833408782
+        "Saldo Disponible %": 0.8109551833408782,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020691,
@@ -952,7 +1006,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2950,
         "Consumo": 2950,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020668,
@@ -969,7 +1024,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 140116.24,
         "Consumo": 140116.24,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020662,
@@ -986,7 +1042,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 422129.4,
         "Consumo": 422129.4,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020655,
@@ -1004,7 +1061,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 997.5,
         "Consumo": 0,
         "Saldo Disponible": 997.5,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020650,
@@ -1021,7 +1079,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 13394500,
         "Consumo": 0,
         "Saldo Disponible": 13394500,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020631,
@@ -1038,7 +1097,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 380000,
         "Consumo": 380000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020623,
@@ -1055,7 +1115,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 37596,
         "Consumo": 17593,
         "Saldo Disponible": 20003,
-        "Saldo Disponible %": 0.532051282051282
+        "Saldo Disponible %": 0.532051282051282,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020621,
@@ -1073,7 +1134,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 663.08,
         "Consumo": 0,
         "Saldo Disponible": 663.08,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020619,
@@ -1090,7 +1152,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7124000,
         "Consumo": 7013765.5,
         "Saldo Disponible": 110234.5,
-        "Saldo Disponible %": 0.015473680516563728
+        "Saldo Disponible %": 0.015473680516563728,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020618,
@@ -1107,7 +1170,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 37195000,
         "Consumo": 1306243.75,
         "Saldo Disponible": 35888756.25,
-        "Saldo Disponible %": 0.9648812004301653
+        "Saldo Disponible %": 0.9648812004301653,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020617,
@@ -1124,7 +1188,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11620000,
         "Consumo": 8763964.05,
         "Saldo Disponible": 2856035.95,
-        "Saldo Disponible %": 0.24578622633390707
+        "Saldo Disponible %": 0.24578622633390707,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020616,
@@ -1141,7 +1206,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5520000,
         "Consumo": 4487249.78,
         "Saldo Disponible": 1032750.22,
-        "Saldo Disponible %": 0.18709243115942029
+        "Saldo Disponible %": 0.18709243115942029,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020611,
@@ -1158,7 +1224,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24000000,
         "Consumo": 11871633.37,
         "Saldo Disponible": 12128366.63,
-        "Saldo Disponible %": 0.5053486095833334
+        "Saldo Disponible %": 0.5053486095833334,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020610,
@@ -1175,7 +1242,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24000000,
         "Consumo": 13975300.61,
         "Saldo Disponible": 10024699.39,
-        "Saldo Disponible %": 0.4176958079166667
+        "Saldo Disponible %": 0.4176958079166667,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020609,
@@ -1192,7 +1260,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24000000,
         "Consumo": 19762666.85,
         "Saldo Disponible": 4237333.15,
-        "Saldo Disponible %": 0.1765555479166667
+        "Saldo Disponible %": 0.1765555479166667,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020608,
@@ -1209,7 +1278,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24000000,
         "Consumo": 4941794.859999999,
         "Saldo Disponible": 19058205.14,
-        "Saldo Disponible %": 0.7940918808333334
+        "Saldo Disponible %": 0.7940918808333334,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020574,
@@ -1226,7 +1296,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6888,
         "Consumo": 0,
         "Saldo Disponible": 6888,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020547,
@@ -1243,7 +1314,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 27000000,
         "Consumo": 17977071.18,
         "Saldo Disponible": 9022928.82,
-        "Saldo Disponible %": 0.3341825488888889
+        "Saldo Disponible %": 0.3341825488888889,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020544,
@@ -1260,7 +1332,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 90000000,
         "Consumo": 51581633.98,
         "Saldo Disponible": 38418366.02,
-        "Saldo Disponible %": 0.4268707335555556
+        "Saldo Disponible %": 0.4268707335555556,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020535,
@@ -1277,7 +1350,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 165850,
         "Consumo": 165850,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020531,
@@ -1294,7 +1368,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9200000,
         "Consumo": 3075727.7800000003,
         "Saldo Disponible": 6124272.22,
-        "Saldo Disponible %": 0.6656817630434783
+        "Saldo Disponible %": 0.6656817630434783,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020530,
@@ -1311,7 +1386,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5200000,
         "Consumo": 700241.1600000001,
         "Saldo Disponible": 4499758.84,
-        "Saldo Disponible %": 0.8653382384615385
+        "Saldo Disponible %": 0.8653382384615385,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020529,
@@ -1328,7 +1404,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3500000,
         "Consumo": 853800,
         "Saldo Disponible": 2646200,
-        "Saldo Disponible %": 0.7560571428571429
+        "Saldo Disponible %": 0.7560571428571429,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020516,
@@ -1346,7 +1423,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 90000000,
         "Consumo": 23866738.5,
         "Saldo Disponible": 66133261.5,
-        "Saldo Disponible %": 0.7348140166666667
+        "Saldo Disponible %": 0.7348140166666667,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020496,
@@ -1363,7 +1441,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24960,
         "Consumo": 24960,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020493,
@@ -1381,7 +1460,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 85578.83,
         "Consumo": 24563.590000000004,
         "Saldo Disponible": 61015.24,
-        "Saldo Disponible %": 0.7129711869162034
+        "Saldo Disponible %": 0.7129711869162034,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020476,
@@ -1398,7 +1478,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80000,
         "Consumo": 80000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020472,
@@ -1416,7 +1497,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 35230405,
         "Consumo": 31806012,
         "Saldo Disponible": 3424393,
-        "Saldo Disponible %": 0.09719993284210045
+        "Saldo Disponible %": 0.09719993284210045,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020464,
@@ -1433,7 +1515,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 228007.01,
         "Consumo": 228007.01,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020463,
@@ -1450,7 +1533,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22296697.55,
         "Consumo": 2124121.6500000022,
         "Saldo Disponible": 20172575.9,
-        "Saldo Disponible %": 0.9047337999164813
+        "Saldo Disponible %": 0.9047337999164813,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020462,
@@ -1467,7 +1551,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30000000,
         "Consumo": 19937548.939999998,
         "Saldo Disponible": 10062451.06,
-        "Saldo Disponible %": 0.33541503533333333
+        "Saldo Disponible %": 0.33541503533333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020438,
@@ -1484,7 +1569,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12000000,
         "Consumo": 6300277.67,
         "Saldo Disponible": 5699722.33,
-        "Saldo Disponible %": 0.47497686083333335
+        "Saldo Disponible %": 0.47497686083333335,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020408,
@@ -1502,7 +1588,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 182958.37,
         "Consumo": 130,
         "Saldo Disponible": 182828.37,
-        "Saldo Disponible %": 0.9992894558472509
+        "Saldo Disponible %": 0.9992894558472509,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020407,
@@ -1520,7 +1607,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 67056.5,
         "Consumo": 40280,
         "Saldo Disponible": 26776.5,
-        "Saldo Disponible %": 0.39931252003907153
+        "Saldo Disponible %": 0.39931252003907153,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020368,
@@ -1537,7 +1625,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1920,
         "Consumo": 1920,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020366,
@@ -1554,7 +1643,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7379.9,
         "Consumo": 7379.9,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020363,
@@ -1572,7 +1662,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 33750,
         "Consumo": 5625,
         "Saldo Disponible": 28125,
-        "Saldo Disponible %": 0.8333333333333334
+        "Saldo Disponible %": 0.8333333333333334,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020362,
@@ -1589,7 +1680,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6308400,
         "Consumo": 6308400,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020359,
@@ -1606,7 +1698,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 120000,
         "Consumo": 0,
         "Saldo Disponible": 120000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020339,
@@ -1624,7 +1717,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 160085,
         "Consumo": 160083.6,
         "Saldo Disponible": 1.4,
-        "Saldo Disponible %": 0.000008745354030671205
+        "Saldo Disponible %": 0.000008745354030671205,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020338,
@@ -1642,7 +1736,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 110212,
         "Consumo": 65435.4,
         "Saldo Disponible": 44776.6,
-        "Saldo Disponible %": 0.40627699343084234
+        "Saldo Disponible %": 0.40627699343084234,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020331,
@@ -1659,7 +1754,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15000000,
         "Consumo": 0,
         "Saldo Disponible": 15000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020315,
@@ -1676,7 +1772,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28270,
         "Consumo": 28270,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020271,
@@ -1693,7 +1790,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1360186.95,
         "Consumo": 702660.4099999999,
         "Saldo Disponible": 657526.54,
-        "Saldo Disponible %": 0.4834089461011224
+        "Saldo Disponible %": 0.4834089461011224,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020239,
@@ -1710,7 +1808,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8000000,
         "Consumo": 1275599.2699999996,
         "Saldo Disponible": 6724400.73,
-        "Saldo Disponible %": 0.84055009125
+        "Saldo Disponible %": 0.84055009125,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020220,
@@ -1727,7 +1826,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2700,
         "Consumo": 1400.87,
         "Saldo Disponible": 1299.13,
-        "Saldo Disponible %": 0.4811592592592593
+        "Saldo Disponible %": 0.4811592592592593,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020208,
@@ -1744,7 +1844,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10285554,
         "Consumo": 10249335.8,
         "Saldo Disponible": 36218.2,
-        "Saldo Disponible %": 0.003521268761993763
+        "Saldo Disponible %": 0.003521268761993763,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020207,
@@ -1761,7 +1862,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22785554,
         "Consumo": 22704119.03,
         "Saldo Disponible": 81434.97,
-        "Saldo Disponible %": 0.003573973667701913
+        "Saldo Disponible %": 0.003573973667701913,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020206,
@@ -1778,7 +1880,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25285554,
         "Consumo": 25166878.2,
         "Saldo Disponible": 118675.8,
-        "Saldo Disponible %": 0.004693422971867652
+        "Saldo Disponible %": 0.004693422971867652,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020204,
@@ -1795,7 +1898,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22785554,
         "Consumo": 16240294.79,
         "Saldo Disponible": 6545259.21,
-        "Saldo Disponible %": 0.2872547759865747
+        "Saldo Disponible %": 0.2872547759865747,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020188,
@@ -1812,7 +1916,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 100000,
         "Consumo": 45448.26,
         "Saldo Disponible": 54551.74,
-        "Saldo Disponible %": 0.5455173999999999
+        "Saldo Disponible %": 0.5455173999999999,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020184,
@@ -1829,7 +1934,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11600,
         "Consumo": 0,
         "Saldo Disponible": 11600,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020177,
@@ -1846,7 +1952,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9450525.05,
         "Consumo": 6652536.450000001,
         "Saldo Disponible": 2797988.6,
-        "Saldo Disponible %": 0.29606700000229086
+        "Saldo Disponible %": 0.29606700000229086,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020173,
@@ -1863,7 +1970,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4000000,
         "Consumo": 804590.46,
         "Saldo Disponible": 3195409.54,
-        "Saldo Disponible %": 0.798852385
+        "Saldo Disponible %": 0.798852385,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020121,
@@ -1880,7 +1988,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8000000,
         "Consumo": 7481968.16,
         "Saldo Disponible": 518031.84,
-        "Saldo Disponible %": 0.06475398
+        "Saldo Disponible %": 0.06475398,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020117,
@@ -1897,7 +2006,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000000,
         "Consumo": 7336243.5600000005,
         "Saldo Disponible": 12663756.44,
-        "Saldo Disponible %": 0.633187822
+        "Saldo Disponible %": 0.633187822,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020113,
@@ -1914,7 +2024,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000000,
         "Consumo": 13297189.93,
         "Saldo Disponible": 6702810.07,
-        "Saldo Disponible %": 0.3351405035
+        "Saldo Disponible %": 0.3351405035,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020111,
@@ -1931,7 +2042,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30000000,
         "Consumo": 12388566.02,
         "Saldo Disponible": 17611433.98,
-        "Saldo Disponible %": 0.5870477993333334
+        "Saldo Disponible %": 0.5870477993333334,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020110,
@@ -1948,7 +2060,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000000,
         "Consumo": 18331441.97,
         "Saldo Disponible": 1668558.03,
-        "Saldo Disponible %": 0.0834279015
+        "Saldo Disponible %": 0.0834279015,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020104,
@@ -1966,7 +2079,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 147494.96,
         "Consumo": 0,
         "Saldo Disponible": 147494.96,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020103,
@@ -1984,7 +2098,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 227628,
         "Consumo": 0,
         "Saldo Disponible": 227628,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020098,
@@ -2002,7 +2117,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1132320,
         "Consumo": 0,
         "Saldo Disponible": 1132320,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020097,
@@ -2020,7 +2136,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 63616,
         "Consumo": 0,
         "Saldo Disponible": 63616,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020096,
@@ -2038,7 +2155,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 191100,
         "Consumo": 44100,
         "Saldo Disponible": 147000,
-        "Saldo Disponible %": 0.7692307692307693
+        "Saldo Disponible %": 0.7692307692307693,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020091,
@@ -2056,7 +2174,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 245444.4,
         "Consumo": 0,
         "Saldo Disponible": 245444.4,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020090,
@@ -2074,7 +2193,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 450,
         "Consumo": 0,
         "Saldo Disponible": 450,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020089,
@@ -2092,7 +2212,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 77988.85,
         "Consumo": 0,
         "Saldo Disponible": 77988.85,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020062,
@@ -2110,7 +2231,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80847.91,
         "Consumo": 58211.39,
         "Saldo Disponible": 22636.52,
-        "Saldo Disponible %": 0.2799889323051146
+        "Saldo Disponible %": 0.2799889323051146,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020061,
@@ -2127,7 +2249,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5000000,
         "Consumo": 4227570.84,
         "Saldo Disponible": 772429.16,
-        "Saldo Disponible %": 0.15448583200000002
+        "Saldo Disponible %": 0.15448583200000002,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020060,
@@ -2144,7 +2267,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000000,
         "Consumo": 6198876.9,
         "Saldo Disponible": 3801123.1,
-        "Saldo Disponible %": 0.38011231
+        "Saldo Disponible %": 0.38011231,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020059,
@@ -2161,7 +2285,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3000000,
         "Consumo": 0,
         "Saldo Disponible": 3000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020058,
@@ -2178,7 +2303,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3000000,
         "Consumo": 0,
         "Saldo Disponible": 3000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020057,
@@ -2195,7 +2321,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15000000,
         "Consumo": 5329339.77,
         "Saldo Disponible": 9670660.23,
-        "Saldo Disponible %": 0.644710682
+        "Saldo Disponible %": 0.644710682,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020056,
@@ -2212,7 +2339,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000000,
         "Consumo": 8754315.3,
         "Saldo Disponible": 1245684.7,
-        "Saldo Disponible %": 0.12456847
+        "Saldo Disponible %": 0.12456847,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020055,
@@ -2229,7 +2357,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 42258240,
         "Consumo": 23652000,
         "Saldo Disponible": 18606240,
-        "Saldo Disponible %": 0.44029850746268656
+        "Saldo Disponible %": 0.44029850746268656,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020053,
@@ -2247,7 +2376,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 13218,
         "Consumo": 13218,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020052,
@@ -2265,7 +2395,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3862.04,
         "Consumo": 3862.04,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020039,
@@ -2282,7 +2413,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 143225,
         "Consumo": 50550,
         "Saldo Disponible": 92675,
-        "Saldo Disponible %": 0.6470588235294118
+        "Saldo Disponible %": 0.6470588235294118,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020034,
@@ -2300,7 +2432,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 90000,
         "Consumo": 50982.2,
         "Saldo Disponible": 39017.8,
-        "Saldo Disponible %": 0.43353111111111114
+        "Saldo Disponible %": 0.43353111111111114,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020032,
@@ -2317,7 +2450,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 69026160.29,
         "Consumo": 25194265.070000008,
         "Saldo Disponible": 43831895.22,
-        "Saldo Disponible %": 0.6350041062091358
+        "Saldo Disponible %": 0.6350041062091358,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020031,
@@ -2334,7 +2468,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7185,
         "Consumo": 7185,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020029,
@@ -2352,7 +2487,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 69480,
         "Consumo": 69480,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020024,
@@ -2369,7 +2505,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 23000000,
         "Consumo": 13110253,
         "Saldo Disponible": 9889747,
-        "Saldo Disponible %": 0.429989
+        "Saldo Disponible %": 0.429989,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020023,
@@ -2387,7 +2524,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 35752.32,
         "Consumo": 35752.32,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020022,
@@ -2404,7 +2542,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25981.86,
         "Consumo": 25981.86,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020005,
@@ -2421,7 +2560,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 177766,
         "Consumo": 177766,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600020000,
@@ -2438,7 +2578,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28980000,
         "Consumo": 14490000,
         "Saldo Disponible": 14490000,
-        "Saldo Disponible %": 0.5
+        "Saldo Disponible %": 0.5,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019994,
@@ -2455,7 +2596,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 100000,
         "Consumo": 8488.419999999998,
         "Saldo Disponible": 91511.58,
-        "Saldo Disponible %": 0.9151158
+        "Saldo Disponible %": 0.9151158,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019993,
@@ -2472,7 +2614,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 60000000,
         "Consumo": 3231344.3500000015,
         "Saldo Disponible": 56768655.65,
-        "Saldo Disponible %": 0.9461442608333334
+        "Saldo Disponible %": 0.9461442608333334,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019992,
@@ -2489,7 +2632,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8907.59,
         "Consumo": 8907.59,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019971,
@@ -2506,7 +2650,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 27685.24,
         "Consumo": 0,
         "Saldo Disponible": 27685.24,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019964,
@@ -2523,7 +2668,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8500,
         "Consumo": 8500,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019963,
@@ -2540,7 +2686,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3200,
         "Consumo": 0,
         "Saldo Disponible": 3200,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019936,
@@ -2558,7 +2705,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 67473.5,
         "Consumo": 35664.3,
         "Saldo Disponible": 31809.2,
-        "Saldo Disponible %": 0.4714324883102255
+        "Saldo Disponible %": 0.4714324883102255,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019931,
@@ -2576,7 +2724,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 56642.6,
         "Consumo": 56642.6,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019920,
@@ -2593,7 +2742,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 220000,
         "Consumo": 220000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019900,
@@ -2610,7 +2760,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 69840,
         "Consumo": 68930,
         "Saldo Disponible": 910,
-        "Saldo Disponible %": 0.013029782359679267
+        "Saldo Disponible %": 0.013029782359679267,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019891,
@@ -2627,7 +2778,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 160000,
         "Consumo": 160000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019882,
@@ -2644,7 +2796,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3484140,
         "Consumo": 3484140,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019862,
@@ -2661,7 +2814,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12000000,
         "Consumo": 0,
         "Saldo Disponible": 12000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019860,
@@ -2678,7 +2832,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9000000,
         "Consumo": 5931225.15,
         "Saldo Disponible": 3068774.85,
-        "Saldo Disponible %": 0.34097498333333337
+        "Saldo Disponible %": 0.34097498333333337,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019859,
@@ -2695,7 +2850,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10200000,
         "Consumo": 139912.61999999918,
         "Saldo Disponible": 10060087.38,
-        "Saldo Disponible %": 0.9862830764705883
+        "Saldo Disponible %": 0.9862830764705883,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019858,
@@ -2712,7 +2868,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10200000,
         "Consumo": 10133909.71,
         "Saldo Disponible": 66090.29,
-        "Saldo Disponible %": 0.006479440196078431
+        "Saldo Disponible %": 0.006479440196078431,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019857,
@@ -2729,7 +2886,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6000000,
         "Consumo": 4184535.31,
         "Saldo Disponible": 1815464.69,
-        "Saldo Disponible %": 0.30257744833333333
+        "Saldo Disponible %": 0.30257744833333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019852,
@@ -2746,7 +2904,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 21225.33,
         "Consumo": 0,
         "Saldo Disponible": 21225.33,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019851,
@@ -2763,7 +2922,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11649291,
         "Consumo": 8736966,
         "Saldo Disponible": 2912325,
-        "Saldo Disponible %": 0.2500001931448017
+        "Saldo Disponible %": 0.2500001931448017,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019850,
@@ -2780,7 +2940,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 872938,
         "Consumo": 820946.73,
         "Saldo Disponible": 51991.27,
-        "Saldo Disponible %": 0.05955894920372352
+        "Saldo Disponible %": 0.05955894920372352,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019838,
@@ -2798,7 +2959,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 273000,
         "Consumo": 124260.5,
         "Saldo Disponible": 148739.5,
-        "Saldo Disponible %": 0.5448333333333333
+        "Saldo Disponible %": 0.5448333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019832,
@@ -2815,7 +2977,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 345000,
         "Consumo": 329820,
         "Saldo Disponible": 15180,
-        "Saldo Disponible %": 0.044
+        "Saldo Disponible %": 0.044,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019809,
@@ -2832,7 +2995,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8239200,
         "Consumo": 4983456,
         "Saldo Disponible": 3255744,
-        "Saldo Disponible %": 0.3951529274686863
+        "Saldo Disponible %": 0.3951529274686863,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019807,
@@ -2849,7 +3013,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 45781,
         "Consumo": 45780.03,
         "Saldo Disponible": 0.97,
-        "Saldo Disponible %": 0.00002118782901203556
+        "Saldo Disponible %": 0.00002118782901203556,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019795,
@@ -2866,7 +3031,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 531330,
         "Consumo": 3073.390000000014,
         "Saldo Disponible": 528256.61,
-        "Saldo Disponible %": 0.9942156663467148
+        "Saldo Disponible %": 0.9942156663467148,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019790,
@@ -2883,7 +3049,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 50000,
         "Consumo": 25455.92,
         "Saldo Disponible": 24544.08,
-        "Saldo Disponible %": 0.49088160000000003
+        "Saldo Disponible %": 0.49088160000000003,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019789,
@@ -2900,7 +3067,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 35000000,
         "Consumo": 11111209.34,
         "Saldo Disponible": 23888790.66,
-        "Saldo Disponible %": 0.682536876
+        "Saldo Disponible %": 0.682536876,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019781,
@@ -2917,7 +3085,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4070,
         "Consumo": 2720,
         "Saldo Disponible": 1350,
-        "Saldo Disponible %": 0.3316953316953317
+        "Saldo Disponible %": 0.3316953316953317,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019675,
@@ -2934,7 +3103,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4070,
         "Consumo": 3315.6,
         "Saldo Disponible": 754.4,
-        "Saldo Disponible %": 0.18535626535626534
+        "Saldo Disponible %": 0.18535626535626534,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019662,
@@ -2951,7 +3121,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 55913829.99,
         "Consumo": 14259416.399999999,
         "Saldo Disponible": 41654413.59,
-        "Saldo Disponible %": 0.7449751447441493
+        "Saldo Disponible %": 0.7449751447441493,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019659,
@@ -2969,7 +3140,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30631,
         "Consumo": 9865.259999999998,
         "Saldo Disponible": 20765.74,
-        "Saldo Disponible %": 0.6779321602298326
+        "Saldo Disponible %": 0.6779321602298326,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019657,
@@ -2987,7 +3159,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 271780,
         "Consumo": 29255.059999999998,
         "Saldo Disponible": 242524.94,
-        "Saldo Disponible %": 0.8923575686216793
+        "Saldo Disponible %": 0.8923575686216793,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019651,
@@ -3004,7 +3177,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 18619907.83,
         "Consumo": 4366841.449999997,
         "Saldo Disponible": 14253066.38,
-        "Saldo Disponible %": 0.7654745936516272
+        "Saldo Disponible %": 0.7654745936516272,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019649,
@@ -3021,7 +3195,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 84123.64,
         "Consumo": 26139.019999999997,
         "Saldo Disponible": 57984.62,
-        "Saldo Disponible %": 0.6892785428685683
+        "Saldo Disponible %": 0.6892785428685683,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019644,
@@ -3038,7 +3213,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 31918443.84,
         "Consumo": 6120000,
         "Saldo Disponible": 25798443.84,
-        "Saldo Disponible %": 0.8082613290711105
+        "Saldo Disponible %": 0.8082613290711105,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019635,
@@ -3056,7 +3232,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 45047620,
         "Consumo": 6174508,
         "Saldo Disponible": 38873112,
-        "Saldo Disponible %": 0.8629337576546774
+        "Saldo Disponible %": 0.8629337576546774,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019615,
@@ -3074,7 +3251,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 102496.88,
         "Consumo": 102496.88,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019606,
@@ -3091,7 +3269,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9652145,
         "Consumo": 8259958.85,
         "Saldo Disponible": 1392186.15,
-        "Saldo Disponible %": 0.14423593408511787
+        "Saldo Disponible %": 0.14423593408511787,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019604,
@@ -3108,7 +3287,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10344204,
         "Consumo": 4845616.05,
         "Saldo Disponible": 5498587.95,
-        "Saldo Disponible %": 0.5315622110700833
+        "Saldo Disponible %": 0.5315622110700833,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019603,
@@ -3126,7 +3306,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 40000,
         "Consumo": 14287,
         "Saldo Disponible": 25713,
-        "Saldo Disponible %": 0.642825
+        "Saldo Disponible %": 0.642825,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019600,
@@ -3143,7 +3324,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 86023568,
         "Consumo": 0,
         "Saldo Disponible": 86023568,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019599,
@@ -3160,7 +3342,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 71936520,
         "Consumo": 0,
         "Saldo Disponible": 71936520,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019595,
@@ -3177,7 +3360,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10565000,
         "Consumo": 8936450.1,
         "Saldo Disponible": 1628549.9,
-        "Saldo Disponible %": 0.15414575485092286
+        "Saldo Disponible %": 0.15414575485092286,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019567,
@@ -3194,7 +3378,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10932,
         "Consumo": 10932,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019564,
@@ -3211,7 +3396,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 300000,
         "Consumo": 0,
         "Saldo Disponible": 300000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019556,
@@ -3228,7 +3414,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30150000,
         "Consumo": 28921515.03,
         "Saldo Disponible": 1228484.97,
-        "Saldo Disponible %": 0.04074577014925373
+        "Saldo Disponible %": 0.04074577014925373,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019554,
@@ -3245,7 +3432,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 717083.44,
         "Consumo": 18605.22999999998,
         "Saldo Disponible": 698478.21,
-        "Saldo Disponible %": 0.9740543025230091
+        "Saldo Disponible %": 0.9740543025230091,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019549,
@@ -3262,7 +3450,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 125019168,
         "Consumo": 64637931.2,
         "Saldo Disponible": 60381236.8,
-        "Saldo Disponible %": 0.4829758329538715
+        "Saldo Disponible %": 0.4829758329538715,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019525,
@@ -3279,7 +3468,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 45723.8,
         "Consumo": 45723.8,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019514,
@@ -3296,7 +3486,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 198232.63,
         "Consumo": 198232.63,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019511,
@@ -3313,7 +3504,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 17175,
         "Consumo": 17175,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019510,
@@ -3331,7 +3523,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 75950,
         "Consumo": 75950,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019508,
@@ -3348,7 +3541,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 128484.71,
         "Consumo": 128484.71,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019507,
@@ -3365,7 +3559,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000000,
         "Consumo": 19990279.09,
         "Saldo Disponible": 9720.91,
-        "Saldo Disponible %": 0.0004860455
+        "Saldo Disponible %": 0.0004860455,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019501,
@@ -3382,7 +3577,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1645900,
         "Consumo": 1645900,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019498,
@@ -3399,7 +3595,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30000000,
         "Consumo": 6981150.719999999,
         "Saldo Disponible": 23018849.28,
-        "Saldo Disponible %": 0.7672949760000001
+        "Saldo Disponible %": 0.7672949760000001,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019495,
@@ -3416,7 +3613,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80000,
         "Consumo": 71995.2,
         "Saldo Disponible": 8004.8,
-        "Saldo Disponible %": 0.10006
+        "Saldo Disponible %": 0.10006,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019483,
@@ -3434,7 +3632,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5100,
         "Consumo": 5100,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019481,
@@ -3451,7 +3650,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 32500,
         "Consumo": 32500,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019457,
@@ -3468,7 +3668,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10036000,
         "Consumo": 4621279.29,
         "Saldo Disponible": 5414720.71,
-        "Saldo Disponible %": 0.5395297638501395
+        "Saldo Disponible %": 0.5395297638501395,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019452,
@@ -3485,7 +3686,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 108367802.73,
         "Consumo": 108367802.73,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019439,
@@ -3502,7 +3704,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24892000,
         "Consumo": 24891027.16,
         "Saldo Disponible": 972.84,
-        "Saldo Disponible %": 0.000039082436124055926
+        "Saldo Disponible %": 0.000039082436124055926,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019438,
@@ -3519,7 +3722,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24892000,
         "Consumo": 24736512.04,
         "Saldo Disponible": 155487.96,
-        "Saldo Disponible %": 0.006246503294231078
+        "Saldo Disponible %": 0.006246503294231078,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019437,
@@ -3536,7 +3740,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 19558000,
         "Consumo": 19539302.25,
         "Saldo Disponible": 18697.75,
-        "Saldo Disponible %": 0.0009560154412516617
+        "Saldo Disponible %": 0.0009560154412516617,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019435,
@@ -3553,7 +3758,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 19558000,
         "Consumo": 19538082.32,
         "Saldo Disponible": 19917.68,
-        "Saldo Disponible %": 0.0010183904284691687
+        "Saldo Disponible %": 0.0010183904284691687,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019432,
@@ -3570,7 +3776,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22444.64,
         "Consumo": 21853.28,
         "Saldo Disponible": 591.36,
-        "Saldo Disponible %": 0.026347493209960153
+        "Saldo Disponible %": 0.026347493209960153,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019430,
@@ -3587,7 +3794,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8000000,
         "Consumo": 4443600,
         "Saldo Disponible": 3556400,
-        "Saldo Disponible %": 0.44455
+        "Saldo Disponible %": 0.44455,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019423,
@@ -3605,7 +3813,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80910.52,
         "Consumo": 53371.420000000006,
         "Saldo Disponible": 27539.1,
-        "Saldo Disponible %": 0.34036488703817497
+        "Saldo Disponible %": 0.34036488703817497,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019405,
@@ -3622,7 +3831,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 45000,
         "Consumo": 44999.99,
         "Saldo Disponible": 0.01,
-        "Saldo Disponible %": 2.2222222222222222e-7
+        "Saldo Disponible %": 2.2222222222222222e-7,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019401,
@@ -3639,7 +3849,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 17982585.6,
         "Consumo": 17982585.6,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019400,
@@ -3656,7 +3867,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 34582.2,
         "Consumo": 34582.2,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019395,
@@ -3674,7 +3886,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 82272.9,
         "Consumo": 82272.9,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019379,
@@ -3691,7 +3904,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 694497.12,
         "Consumo": 694497.12,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019362,
@@ -3708,7 +3922,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8224534,
         "Consumo": 6067397.38,
         "Saldo Disponible": 2157136.62,
-        "Saldo Disponible %": 0.2622807103721621
+        "Saldo Disponible %": 0.2622807103721621,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019361,
@@ -3725,7 +3940,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4015197,
         "Consumo": 138850.25999999978,
         "Saldo Disponible": 3876346.74,
-        "Saldo Disponible %": 0.9654188175573951
+        "Saldo Disponible %": 0.9654188175573951,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019357,
@@ -3742,7 +3958,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 110730300,
         "Consumo": 110730300,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019356,
@@ -3759,7 +3976,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16835728,
         "Consumo": 2929978.5600000005,
         "Saldo Disponible": 13905749.44,
-        "Saldo Disponible %": 0.8259666252626556
+        "Saldo Disponible %": 0.8259666252626556,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019349,
@@ -3777,7 +3995,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4019900,
         "Consumo": 0,
         "Saldo Disponible": 4019900,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019308,
@@ -3794,7 +4013,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11413788.64,
         "Consumo": 11413788.64,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019307,
@@ -3811,7 +4031,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 13440,
         "Consumo": 13440,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019293,
@@ -3829,7 +4050,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 50000,
         "Consumo": 49645,
         "Saldo Disponible": 355,
-        "Saldo Disponible %": 0.0071
+        "Saldo Disponible %": 0.0071,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019287,
@@ -3847,7 +4069,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10980,
         "Consumo": 10980,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019284,
@@ -3865,7 +4088,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25200,
         "Consumo": 0,
         "Saldo Disponible": 25200,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019283,
@@ -3883,7 +4107,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3541.5,
         "Consumo": 0,
         "Saldo Disponible": 3541.5,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019281,
@@ -3901,7 +4126,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 107562,
         "Consumo": 0,
         "Saldo Disponible": 107562,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019276,
@@ -3919,7 +4145,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 62080,
         "Consumo": 62060.6,
         "Saldo Disponible": 19.4,
-        "Saldo Disponible %": 0.00031249999999999995
+        "Saldo Disponible %": 0.00031249999999999995,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019268,
@@ -3937,7 +4164,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 17500,
         "Consumo": 10325,
         "Saldo Disponible": 7175,
-        "Saldo Disponible %": 0.41
+        "Saldo Disponible %": 0.41,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019260,
@@ -3954,7 +4182,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000000,
         "Consumo": 7827004.800000001,
         "Saldo Disponible": 12172995.2,
-        "Saldo Disponible %": 0.6086497599999999
+        "Saldo Disponible %": 0.6086497599999999,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019258,
@@ -3972,7 +4201,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 35536.18,
         "Consumo": 0,
         "Saldo Disponible": 35536.18,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019257,
@@ -3990,7 +4220,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 89410.5,
         "Consumo": 9061,
         "Saldo Disponible": 80349.5,
-        "Saldo Disponible %": 0.8986584349712842
+        "Saldo Disponible %": 0.8986584349712842,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019255,
@@ -4008,7 +4239,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 49973.67,
         "Consumo": 0,
         "Saldo Disponible": 49973.67,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019236,
@@ -4025,7 +4257,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000,
         "Consumo": 0,
         "Saldo Disponible": 20000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019230,
@@ -4043,7 +4276,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 204725.95,
         "Consumo": 511.5,
         "Saldo Disponible": 204214.45,
-        "Saldo Disponible %": 0.9975015380316955
+        "Saldo Disponible %": 0.9975015380316955,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019223,
@@ -4061,7 +4295,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 89880,
         "Consumo": 0,
         "Saldo Disponible": 89880,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019222,
@@ -4079,7 +4314,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 23392,
         "Consumo": 0,
         "Saldo Disponible": 23392,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019216,
@@ -4096,7 +4332,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3458502,
         "Consumo": 1075886,
         "Saldo Disponible": 2382616,
-        "Saldo Disponible %": 0.6889156056581722
+        "Saldo Disponible %": 0.6889156056581722,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019215,
@@ -4114,7 +4351,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 102695.68,
         "Consumo": 102695.68,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019212,
@@ -4131,7 +4369,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3000000,
         "Consumo": 0,
         "Saldo Disponible": 3000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019087,
@@ -4148,7 +4387,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 281300,
         "Consumo": 281300,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019082,
@@ -4166,7 +4406,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28804,
         "Consumo": 19930.309999999998,
         "Saldo Disponible": 8873.69,
-        "Saldo Disponible %": 0.3080714484099431
+        "Saldo Disponible %": 0.3080714484099431,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019080,
@@ -4184,7 +4425,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 81679,
         "Consumo": 33803,
         "Saldo Disponible": 47876,
-        "Saldo Disponible %": 0.586148214351302
+        "Saldo Disponible %": 0.586148214351302,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019079,
@@ -4202,7 +4444,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 223585,
         "Consumo": 58710.25,
         "Saldo Disponible": 164874.75,
-        "Saldo Disponible %": 0.7374141825256614
+        "Saldo Disponible %": 0.7374141825256614,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019078,
@@ -4220,7 +4463,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 41802,
         "Consumo": 16184.52,
         "Saldo Disponible": 25617.48,
-        "Saldo Disponible %": 0.6128290512415674
+        "Saldo Disponible %": 0.6128290512415674,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019074,
@@ -4237,7 +4481,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30000000,
         "Consumo": 29966981.84,
         "Saldo Disponible": 33018.16,
-        "Saldo Disponible %": 0.0011006053333333335
+        "Saldo Disponible %": 0.0011006053333333335,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019069,
@@ -4254,7 +4499,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000,
         "Consumo": 10000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019067,
@@ -4271,7 +4517,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 34052358,
         "Consumo": 7479308.34,
         "Saldo Disponible": 26573049.66,
-        "Saldo Disponible %": 0.7803585778112635
+        "Saldo Disponible %": 0.7803585778112635,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019066,
@@ -4288,7 +4535,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8513089.5,
         "Consumo": 1084226.71,
         "Saldo Disponible": 7428862.79,
-        "Saldo Disponible %": 0.8726400433121254
+        "Saldo Disponible %": 0.8726400433121254,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019065,
@@ -4305,7 +4553,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7432232.52,
         "Consumo": 2202679.6099999994,
         "Saldo Disponible": 5229552.91,
-        "Saldo Disponible %": 0.7036314991393731
+        "Saldo Disponible %": 0.7036314991393731,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019064,
@@ -4322,7 +4571,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 14864465.03,
         "Consumo": 5704977.129999999,
         "Saldo Disponible": 9159487.9,
-        "Saldo Disponible %": 0.6162003059991726
+        "Saldo Disponible %": 0.6162003059991726,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019063,
@@ -4339,7 +4589,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 48688706.9,
         "Consumo": 47550160.72,
         "Saldo Disponible": 1138546.18,
-        "Saldo Disponible %": 0.023384194251418904
+        "Saldo Disponible %": 0.023384194251418904,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019062,
@@ -4356,7 +4607,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 38171977.55,
         "Consumo": 38081652.26,
         "Saldo Disponible": 90325.29,
-        "Saldo Disponible %": 0.002366272218453613
+        "Saldo Disponible %": 0.002366272218453613,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019061,
@@ -4373,7 +4625,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 389500,
         "Consumo": 49395.20000000001,
         "Saldo Disponible": 340104.8,
-        "Saldo Disponible %": 0.873183055198973
+        "Saldo Disponible %": 0.873183055198973,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019060,
@@ -4390,7 +4643,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8380394.88,
         "Consumo": 8380394.88,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019059,
@@ -4407,7 +4661,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9904103.04,
         "Consumo": 9857915.01,
         "Saldo Disponible": 46188.03,
-        "Saldo Disponible %": 0.004663524784976389
+        "Saldo Disponible %": 0.004663524784976389,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019058,
@@ -4424,7 +4679,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9904103.04,
         "Consumo": 9904103.04,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019057,
@@ -4441,7 +4697,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9904103.04,
         "Consumo": 9904103.04,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019056,
@@ -4458,7 +4715,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30010.8,
         "Consumo": 0,
         "Saldo Disponible": 30010.8,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019055,
@@ -4475,7 +4733,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 33523.5,
         "Consumo": 0,
         "Saldo Disponible": 33523.5,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019054,
@@ -4492,7 +4751,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 17380,
         "Consumo": 4280,
         "Saldo Disponible": 13100,
-        "Saldo Disponible %": 0.7537399309551208
+        "Saldo Disponible %": 0.7537399309551208,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019044,
@@ -4510,7 +4770,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3610315.5,
         "Consumo": 0,
         "Saldo Disponible": 3610315.5,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019041,
@@ -4528,7 +4789,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4766726.97,
         "Consumo": 0,
         "Saldo Disponible": 4766726.97,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019034,
@@ -4545,7 +4807,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 95453,
         "Consumo": 95453,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019033,
@@ -4562,7 +4825,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 74058750,
         "Consumo": 34056312,
         "Saldo Disponible": 40002438,
-        "Saldo Disponible %": 0.5401446554255912
+        "Saldo Disponible %": 0.5401446554255912,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019025,
@@ -4579,7 +4843,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28335956,
         "Consumo": 28309725.55,
         "Saldo Disponible": 26230.45,
-        "Saldo Disponible %": 0.0009256949015589946
+        "Saldo Disponible %": 0.0009256949015589946,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019011,
@@ -4597,7 +4862,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 316036,
         "Consumo": 7640,
         "Saldo Disponible": 308396,
-        "Saldo Disponible %": 0.9758255388626612
+        "Saldo Disponible %": 0.9758255388626612,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019004,
@@ -4614,7 +4880,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 26302537.71,
         "Consumo": 26297210.85,
         "Saldo Disponible": 5326.86,
-        "Saldo Disponible %": 0.0002025226637342591
+        "Saldo Disponible %": 0.0002025226637342591,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019002,
@@ -4631,7 +4898,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 26302537.71,
         "Consumo": 26117937.11,
         "Saldo Disponible": 184600.6,
-        "Saldo Disponible %": 0.007018357013126396
+        "Saldo Disponible %": 0.007018357013126396,
+        "Hoy": 45239
       },
       {
         "NPA": 7600019000,
@@ -4648,7 +4916,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20666279.63,
         "Consumo": 20599269.98,
         "Saldo Disponible": 67009.65,
-        "Saldo Disponible %": 0.003242463142844835
+        "Saldo Disponible %": 0.003242463142844835,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018999,
@@ -4665,7 +4934,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20666279.63,
         "Consumo": 20666020.759999998,
         "Saldo Disponible": 258.87,
-        "Saldo Disponible %": 0.000012526202327399748
+        "Saldo Disponible %": 0.000012526202327399748,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018995,
@@ -4682,7 +4952,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 91820976.32,
         "Consumo": 70160320.6,
         "Saldo Disponible": 21660655.72,
-        "Saldo Disponible %": 0.23590095191878266
+        "Saldo Disponible %": 0.23590095191878266,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018994,
@@ -4699,7 +4970,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 91820976.32,
         "Consumo": 45692698.06999999,
         "Saldo Disponible": 46128278.25,
-        "Saldo Disponible %": 0.5023718990880798
+        "Saldo Disponible %": 0.5023718990880798,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018993,
@@ -4716,7 +4988,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 61213984.21,
         "Consumo": 27895758.75,
         "Saldo Disponible": 33318225.46,
-        "Saldo Disponible %": 0.5442910780925299
+        "Saldo Disponible %": 0.5442910780925299,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018987,
@@ -4733,7 +5006,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 32200,
         "Consumo": 22137.5,
         "Saldo Disponible": 10062.5,
-        "Saldo Disponible %": 0.3125
+        "Saldo Disponible %": 0.3125,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018986,
@@ -4750,7 +5024,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12513810,
         "Consumo": 7687970.1,
         "Saldo Disponible": 4825839.9,
-        "Saldo Disponible %": 0.38564113567330816
+        "Saldo Disponible %": 0.38564113567330816,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018982,
@@ -4768,7 +5043,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 21718.94,
         "Consumo": 21718.94,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018981,
@@ -4785,7 +5061,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 61213984.21,
         "Consumo": 49008315.6,
         "Saldo Disponible": 12205668.61,
-        "Saldo Disponible %": 0.19939346813511388
+        "Saldo Disponible %": 0.19939346813511388,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018978,
@@ -4803,7 +5080,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1036718.9,
         "Consumo": 1021793.76,
         "Saldo Disponible": 14925.14,
-        "Saldo Disponible %": 0.014396515776841725
+        "Saldo Disponible %": 0.014396515776841725,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018977,
@@ -4820,7 +5098,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15893400.02,
         "Consumo": 4368369.959999999,
         "Saldo Disponible": 11525030.06,
-        "Saldo Disponible %": 0.725145660808706
+        "Saldo Disponible %": 0.725145660808706,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018975,
@@ -4837,7 +5116,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 31786800.05,
         "Consumo": 6119847.59,
         "Saldo Disponible": 25666952.46,
-        "Saldo Disponible %": 0.8074720456172498
+        "Saldo Disponible %": 0.8074720456172498,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018974,
@@ -4854,7 +5134,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 47680200.07,
         "Consumo": 18800605.72,
         "Saldo Disponible": 28879594.35,
-        "Saldo Disponible %": 0.6056936486760006
+        "Saldo Disponible %": 0.6056936486760006,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018973,
@@ -4871,7 +5152,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 63573600.1,
         "Consumo": 11741515.86,
         "Saldo Disponible": 51832084.24,
-        "Saldo Disponible %": 0.815308306568594
+        "Saldo Disponible %": 0.815308306568594,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018972,
@@ -4888,7 +5170,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 71326911,
         "Consumo": 32204793,
         "Saldo Disponible": 39122118,
-        "Saldo Disponible %": 0.548490288609302
+        "Saldo Disponible %": 0.548490288609302,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018970,
@@ -4906,7 +5189,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1127800,
         "Consumo": 1127800,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018968,
@@ -4923,7 +5207,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 71086706.04,
         "Consumo": 25251771.830000006,
         "Saldo Disponible": 45834934.21,
-        "Saldo Disponible %": 0.6447750467465604
+        "Saldo Disponible %": 0.6447750467465604,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018967,
@@ -4941,7 +5226,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1696800,
         "Consumo": 856100,
         "Saldo Disponible": 840700,
-        "Saldo Disponible %": 0.4954620462046205
+        "Saldo Disponible %": 0.4954620462046205,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018966,
@@ -4958,7 +5244,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 26189839.07,
         "Consumo": 6737829.280000001,
         "Saldo Disponible": 19452009.79,
-        "Saldo Disponible %": 0.7427311690617425
+        "Saldo Disponible %": 0.7427311690617425,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018964,
@@ -4976,7 +5263,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6088400,
         "Consumo": 1869820,
         "Saldo Disponible": 4218580,
-        "Saldo Disponible %": 0.6928881151041324
+        "Saldo Disponible %": 0.6928881151041324,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018963,
@@ -4993,7 +5281,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 115983573.01,
         "Consumo": 58948710.970000006,
         "Saldo Disponible": 57034862.04,
-        "Saldo Disponible %": 0.4917494827916924
+        "Saldo Disponible %": 0.4917494827916924,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018962,
@@ -5010,7 +5299,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 127207789.75,
         "Consumo": 49982181.25,
         "Saldo Disponible": 77225608.5,
-        "Saldo Disponible %": 0.6070823858489374
+        "Saldo Disponible %": 0.6070823858489374,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018960,
@@ -5027,7 +5317,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6247172,
         "Consumo": 5913571.19,
         "Saldo Disponible": 333600.81,
-        "Saldo Disponible %": 0.053400292164198455
+        "Saldo Disponible %": 0.053400292164198455,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018959,
@@ -5044,7 +5335,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6500000,
         "Consumo": 6171806.92,
         "Saldo Disponible": 328193.08,
-        "Saldo Disponible %": 0.05049124307692308
+        "Saldo Disponible %": 0.05049124307692308,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018958,
@@ -5061,7 +5353,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10190404,
         "Consumo": 8707030.21,
         "Saldo Disponible": 1483373.79,
-        "Saldo Disponible %": 0.14556574891437082
+        "Saldo Disponible %": 0.14556574891437082,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018957,
@@ -5078,7 +5371,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1659676,
         "Consumo": 1566244.93,
         "Saldo Disponible": 93431.07,
-        "Saldo Disponible %": 0.05629476476131486
+        "Saldo Disponible %": 0.05629476476131486,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018945,
@@ -5096,7 +5390,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 21700,
         "Consumo": 21700,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018937,
@@ -5114,7 +5409,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12451.41,
         "Consumo": 12451.33,
         "Saldo Disponible": 0.08,
-        "Saldo Disponible %": 0.000006424975163455384
+        "Saldo Disponible %": 0.000006424975163455384,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018934,
@@ -5132,7 +5428,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 189940,
         "Consumo": 76623.35,
         "Saldo Disponible": 113316.65,
-        "Saldo Disponible %": 0.5965918184689902
+        "Saldo Disponible %": 0.5965918184689902,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018933,
@@ -5149,7 +5446,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 966000,
         "Consumo": 0,
         "Saldo Disponible": 966000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018919,
@@ -5166,7 +5464,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6000000,
         "Consumo": 2892845,
         "Saldo Disponible": 3107155,
-        "Saldo Disponible %": 0.5178591666666666
+        "Saldo Disponible %": 0.5178591666666666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018916,
@@ -5183,7 +5482,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 151208,
         "Consumo": 0,
         "Saldo Disponible": 151208,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018907,
@@ -5200,7 +5500,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 56671.97,
         "Consumo": 50562.57,
         "Saldo Disponible": 6109.4,
-        "Saldo Disponible %": 0.10780285209778308
+        "Saldo Disponible %": 0.10780285209778308,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018891,
@@ -5217,7 +5518,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6240,
         "Consumo": 6240,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018870,
@@ -5234,7 +5536,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3872340.43,
         "Consumo": 0,
         "Saldo Disponible": 3872340.43,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018869,
@@ -5251,7 +5554,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10235410.07,
         "Consumo": 0,
         "Saldo Disponible": 10235410.07,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018868,
@@ -5268,7 +5572,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3500000,
         "Consumo": 0,
         "Saldo Disponible": 3500000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018867,
@@ -5285,7 +5590,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11812885.28,
         "Consumo": 1329082.5599999987,
         "Saldo Disponible": 10483802.72,
-        "Saldo Disponible %": 0.8874887439861772
+        "Saldo Disponible %": 0.8874887439861772,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018866,
@@ -5302,7 +5608,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5579364.22,
         "Consumo": 665000,
         "Saldo Disponible": 4914364.22,
-        "Saldo Disponible %": 0.8808107924526211
+        "Saldo Disponible %": 0.8808107924526211,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018865,
@@ -5319,7 +5626,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16005150,
         "Consumo": 16005150,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018833,
@@ -5336,7 +5644,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 960000,
         "Consumo": 960000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018817,
@@ -5353,7 +5662,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 177000,
         "Consumo": 0,
         "Saldo Disponible": 177000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018798,
@@ -5370,7 +5680,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5214300,
         "Consumo": 4544237,
         "Saldo Disponible": 670063,
-        "Saldo Disponible %": 0.12850488080854572
+        "Saldo Disponible %": 0.12850488080854572,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018785,
@@ -5387,7 +5698,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 991992,
         "Consumo": 191047.01,
         "Saldo Disponible": 800944.99,
-        "Saldo Disponible %": 0.8074107351672191
+        "Saldo Disponible %": 0.8074107351672191,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018769,
@@ -5404,7 +5716,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 38623228,
         "Consumo": 34958577.06,
         "Saldo Disponible": 3664650.94,
-        "Saldo Disponible %": 0.09488204714530851
+        "Saldo Disponible %": 0.09488204714530851,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018767,
@@ -5421,7 +5734,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1286197.95,
         "Consumo": 822065.35,
         "Saldo Disponible": 464132.6,
-        "Saldo Disponible %": 0.3608562741061747
+        "Saldo Disponible %": 0.3608562741061747,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018733,
@@ -5438,7 +5752,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80824998,
         "Consumo": 53883332,
         "Saldo Disponible": 26941666,
-        "Saldo Disponible %": 0.3333333333333333
+        "Saldo Disponible %": 0.3333333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018710,
@@ -5455,7 +5770,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2888798,
         "Consumo": 2626180,
         "Saldo Disponible": 262618,
-        "Saldo Disponible %": 0.09090909090909091
+        "Saldo Disponible %": 0.09090909090909091,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018683,
@@ -5472,7 +5788,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 27951.87,
         "Consumo": 27951.87,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018657,
@@ -5489,7 +5806,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15205239.68,
         "Consumo": 9772389.77,
         "Saldo Disponible": 5432849.91,
-        "Saldo Disponible %": 0.3573011688297175
+        "Saldo Disponible %": 0.3573011688297175,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018649,
@@ -5506,7 +5824,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 27680.65,
         "Consumo": 17680.65,
         "Saldo Disponible": 10000,
-        "Saldo Disponible %": 0.36126319288022496
+        "Saldo Disponible %": 0.36126319288022496,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018647,
@@ -5523,7 +5842,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 109104507.2,
         "Consumo": 56066736,
         "Saldo Disponible": 53037771.2,
-        "Saldo Disponible %": 0.486118974927188
+        "Saldo Disponible %": 0.486118974927188,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018644,
@@ -5540,7 +5860,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30740887,
         "Consumo": 30740887,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018625,
@@ -5557,7 +5878,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 193259.7,
         "Consumo": 191684.7,
         "Saldo Disponible": 1575,
-        "Saldo Disponible %": 0.008149655618838278
+        "Saldo Disponible %": 0.008149655618838278,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018622,
@@ -5575,7 +5897,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12033860,
         "Consumo": 2430700,
         "Saldo Disponible": 9603160,
-        "Saldo Disponible %": 0.7980116105721689
+        "Saldo Disponible %": 0.7980116105721689,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018605,
@@ -5593,7 +5916,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 99000,
         "Consumo": 0,
         "Saldo Disponible": 99000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018602,
@@ -5611,7 +5935,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1528800,
         "Consumo": 0,
         "Saldo Disponible": 1528800,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018601,
@@ -5629,7 +5954,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1830060,
         "Consumo": 0,
         "Saldo Disponible": 1830060,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018595,
@@ -5646,7 +5972,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 47764415.2,
         "Consumo": 22435006.680000003,
         "Saldo Disponible": 25329408.52,
-        "Saldo Disponible %": 0.5302987258179599
+        "Saldo Disponible %": 0.5302987258179599,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018557,
@@ -5663,7 +5990,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2401.28,
         "Consumo": 2401.28,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018544,
@@ -5681,7 +6009,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 75840,
         "Consumo": 45504,
         "Saldo Disponible": 30336,
-        "Saldo Disponible %": 0.4
+        "Saldo Disponible %": 0.4,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018497,
@@ -5698,7 +6027,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4248.9,
         "Consumo": 4248.9,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018456,
@@ -5715,7 +6045,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80000,
         "Consumo": 77817.1,
         "Saldo Disponible": 2182.9,
-        "Saldo Disponible %": 0.02728625
+        "Saldo Disponible %": 0.02728625,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018455,
@@ -5732,7 +6063,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80000000,
         "Consumo": 29604642.25,
         "Saldo Disponible": 50395357.75,
-        "Saldo Disponible %": 0.629941971875
+        "Saldo Disponible %": 0.629941971875,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018451,
@@ -5749,7 +6081,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 60000,
         "Consumo": 256.73999999999796,
         "Saldo Disponible": 59743.26,
-        "Saldo Disponible %": 0.9957210000000001
+        "Saldo Disponible %": 0.9957210000000001,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018450,
@@ -5767,7 +6100,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1366676,
         "Consumo": 0,
         "Saldo Disponible": 1366676,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018445,
@@ -5785,7 +6119,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 27329,
         "Consumo": 23007,
         "Saldo Disponible": 4322,
-        "Saldo Disponible %": 0.1581470233085733
+        "Saldo Disponible %": 0.1581470233085733,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018430,
@@ -5802,7 +6137,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 36500,
         "Consumo": 8700,
         "Saldo Disponible": 27800,
-        "Saldo Disponible %": 0.7616438356164383
+        "Saldo Disponible %": 0.7616438356164383,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018421,
@@ -5819,7 +6155,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 717800.04,
         "Consumo": 202416.69000000006,
         "Saldo Disponible": 515383.35,
-        "Saldo Disponible %": 0.7180040697685109
+        "Saldo Disponible %": 0.7180040697685109,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018420,
@@ -5836,7 +6173,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 157200,
         "Consumo": 43400,
         "Saldo Disponible": 113800,
-        "Saldo Disponible %": 0.7239185750636132
+        "Saldo Disponible %": 0.7239185750636132,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018415,
@@ -5853,7 +6191,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 168364056.41,
         "Consumo": 117118253.55,
         "Saldo Disponible": 51245802.86,
-        "Saldo Disponible %": 0.3043749595531618
+        "Saldo Disponible %": 0.3043749595531618,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018412,
@@ -5871,7 +6210,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 483000,
         "Consumo": 326000,
         "Saldo Disponible": 157000,
-        "Saldo Disponible %": 0.3250517598343685
+        "Saldo Disponible %": 0.3250517598343685,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018403,
@@ -5888,7 +6228,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 18648630,
         "Consumo": 5189669.17,
         "Saldo Disponible": 13458960.83,
-        "Saldo Disponible %": 0.7217131140464473
+        "Saldo Disponible %": 0.7217131140464473,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018400,
@@ -5905,7 +6246,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2250,
         "Consumo": 2250,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018399,
@@ -5923,7 +6265,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 88862,
         "Consumo": 54766,
         "Saldo Disponible": 34096,
-        "Saldo Disponible %": 0.3836960680605883
+        "Saldo Disponible %": 0.3836960680605883,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018380,
@@ -5940,7 +6283,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 435000,
         "Consumo": 0,
         "Saldo Disponible": 435000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018376,
@@ -5957,7 +6301,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 79750,
         "Consumo": 78300,
         "Saldo Disponible": 1450,
-        "Saldo Disponible %": 0.01818181818181818
+        "Saldo Disponible %": 0.01818181818181818,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018375,
@@ -5974,7 +6319,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7920,
         "Consumo": 0,
         "Saldo Disponible": 7920,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018372,
@@ -5991,7 +6337,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1120092,
         "Consumo": 1120092,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018356,
@@ -6009,7 +6356,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3346000,
         "Consumo": 305920,
         "Saldo Disponible": 3040080,
-        "Saldo Disponible %": 0.9085714285714286
+        "Saldo Disponible %": 0.9085714285714286,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018351,
@@ -6027,7 +6375,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4176342,
         "Consumo": 4176276,
         "Saldo Disponible": 66,
-        "Saldo Disponible %": 0.000015803303465089786
+        "Saldo Disponible %": 0.000015803303465089786,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018323,
@@ -6044,7 +6393,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000,
         "Consumo": 0,
         "Saldo Disponible": 20000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018318,
@@ -6061,7 +6411,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000000,
         "Consumo": 2993043.780000001,
         "Saldo Disponible": 17006956.22,
-        "Saldo Disponible %": 0.8503478109999999
+        "Saldo Disponible %": 0.8503478109999999,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018310,
@@ -6078,7 +6429,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11340,
         "Consumo": 11340,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018305,
@@ -6095,7 +6447,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1250,
         "Consumo": 1250,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018297,
@@ -6112,7 +6465,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 43059.41,
         "Consumo": 43059.41,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018294,
@@ -6130,7 +6484,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 342174.4,
         "Consumo": 342174.4,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018289,
@@ -6147,7 +6502,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000,
         "Consumo": 10000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018275,
@@ -6165,7 +6521,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22594,
         "Consumo": 22593.48,
         "Saldo Disponible": 0.52,
-        "Saldo Disponible %": 0.000023014959723820486
+        "Saldo Disponible %": 0.000023014959723820486,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018271,
@@ -6182,7 +6539,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 138342.04,
         "Consumo": 138342.04,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018244,
@@ -6200,7 +6558,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15395920,
         "Consumo": 13655425,
         "Saldo Disponible": 1740495,
-        "Saldo Disponible %": 0.11304910651653165
+        "Saldo Disponible %": 0.11304910651653165,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018232,
@@ -6218,7 +6577,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25750,
         "Consumo": 12875,
         "Saldo Disponible": 12875,
-        "Saldo Disponible %": 0.5
+        "Saldo Disponible %": 0.5,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018231,
@@ -6236,7 +6596,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 203790.68,
         "Consumo": 87201.79999999999,
         "Saldo Disponible": 116588.88,
-        "Saldo Disponible %": 0.5721011382856174
+        "Saldo Disponible %": 0.5721011382856174,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018229,
@@ -6254,7 +6615,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 262297,
         "Consumo": 54585,
         "Saldo Disponible": 207712,
-        "Saldo Disponible %": 0.7918962092589698
+        "Saldo Disponible %": 0.7918962092589698,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018228,
@@ -6272,7 +6634,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 13588.2,
         "Consumo": 13588.2,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018210,
@@ -6289,7 +6652,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4000,
         "Consumo": 3999,
         "Saldo Disponible": 1,
-        "Saldo Disponible %": 0.00025
+        "Saldo Disponible %": 0.00025,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018187,
@@ -6307,7 +6671,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 374.4,
         "Consumo": 374.4,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018185,
@@ -6324,7 +6689,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11340,
         "Consumo": 11340,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018180,
@@ -6341,7 +6707,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2500,
         "Consumo": 0,
         "Saldo Disponible": 2500,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018179,
@@ -6358,7 +6725,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12500,
         "Consumo": 2500,
         "Saldo Disponible": 10000,
-        "Saldo Disponible %": 0.8
+        "Saldo Disponible %": 0.8,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018178,
@@ -6375,7 +6743,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15000,
         "Consumo": 2500,
         "Saldo Disponible": 12500,
-        "Saldo Disponible %": 0.8333333333333334
+        "Saldo Disponible %": 0.8333333333333334,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018147,
@@ -6392,7 +6761,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 71445595,
         "Consumo": 65880703.45,
         "Saldo Disponible": 5564891.55,
-        "Saldo Disponible %": 0.0778899181957964
+        "Saldo Disponible %": 0.0778899181957964,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018130,
@@ -6410,7 +6780,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 77387.55,
         "Consumo": 63180.520000000004,
         "Saldo Disponible": 14207.03,
-        "Saldo Disponible %": 0.18358288897891198
+        "Saldo Disponible %": 0.18358288897891198,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018122,
@@ -6427,7 +6798,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2000000,
         "Consumo": 800100,
         "Saldo Disponible": 1199900,
-        "Saldo Disponible %": 0.59995
+        "Saldo Disponible %": 0.59995,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018111,
@@ -6445,7 +6817,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 26700,
         "Consumo": 3560,
         "Saldo Disponible": 23140,
-        "Saldo Disponible %": 0.8666666666666667
+        "Saldo Disponible %": 0.8666666666666667,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018100,
@@ -6463,7 +6836,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 947.65,
         "Consumo": 568.5899999999999,
         "Saldo Disponible": 379.06,
-        "Saldo Disponible %": 0.4
+        "Saldo Disponible %": 0.4,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018095,
@@ -6480,7 +6854,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1500000,
         "Consumo": 304338,
         "Saldo Disponible": 1195662,
-        "Saldo Disponible %": 0.797108
+        "Saldo Disponible %": 0.797108,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018091,
@@ -6497,7 +6872,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 40607.01,
         "Consumo": 40607.01,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018070,
@@ -6515,7 +6891,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1582616,
         "Consumo": 390430,
         "Saldo Disponible": 1192186,
-        "Saldo Disponible %": 0.7533008638861227
+        "Saldo Disponible %": 0.7533008638861227,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018068,
@@ -6533,7 +6910,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 152640,
         "Consumo": 0,
         "Saldo Disponible": 152640,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018066,
@@ -6551,7 +6929,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 770220,
         "Consumo": 77800,
         "Saldo Disponible": 692420,
-        "Saldo Disponible %": 0.898989898989899
+        "Saldo Disponible %": 0.898989898989899,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018065,
@@ -6569,7 +6948,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 368054.54,
         "Consumo": 198315.46999999997,
         "Saldo Disponible": 169739.07,
-        "Saldo Disponible %": 0.46117912307235776
+        "Saldo Disponible %": 0.46117912307235776,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018064,
@@ -6587,7 +6967,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 47000,
         "Consumo": 0,
         "Saldo Disponible": 47000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600018059,
@@ -6604,7 +6985,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 50000000,
         "Consumo": 47891286.99,
         "Saldo Disponible": 2108713.01,
-        "Saldo Disponible %": 0.042174260199999994
+        "Saldo Disponible %": 0.042174260199999994,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017993,
@@ -6621,7 +7003,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3960000,
         "Consumo": 3960000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017984,
@@ -6638,7 +7021,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7000000,
         "Consumo": 7000000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017964,
@@ -6656,7 +7040,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24848,
         "Consumo": 0,
         "Saldo Disponible": 24848,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017960,
@@ -6673,7 +7058,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 181500,
         "Consumo": 181500,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017943,
@@ -6691,7 +7077,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28824,
         "Consumo": 28824,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017938,
@@ -6709,7 +7096,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 70440,
         "Consumo": 69760,
         "Saldo Disponible": 680,
-        "Saldo Disponible %": 0.009653605905735378
+        "Saldo Disponible %": 0.009653605905735378,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017937,
@@ -6726,7 +7114,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4228500,
         "Consumo": 2862669.44,
         "Saldo Disponible": 1365830.56,
-        "Saldo Disponible %": 0.32300592645146037
+        "Saldo Disponible %": 0.32300592645146037,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017936,
@@ -6743,7 +7132,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4228500,
         "Consumo": 4152182.44,
         "Saldo Disponible": 76317.56,
-        "Saldo Disponible %": 0.01804837649284616
+        "Saldo Disponible %": 0.01804837649284616,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017935,
@@ -6760,7 +7150,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5638000,
         "Consumo": 5318633.16,
         "Saldo Disponible": 319366.84,
-        "Saldo Disponible %": 0.056645413267116
+        "Saldo Disponible %": 0.056645413267116,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017934,
@@ -6777,7 +7168,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8457000,
         "Consumo": 4797832.5600000005,
         "Saldo Disponible": 3659167.44,
-        "Saldo Disponible %": 0.4326791344448386
+        "Saldo Disponible %": 0.4326791344448386,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017933,
@@ -6794,7 +7186,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8457000,
         "Consumo": 5671730.5600000005,
         "Saldo Disponible": 2785269.44,
-        "Saldo Disponible %": 0.32934485514958023
+        "Saldo Disponible %": 0.32934485514958023,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017932,
@@ -6811,7 +7204,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11276000,
         "Consumo": 6750219.83,
         "Saldo Disponible": 4525780.17,
-        "Saldo Disponible %": 0.4013639739269244
+        "Saldo Disponible %": 0.4013639739269244,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017931,
@@ -6828,7 +7222,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11276000,
         "Consumo": 7295793.32,
         "Saldo Disponible": 3980206.68,
-        "Saldo Disponible %": 0.352980372472508
+        "Saldo Disponible %": 0.352980372472508,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017930,
@@ -6845,7 +7240,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 14095000,
         "Consumo": 8070044.93,
         "Saldo Disponible": 6024955.07,
-        "Saldo Disponible %": 0.42745335721887195
+        "Saldo Disponible %": 0.42745335721887195,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017929,
@@ -6862,7 +7258,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16914000,
         "Consumo": 16891062.64,
         "Saldo Disponible": 22937.36,
-        "Saldo Disponible %": 0.0013561168262977415
+        "Saldo Disponible %": 0.0013561168262977415,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017928,
@@ -6879,7 +7276,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 19733000,
         "Consumo": 10596839.49,
         "Saldo Disponible": 9136160.51,
-        "Saldo Disponible %": 0.46298892768458927
+        "Saldo Disponible %": 0.46298892768458927,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017927,
@@ -6896,7 +7294,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22552000,
         "Consumo": 416869.8500000015,
         "Saldo Disponible": 22135130.15,
-        "Saldo Disponible %": 0.9815151716034054
+        "Saldo Disponible %": 0.9815151716034054,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017926,
@@ -6913,7 +7312,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22552000,
         "Consumo": 3031412.6499999985,
         "Saldo Disponible": 19520587.35,
-        "Saldo Disponible %": 0.8655812056580349
+        "Saldo Disponible %": 0.8655812056580349,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017925,
@@ -6930,7 +7330,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 33828000,
         "Consumo": 30531714.6,
         "Saldo Disponible": 3296285.4,
-        "Saldo Disponible %": 0.09744251507626818
+        "Saldo Disponible %": 0.09744251507626818,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017924,
@@ -6947,7 +7348,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 36647000,
         "Consumo": 36647000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017922,
@@ -6964,7 +7366,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 55000,
         "Consumo": 55000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017921,
@@ -6981,7 +7384,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25371000,
         "Consumo": 25309596.94,
         "Saldo Disponible": 61403.06,
-        "Saldo Disponible %": 0.0024202065350202987
+        "Saldo Disponible %": 0.0024202065350202987,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017919,
@@ -6998,7 +7402,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8000000,
         "Consumo": 7999998.67,
         "Saldo Disponible": 1.33,
-        "Saldo Disponible %": 1.6625e-7
+        "Saldo Disponible %": 1.6625e-7,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017909,
@@ -7015,7 +7420,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 31350,
         "Consumo": 10450,
         "Saldo Disponible": 20900,
-        "Saldo Disponible %": 0.6666666666666666
+        "Saldo Disponible %": 0.6666666666666666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017900,
@@ -7032,7 +7438,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3001000.02,
         "Consumo": 3001000.02,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017899,
@@ -7049,7 +7456,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1126060,
         "Consumo": 695105,
         "Saldo Disponible": 430955,
-        "Saldo Disponible %": 0.38271051276130935
+        "Saldo Disponible %": 0.38271051276130935,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017895,
@@ -7066,7 +7474,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25558950.11,
         "Consumo": 19058950.05,
         "Saldo Disponible": 6500000.06,
-        "Saldo Disponible %": 0.2543140478002991
+        "Saldo Disponible %": 0.2543140478002991,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017889,
@@ -7083,7 +7492,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 297298,
         "Consumo": 220124.53,
         "Saldo Disponible": 77173.47,
-        "Saldo Disponible %": 0.2595828764404739
+        "Saldo Disponible %": 0.2595828764404739,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017887,
@@ -7100,7 +7510,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 54691,
         "Consumo": 0,
         "Saldo Disponible": 54691,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017870,
@@ -7118,7 +7529,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 39900,
         "Consumo": 39900,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017868,
@@ -7136,7 +7548,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7592,
         "Consumo": 7586.25,
         "Saldo Disponible": 5.75,
-        "Saldo Disponible %": 0.0007573761854583772
+        "Saldo Disponible %": 0.0007573761854583772,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017864,
@@ -7154,7 +7567,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 72500,
         "Consumo": 14500,
         "Saldo Disponible": 58000,
-        "Saldo Disponible %": 0.8
+        "Saldo Disponible %": 0.8,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017859,
@@ -7172,7 +7586,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 32200,
         "Consumo": 12559,
         "Saldo Disponible": 19641,
-        "Saldo Disponible %": 0.6099689440993789
+        "Saldo Disponible %": 0.6099689440993789,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017858,
@@ -7189,7 +7604,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 312500,
         "Consumo": 312500,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017853,
@@ -7207,7 +7623,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 318940.5,
         "Consumo": 267400,
         "Saldo Disponible": 51540.5,
-        "Saldo Disponible %": 0.16159910704347677
+        "Saldo Disponible %": 0.16159910704347677,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017852,
@@ -7225,7 +7642,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1329600,
         "Consumo": 854300,
         "Saldo Disponible": 475300,
-        "Saldo Disponible %": 0.35747593261131166
+        "Saldo Disponible %": 0.35747593261131166,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017801,
@@ -7242,7 +7660,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2430,
         "Consumo": 2430,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017787,
@@ -7259,7 +7678,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 58140.57,
         "Consumo": 44391.45,
         "Saldo Disponible": 13749.12,
-        "Saldo Disponible %": 0.23648065369844157
+        "Saldo Disponible %": 0.23648065369844157,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017786,
@@ -7276,7 +7696,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1592302.16,
         "Consumo": 1543432.38,
         "Saldo Disponible": 48869.78,
-        "Saldo Disponible %": 0.03069127281721454
+        "Saldo Disponible %": 0.03069127281721454,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017784,
@@ -7293,7 +7714,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 26925.43,
         "Consumo": 26925.43,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017746,
@@ -7311,7 +7733,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 873660.55,
         "Consumo": 873660.55,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017743,
@@ -7328,7 +7751,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15672,
         "Consumo": 5224,
         "Saldo Disponible": 10448,
-        "Saldo Disponible %": 0.6666666666666666
+        "Saldo Disponible %": 0.6666666666666666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017727,
@@ -7346,7 +7770,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 399189,
         "Consumo": 0,
         "Saldo Disponible": 399189,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017696,
@@ -7363,7 +7788,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4051741,
         "Consumo": 4051741,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017668,
@@ -7381,7 +7807,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25073.01,
         "Consumo": 25073.01,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017667,
@@ -7399,7 +7826,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 62520,
         "Consumo": 62520,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017654,
@@ -7416,7 +7844,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 156160,
         "Consumo": 156159.71,
         "Saldo Disponible": 0.29,
-        "Saldo Disponible %": 0.0000018570696721311475
+        "Saldo Disponible %": 0.0000018570696721311475,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017651,
@@ -7433,7 +7862,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1540000,
         "Consumo": 0,
         "Saldo Disponible": 1540000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017642,
@@ -7450,7 +7880,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 843858,
         "Consumo": 580770,
         "Saldo Disponible": 263088,
-        "Saldo Disponible %": 0.31176809368400843
+        "Saldo Disponible %": 0.31176809368400843,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017627,
@@ -7467,7 +7898,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 259686,
         "Consumo": 259686,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017620,
@@ -7485,7 +7917,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 89375,
         "Consumo": 67866.5,
         "Saldo Disponible": 21508.5,
-        "Saldo Disponible %": 0.24065454545454545
+        "Saldo Disponible %": 0.24065454545454545,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017579,
@@ -7503,7 +7936,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 129200,
         "Consumo": 50320,
         "Saldo Disponible": 78880,
-        "Saldo Disponible %": 0.6105263157894737
+        "Saldo Disponible %": 0.6105263157894737,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017564,
@@ -7520,7 +7954,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5000000,
         "Consumo": 713469.0199999996,
         "Saldo Disponible": 4286530.98,
-        "Saldo Disponible %": 0.8573061960000001
+        "Saldo Disponible %": 0.8573061960000001,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017557,
@@ -7537,7 +7972,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 23063430.29,
         "Consumo": 10749903.94,
         "Saldo Disponible": 12313526.35,
-        "Saldo Disponible %": 0.5338983054632156
+        "Saldo Disponible %": 0.5338983054632156,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017551,
@@ -7555,7 +7991,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 505501.5,
         "Consumo": 505501.5,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017539,
@@ -7572,7 +8009,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 42515363,
         "Consumo": 42515363,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017531,
@@ -7589,7 +8027,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2060,
         "Consumo": 2060,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017522,
@@ -7606,7 +8045,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 84375,
         "Consumo": 84375,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017512,
@@ -7623,7 +8063,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10492350,
         "Consumo": 8855314.3,
         "Saldo Disponible": 1637035.7,
-        "Saldo Disponible %": 0.1560218349559441
+        "Saldo Disponible %": 0.1560218349559441,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017489,
@@ -7641,7 +8082,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 36074,
         "Consumo": 0,
         "Saldo Disponible": 36074,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017480,
@@ -7658,7 +8100,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5224000,
         "Consumo": 3800000,
         "Saldo Disponible": 1424000,
-        "Saldo Disponible %": 0.2725880551301684
+        "Saldo Disponible %": 0.2725880551301684,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017477,
@@ -7675,7 +8118,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11037,
         "Consumo": 0,
         "Saldo Disponible": 11037,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017473,
@@ -7692,7 +8136,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 112480,
         "Consumo": 25270,
         "Saldo Disponible": 87210,
-        "Saldo Disponible %": 0.7753378378378378
+        "Saldo Disponible %": 0.7753378378378378,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017470,
@@ -7709,7 +8154,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16000000,
         "Consumo": 15264302.02,
         "Saldo Disponible": 735697.98,
-        "Saldo Disponible %": 0.04598112375
+        "Saldo Disponible %": 0.04598112375,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017363,
@@ -7726,7 +8172,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2223626,
         "Consumo": 434524.01,
         "Saldo Disponible": 1789101.99,
-        "Saldo Disponible %": 0.804587637489398
+        "Saldo Disponible %": 0.804587637489398,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017362,
@@ -7743,7 +8190,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22616678,
         "Consumo": 3862788.8000000007,
         "Saldo Disponible": 18753889.2,
-        "Saldo Disponible %": 0.8292061813852591
+        "Saldo Disponible %": 0.8292061813852591,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017359,
@@ -7761,7 +8209,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 49775571,
         "Consumo": 6559494.340000004,
         "Saldo Disponible": 43216076.66,
-        "Saldo Disponible %": 0.8682186018519004
+        "Saldo Disponible %": 0.8682186018519004,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017358,
@@ -7778,7 +8227,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2104151,
         "Consumo": 1053864,
         "Saldo Disponible": 1050287,
-        "Saldo Disponible %": 0.4991500134733676
+        "Saldo Disponible %": 0.4991500134733676,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017339,
@@ -7796,7 +8246,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 252000,
         "Consumo": 0,
         "Saldo Disponible": 252000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017338,
@@ -7814,7 +8265,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 18176.4,
         "Consumo": 0,
         "Saldo Disponible": 18176.4,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017336,
@@ -7832,7 +8284,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 225745.8,
         "Consumo": 225466.96,
         "Saldo Disponible": 278.84,
-        "Saldo Disponible %": 0.0012351946304205881
+        "Saldo Disponible %": 0.0012351946304205881,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017332,
@@ -7849,7 +8302,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 32001,
         "Consumo": 30965.08,
         "Saldo Disponible": 1035.92,
-        "Saldo Disponible %": 0.03237148839098778
+        "Saldo Disponible %": 0.03237148839098778,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017331,
@@ -7866,7 +8320,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 560000,
         "Consumo": 550669.96,
         "Saldo Disponible": 9330.04,
-        "Saldo Disponible %": 0.016660785714285715
+        "Saldo Disponible %": 0.016660785714285715,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017326,
@@ -7884,7 +8339,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 111284,
         "Consumo": 94591.4,
         "Saldo Disponible": 16692.6,
-        "Saldo Disponible %": 0.15
+        "Saldo Disponible %": 0.15,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017313,
@@ -7901,7 +8357,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000,
         "Consumo": 10000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017306,
@@ -7918,7 +8375,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 35871,
         "Consumo": 18659,
         "Saldo Disponible": 17212,
-        "Saldo Disponible %": 0.479830503749547
+        "Saldo Disponible %": 0.479830503749547,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017290,
@@ -7935,7 +8393,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1000000,
         "Consumo": 0,
         "Saldo Disponible": 1000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017285,
@@ -7952,7 +8411,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 580,
         "Consumo": 580,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017283,
@@ -7969,7 +8429,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 126153,
         "Consumo": 12497.039999999994,
         "Saldo Disponible": 113655.96,
-        "Saldo Disponible %": 0.9009374331169295
+        "Saldo Disponible %": 0.9009374331169295,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017282,
@@ -7986,7 +8447,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 183648,
         "Consumo": 117503.4,
         "Saldo Disponible": 66144.6,
-        "Saldo Disponible %": 0.3601705436487193
+        "Saldo Disponible %": 0.3601705436487193,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017278,
@@ -8003,7 +8465,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 100000,
         "Consumo": 80848.94,
         "Saldo Disponible": 19151.06,
-        "Saldo Disponible %": 0.1915106
+        "Saldo Disponible %": 0.1915106,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017273,
@@ -8020,7 +8483,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5670,
         "Consumo": 5670,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017259,
@@ -8037,7 +8501,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 19319900,
         "Consumo": 12090994.2,
         "Saldo Disponible": 7228905.8,
-        "Saldo Disponible %": 0.37416890356575344
+        "Saldo Disponible %": 0.37416890356575344,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017258,
@@ -8054,7 +8519,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2918141,
         "Consumo": 2691066.3,
         "Saldo Disponible": 227074.7,
-        "Saldo Disponible %": 0.07781484856283505
+        "Saldo Disponible %": 0.07781484856283505,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017257,
@@ -8071,7 +8537,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1575539,
         "Consumo": 1512106.07,
         "Saldo Disponible": 63432.93,
-        "Saldo Disponible %": 0.040261097948067294
+        "Saldo Disponible %": 0.040261097948067294,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017226,
@@ -8088,7 +8555,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 55318911.51,
         "Consumo": 55318911.51,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017182,
@@ -8105,7 +8573,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28800,
         "Consumo": 26400,
         "Saldo Disponible": 2400,
-        "Saldo Disponible %": 0.08333333333333333
+        "Saldo Disponible %": 0.08333333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017181,
@@ -8122,7 +8591,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 27000000,
         "Consumo": 26554813.62,
         "Saldo Disponible": 445186.38,
-        "Saldo Disponible %": 0.016488384444444445
+        "Saldo Disponible %": 0.016488384444444445,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017160,
@@ -8139,7 +8609,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 150182,
         "Consumo": 40570,
         "Saldo Disponible": 109612,
-        "Saldo Disponible %": 0.7298611018630728
+        "Saldo Disponible %": 0.7298611018630728,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017140,
@@ -8156,7 +8627,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 81324,
         "Consumo": 81324,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017130,
@@ -8173,7 +8645,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 29913.14,
         "Consumo": 29913.14,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017110,
@@ -8191,7 +8664,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10710,
         "Consumo": 2625,
         "Saldo Disponible": 8085,
-        "Saldo Disponible %": 0.7549019607843137
+        "Saldo Disponible %": 0.7549019607843137,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017108,
@@ -8208,7 +8682,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1947439.68,
         "Consumo": 1785152.8199999998,
         "Saldo Disponible": 162286.86,
-        "Saldo Disponible %": 0.0833334463021725
+        "Saldo Disponible %": 0.0833334463021725,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017080,
@@ -8225,7 +8700,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16000000,
         "Consumo": 15968761.4,
         "Saldo Disponible": 31238.6,
-        "Saldo Disponible %": 0.0019524125
+        "Saldo Disponible %": 0.0019524125,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017065,
@@ -8243,7 +8719,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 40752.5,
         "Consumo": 556.4000000000015,
         "Saldo Disponible": 40196.1,
-        "Saldo Disponible %": 0.98634684988651
+        "Saldo Disponible %": 0.98634684988651,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017064,
@@ -8260,7 +8737,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 75000,
         "Consumo": 58215.369999999995,
         "Saldo Disponible": 16784.63,
-        "Saldo Disponible %": 0.22379506666666668
+        "Saldo Disponible %": 0.22379506666666668,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017062,
@@ -8277,7 +8755,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 250000,
         "Consumo": 84192.26000000001,
         "Saldo Disponible": 165807.74,
-        "Saldo Disponible %": 0.6632309599999999
+        "Saldo Disponible %": 0.6632309599999999,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017061,
@@ -8295,7 +8774,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 133166,
         "Consumo": 133165.47,
         "Saldo Disponible": 0.53,
-        "Saldo Disponible %": 0.000003979994893591458
+        "Saldo Disponible %": 0.000003979994893591458,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017034,
@@ -8313,7 +8793,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5500000,
         "Consumo": 2435967.58,
         "Saldo Disponible": 3064032.42,
-        "Saldo Disponible %": 0.5570968036363636
+        "Saldo Disponible %": 0.5570968036363636,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017033,
@@ -8330,7 +8811,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16500000,
         "Consumo": 16047150.1,
         "Saldo Disponible": 452849.9,
-        "Saldo Disponible %": 0.027445448484848485
+        "Saldo Disponible %": 0.027445448484848485,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017016,
@@ -8348,7 +8830,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 113098.56,
         "Consumo": 49891.2,
         "Saldo Disponible": 63207.36,
-        "Saldo Disponible %": 0.558869715052075
+        "Saldo Disponible %": 0.558869715052075,
+        "Hoy": 45239
       },
       {
         "NPA": 7600017000,
@@ -8365,7 +8848,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 54275,
         "Consumo": 54275,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016973,
@@ -8382,7 +8866,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16000,
         "Consumo": 16000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016937,
@@ -8400,7 +8885,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1105400,
         "Consumo": 160940,
         "Saldo Disponible": 944460,
-        "Saldo Disponible %": 0.8544056450153791
+        "Saldo Disponible %": 0.8544056450153791,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016920,
@@ -8417,7 +8903,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000,
         "Consumo": 10000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016903,
@@ -8434,7 +8921,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 259686,
         "Consumo": 0,
         "Saldo Disponible": 259686,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016879,
@@ -8451,7 +8939,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12000000,
         "Consumo": 11999204.12,
         "Saldo Disponible": 795.88,
-        "Saldo Disponible %": 0.00006632333333333333
+        "Saldo Disponible %": 0.00006632333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016877,
@@ -8469,7 +8958,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4000,
         "Consumo": 0,
         "Saldo Disponible": 4000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016859,
@@ -8486,7 +8976,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15000000,
         "Consumo": 0,
         "Saldo Disponible": 15000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016844,
@@ -8503,7 +8994,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 29430,
         "Consumo": 29430,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016843,
@@ -8520,7 +9012,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 86250,
         "Consumo": 86250,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016838,
@@ -8538,7 +9031,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 34280,
         "Consumo": 34280,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016808,
@@ -8556,7 +9050,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 277195.16,
         "Consumo": 2658,
         "Saldo Disponible": 274537.16,
-        "Saldo Disponible %": 0.9904110879858076
+        "Saldo Disponible %": 0.9904110879858076,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016807,
@@ -8574,7 +9069,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 32627.4,
         "Consumo": 2790,
         "Saldo Disponible": 29837.4,
-        "Saldo Disponible %": 0.9144890490814469
+        "Saldo Disponible %": 0.9144890490814469,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016806,
@@ -8592,7 +9088,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 379932.6,
         "Consumo": 125433.99999999997,
         "Saldo Disponible": 254498.6,
-        "Saldo Disponible %": 0.6698519684807254
+        "Saldo Disponible %": 0.6698519684807254,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016805,
@@ -8610,7 +9107,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 45137.29,
         "Consumo": 26046,
         "Saldo Disponible": 19091.29,
-        "Saldo Disponible %": 0.4229604834494938
+        "Saldo Disponible %": 0.4229604834494938,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016686,
@@ -8627,7 +9125,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15411.34,
         "Consumo": 15411.34,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016676,
@@ -8645,7 +9144,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5292,
         "Consumo": 5292,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016673,
@@ -8662,7 +9162,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 29000,
         "Consumo": 29000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016651,
@@ -8679,7 +9180,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 50000000,
         "Consumo": 27840708.5,
         "Saldo Disponible": 22159291.5,
-        "Saldo Disponible %": 0.44318583
+        "Saldo Disponible %": 0.44318583,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016650,
@@ -8696,7 +9198,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25000000,
         "Consumo": 4754063,
         "Saldo Disponible": 20245937,
-        "Saldo Disponible %": 0.80983748
+        "Saldo Disponible %": 0.80983748,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016624,
@@ -8713,7 +9216,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12050807,
         "Consumo": 8642741.75,
         "Saldo Disponible": 3408065.25,
-        "Saldo Disponible %": 0.28280805177611756
+        "Saldo Disponible %": 0.28280805177611756,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016623,
@@ -8730,7 +9234,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10575052,
         "Consumo": 8257118.58,
         "Saldo Disponible": 2317933.42,
-        "Saldo Disponible %": 0.21918884370497657
+        "Saldo Disponible %": 0.21918884370497657,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016594,
@@ -8748,7 +9253,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 326736.46,
         "Consumo": 136206.00000000003,
         "Saldo Disponible": 190530.46,
-        "Saldo Disponible %": 0.583131922283788
+        "Saldo Disponible %": 0.583131922283788,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016591,
@@ -8766,7 +9272,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 76900,
         "Consumo": 76860,
         "Saldo Disponible": 40,
-        "Saldo Disponible %": 0.0005201560468140442
+        "Saldo Disponible %": 0.0005201560468140442,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016576,
@@ -8783,7 +9290,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24000,
         "Consumo": 24000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016568,
@@ -8801,7 +9309,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 47750,
         "Consumo": 43500,
         "Saldo Disponible": 4250,
-        "Saldo Disponible %": 0.08900523560209424
+        "Saldo Disponible %": 0.08900523560209424,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016542,
@@ -8818,7 +9327,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 65189.2,
         "Consumo": 65133.86,
         "Saldo Disponible": 55.34,
-        "Saldo Disponible %": 0.0008489136237290841
+        "Saldo Disponible %": 0.0008489136237290841,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016530,
@@ -8835,7 +9345,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 19950,
         "Consumo": 19950,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016525,
@@ -8853,7 +9364,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12245,
         "Consumo": 12244.36,
         "Saldo Disponible": 0.64,
-        "Saldo Disponible %": 0.00005226623111474071
+        "Saldo Disponible %": 0.00005226623111474071,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016524,
@@ -8871,7 +9383,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4544,
         "Consumo": 4543.06,
         "Saldo Disponible": 0.94,
-        "Saldo Disponible %": 0.0002068661971830986
+        "Saldo Disponible %": 0.0002068661971830986,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016523,
@@ -8889,7 +9402,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 76847,
         "Consumo": 67877,
         "Saldo Disponible": 8970,
-        "Saldo Disponible %": 0.11672544146160553
+        "Saldo Disponible %": 0.11672544146160553,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016519,
@@ -8906,7 +9420,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 642255.2,
         "Consumo": 642255.2,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016515,
@@ -8923,7 +9438,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5862092,
         "Consumo": 5862092,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016514,
@@ -8940,7 +9456,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5506393,
         "Consumo": 5496737.52,
         "Saldo Disponible": 9655.48,
-        "Saldo Disponible %": 0.0017535036093500771
+        "Saldo Disponible %": 0.0017535036093500771,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016513,
@@ -8957,7 +9474,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000000,
         "Consumo": 9199035.15,
         "Saldo Disponible": 800964.85,
-        "Saldo Disponible %": 0.080096485
+        "Saldo Disponible %": 0.080096485,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016512,
@@ -8974,7 +9492,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7217250,
         "Consumo": 7204168.62,
         "Saldo Disponible": 13081.38,
-        "Saldo Disponible %": 0.0018125158474488203
+        "Saldo Disponible %": 0.0018125158474488203,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016511,
@@ -8991,7 +9510,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4541481,
         "Consumo": 4280777.05,
         "Saldo Disponible": 260703.95,
-        "Saldo Disponible %": 0.057405051347787214
+        "Saldo Disponible %": 0.057405051347787214,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016510,
@@ -9008,7 +9528,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5699341,
         "Consumo": 811814.5300000003,
         "Saldo Disponible": 4887526.47,
-        "Saldo Disponible %": 0.8575599301743833
+        "Saldo Disponible %": 0.8575599301743833,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016509,
@@ -9025,7 +9546,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7600000,
         "Consumo": 6827196.7,
         "Saldo Disponible": 772803.3,
-        "Saldo Disponible %": 0.1016846447368421
+        "Saldo Disponible %": 0.1016846447368421,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016508,
@@ -9042,7 +9564,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 54000000,
         "Consumo": 53989194.19,
         "Saldo Disponible": 10805.81,
-        "Saldo Disponible %": 0.00020010759259259258
+        "Saldo Disponible %": 0.00020010759259259258,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016507,
@@ -9059,7 +9582,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10088542,
         "Consumo": 10044596.82,
         "Saldo Disponible": 43945.18,
-        "Saldo Disponible %": 0.004355949551481274
+        "Saldo Disponible %": 0.004355949551481274,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016450,
@@ -9076,7 +9600,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 37035896.21,
         "Consumo": 32265761.22,
         "Saldo Disponible": 4770134.99,
-        "Saldo Disponible %": 0.12879761199654793
+        "Saldo Disponible %": 0.12879761199654793,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016439,
@@ -9093,7 +9618,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 43000,
         "Consumo": 43000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016380,
@@ -9111,7 +9637,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 613780,
         "Consumo": 8872,
         "Saldo Disponible": 604908,
-        "Saldo Disponible %": 0.9855453093942455
+        "Saldo Disponible %": 0.9855453093942455,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016379,
@@ -9129,7 +9656,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5715024,
         "Consumo": 152580,
         "Saldo Disponible": 5562444,
-        "Saldo Disponible %": 0.9733019493881391
+        "Saldo Disponible %": 0.9733019493881391,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016378,
@@ -9147,7 +9675,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 666780,
         "Consumo": 24800,
         "Saldo Disponible": 641980,
-        "Saldo Disponible %": 0.9628063229251027
+        "Saldo Disponible %": 0.9628063229251027,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016376,
@@ -9165,7 +9694,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 447109,
         "Consumo": 27850,
         "Saldo Disponible": 419259,
-        "Saldo Disponible %": 0.937710938495982
+        "Saldo Disponible %": 0.937710938495982,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016371,
@@ -9183,7 +9713,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 39475,
         "Consumo": 0,
         "Saldo Disponible": 39475,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016370,
@@ -9200,7 +9731,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 862195,
         "Consumo": 439813,
         "Saldo Disponible": 422382,
-        "Saldo Disponible %": 0.48989149786301245
+        "Saldo Disponible %": 0.48989149786301245,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016367,
@@ -9218,7 +9750,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7867.9,
         "Consumo": 1981.5,
         "Saldo Disponible": 5886.4,
-        "Saldo Disponible %": 0.7481538911272385
+        "Saldo Disponible %": 0.7481538911272385,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016366,
@@ -9236,7 +9769,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 223200.21,
         "Consumo": 222974.3,
         "Saldo Disponible": 225.91,
-        "Saldo Disponible %": 0.001012140624778086
+        "Saldo Disponible %": 0.001012140624778086,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016365,
@@ -9254,7 +9788,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 129022.42,
         "Consumo": 129019,
         "Saldo Disponible": 3.42,
-        "Saldo Disponible %": 0.000026507021027818266
+        "Saldo Disponible %": 0.000026507021027818266,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016351,
@@ -9272,7 +9807,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 39539,
         "Consumo": 0,
         "Saldo Disponible": 39539,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016348,
@@ -9290,7 +9826,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 37709,
         "Consumo": 37545,
         "Saldo Disponible": 164,
-        "Saldo Disponible %": 0.004349094380651833
+        "Saldo Disponible %": 0.004349094380651833,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016347,
@@ -9308,7 +9845,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 140457,
         "Consumo": 87216,
         "Saldo Disponible": 53241,
-        "Saldo Disponible %": 0.3790555116512527
+        "Saldo Disponible %": 0.3790555116512527,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016344,
@@ -9326,7 +9864,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 141203,
         "Consumo": 68654,
         "Saldo Disponible": 72549,
-        "Saldo Disponible %": 0.5137921998824387
+        "Saldo Disponible %": 0.5137921998824387,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016334,
@@ -9343,7 +9882,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 29998,
         "Consumo": 29998,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016332,
@@ -9360,7 +9900,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2000000,
         "Consumo": 1995525,
         "Saldo Disponible": 4475,
-        "Saldo Disponible %": 0.0022375
+        "Saldo Disponible %": 0.0022375,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016302,
@@ -9378,7 +9919,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80660,
         "Consumo": 32264,
         "Saldo Disponible": 48396,
-        "Saldo Disponible %": 0.6
+        "Saldo Disponible %": 0.6,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016295,
@@ -9395,7 +9937,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1069200,
         "Consumo": 490050,
         "Saldo Disponible": 579150,
-        "Saldo Disponible %": 0.5416666666666666
+        "Saldo Disponible %": 0.5416666666666666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016293,
@@ -9412,7 +9955,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 712150,
         "Consumo": 273250,
         "Saldo Disponible": 438900,
-        "Saldo Disponible %": 0.6163027452081724
+        "Saldo Disponible %": 0.6163027452081724,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016292,
@@ -9429,7 +9973,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15488338.92,
         "Consumo": 11814803.65,
         "Saldo Disponible": 3673535.27,
-        "Saldo Disponible %": 0.23718071311419883
+        "Saldo Disponible %": 0.23718071311419883,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016265,
@@ -9447,7 +9992,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 48312,
         "Consumo": 0,
         "Saldo Disponible": 48312,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016256,
@@ -9465,7 +10011,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 56800,
         "Consumo": 56800,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016240,
@@ -9483,7 +10030,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 56779.92,
         "Consumo": 0,
         "Saldo Disponible": 56779.92,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016222,
@@ -9501,7 +10049,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16432,
         "Consumo": 16432,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016217,
@@ -9518,7 +10067,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 61000,
         "Consumo": 27900.57,
         "Saldo Disponible": 33099.43,
-        "Saldo Disponible %": 0.542613606557377
+        "Saldo Disponible %": 0.542613606557377,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016215,
@@ -9535,7 +10085,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 27608200,
         "Consumo": 27535708,
         "Saldo Disponible": 72492,
-        "Saldo Disponible %": 0.0026257416274874856
+        "Saldo Disponible %": 0.0026257416274874856,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016213,
@@ -9552,7 +10103,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 48620000,
         "Consumo": 47348898.8,
         "Saldo Disponible": 1271101.2,
-        "Saldo Disponible %": 0.026143587001234057
+        "Saldo Disponible %": 0.026143587001234057,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016211,
@@ -9569,7 +10121,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80000000,
         "Consumo": 7424716.269999996,
         "Saldo Disponible": 72575283.73,
-        "Saldo Disponible %": 0.907191046625
+        "Saldo Disponible %": 0.907191046625,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016206,
@@ -9586,7 +10139,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 53200,
         "Consumo": 28721.36,
         "Saldo Disponible": 24478.64,
-        "Saldo Disponible %": 0.46012481203007516
+        "Saldo Disponible %": 0.46012481203007516,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016192,
@@ -9604,7 +10158,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 455683,
         "Consumo": 353492.1,
         "Saldo Disponible": 102190.9,
-        "Saldo Disponible %": 0.22425875005211957
+        "Saldo Disponible %": 0.22425875005211957,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016171,
@@ -9621,7 +10176,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 13388400,
         "Consumo": 13343036.49,
         "Saldo Disponible": 45363.51,
-        "Saldo Disponible %": 0.0033882696961548804
+        "Saldo Disponible %": 0.0033882696961548804,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016148,
@@ -9638,7 +10194,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 276069,
         "Consumo": 123616.79999999999,
         "Saldo Disponible": 152452.2,
-        "Saldo Disponible %": 0.5522249872314531
+        "Saldo Disponible %": 0.5522249872314531,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016140,
@@ -9656,7 +10213,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 201615,
         "Consumo": 0,
         "Saldo Disponible": 201615,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016138,
@@ -9673,7 +10231,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 70000000,
         "Consumo": 70000000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016107,
@@ -9690,7 +10249,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 78900,
         "Consumo": 78900,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016061,
@@ -9707,7 +10267,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 40000000,
         "Consumo": 39556686.44,
         "Saldo Disponible": 443313.56,
-        "Saldo Disponible %": 0.011082839
+        "Saldo Disponible %": 0.011082839,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016009,
@@ -9725,7 +10286,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 218127,
         "Consumo": 52530,
         "Saldo Disponible": 165597,
-        "Saldo Disponible %": 0.7591769932195465
+        "Saldo Disponible %": 0.7591769932195465,
+        "Hoy": 45239
       },
       {
         "NPA": 7600016000,
@@ -9743,7 +10305,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 27039.7,
         "Consumo": 0,
         "Saldo Disponible": 27039.7,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015996,
@@ -9761,7 +10324,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 31164.4,
         "Consumo": 0,
         "Saldo Disponible": 31164.4,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015972,
@@ -9779,7 +10343,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 56870,
         "Consumo": 56870,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015967,
@@ -9797,7 +10362,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 13870.17,
         "Consumo": 0,
         "Saldo Disponible": 13870.17,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015966,
@@ -9814,7 +10380,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7000000,
         "Consumo": 6800300,
         "Saldo Disponible": 199700,
-        "Saldo Disponible %": 0.028528571428571427
+        "Saldo Disponible %": 0.028528571428571427,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015965,
@@ -9831,7 +10398,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000000,
         "Consumo": 9997173,
         "Saldo Disponible": 2827,
-        "Saldo Disponible %": 0.0002827
+        "Saldo Disponible %": 0.0002827,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015961,
@@ -9849,7 +10417,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 593229.38,
         "Consumo": 161279,
         "Saldo Disponible": 431950.38,
-        "Saldo Disponible %": 0.7281338291100822
+        "Saldo Disponible %": 0.7281338291100822,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015947,
@@ -9866,7 +10435,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8000000,
         "Consumo": 7734900.32,
         "Saldo Disponible": 265099.68,
-        "Saldo Disponible %": 0.03313746
+        "Saldo Disponible %": 0.03313746,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015946,
@@ -9883,7 +10453,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5000000,
         "Consumo": 4969111.36,
         "Saldo Disponible": 30888.64,
-        "Saldo Disponible %": 0.0061777279999999995
+        "Saldo Disponible %": 0.0061777279999999995,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015945,
@@ -9900,7 +10471,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4000000,
         "Consumo": 3978433.19,
         "Saldo Disponible": 21566.81,
-        "Saldo Disponible %": 0.0053917025000000006
+        "Saldo Disponible %": 0.0053917025000000006,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015944,
@@ -9917,7 +10489,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2000000,
         "Consumo": 1597201.2,
         "Saldo Disponible": 402798.8,
-        "Saldo Disponible %": 0.2013994
+        "Saldo Disponible %": 0.2013994,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015943,
@@ -9935,7 +10508,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5810240,
         "Consumo": 0,
         "Saldo Disponible": 5810240,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015942,
@@ -9952,7 +10526,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5000000,
         "Consumo": 4954439,
         "Saldo Disponible": 45561,
-        "Saldo Disponible %": 0.0091122
+        "Saldo Disponible %": 0.0091122,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015939,
@@ -9970,7 +10545,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 127807.5,
         "Consumo": 45758.899999999994,
         "Saldo Disponible": 82048.6,
-        "Saldo Disponible %": 0.6419701504215324
+        "Saldo Disponible %": 0.6419701504215324,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015938,
@@ -9987,7 +10563,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 785352,
         "Consumo": 785352,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015882,
@@ -10004,7 +10581,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 60000000,
         "Consumo": 53313903.22,
         "Saldo Disponible": 6686096.78,
-        "Saldo Disponible %": 0.11143494633333334
+        "Saldo Disponible %": 0.11143494633333334,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015834,
@@ -10022,7 +10600,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15000,
         "Consumo": 9727.619999999999,
         "Saldo Disponible": 5272.38,
-        "Saldo Disponible %": 0.351492
+        "Saldo Disponible %": 0.351492,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015792,
@@ -10040,7 +10619,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 13600,
         "Consumo": 13600,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015791,
@@ -10058,7 +10638,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 26403,
         "Consumo": 12831,
         "Saldo Disponible": 13572,
-        "Saldo Disponible %": 0.5140324963072378
+        "Saldo Disponible %": 0.5140324963072378,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015752,
@@ -10075,7 +10656,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 21274800,
         "Consumo": 21274800,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015738,
@@ -10092,7 +10674,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 297000,
         "Consumo": 297000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015737,
@@ -10109,7 +10692,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7680,
         "Consumo": 7680,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015720,
@@ -10126,7 +10710,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 231725078,
         "Consumo": 185076871.31,
         "Saldo Disponible": 46648206.69,
-        "Saldo Disponible %": 0.2013084086220482
+        "Saldo Disponible %": 0.2013084086220482,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015700,
@@ -10143,7 +10728,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 420,
         "Consumo": 420,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015699,
@@ -10160,7 +10746,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16460126,
         "Consumo": 7580764,
         "Saldo Disponible": 8879362,
-        "Saldo Disponible %": 0.5394467818776114
+        "Saldo Disponible %": 0.5394467818776114,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015677,
@@ -10178,7 +10765,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 230400,
         "Consumo": 230400,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015664,
@@ -10195,7 +10783,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 103680,
         "Consumo": 95040,
         "Saldo Disponible": 8640,
-        "Saldo Disponible %": 0.08333333333333333
+        "Saldo Disponible %": 0.08333333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015653,
@@ -10212,7 +10801,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 90630,
         "Consumo": 90630,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015650,
@@ -10229,7 +10819,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1823393,
         "Consumo": 1709619.05,
         "Saldo Disponible": 113773.95,
-        "Saldo Disponible %": 0.06239683381476182
+        "Saldo Disponible %": 0.06239683381476182,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015648,
@@ -10246,7 +10837,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28012.09,
         "Consumo": 28012.09,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015556,
@@ -10263,7 +10855,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 21047.76,
         "Consumo": 21047.76,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015534,
@@ -10280,7 +10873,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 82234.5,
         "Consumo": 82234.5,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015515,
@@ -10297,7 +10891,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 43365,
         "Consumo": 40545,
         "Saldo Disponible": 2820,
-        "Saldo Disponible %": 0.06502940159114494
+        "Saldo Disponible %": 0.06502940159114494,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015492,
@@ -10314,7 +10909,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 85029.6,
         "Consumo": 42230.40000000001,
         "Saldo Disponible": 42799.2,
-        "Saldo Disponible %": 0.5033447176042225
+        "Saldo Disponible %": 0.5033447176042225,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015470,
@@ -10331,7 +10927,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30480,
         "Consumo": 0,
         "Saldo Disponible": 30480,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015463,
@@ -10349,7 +10946,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 26266.19,
         "Consumo": 10489.06,
         "Saldo Disponible": 15777.13,
-        "Saldo Disponible %": 0.6006630577179256
+        "Saldo Disponible %": 0.6006630577179256,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015462,
@@ -10367,7 +10965,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 123733.86,
         "Consumo": 17499,
         "Saldo Disponible": 106234.86,
-        "Saldo Disponible %": 0.8585754942099115
+        "Saldo Disponible %": 0.8585754942099115,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015444,
@@ -10384,7 +10983,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 222000,
         "Consumo": 222000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015434,
@@ -10401,7 +11001,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000000,
         "Consumo": 0,
         "Saldo Disponible": 10000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015419,
@@ -10418,7 +11019,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5400,
         "Consumo": 4950,
         "Saldo Disponible": 450,
-        "Saldo Disponible %": 0.08333333333333333
+        "Saldo Disponible %": 0.08333333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015417,
@@ -10435,7 +11037,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2039864.04,
         "Consumo": 2039864.04,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015411,
@@ -10452,7 +11055,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 122760,
         "Consumo": 122760,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015409,
@@ -10469,7 +11073,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 98220,
         "Consumo": 90035,
         "Saldo Disponible": 8185,
-        "Saldo Disponible %": 0.08333333333333333
+        "Saldo Disponible %": 0.08333333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015405,
@@ -10486,7 +11091,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 159456,
         "Consumo": 159456,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015375,
@@ -10503,7 +11109,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 718000,
         "Consumo": 718000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015372,
@@ -10520,7 +11127,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 19200,
         "Consumo": 19200,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015369,
@@ -10537,7 +11145,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 118303592.12,
         "Consumo": 69209319.75,
         "Saldo Disponible": 49094272.37,
-        "Saldo Disponible %": 0.41498547499894795
+        "Saldo Disponible %": 0.41498547499894795,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015361,
@@ -10554,7 +11163,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 298328.98,
         "Consumo": 298328.98,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015316,
@@ -10571,7 +11181,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12676240,
         "Consumo": 12676240,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015294,
@@ -10588,7 +11199,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 730000,
         "Consumo": 730000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015276,
@@ -10605,7 +11217,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 398000,
         "Consumo": 398000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015262,
@@ -10622,7 +11235,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 229908,
         "Consumo": 12750,
         "Saldo Disponible": 217158,
-        "Saldo Disponible %": 0.9445430346051464
+        "Saldo Disponible %": 0.9445430346051464,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015261,
@@ -10640,7 +11254,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 658300,
         "Consumo": 0,
         "Saldo Disponible": 658300,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015260,
@@ -10657,7 +11272,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 36122312,
         "Consumo": 9998800,
         "Saldo Disponible": 26123512,
-        "Saldo Disponible %": 0.7231960124811502
+        "Saldo Disponible %": 0.7231960124811502,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015259,
@@ -10674,7 +11290,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 74094.08,
         "Consumo": 17605.870000000003,
         "Saldo Disponible": 56488.21,
-        "Saldo Disponible %": 0.7623849300780845
+        "Saldo Disponible %": 0.7623849300780845,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015258,
@@ -10692,7 +11309,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1572920,
         "Consumo": 1569298.52,
         "Saldo Disponible": 3621.48,
-        "Saldo Disponible %": 0.002302393001551255
+        "Saldo Disponible %": 0.002302393001551255,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015244,
@@ -10709,7 +11327,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 29000000,
         "Consumo": 28951048.86,
         "Saldo Disponible": 48951.14,
-        "Saldo Disponible %": 0.0016879703448275862
+        "Saldo Disponible %": 0.0016879703448275862,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015226,
@@ -10726,7 +11345,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4774510,
         "Consumo": 4774510,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015212,
@@ -10743,7 +11363,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 281608,
         "Consumo": 78520,
         "Saldo Disponible": 203088,
-        "Saldo Disponible %": 0.721172693957558
+        "Saldo Disponible %": 0.721172693957558,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015207,
@@ -10760,7 +11381,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 188550,
         "Consumo": 188550,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015200,
@@ -10778,7 +11400,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30540,
         "Consumo": 5090,
         "Saldo Disponible": 25450,
-        "Saldo Disponible %": 0.8333333333333334
+        "Saldo Disponible %": 0.8333333333333334,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015191,
@@ -10795,7 +11418,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 249770,
         "Consumo": 249770,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015185,
@@ -10812,7 +11436,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 44880.17,
         "Consumo": 44880.17,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015183,
@@ -10829,7 +11454,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 193500,
         "Consumo": 47700,
         "Saldo Disponible": 145800,
-        "Saldo Disponible %": 0.7534883720930232
+        "Saldo Disponible %": 0.7534883720930232,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015182,
@@ -10847,7 +11473,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 189390,
         "Consumo": 189390,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015149,
@@ -10864,7 +11491,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11869656,
         "Consumo": 8417680,
         "Saldo Disponible": 3451976,
-        "Saldo Disponible %": 0.29082359252871354
+        "Saldo Disponible %": 0.29082359252871354,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015115,
@@ -10882,7 +11510,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 176138.47,
         "Consumo": 176138.47,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600015001,
@@ -10899,7 +11528,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 682787.52,
         "Consumo": 682787.52,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014995,
@@ -10916,7 +11546,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 635600,
         "Consumo": 378000,
         "Saldo Disponible": 257600,
-        "Saldo Disponible %": 0.4052863436123348
+        "Saldo Disponible %": 0.4052863436123348,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014988,
@@ -10933,7 +11564,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 54000,
         "Consumo": 0,
         "Saldo Disponible": 54000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014856,
@@ -10951,7 +11583,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 62480,
         "Consumo": 0,
         "Saldo Disponible": 62480,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014855,
@@ -10969,7 +11602,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 75143,
         "Consumo": 27750,
         "Saldo Disponible": 47393,
-        "Saldo Disponible %": 0.6307041241366461
+        "Saldo Disponible %": 0.6307041241366461,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014852,
@@ -10987,7 +11621,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 145162.8,
         "Consumo": 43898.499999999985,
         "Saldo Disponible": 101264.3,
-        "Saldo Disponible %": 0.6975912561620471
+        "Saldo Disponible %": 0.6975912561620471,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014813,
@@ -11004,7 +11639,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 14124336,
         "Consumo": 14124336,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014760,
@@ -11021,7 +11657,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20000000,
         "Consumo": 19906867.67,
         "Saldo Disponible": 93132.33,
-        "Saldo Disponible %": 0.0046566165
+        "Saldo Disponible %": 0.0046566165,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014755,
@@ -11039,7 +11676,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 38331,
         "Consumo": 22998.6,
         "Saldo Disponible": 15332.4,
-        "Saldo Disponible %": 0.39999999999999997
+        "Saldo Disponible %": 0.39999999999999997,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014746,
@@ -11056,7 +11694,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 53250,
         "Consumo": 53250,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014735,
@@ -11073,7 +11712,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 37098450,
         "Consumo": 37098450,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014715,
@@ -11091,7 +11731,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 53600,
         "Consumo": 0,
         "Saldo Disponible": 53600,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014714,
@@ -11109,7 +11750,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 637643,
         "Consumo": 66839.5,
         "Saldo Disponible": 570803.5,
-        "Saldo Disponible %": 0.8951772386743052
+        "Saldo Disponible %": 0.8951772386743052,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014709,
@@ -11126,7 +11768,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 160642.13,
         "Consumo": 160642.13,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014682,
@@ -11144,7 +11787,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4032,
         "Consumo": 0,
         "Saldo Disponible": 4032,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014681,
@@ -11162,7 +11806,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4722,
         "Consumo": 672,
         "Saldo Disponible": 4050,
-        "Saldo Disponible %": 0.8576874205844981
+        "Saldo Disponible %": 0.8576874205844981,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014679,
@@ -11180,7 +11825,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 44712,
         "Consumo": 35575.2,
         "Saldo Disponible": 9136.8,
-        "Saldo Disponible %": 0.2043478260869565
+        "Saldo Disponible %": 0.2043478260869565,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014666,
@@ -11198,7 +11844,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 495,
         "Consumo": 198,
         "Saldo Disponible": 297,
-        "Saldo Disponible %": 0.6
+        "Saldo Disponible %": 0.6,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014652,
@@ -11216,7 +11863,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4242.42,
         "Consumo": 764.5500000000002,
         "Saldo Disponible": 3477.87,
-        "Saldo Disponible %": 0.8197844626416054
+        "Saldo Disponible %": 0.8197844626416054,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014639,
@@ -11233,7 +11881,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11580471.05,
         "Consumo": 8558766.38,
         "Saldo Disponible": 3021704.67,
-        "Saldo Disponible %": 0.2609310672211386
+        "Saldo Disponible %": 0.2609310672211386,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014625,
@@ -11251,7 +11900,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 29929.8,
         "Consumo": 29929.8,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014557,
@@ -11269,7 +11919,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 105388.3,
         "Consumo": 14440,
         "Saldo Disponible": 90948.3,
-        "Saldo Disponible %": 0.8629828927879091
+        "Saldo Disponible %": 0.8629828927879091,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014556,
@@ -11286,7 +11937,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4000000,
         "Consumo": 0,
         "Saldo Disponible": 4000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014548,
@@ -11304,7 +11956,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1021951.6,
         "Consumo": 317240,
         "Saldo Disponible": 704711.6,
-        "Saldo Disponible %": 0.6895743399198162
+        "Saldo Disponible %": 0.6895743399198162,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014545,
@@ -11322,7 +11975,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1297523,
         "Consumo": 271297.68000000005,
         "Saldo Disponible": 1026225.32,
-        "Saldo Disponible %": 0.7909110821156927
+        "Saldo Disponible %": 0.7909110821156927,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014538,
@@ -11340,7 +11994,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 41296.78,
         "Consumo": 0,
         "Saldo Disponible": 41296.78,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014447,
@@ -11358,7 +12013,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1136828.87,
         "Consumo": 661217.1300000001,
         "Saldo Disponible": 475611.74,
-        "Saldo Disponible %": 0.4183670493871254
+        "Saldo Disponible %": 0.4183670493871254,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014446,
@@ -11376,7 +12032,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7508.21,
         "Consumo": 0,
         "Saldo Disponible": 7508.21,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014445,
@@ -11394,7 +12051,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 419556.96,
         "Consumo": 53750,
         "Saldo Disponible": 365806.96,
-        "Saldo Disponible %": 0.8718886703726713
+        "Saldo Disponible %": 0.8718886703726713,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014443,
@@ -11412,7 +12070,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 222230.21,
         "Consumo": 330,
         "Saldo Disponible": 221900.21,
-        "Saldo Disponible %": 0.9985150533764063
+        "Saldo Disponible %": 0.9985150533764063,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014425,
@@ -11430,7 +12089,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 278123,
         "Consumo": 105442.1,
         "Saldo Disponible": 172680.9,
-        "Saldo Disponible %": 0.6208796108196732
+        "Saldo Disponible %": 0.6208796108196732,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014401,
@@ -11448,7 +12108,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 107447.72,
         "Consumo": 48058.42,
         "Saldo Disponible": 59389.3,
-        "Saldo Disponible %": 0.5527274101302475
+        "Saldo Disponible %": 0.5527274101302475,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014369,
@@ -11465,7 +12126,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 320000,
         "Consumo": 289261.47,
         "Saldo Disponible": 30738.53,
-        "Saldo Disponible %": 0.09605790624999999
+        "Saldo Disponible %": 0.09605790624999999,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014364,
@@ -11483,7 +12145,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 52205.26,
         "Consumo": 13358.279999999999,
         "Saldo Disponible": 38846.98,
-        "Saldo Disponible %": 0.7441200369464687
+        "Saldo Disponible %": 0.7441200369464687,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014363,
@@ -11501,7 +12164,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2463.83,
         "Consumo": 147,
         "Saldo Disponible": 2316.83,
-        "Saldo Disponible %": 0.94033679271703
+        "Saldo Disponible %": 0.94033679271703,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014362,
@@ -11519,7 +12183,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9336.16,
         "Consumo": 3606.75,
         "Saldo Disponible": 5729.41,
-        "Saldo Disponible %": 0.6136794999228805
+        "Saldo Disponible %": 0.6136794999228805,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014361,
@@ -11537,7 +12202,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 14901.38,
         "Consumo": 0,
         "Saldo Disponible": 14901.38,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014360,
@@ -11555,7 +12221,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 33310,
         "Consumo": 0,
         "Saldo Disponible": 33310,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014359,
@@ -11573,7 +12240,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 43096.1,
         "Consumo": 43096.1,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014350,
@@ -11590,7 +12258,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 250000,
         "Consumo": 41022.880000000005,
         "Saldo Disponible": 208977.12,
-        "Saldo Disponible %": 0.83590848
+        "Saldo Disponible %": 0.83590848,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014341,
@@ -11607,7 +12276,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 220000,
         "Consumo": 220000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014299,
@@ -11625,7 +12295,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 32760,
         "Consumo": 32760,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014298,
@@ -11643,7 +12314,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 158100,
         "Consumo": 158100,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014282,
@@ -11661,7 +12333,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 91020,
         "Consumo": 42648,
         "Saldo Disponible": 48372,
-        "Saldo Disponible %": 0.5314436387607119
+        "Saldo Disponible %": 0.5314436387607119,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014234,
@@ -11679,7 +12352,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 180400,
         "Consumo": 93500,
         "Saldo Disponible": 86900,
-        "Saldo Disponible %": 0.4817073170731707
+        "Saldo Disponible %": 0.4817073170731707,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014233,
@@ -11697,7 +12371,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 139970,
         "Consumo": 46370,
         "Saldo Disponible": 93600,
-        "Saldo Disponible %": 0.6687147245838394
+        "Saldo Disponible %": 0.6687147245838394,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014210,
@@ -11714,7 +12389,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 115000000,
         "Consumo": 21186195.900000006,
         "Saldo Disponible": 93813804.1,
-        "Saldo Disponible %": 0.8157722095652173
+        "Saldo Disponible %": 0.8157722095652173,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014208,
@@ -11732,7 +12408,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 58260,
         "Consumo": 33130.1,
         "Saldo Disponible": 25129.9,
-        "Saldo Disponible %": 0.4313405423961552
+        "Saldo Disponible %": 0.4313405423961552,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014207,
@@ -11750,7 +12427,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 32114,
         "Consumo": 0,
         "Saldo Disponible": 32114,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014206,
@@ -11767,7 +12445,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7899470,
         "Consumo": 0,
         "Saldo Disponible": 7899470,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014205,
@@ -11784,7 +12463,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10335780,
         "Consumo": 6264680,
         "Saldo Disponible": 4071100,
-        "Saldo Disponible %": 0.39388415775103575
+        "Saldo Disponible %": 0.39388415775103575,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014191,
@@ -11801,7 +12481,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 190116,
         "Consumo": 190062,
         "Saldo Disponible": 54,
-        "Saldo Disponible %": 0.0002840371141829199
+        "Saldo Disponible %": 0.0002840371141829199,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014164,
@@ -11818,7 +12499,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 60000,
         "Consumo": 55374.58,
         "Saldo Disponible": 4625.42,
-        "Saldo Disponible %": 0.07709033333333333
+        "Saldo Disponible %": 0.07709033333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014118,
@@ -11835,7 +12517,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 570976,
         "Consumo": 47665,
         "Saldo Disponible": 523311,
-        "Saldo Disponible %": 0.9165201339460853
+        "Saldo Disponible %": 0.9165201339460853,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014077,
@@ -11853,7 +12536,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 240675,
         "Consumo": 190000,
         "Saldo Disponible": 50675,
-        "Saldo Disponible %": 0.21055365118936326
+        "Saldo Disponible %": 0.21055365118936326,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014076,
@@ -11871,7 +12555,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1534648.5,
         "Consumo": 307840,
         "Saldo Disponible": 1226808.5,
-        "Saldo Disponible %": 0.7994068348550173
+        "Saldo Disponible %": 0.7994068348550173,
+        "Hoy": 45239
       },
       {
         "NPA": 7600014003,
@@ -11889,7 +12574,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16720,
         "Consumo": 7600,
         "Saldo Disponible": 9120,
-        "Saldo Disponible %": 0.5454545454545454
+        "Saldo Disponible %": 0.5454545454545454,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013975,
@@ -11907,7 +12593,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9522214.83,
         "Consumo": 1039788.5199999996,
         "Saldo Disponible": 8482426.31,
-        "Saldo Disponible %": 0.8908039212973733
+        "Saldo Disponible %": 0.8908039212973733,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013971,
@@ -11925,7 +12612,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 144796,
         "Consumo": 39750,
         "Saldo Disponible": 105046,
-        "Saldo Disponible %": 0.7254758418740849
+        "Saldo Disponible %": 0.7254758418740849,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013966,
@@ -11943,7 +12631,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1145986,
         "Consumo": 1145660,
         "Saldo Disponible": 326,
-        "Saldo Disponible %": 0.00028447118900230893
+        "Saldo Disponible %": 0.00028447118900230893,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013965,
@@ -11961,7 +12650,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1397975,
         "Consumo": 1324310,
         "Saldo Disponible": 73665,
-        "Saldo Disponible %": 0.05269407535900141
+        "Saldo Disponible %": 0.05269407535900141,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013960,
@@ -11979,7 +12669,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 446400,
         "Consumo": 334800,
         "Saldo Disponible": 111600,
-        "Saldo Disponible %": 0.25
+        "Saldo Disponible %": 0.25,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013955,
@@ -11996,7 +12687,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2700000,
         "Consumo": 2700000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013870,
@@ -12013,7 +12705,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 60574.77,
         "Consumo": 56637.469999999994,
         "Saldo Disponible": 3937.3,
-        "Saldo Disponible %": 0.06499900866317776
+        "Saldo Disponible %": 0.06499900866317776,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013864,
@@ -12031,7 +12724,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 99915,
         "Consumo": 97224.98,
         "Saldo Disponible": 2690.02,
-        "Saldo Disponible %": 0.02692308462192864
+        "Saldo Disponible %": 0.02692308462192864,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013843,
@@ -12048,7 +12742,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 19200,
         "Consumo": 19200,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013842,
@@ -12066,7 +12761,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2394360,
         "Consumo": 1385629.15,
         "Saldo Disponible": 1008730.85,
-        "Saldo Disponible %": 0.42129456305651614
+        "Saldo Disponible %": 0.42129456305651614,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013840,
@@ -12084,7 +12780,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4341695,
         "Consumo": 1865732.3199999998,
         "Saldo Disponible": 2475962.68,
-        "Saldo Disponible %": 0.5702755905239775
+        "Saldo Disponible %": 0.5702755905239775,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013816,
@@ -12102,7 +12799,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1785809.5,
         "Consumo": 1233017.5,
         "Saldo Disponible": 552792,
-        "Saldo Disponible %": 0.3095470149531627
+        "Saldo Disponible %": 0.3095470149531627,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013815,
@@ -12120,7 +12818,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 918656,
         "Consumo": 359040,
         "Saldo Disponible": 559616,
-        "Saldo Disponible %": 0.6091681761181552
+        "Saldo Disponible %": 0.6091681761181552,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013768,
@@ -12138,7 +12837,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11869000,
         "Consumo": 0,
         "Saldo Disponible": 11869000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013755,
@@ -12155,7 +12855,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1500000,
         "Consumo": 853600,
         "Saldo Disponible": 646400,
-        "Saldo Disponible %": 0.43093333333333333
+        "Saldo Disponible %": 0.43093333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013754,
@@ -12172,7 +12873,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1200000,
         "Consumo": 309915,
         "Saldo Disponible": 890085,
-        "Saldo Disponible %": 0.7417375
+        "Saldo Disponible %": 0.7417375,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013753,
@@ -12189,7 +12891,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3700000,
         "Consumo": 0,
         "Saldo Disponible": 3700000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013750,
@@ -12206,7 +12909,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 700000,
         "Consumo": 0,
         "Saldo Disponible": 700000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013749,
@@ -12223,7 +12927,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2900000,
         "Consumo": 137835,
         "Saldo Disponible": 2762165,
-        "Saldo Disponible %": 0.9524706896551725
+        "Saldo Disponible %": 0.9524706896551725,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013698,
@@ -12241,7 +12946,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 82941,
         "Consumo": 29881.6,
         "Saldo Disponible": 53059.4,
-        "Saldo Disponible %": 0.6397246235275678
+        "Saldo Disponible %": 0.6397246235275678,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013692,
@@ -12259,7 +12965,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 189973,
         "Consumo": 179019.94,
         "Saldo Disponible": 10953.06,
-        "Saldo Disponible %": 0.057655877414158854
+        "Saldo Disponible %": 0.057655877414158854,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013684,
@@ -12276,7 +12983,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 70000000,
         "Consumo": 70000000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013683,
@@ -12294,7 +13002,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25915.58,
         "Consumo": 25915.58,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013663,
@@ -12311,7 +13020,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 238242.52,
         "Consumo": 238239.68,
         "Saldo Disponible": 2.84,
-        "Saldo Disponible %": 0.00001192062609142986
+        "Saldo Disponible %": 0.00001192062609142986,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013660,
@@ -12328,7 +13038,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 108844.39,
         "Consumo": 0,
         "Saldo Disponible": 108844.39,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013598,
@@ -12346,7 +13057,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1689.6,
         "Consumo": 767.9999999999999,
         "Saldo Disponible": 921.6,
-        "Saldo Disponible %": 0.5454545454545455
+        "Saldo Disponible %": 0.5454545454545455,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013597,
@@ -12364,7 +13076,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 23477.6,
         "Consumo": 651.7999999999993,
         "Saldo Disponible": 22825.8,
-        "Saldo Disponible %": 0.9722373666814326
+        "Saldo Disponible %": 0.9722373666814326,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013591,
@@ -12382,7 +13095,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 500000,
         "Consumo": 30115,
         "Saldo Disponible": 469885,
-        "Saldo Disponible %": 0.93977
+        "Saldo Disponible %": 0.93977,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013587,
@@ -12399,7 +13113,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 102670,
         "Consumo": 102670,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013571,
@@ -12416,7 +13131,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12187,
         "Consumo": 0,
         "Saldo Disponible": 12187,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013568,
@@ -12434,7 +13150,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 64513,
         "Consumo": 54775.26,
         "Saldo Disponible": 9737.74,
-        "Saldo Disponible %": 0.150942290701099
+        "Saldo Disponible %": 0.150942290701099,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013567,
@@ -12452,7 +13169,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 39114,
         "Consumo": 32359,
         "Saldo Disponible": 6755,
-        "Saldo Disponible %": 0.17270031190877946
+        "Saldo Disponible %": 0.17270031190877946,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013566,
@@ -12470,7 +13188,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 241620,
         "Consumo": 71450,
         "Saldo Disponible": 170170,
-        "Saldo Disponible %": 0.7042877245261154
+        "Saldo Disponible %": 0.7042877245261154,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013561,
@@ -12487,7 +13206,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 739200,
         "Consumo": 739200,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013559,
@@ -12504,7 +13224,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8772000,
         "Consumo": 8638140,
         "Saldo Disponible": 133860,
-        "Saldo Disponible %": 0.015259917920656636
+        "Saldo Disponible %": 0.015259917920656636,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013511,
@@ -12521,7 +13242,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 44666,
         "Consumo": 0,
         "Saldo Disponible": 44666,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013510,
@@ -12538,7 +13260,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8000000,
         "Consumo": 0,
         "Saldo Disponible": 8000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013477,
@@ -12556,7 +13279,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 63307.8,
         "Consumo": 6850,
         "Saldo Disponible": 56457.8,
-        "Saldo Disponible %": 0.8917984829673437
+        "Saldo Disponible %": 0.8917984829673437,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013474,
@@ -12574,7 +13298,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5883.44,
         "Consumo": 0,
         "Saldo Disponible": 5883.44,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013473,
@@ -12592,7 +13317,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 153905.36,
         "Consumo": 3786,
         "Saldo Disponible": 150119.36,
-        "Saldo Disponible %": 0.9754004668843242
+        "Saldo Disponible %": 0.9754004668843242,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013465,
@@ -12610,7 +13336,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22163,
         "Consumo": 22163,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013463,
@@ -12628,7 +13355,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 52760,
         "Consumo": 51910,
         "Saldo Disponible": 850,
-        "Saldo Disponible %": 0.01611068991660349
+        "Saldo Disponible %": 0.01611068991660349,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013442,
@@ -12645,7 +13373,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 77580,
         "Consumo": 77580,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013441,
@@ -12662,7 +13391,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 31230,
         "Consumo": 31230,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013348,
@@ -12680,7 +13410,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 169080.1,
         "Consumo": 2799,
         "Saldo Disponible": 166281.1,
-        "Saldo Disponible %": 0.9834457159653915
+        "Saldo Disponible %": 0.9834457159653915,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013346,
@@ -12698,7 +13429,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 23214,
         "Consumo": 0,
         "Saldo Disponible": 23214,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013344,
@@ -12716,7 +13448,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 51940,
         "Consumo": 0,
         "Saldo Disponible": 51940,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013343,
@@ -12734,7 +13467,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 14781,
         "Consumo": 0,
         "Saldo Disponible": 14781,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013266,
@@ -12751,7 +13485,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000,
         "Consumo": 9374.5,
         "Saldo Disponible": 625.5,
-        "Saldo Disponible %": 0.06255
+        "Saldo Disponible %": 0.06255,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013215,
@@ -12769,7 +13504,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 785211.82,
         "Consumo": 50979.04999999993,
         "Saldo Disponible": 734232.77,
-        "Saldo Disponible %": 0.9350760537455995
+        "Saldo Disponible %": 0.9350760537455995,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013213,
@@ -12787,7 +13523,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 237662.32,
         "Consumo": 4532,
         "Saldo Disponible": 233130.32,
-        "Saldo Disponible %": 0.9809309275445935
+        "Saldo Disponible %": 0.9809309275445935,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013187,
@@ -12804,7 +13541,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 61000,
         "Consumo": 61000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013180,
@@ -12821,7 +13559,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1200000,
         "Consumo": 1143714.39,
         "Saldo Disponible": 56285.61,
-        "Saldo Disponible %": 0.046904675
+        "Saldo Disponible %": 0.046904675,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013178,
@@ -12839,7 +13578,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 312480,
         "Consumo": 290160,
         "Saldo Disponible": 22320,
-        "Saldo Disponible %": 0.07142857142857142
+        "Saldo Disponible %": 0.07142857142857142,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013147,
@@ -12856,7 +13596,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10000000,
         "Consumo": 9999997.65,
         "Saldo Disponible": 2.35,
-        "Saldo Disponible %": 2.35e-7
+        "Saldo Disponible %": 2.35e-7,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013114,
@@ -12873,7 +13614,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1362925,
         "Consumo": 1362925,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013088,
@@ -12890,7 +13632,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 71400.3,
         "Consumo": 71400.29000000001,
         "Saldo Disponible": 0.01,
-        "Saldo Disponible %": 1.4005543394075376e-7
+        "Saldo Disponible %": 1.4005543394075376e-7,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013086,
@@ -12908,7 +13651,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 524901.14,
         "Consumo": 524899.71,
         "Saldo Disponible": 1.43,
-        "Saldo Disponible %": 0.0000027243225267142682
+        "Saldo Disponible %": 0.0000027243225267142682,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013085,
@@ -12926,7 +13670,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 105828.35,
         "Consumo": 0,
         "Saldo Disponible": 105828.35,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013081,
@@ -12944,7 +13689,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12606,
         "Consumo": 6967,
         "Saldo Disponible": 5639,
-        "Saldo Disponible %": 0.44732666983975883
+        "Saldo Disponible %": 0.44732666983975883,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013080,
@@ -12962,7 +13708,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 18771.97,
         "Consumo": 0,
         "Saldo Disponible": 18771.97,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013079,
@@ -12980,7 +13727,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 112704.6,
         "Consumo": 0,
         "Saldo Disponible": 112704.6,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013066,
@@ -12997,7 +13745,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 96000,
         "Consumo": 9796.220000000001,
         "Saldo Disponible": 86203.78,
-        "Saldo Disponible %": 0.8979560416666666
+        "Saldo Disponible %": 0.8979560416666666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013059,
@@ -13015,7 +13764,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15000,
         "Consumo": 14982.52,
         "Saldo Disponible": 17.48,
-        "Saldo Disponible %": 0.0011653333333333333
+        "Saldo Disponible %": 0.0011653333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013041,
@@ -13033,7 +13783,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 596505.1,
         "Consumo": 107877.5,
         "Saldo Disponible": 488627.6,
-        "Saldo Disponible %": 0.8191507499265304
+        "Saldo Disponible %": 0.8191507499265304,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013035,
@@ -13050,7 +13801,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 90000,
         "Consumo": 64433.85,
         "Saldo Disponible": 25566.15,
-        "Saldo Disponible %": 0.28406833333333337
+        "Saldo Disponible %": 0.28406833333333337,
+        "Hoy": 45239
       },
       {
         "NPA": 7600013024,
@@ -13068,7 +13820,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 32637.84,
         "Consumo": 21146.440000000002,
         "Saldo Disponible": 11491.4,
-        "Saldo Disponible %": 0.3520882509381748
+        "Saldo Disponible %": 0.3520882509381748,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012999,
@@ -13085,7 +13838,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 400000,
         "Consumo": 392236.41,
         "Saldo Disponible": 7763.59,
-        "Saldo Disponible %": 0.019408975000000002
+        "Saldo Disponible %": 0.019408975000000002,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012886,
@@ -13103,7 +13857,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 139119,
         "Consumo": 14959,
         "Saldo Disponible": 124160,
-        "Saldo Disponible %": 0.8924733501534657
+        "Saldo Disponible %": 0.8924733501534657,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012885,
@@ -13121,7 +13876,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 237745,
         "Consumo": 26294.399999999994,
         "Saldo Disponible": 211450.6,
-        "Saldo Disponible %": 0.8894008286188985
+        "Saldo Disponible %": 0.8894008286188985,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012878,
@@ -13139,7 +13895,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 161528,
         "Consumo": 54168,
         "Saldo Disponible": 107360,
-        "Saldo Disponible %": 0.6646525679758308
+        "Saldo Disponible %": 0.6646525679758308,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012856,
@@ -13157,7 +13914,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 72436,
         "Consumo": 0,
         "Saldo Disponible": 72436,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012846,
@@ -13174,7 +13932,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 253060,
         "Consumo": 95900,
         "Saldo Disponible": 157160,
-        "Saldo Disponible %": 0.6210384888959141
+        "Saldo Disponible %": 0.6210384888959141,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012710,
@@ -13192,7 +13951,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 17230.4,
         "Consumo": 12922.800000000001,
         "Saldo Disponible": 4307.6,
-        "Saldo Disponible %": 0.25
+        "Saldo Disponible %": 0.25,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012579,
@@ -13209,7 +13969,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22000000,
         "Consumo": 20312885.68,
         "Saldo Disponible": 1687114.32,
-        "Saldo Disponible %": 0.07668701454545455
+        "Saldo Disponible %": 0.07668701454545455,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012557,
@@ -13226,7 +13987,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 39235.32,
         "Consumo": 8786.739999999998,
         "Saldo Disponible": 30448.58,
-        "Saldo Disponible %": 0.776050252680493
+        "Saldo Disponible %": 0.776050252680493,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012556,
@@ -13243,7 +14005,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 34489.96,
         "Consumo": 9731.759999999998,
         "Saldo Disponible": 24758.2,
-        "Saldo Disponible %": 0.7178378867357341
+        "Saldo Disponible %": 0.7178378867357341,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012550,
@@ -13260,7 +14023,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 44610.17,
         "Consumo": 11896.949999999997,
         "Saldo Disponible": 32713.22,
-        "Saldo Disponible %": 0.733313053951599
+        "Saldo Disponible %": 0.733313053951599,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012549,
@@ -13277,7 +14041,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 80000,
         "Consumo": 40909.12,
         "Saldo Disponible": 39090.88,
-        "Saldo Disponible %": 0.48863599999999996
+        "Saldo Disponible %": 0.48863599999999996,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012507,
@@ -13295,7 +14060,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1364983,
         "Consumo": 139411.08000000007,
         "Saldo Disponible": 1225571.92,
-        "Saldo Disponible %": 0.897866068661661
+        "Saldo Disponible %": 0.897866068661661,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012497,
@@ -13312,7 +14078,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 647831,
         "Consumo": 647831,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012466,
@@ -13329,7 +14096,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9280110,
         "Consumo": 9280102.68,
         "Saldo Disponible": 7.32,
-        "Saldo Disponible %": 7.887837536408513e-7
+        "Saldo Disponible %": 7.887837536408513e-7,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012463,
@@ -13347,7 +14115,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8265350,
         "Consumo": 8229657.22,
         "Saldo Disponible": 35692.78,
-        "Saldo Disponible %": 0.004318362803753017
+        "Saldo Disponible %": 0.004318362803753017,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012394,
@@ -13365,7 +14134,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 259514.17,
         "Consumo": 116051.65000000002,
         "Saldo Disponible": 143462.52,
-        "Saldo Disponible %": 0.5528118946260236
+        "Saldo Disponible %": 0.5528118946260236,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012371,
@@ -13382,7 +14152,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 18300384,
         "Consumo": 7954030,
         "Saldo Disponible": 10346354,
-        "Saldo Disponible %": 0.5653626721712506
+        "Saldo Disponible %": 0.5653626721712506,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012369,
@@ -13399,7 +14170,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7600128,
         "Consumo": 1127250,
         "Saldo Disponible": 6472878,
-        "Saldo Disponible %": 0.8516801295978172
+        "Saldo Disponible %": 0.8516801295978172,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012364,
@@ -13416,7 +14188,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 15299885.07,
         "Consumo": 7730354.37,
         "Saldo Disponible": 7569530.7,
-        "Saldo Disponible %": 0.4947442850301097
+        "Saldo Disponible %": 0.4947442850301097,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012360,
@@ -13434,7 +14207,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 225000,
         "Consumo": 106500,
         "Saldo Disponible": 118500,
-        "Saldo Disponible %": 0.5266666666666666
+        "Saldo Disponible %": 0.5266666666666666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012358,
@@ -13451,7 +14225,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 399692,
         "Consumo": 345222,
         "Saldo Disponible": 54470,
-        "Saldo Disponible %": 0.1362799355503738
+        "Saldo Disponible %": 0.1362799355503738,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012302,
@@ -13469,7 +14244,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 48690.4,
         "Consumo": 0,
         "Saldo Disponible": 48690.4,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012300,
@@ -13487,7 +14263,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 23724,
         "Consumo": 0,
         "Saldo Disponible": 23724,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012173,
@@ -13505,7 +14282,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 328968,
         "Consumo": 17020,
         "Saldo Disponible": 311948,
-        "Saldo Disponible %": 0.9482624449794509
+        "Saldo Disponible %": 0.9482624449794509,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012172,
@@ -13523,7 +14301,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 398112,
         "Consumo": 75680,
         "Saldo Disponible": 322432,
-        "Saldo Disponible %": 0.8099027409372237
+        "Saldo Disponible %": 0.8099027409372237,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012116,
@@ -13541,7 +14320,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 506391,
         "Consumo": 0,
         "Saldo Disponible": 506391,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012093,
@@ -13558,7 +14338,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 182268.8,
         "Consumo": 182268.8,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600012050,
@@ -13575,7 +14356,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10615764,
         "Consumo": 10123890,
         "Saldo Disponible": 491874,
-        "Saldo Disponible %": 0.04633430057412731
+        "Saldo Disponible %": 0.04633430057412731,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011998,
@@ -13592,7 +14374,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25000,
         "Consumo": 25000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011995,
@@ -13609,7 +14392,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1981972,
         "Consumo": 239511.49,
         "Saldo Disponible": 1742460.51,
-        "Saldo Disponible %": 0.8791549577895147
+        "Saldo Disponible %": 0.8791549577895147,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011957,
@@ -13627,7 +14411,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 422803.88,
         "Consumo": 194619,
         "Saldo Disponible": 228184.88,
-        "Saldo Disponible %": 0.5396943850184156
+        "Saldo Disponible %": 0.5396943850184156,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011955,
@@ -13644,7 +14429,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 266804,
         "Consumo": 57120.67000000001,
         "Saldo Disponible": 209683.33,
-        "Saldo Disponible %": 0.7859077450113191
+        "Saldo Disponible %": 0.7859077450113191,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011952,
@@ -13661,7 +14447,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 440000,
         "Consumo": 439494.22,
         "Saldo Disponible": 505.78,
-        "Saldo Disponible %": 0.0011495
+        "Saldo Disponible %": 0.0011495,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011918,
@@ -13679,7 +14466,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 629274,
         "Consumo": 14954.819999999949,
         "Saldo Disponible": 614319.18,
-        "Saldo Disponible %": 0.9762348039168948
+        "Saldo Disponible %": 0.9762348039168948,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011861,
@@ -13696,7 +14484,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 131400,
         "Consumo": 92609.5,
         "Saldo Disponible": 38790.5,
-        "Saldo Disponible %": 0.29520928462709284
+        "Saldo Disponible %": 0.29520928462709284,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011795,
@@ -13714,7 +14503,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 466320.2,
         "Consumo": 6742,
         "Saldo Disponible": 459578.2,
-        "Saldo Disponible %": 0.9855421232020402
+        "Saldo Disponible %": 0.9855421232020402,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011794,
@@ -13732,7 +14522,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 254151.5,
         "Consumo": 1942.6000000000058,
         "Saldo Disponible": 252208.9,
-        "Saldo Disponible %": 0.9923565275042642
+        "Saldo Disponible %": 0.9923565275042642,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011793,
@@ -13750,7 +14541,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 91200,
         "Consumo": 0,
         "Saldo Disponible": 91200,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011669,
@@ -13767,7 +14559,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 609600,
         "Consumo": 609600,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011660,
@@ -13785,7 +14578,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 125196.4,
         "Consumo": 0,
         "Saldo Disponible": 125196.4,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011659,
@@ -13803,7 +14597,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 57889,
         "Consumo": 0,
         "Saldo Disponible": 57889,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011608,
@@ -13820,7 +14615,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4000000,
         "Consumo": 3833940,
         "Saldo Disponible": 166060,
-        "Saldo Disponible %": 0.041515
+        "Saldo Disponible %": 0.041515,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011588,
@@ -13838,7 +14634,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 360000,
         "Consumo": 180000,
         "Saldo Disponible": 180000,
-        "Saldo Disponible %": 0.5
+        "Saldo Disponible %": 0.5,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011480,
@@ -13856,7 +14653,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3754325,
         "Consumo": 2052889.04,
         "Saldo Disponible": 1701435.96,
-        "Saldo Disponible %": 0.4531935727460995
+        "Saldo Disponible %": 0.4531935727460995,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011459,
@@ -13873,7 +14671,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 47880,
         "Consumo": 19500,
         "Saldo Disponible": 28380,
-        "Saldo Disponible %": 0.5927318295739349
+        "Saldo Disponible %": 0.5927318295739349,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011458,
@@ -13890,7 +14689,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 320000,
         "Consumo": 130000,
         "Saldo Disponible": 190000,
-        "Saldo Disponible %": 0.59375
+        "Saldo Disponible %": 0.59375,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011445,
@@ -13908,7 +14708,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 73193040,
         "Consumo": 40213235,
         "Saldo Disponible": 32979805,
-        "Saldo Disponible %": 0.450586626815883
+        "Saldo Disponible %": 0.450586626815883,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011443,
@@ -13926,7 +14727,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 257090400,
         "Consumo": 172539590,
         "Saldo Disponible": 84550810,
-        "Saldo Disponible %": 0.328875796217984
+        "Saldo Disponible %": 0.328875796217984,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011442,
@@ -13944,7 +14746,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 626730240,
         "Consumo": 511618390,
         "Saldo Disponible": 115111850,
-        "Saldo Disponible %": 0.18367048955544255
+        "Saldo Disponible %": 0.18367048955544255,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011420,
@@ -13961,7 +14764,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 103757,
         "Consumo": 87677.68,
         "Saldo Disponible": 16079.32,
-        "Saldo Disponible %": 0.15497094171959483
+        "Saldo Disponible %": 0.15497094171959483,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011415,
@@ -13978,7 +14782,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 99961565,
         "Consumo": 65180379.48,
         "Saldo Disponible": 34781185.52,
-        "Saldo Disponible %": 0.34794558808678117
+        "Saldo Disponible %": 0.34794558808678117,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011414,
@@ -13995,7 +14800,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 385232,
         "Consumo": 58410.79999999999,
         "Saldo Disponible": 326821.2,
-        "Saldo Disponible %": 0.8483750051916767
+        "Saldo Disponible %": 0.8483750051916767,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011375,
@@ -14013,7 +14819,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24689.1,
         "Consumo": 24689.1,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011336,
@@ -14030,7 +14837,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 71850,
         "Consumo": 71850,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011321,
@@ -14048,7 +14856,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 151360,
         "Consumo": 0,
         "Saldo Disponible": 151360,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011280,
@@ -14066,7 +14875,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 167407.2,
         "Consumo": 37680.000000000015,
         "Saldo Disponible": 129727.2,
-        "Saldo Disponible %": 0.774920075122217
+        "Saldo Disponible %": 0.774920075122217,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011279,
@@ -14084,7 +14894,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 169560,
         "Consumo": 0,
         "Saldo Disponible": 169560,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011278,
@@ -14102,7 +14913,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1237472,
         "Consumo": 53466,
         "Saldo Disponible": 1184006,
-        "Saldo Disponible %": 0.9567941739287839
+        "Saldo Disponible %": 0.9567941739287839,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011277,
@@ -14120,7 +14932,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1852061,
         "Consumo": 936334.72,
         "Saldo Disponible": 915726.28,
-        "Saldo Disponible %": 0.4944363495586809
+        "Saldo Disponible %": 0.4944363495586809,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011276,
@@ -14138,7 +14951,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 651956,
         "Consumo": 51507,
         "Saldo Disponible": 600449,
-        "Saldo Disponible %": 0.9209962021976943
+        "Saldo Disponible %": 0.9209962021976943,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011275,
@@ -14156,7 +14970,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2034344,
         "Consumo": 62610.320000000065,
         "Saldo Disponible": 1971733.68,
-        "Saldo Disponible %": 0.9692233368594495
+        "Saldo Disponible %": 0.9692233368594495,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011268,
@@ -14173,7 +14988,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 41422774,
         "Consumo": 22657760.95,
         "Saldo Disponible": 18765013.05,
-        "Saldo Disponible %": 0.4530119844219028
+        "Saldo Disponible %": 0.4530119844219028,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011267,
@@ -14190,7 +15006,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 126598,
         "Consumo": 2841.199999999997,
         "Saldo Disponible": 123756.8,
-        "Saldo Disponible %": 0.9775573073824231
+        "Saldo Disponible %": 0.9775573073824231,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011260,
@@ -14208,7 +15025,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3894329,
         "Consumo": 3473087.27,
         "Saldo Disponible": 421241.73,
-        "Saldo Disponible %": 0.10816798734775618
+        "Saldo Disponible %": 0.10816798734775618,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011243,
@@ -14226,7 +15044,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1174456,
         "Consumo": 247000,
         "Saldo Disponible": 927456,
-        "Saldo Disponible %": 0.7896898649246971
+        "Saldo Disponible %": 0.7896898649246971,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011221,
@@ -14244,7 +15063,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 289800,
         "Consumo": 289800,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011220,
@@ -14262,7 +15082,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 281520,
         "Consumo": 0,
         "Saldo Disponible": 281520,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011219,
@@ -14280,7 +15101,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 287040,
         "Consumo": 0,
         "Saldo Disponible": 287040,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011218,
@@ -14298,7 +15120,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 426696,
         "Consumo": 0,
         "Saldo Disponible": 426696,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011208,
@@ -14315,7 +15138,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1879908,
         "Consumo": 888215.15,
         "Saldo Disponible": 991692.85,
-        "Saldo Disponible %": 0.5275220117154669
+        "Saldo Disponible %": 0.5275220117154669,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011196,
@@ -14332,7 +15156,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25027920,
         "Consumo": 22960296.42,
         "Saldo Disponible": 2067623.58,
-        "Saldo Disponible %": 0.08261268135745999
+        "Saldo Disponible %": 0.08261268135745999,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011195,
@@ -14349,7 +15174,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25027920,
         "Consumo": 23105768.12,
         "Saldo Disponible": 1922151.88,
-        "Saldo Disponible %": 0.0768003046198006
+        "Saldo Disponible %": 0.0768003046198006,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011194,
@@ -14366,7 +15192,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25027920,
         "Consumo": 22607921.1,
         "Saldo Disponible": 2419998.9,
-        "Saldo Disponible %": 0.09669197040744895
+        "Saldo Disponible %": 0.09669197040744895,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011192,
@@ -14384,7 +15211,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 240000,
         "Consumo": 0,
         "Saldo Disponible": 240000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011191,
@@ -14402,7 +15230,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 50485,
         "Consumo": 0,
         "Saldo Disponible": 50485,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011141,
@@ -14420,7 +15249,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 109307.4,
         "Consumo": 100993.5,
         "Saldo Disponible": 8313.9,
-        "Saldo Disponible %": 0.07605980930842743
+        "Saldo Disponible %": 0.07605980930842743,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011112,
@@ -14438,7 +15268,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9040,
         "Consumo": 0,
         "Saldo Disponible": 9040,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011110,
@@ -14456,7 +15287,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 25151.95,
         "Consumo": 4166.549999999999,
         "Saldo Disponible": 20985.4,
-        "Saldo Disponible %": 0.8343448519896072
+        "Saldo Disponible %": 0.8343448519896072,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011098,
@@ -14473,7 +15305,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 118265069,
         "Consumo": 108893237.26,
         "Saldo Disponible": 9371831.74,
-        "Saldo Disponible %": 0.07924429266599421
+        "Saldo Disponible %": 0.07924429266599421,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011078,
@@ -14490,7 +15323,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 840000,
         "Consumo": 697060,
         "Saldo Disponible": 142940,
-        "Saldo Disponible %": 0.17016666666666666
+        "Saldo Disponible %": 0.17016666666666666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011077,
@@ -14507,7 +15341,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5040000,
         "Consumo": 4526850,
         "Saldo Disponible": 513150,
-        "Saldo Disponible %": 0.10181547619047619
+        "Saldo Disponible %": 0.10181547619047619,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011076,
@@ -14524,7 +15359,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3840000,
         "Consumo": 3274982,
         "Saldo Disponible": 565018,
-        "Saldo Disponible %": 0.14714010416666667
+        "Saldo Disponible %": 0.14714010416666667,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011072,
@@ -14541,7 +15377,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5760000,
         "Consumo": 5562000,
         "Saldo Disponible": 198000,
-        "Saldo Disponible %": 0.034375
+        "Saldo Disponible %": 0.034375,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011053,
@@ -14559,7 +15396,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3040,
         "Consumo": 0,
         "Saldo Disponible": 3040,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011035,
@@ -14577,7 +15415,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 120850,
         "Consumo": 39659.92,
         "Saldo Disponible": 81190.08,
-        "Saldo Disponible %": 0.6718252378982209
+        "Saldo Disponible %": 0.6718252378982209,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011026,
@@ -14594,7 +15433,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 54040,
         "Consumo": 54040,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600011024,
@@ -14611,7 +15451,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24000,
         "Consumo": 24000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010907,
@@ -14629,7 +15470,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1116896.28,
         "Consumo": 1033736.2000000001,
         "Saldo Disponible": 83160.08,
-        "Saldo Disponible %": 0.07445640341822966
+        "Saldo Disponible %": 0.07445640341822966,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010863,
@@ -14647,7 +15489,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1651473.3,
         "Consumo": 1097248.6,
         "Saldo Disponible": 554224.7,
-        "Saldo Disponible %": 0.3355941025507345
+        "Saldo Disponible %": 0.3355941025507345,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010835,
@@ -14664,7 +15507,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 50400,
         "Consumo": 50400,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010820,
@@ -14682,7 +15526,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2087830.85,
         "Consumo": 160510.78000000003,
         "Saldo Disponible": 1927320.07,
-        "Saldo Disponible %": 0.9231207930470038
+        "Saldo Disponible %": 0.9231207930470038,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010742,
@@ -14699,7 +15544,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 88630,
         "Consumo": 0,
         "Saldo Disponible": 88630,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010635,
@@ -14717,7 +15563,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 160000,
         "Consumo": 160000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010600,
@@ -14735,7 +15582,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 133950,
         "Consumo": 44650,
         "Saldo Disponible": 89300,
-        "Saldo Disponible %": 0.6666666666666666
+        "Saldo Disponible %": 0.6666666666666666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010539,
@@ -14752,7 +15600,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 108884,
         "Consumo": 80418.95999999999,
         "Saldo Disponible": 28465.04,
-        "Saldo Disponible %": 0.2614253701186584
+        "Saldo Disponible %": 0.2614253701186584,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010503,
@@ -14769,7 +15618,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 133600,
         "Consumo": 133600,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010496,
@@ -14786,7 +15636,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 36910000,
         "Consumo": 18909547.04,
         "Saldo Disponible": 18000452.96,
-        "Saldo Disponible %": 0.4876849894337578
+        "Saldo Disponible %": 0.4876849894337578,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010489,
@@ -14803,7 +15654,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 23310000,
         "Consumo": 8449663.86,
         "Saldo Disponible": 14860336.14,
-        "Saldo Disponible %": 0.637509057915058
+        "Saldo Disponible %": 0.637509057915058,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010486,
@@ -14820,7 +15672,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 23400001,
         "Consumo": 15600000.24,
         "Saldo Disponible": 7800000.76,
-        "Saldo Disponible %": 0.33333335156695076
+        "Saldo Disponible %": 0.33333335156695076,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010471,
@@ -14838,7 +15691,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 222506.86,
         "Consumo": 222080.9,
         "Saldo Disponible": 425.96,
-        "Saldo Disponible %": 0.001914367943532168
+        "Saldo Disponible %": 0.001914367943532168,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010383,
@@ -14856,7 +15710,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 141860000,
         "Consumo": 108330412.11,
         "Saldo Disponible": 33529587.89,
-        "Saldo Disponible %": 0.23635688629634852
+        "Saldo Disponible %": 0.23635688629634852,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010217,
@@ -14874,7 +15729,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 107416,
         "Consumo": 31488.5,
         "Saldo Disponible": 75927.5,
-        "Saldo Disponible %": 0.7068546585238699
+        "Saldo Disponible %": 0.7068546585238699,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010143,
@@ -14892,7 +15748,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 400000,
         "Consumo": 373326.11,
         "Saldo Disponible": 26673.89,
-        "Saldo Disponible %": 0.066684725
+        "Saldo Disponible %": 0.066684725,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010091,
@@ -14909,7 +15766,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 769575.52,
         "Consumo": 696255.0700000001,
         "Saldo Disponible": 73320.45,
-        "Saldo Disponible %": 0.09527388553107821
+        "Saldo Disponible %": 0.09527388553107821,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010084,
@@ -14927,7 +15785,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 312037.5,
         "Consumo": 191850,
         "Saldo Disponible": 120187.5,
-        "Saldo Disponible %": 0.3851700516764812
+        "Saldo Disponible %": 0.3851700516764812,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010074,
@@ -14944,7 +15803,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 70047.25,
         "Consumo": 58104.84,
         "Saldo Disponible": 11942.41,
-        "Saldo Disponible %": 0.17049077586914546
+        "Saldo Disponible %": 0.17049077586914546,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010063,
@@ -14961,7 +15821,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 66960,
         "Consumo": 65600,
         "Saldo Disponible": 1360,
-        "Saldo Disponible %": 0.02031063321385902
+        "Saldo Disponible %": 0.02031063321385902,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010051,
@@ -14979,7 +15840,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 747070.93,
         "Consumo": 438360.00000000006,
         "Saldo Disponible": 308710.93,
-        "Saldo Disponible %": 0.4132284065717829
+        "Saldo Disponible %": 0.4132284065717829,
+        "Hoy": 45239
       },
       {
         "NPA": 7600010049,
@@ -14997,7 +15859,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 26308.5,
         "Consumo": 0,
         "Saldo Disponible": 26308.5,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009994,
@@ -15014,7 +15877,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 49950,
         "Consumo": 49950,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009948,
@@ -15032,7 +15896,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 458285,
         "Consumo": 0,
         "Saldo Disponible": 458285,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009946,
@@ -15050,7 +15915,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 925516,
         "Consumo": 0,
         "Saldo Disponible": 925516,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009945,
@@ -15068,7 +15934,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 444422,
         "Consumo": 294854.53,
         "Saldo Disponible": 149567.47,
-        "Saldo Disponible %": 0.3365438029620496
+        "Saldo Disponible %": 0.3365438029620496,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009938,
@@ -15086,7 +15953,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3690224,
         "Consumo": 2637429.01,
         "Saldo Disponible": 1052794.99,
-        "Saldo Disponible %": 0.28529297679490456
+        "Saldo Disponible %": 0.28529297679490456,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009937,
@@ -15104,7 +15972,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2558243,
         "Consumo": 2553504,
         "Saldo Disponible": 4739,
-        "Saldo Disponible %": 0.0018524432589085557
+        "Saldo Disponible %": 0.0018524432589085557,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009919,
@@ -15121,7 +15990,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 446840.03,
         "Consumo": 446740.59,
         "Saldo Disponible": 99.44,
-        "Saldo Disponible %": 0.00022254049172810232
+        "Saldo Disponible %": 0.00022254049172810232,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009915,
@@ -15138,7 +16008,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20100,
         "Consumo": 20100,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009885,
@@ -15155,7 +16026,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1,
         "Consumo": 0.010000000000000009,
         "Saldo Disponible": 0.99,
-        "Saldo Disponible %": 0.99
+        "Saldo Disponible %": 0.99,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009882,
@@ -15173,7 +16045,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 22216139,
         "Consumo": 13193818.5,
         "Saldo Disponible": 9022320.5,
-        "Saldo Disponible %": 0.4061155946134475
+        "Saldo Disponible %": 0.4061155946134475,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009866,
@@ -15190,7 +16063,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1964,
         "Consumo": 1437.6599999999999,
         "Saldo Disponible": 526.34,
-        "Saldo Disponible %": 0.2679938900203666
+        "Saldo Disponible %": 0.2679938900203666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009859,
@@ -15208,7 +16082,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 500000,
         "Consumo": 499849.93,
         "Saldo Disponible": 150.07,
-        "Saldo Disponible %": 0.00030014
+        "Saldo Disponible %": 0.00030014,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009837,
@@ -15225,7 +16100,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20391338,
         "Consumo": 20391337.68,
         "Saldo Disponible": 0.32,
-        "Saldo Disponible %": 1.5692937854298723e-8
+        "Saldo Disponible %": 1.5692937854298723e-8,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009781,
@@ -15243,7 +16119,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 61969.47,
         "Consumo": 19460,
         "Saldo Disponible": 42509.47,
-        "Saldo Disponible %": 0.6859743999746972
+        "Saldo Disponible %": 0.6859743999746972,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009780,
@@ -15261,7 +16138,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 105622.72,
         "Consumo": 53090,
         "Saldo Disponible": 52532.72,
-        "Saldo Disponible %": 0.49736193122085853
+        "Saldo Disponible %": 0.49736193122085853,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009658,
@@ -15279,7 +16157,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 289909,
         "Consumo": 56490,
         "Saldo Disponible": 233419,
-        "Saldo Disponible %": 0.8051457526327227
+        "Saldo Disponible %": 0.8051457526327227,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009657,
@@ -15297,7 +16176,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 522045,
         "Consumo": 349680,
         "Saldo Disponible": 172365,
-        "Saldo Disponible %": 0.3301726862626785
+        "Saldo Disponible %": 0.3301726862626785,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009653,
@@ -15314,7 +16194,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 113100,
         "Consumo": 74635.48000000001,
         "Saldo Disponible": 38464.52,
-        "Saldo Disponible %": 0.340093015030946
+        "Saldo Disponible %": 0.340093015030946,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009625,
@@ -15331,7 +16212,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11237500,
         "Consumo": 5773991.84,
         "Saldo Disponible": 5463508.16,
-        "Saldo Disponible %": 0.48618537575083426
+        "Saldo Disponible %": 0.48618537575083426,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009623,
@@ -15348,7 +16230,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8463000,
         "Consumo": 8462999.51,
         "Saldo Disponible": 0.49,
-        "Saldo Disponible %": 5.789909015715467e-8
+        "Saldo Disponible %": 5.789909015715467e-8,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009622,
@@ -15365,7 +16248,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 14833500,
         "Consumo": 14833463.21,
         "Saldo Disponible": 36.79,
-        "Saldo Disponible %": 0.000002480196851720767
+        "Saldo Disponible %": 0.000002480196851720767,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009621,
@@ -15382,7 +16266,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 36797000,
         "Consumo": 36166075.42,
         "Saldo Disponible": 630924.58,
-        "Saldo Disponible %": 0.017146087452781476
+        "Saldo Disponible %": 0.017146087452781476,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009620,
@@ -15399,7 +16284,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5936500,
         "Consumo": 0,
         "Saldo Disponible": 5936500,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009619,
@@ -15416,7 +16302,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 17515000,
         "Consumo": 0,
         "Saldo Disponible": 17515000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009618,
@@ -15433,7 +16320,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 31155000,
         "Consumo": 30546991.52,
         "Saldo Disponible": 608008.48,
-        "Saldo Disponible %": 0.019515598780292086
+        "Saldo Disponible %": 0.019515598780292086,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009613,
@@ -15451,7 +16339,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 170650,
         "Consumo": 170649.36,
         "Saldo Disponible": 0.64,
-        "Saldo Disponible %": 0.0000037503662467037796
+        "Saldo Disponible %": 0.0000037503662467037796,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009600,
@@ -15468,7 +16357,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6712470,
         "Consumo": 6712470,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009599,
@@ -15485,7 +16375,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6918980,
         "Consumo": 6918972.67,
         "Saldo Disponible": 7.33,
-        "Saldo Disponible %": 0.0000010594047099427951
+        "Saldo Disponible %": 0.0000010594047099427951,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009597,
@@ -15502,7 +16393,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2620600,
         "Consumo": 2620600,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009591,
@@ -15519,7 +16411,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12865000,
         "Consumo": 3898651.6999999993,
         "Saldo Disponible": 8966348.3,
-        "Saldo Disponible %": 0.6969567275553828
+        "Saldo Disponible %": 0.6969567275553828,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009589,
@@ -15536,7 +16429,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16197500,
         "Consumo": 16138905.87,
         "Saldo Disponible": 58594.13,
-        "Saldo Disponible %": 0.003617479858002778
+        "Saldo Disponible %": 0.003617479858002778,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009575,
@@ -15554,7 +16448,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 742464,
         "Consumo": 395584.8,
         "Saldo Disponible": 346879.2,
-        "Saldo Disponible %": 0.46720002585983966
+        "Saldo Disponible %": 0.46720002585983966,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009566,
@@ -15572,7 +16467,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 107397,
         "Consumo": 18034,
         "Saldo Disponible": 89363,
-        "Saldo Disponible %": 0.832080970604393
+        "Saldo Disponible %": 0.832080970604393,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009533,
@@ -15590,7 +16486,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 199015,
         "Consumo": 0,
         "Saldo Disponible": 199015,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009477,
@@ -15608,7 +16505,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 776940,
         "Consumo": 93283,
         "Saldo Disponible": 683657,
-        "Saldo Disponible %": 0.8799353875460139
+        "Saldo Disponible %": 0.8799353875460139,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009406,
@@ -15625,7 +16523,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 27701,
         "Consumo": 0,
         "Saldo Disponible": 27701,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009391,
@@ -15642,7 +16541,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 652284,
         "Consumo": 107042.59999999998,
         "Saldo Disponible": 545241.4,
-        "Saldo Disponible %": 0.8358957141367871
+        "Saldo Disponible %": 0.8358957141367871,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009382,
@@ -15659,7 +16559,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28091020,
         "Consumo": 11023818.629999999,
         "Saldo Disponible": 17067201.37,
-        "Saldo Disponible %": 0.6075678764957627
+        "Saldo Disponible %": 0.6075678764957627,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009374,
@@ -15676,7 +16577,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 58870908,
         "Consumo": 23454094.590000004,
         "Saldo Disponible": 35416813.41,
-        "Saldo Disponible %": 0.6016012766441448
+        "Saldo Disponible %": 0.6016012766441448,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009371,
@@ -15693,7 +16595,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 793384,
         "Consumo": 122225.5,
         "Saldo Disponible": 671158.5,
-        "Saldo Disponible %": 0.8459440825627943
+        "Saldo Disponible %": 0.8459440825627943,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009341,
@@ -15711,7 +16614,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 521100,
         "Consumo": 208440,
         "Saldo Disponible": 312660,
-        "Saldo Disponible %": 0.6
+        "Saldo Disponible %": 0.6,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009336,
@@ -15729,7 +16633,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 725400,
         "Consumo": 580320,
         "Saldo Disponible": 145080,
-        "Saldo Disponible %": 0.2
+        "Saldo Disponible %": 0.2,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009321,
@@ -15747,7 +16652,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2774892.48,
         "Consumo": 1486589.2,
         "Saldo Disponible": 1288303.28,
-        "Saldo Disponible %": 0.464271422869689
+        "Saldo Disponible %": 0.464271422869689,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009317,
@@ -15764,7 +16670,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16000000,
         "Consumo": 8140612.03,
         "Saldo Disponible": 7859387.97,
-        "Saldo Disponible %": 0.49121174812499996
+        "Saldo Disponible %": 0.49121174812499996,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009305,
@@ -15781,7 +16688,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 63044.08,
         "Consumo": 63044.08,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009271,
@@ -15799,7 +16707,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 253800,
         "Consumo": 65074.32000000001,
         "Saldo Disponible": 188725.68,
-        "Saldo Disponible %": 0.7435999999999999
+        "Saldo Disponible %": 0.7435999999999999,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009270,
@@ -15817,7 +16726,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 289010,
         "Consumo": 637.0900000000256,
         "Saldo Disponible": 288372.91,
-        "Saldo Disponible %": 0.9977956126085602
+        "Saldo Disponible %": 0.9977956126085602,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009172,
@@ -15835,7 +16745,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 84816.85,
         "Consumo": 83886.02,
         "Saldo Disponible": 930.83,
-        "Saldo Disponible %": 0.010974588186191776
+        "Saldo Disponible %": 0.010974588186191776,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009098,
@@ -15853,7 +16764,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1173235,
         "Consumo": 110211,
         "Saldo Disponible": 1063024,
-        "Saldo Disponible %": 0.9060622978346197
+        "Saldo Disponible %": 0.9060622978346197,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009080,
@@ -15871,7 +16783,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 97200,
         "Consumo": 27000,
         "Saldo Disponible": 70200,
-        "Saldo Disponible %": 0.7222222222222222
+        "Saldo Disponible %": 0.7222222222222222,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009079,
@@ -15889,7 +16802,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 20132,
         "Consumo": 13212,
         "Saldo Disponible": 6920,
-        "Saldo Disponible %": 0.34373137293860523
+        "Saldo Disponible %": 0.34373137293860523,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009078,
@@ -15907,7 +16821,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 403916.6,
         "Consumo": 140227.5,
         "Saldo Disponible": 263689.1,
-        "Saldo Disponible %": 0.6528305595759124
+        "Saldo Disponible %": 0.6528305595759124,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009067,
@@ -15925,7 +16840,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 37784.16,
         "Consumo": 0,
         "Saldo Disponible": 37784.16,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009056,
@@ -15943,7 +16859,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4000000,
         "Consumo": 0,
         "Saldo Disponible": 4000000,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009052,
@@ -15961,7 +16878,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1703106.68,
         "Consumo": 1703099.5899999999,
         "Saldo Disponible": 7.09,
-        "Saldo Disponible %": 0.000004162980559738043
+        "Saldo Disponible %": 0.000004162980559738043,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009038,
@@ -15978,7 +16896,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7800101,
         "Consumo": 7800100.12,
         "Saldo Disponible": 0.88,
-        "Saldo Disponible %": 1.1281905195842977e-7
+        "Saldo Disponible %": 1.1281905195842977e-7,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009019,
@@ -15996,7 +16915,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2592055.04,
         "Consumo": 2239905.96,
         "Saldo Disponible": 352149.08,
-        "Saldo Disponible %": 0.13585709970109278
+        "Saldo Disponible %": 0.13585709970109278,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009011,
@@ -16014,7 +16934,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 327336.08,
         "Consumo": 327018.3,
         "Saldo Disponible": 317.78,
-        "Saldo Disponible %": 0.0009708065178760616
+        "Saldo Disponible %": 0.0009708065178760616,
+        "Hoy": 45239
       },
       {
         "NPA": 7600009009,
@@ -16032,7 +16953,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 216404.02,
         "Consumo": 28449,
         "Saldo Disponible": 187955.02,
-        "Saldo Disponible %": 0.8685375622874288
+        "Saldo Disponible %": 0.8685375622874288,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008975,
@@ -16050,7 +16972,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 321050.98,
         "Consumo": 320702.32,
         "Saldo Disponible": 348.66,
-        "Saldo Disponible %": 0.0010859957505814186
+        "Saldo Disponible %": 0.0010859957505814186,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008952,
@@ -16068,7 +16991,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 208650,
         "Consumo": 49280,
         "Saldo Disponible": 159370,
-        "Saldo Disponible %": 0.7638150011981788
+        "Saldo Disponible %": 0.7638150011981788,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008951,
@@ -16086,7 +17010,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 145762,
         "Consumo": 5300,
         "Saldo Disponible": 140462,
-        "Saldo Disponible %": 0.9636393573084892
+        "Saldo Disponible %": 0.9636393573084892,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008941,
@@ -16104,7 +17029,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1768592,
         "Consumo": 1768571.5,
         "Saldo Disponible": 20.5,
-        "Saldo Disponible %": 0.000011591141427757222
+        "Saldo Disponible %": 0.000011591141427757222,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008939,
@@ -16122,7 +17048,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 819209,
         "Consumo": 778442,
         "Saldo Disponible": 40767,
-        "Saldo Disponible %": 0.04976385757480692
+        "Saldo Disponible %": 0.04976385757480692,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008848,
@@ -16140,7 +17067,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10416,
         "Consumo": 0,
         "Saldo Disponible": 10416,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008847,
@@ -16158,7 +17086,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 49707,
         "Consumo": 0,
         "Saldo Disponible": 49707,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008652,
@@ -16176,7 +17105,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 797146,
         "Consumo": 797146,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008581,
@@ -16194,7 +17124,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1583.6,
         "Consumo": 1545.1999999999998,
         "Saldo Disponible": 38.4,
-        "Saldo Disponible %": 0.024248547613033595
+        "Saldo Disponible %": 0.024248547613033595,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008578,
@@ -16212,7 +17143,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 30250,
         "Consumo": 19360,
         "Saldo Disponible": 10890,
-        "Saldo Disponible %": 0.36
+        "Saldo Disponible %": 0.36,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008546,
@@ -16229,7 +17161,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 140000,
         "Consumo": 116757.48,
         "Saldo Disponible": 23242.52,
-        "Saldo Disponible %": 0.166018
+        "Saldo Disponible %": 0.166018,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008542,
@@ -16246,7 +17179,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1000000,
         "Consumo": 1000000,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008528,
@@ -16264,7 +17198,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2241007.5,
         "Consumo": 1833436.74,
         "Saldo Disponible": 407570.76,
-        "Saldo Disponible %": 0.18186943149453985
+        "Saldo Disponible %": 0.18186943149453985,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008527,
@@ -16281,7 +17216,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 211761,
         "Consumo": 0,
         "Saldo Disponible": 211761,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008465,
@@ -16298,7 +17234,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 189191,
         "Consumo": 189190.28,
         "Saldo Disponible": 0.72,
-        "Saldo Disponible %": 0.0000038056778599404832
+        "Saldo Disponible %": 0.0000038056778599404832,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008460,
@@ -16316,7 +17253,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 407120,
         "Consumo": 105924,
         "Saldo Disponible": 301196,
-        "Saldo Disponible %": 0.7398211829436039
+        "Saldo Disponible %": 0.7398211829436039,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008401,
@@ -16333,7 +17271,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 477394,
         "Consumo": 477392.47,
         "Saldo Disponible": 1.53,
-        "Saldo Disponible %": 0.0000032048999359020015
+        "Saldo Disponible %": 0.0000032048999359020015,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008396,
@@ -16351,7 +17290,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 766220,
         "Consumo": 59940,
         "Saldo Disponible": 706280,
-        "Saldo Disponible %": 0.9217718148834538
+        "Saldo Disponible %": 0.9217718148834538,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008387,
@@ -16369,7 +17309,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 624338.52,
         "Consumo": 404725.9,
         "Saldo Disponible": 219612.62,
-        "Saldo Disponible %": 0.35175247556405775
+        "Saldo Disponible %": 0.35175247556405775,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008335,
@@ -16387,7 +17328,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1799515,
         "Consumo": 0,
         "Saldo Disponible": 1799515,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008297,
@@ -16405,7 +17347,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 483833,
         "Consumo": 255192.88,
         "Saldo Disponible": 228640.12,
-        "Saldo Disponible %": 0.4725599948742645
+        "Saldo Disponible %": 0.4725599948742645,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008272,
@@ -16423,7 +17366,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1042721,
         "Consumo": 596512.4,
         "Saldo Disponible": 446208.6,
-        "Saldo Disponible %": 0.4279271252808757
+        "Saldo Disponible %": 0.4279271252808757,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008271,
@@ -16440,7 +17384,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 7800000,
         "Consumo": 7741679.72,
         "Saldo Disponible": 58320.28,
-        "Saldo Disponible %": 0.007476958974358974
+        "Saldo Disponible %": 0.007476958974358974,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008270,
@@ -16458,7 +17403,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 432986,
         "Consumo": 430395.5,
         "Saldo Disponible": 2590.5,
-        "Saldo Disponible %": 0.0059828724254363886
+        "Saldo Disponible %": 0.0059828724254363886,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008253,
@@ -16476,7 +17422,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 32210.8,
         "Consumo": 0,
         "Saldo Disponible": 32210.8,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008252,
@@ -16494,7 +17441,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 19114.25,
         "Consumo": 19069.9,
         "Saldo Disponible": 44.35,
-        "Saldo Disponible %": 0.0023202584459238525
+        "Saldo Disponible %": 0.0023202584459238525,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008250,
@@ -16512,7 +17460,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 24387.32,
         "Consumo": 6524,
         "Saldo Disponible": 17863.32,
-        "Saldo Disponible %": 0.7324839301735492
+        "Saldo Disponible %": 0.7324839301735492,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008249,
@@ -16530,7 +17479,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28820.45,
         "Consumo": 28798.4,
         "Saldo Disponible": 22.05,
-        "Saldo Disponible %": 0.000765081738834751
+        "Saldo Disponible %": 0.000765081738834751,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008248,
@@ -16548,7 +17498,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 350890.16,
         "Consumo": 122360.53999999998,
         "Saldo Disponible": 228529.62,
-        "Saldo Disponible %": 0.6512853480986757
+        "Saldo Disponible %": 0.6512853480986757,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008193,
@@ -16566,7 +17517,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 34184,
         "Consumo": 16217,
         "Saldo Disponible": 17967,
-        "Saldo Disponible %": 0.5255967704189094
+        "Saldo Disponible %": 0.5255967704189094,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008192,
@@ -16584,7 +17536,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 57646,
         "Consumo": 31160,
         "Saldo Disponible": 26486,
-        "Saldo Disponible %": 0.4594594594594595
+        "Saldo Disponible %": 0.4594594594594595,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008191,
@@ -16602,7 +17555,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 95560,
         "Consumo": 3490.399999999994,
         "Saldo Disponible": 92069.6,
-        "Saldo Disponible %": 0.9634742570113018
+        "Saldo Disponible %": 0.9634742570113018,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008142,
@@ -16620,7 +17574,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 136615.67,
         "Consumo": 136606.56000000003,
         "Saldo Disponible": 9.11,
-        "Saldo Disponible %": 0.00006668341925929872
+        "Saldo Disponible %": 0.00006668341925929872,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008141,
@@ -16638,7 +17593,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 528702.72,
         "Consumo": 83839.44999999995,
         "Saldo Disponible": 444863.27,
-        "Saldo Disponible %": 0.8414242128355233
+        "Saldo Disponible %": 0.8414242128355233,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008140,
@@ -16656,7 +17612,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 219239.55,
         "Consumo": 19956.359999999986,
         "Saldo Disponible": 199283.19,
-        "Saldo Disponible %": 0.9089746352790817
+        "Saldo Disponible %": 0.9089746352790817,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008139,
@@ -16674,7 +17631,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 422255,
         "Consumo": 418118.28,
         "Saldo Disponible": 4136.72,
-        "Saldo Disponible %": 0.009796734200897562
+        "Saldo Disponible %": 0.009796734200897562,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008138,
@@ -16692,7 +17650,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 89724,
         "Consumo": 0,
         "Saldo Disponible": 89724,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008137,
@@ -16710,7 +17669,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 155384,
         "Consumo": 0,
         "Saldo Disponible": 155384,
-        "Saldo Disponible %": 1
+        "Saldo Disponible %": 1,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008117,
@@ -16728,7 +17688,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 311507.78,
         "Consumo": 186070.00000000003,
         "Saldo Disponible": 125437.78,
-        "Saldo Disponible %": 0.40267944511690845
+        "Saldo Disponible %": 0.40267944511690845,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008092,
@@ -16745,7 +17706,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 219357,
         "Consumo": 109678.13,
         "Saldo Disponible": 109678.87,
-        "Saldo Disponible %": 0.5000016867480864
+        "Saldo Disponible %": 0.5000016867480864,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008087,
@@ -16763,7 +17725,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 301404,
         "Consumo": 241264.21,
         "Saldo Disponible": 60139.79,
-        "Saldo Disponible %": 0.19953215617576409
+        "Saldo Disponible %": 0.19953215617576409,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008023,
@@ -16780,7 +17743,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4569120,
         "Consumo": 4569120,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600008022,
@@ -16797,7 +17761,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 119700,
         "Consumo": 119700,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007812,
@@ -16814,7 +17779,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 760800,
         "Consumo": 760800,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007801,
@@ -16831,7 +17797,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 10,
         "Consumo": 2.9800000000000004,
         "Saldo Disponible": 7.02,
-        "Saldo Disponible %": 0.702
+        "Saldo Disponible %": 0.702,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007514,
@@ -16848,7 +17815,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 133200,
         "Consumo": 133200,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007476,
@@ -16865,7 +17833,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 93400,
         "Consumo": 46476,
         "Saldo Disponible": 46924,
-        "Saldo Disponible %": 0.5023982869379015
+        "Saldo Disponible %": 0.5023982869379015,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007377,
@@ -16882,7 +17851,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 538454.4,
         "Consumo": 536510.87,
         "Saldo Disponible": 1943.53,
-        "Saldo Disponible %": 0.003609460708279104
+        "Saldo Disponible %": 0.003609460708279104,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007358,
@@ -16899,7 +17869,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 17878.74,
         "Consumo": 17878.74,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007352,
@@ -16916,7 +17887,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 6843756.61,
         "Consumo": 1214553.0600000005,
         "Saldo Disponible": 5629203.55,
-        "Saldo Disponible %": 0.8225312311333058
+        "Saldo Disponible %": 0.8225312311333058,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007351,
@@ -16933,7 +17905,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2086383.82,
         "Consumo": 368185.3800000001,
         "Saldo Disponible": 1718198.44,
-        "Saldo Disponible %": 0.8235294117647058
+        "Saldo Disponible %": 0.8235294117647058,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007347,
@@ -16950,7 +17923,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 363744202.53,
         "Consumo": 304973050.16999996,
         "Saldo Disponible": 58771152.36,
-        "Saldo Disponible %": 0.1615727534658173
+        "Saldo Disponible %": 0.1615727534658173,
+        "Hoy": 45239
       },
       {
         "NPA": 7600007346,
@@ -16967,7 +17941,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11592623.44,
         "Consumo": 9766296.139999999,
         "Saldo Disponible": 1826327.3,
-        "Saldo Disponible %": 0.15754219132990316
+        "Saldo Disponible %": 0.15754219132990316,
+        "Hoy": 45239
       },
       {
         "NPA": 7600006940,
@@ -16984,7 +17959,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 16500000,
         "Consumo": 3325807.7300000004,
         "Saldo Disponible": 13174192.27,
-        "Saldo Disponible %": 0.7984358951515151
+        "Saldo Disponible %": 0.7984358951515151,
+        "Hoy": 45239
       },
       {
         "NPA": 7600006676,
@@ -17002,7 +17978,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 3454011.63,
         "Consumo": 2577639.1999999997,
         "Saldo Disponible": 876372.43,
-        "Saldo Disponible %": 0.2537259638584367
+        "Saldo Disponible %": 0.2537259638584367,
+        "Hoy": 45239
       },
       {
         "NPA": 7600005971,
@@ -17020,7 +17997,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 460316.71,
         "Consumo": 460314.68,
         "Saldo Disponible": 2.03,
-        "Saldo Disponible %": 0.000004410007188311716
+        "Saldo Disponible %": 0.000004410007188311716,
+        "Hoy": 45239
       },
       {
         "NPA": 7600005158,
@@ -17038,7 +18016,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1761728.59,
         "Consumo": 1182119.62,
         "Saldo Disponible": 579608.97,
-        "Saldo Disponible %": 0.32900014979038283
+        "Saldo Disponible %": 0.32900014979038283,
+        "Hoy": 45239
       },
       {
         "NPA": 7600004734,
@@ -17056,7 +18035,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1044740,
         "Consumo": 437813.9,
         "Saldo Disponible": 606926.1,
-        "Saldo Disponible %": 0.580935065183682
+        "Saldo Disponible %": 0.580935065183682,
+        "Hoy": 45239
       },
       {
         "NPA": 7600004616,
@@ -17074,7 +18054,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9125,
         "Consumo": 6387.5,
         "Saldo Disponible": 2737.5,
-        "Saldo Disponible %": 0.3
+        "Saldo Disponible %": 0.3,
+        "Hoy": 45239
       },
       {
         "NPA": 7600004515,
@@ -17091,7 +18072,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 9190000,
         "Consumo": 9189893.35,
         "Saldo Disponible": 106.65,
-        "Saldo Disponible %": 0.00001160500544069641
+        "Saldo Disponible %": 0.00001160500544069641,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003874,
@@ -17108,7 +18090,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1013292,
         "Consumo": 660062.29,
         "Saldo Disponible": 353229.71,
-        "Saldo Disponible %": 0.34859616971218566
+        "Saldo Disponible %": 0.34859616971218566,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003821,
@@ -17125,7 +18108,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2000000,
         "Consumo": 308709.24,
         "Saldo Disponible": 1691290.76,
-        "Saldo Disponible %": 0.84564538
+        "Saldo Disponible %": 0.84564538,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003807,
@@ -17142,7 +18126,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 726003,
         "Consumo": 726003,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003598,
@@ -17159,7 +18144,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 966868.11,
         "Consumo": 956167.74,
         "Saldo Disponible": 10700.37,
-        "Saldo Disponible %": 0.011067042018791995
+        "Saldo Disponible %": 0.011067042018791995,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003556,
@@ -17176,7 +18162,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 2197393,
         "Consumo": 947879,
         "Saldo Disponible": 1249514,
-        "Saldo Disponible %": 0.5686347412593014
+        "Saldo Disponible %": 0.5686347412593014,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003553,
@@ -17193,7 +18180,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 33578000,
         "Consumo": 21868436.54,
         "Saldo Disponible": 11709563.46,
-        "Saldo Disponible %": 0.3487272458157127
+        "Saldo Disponible %": 0.3487272458157127,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003357,
@@ -17211,7 +18199,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 551500,
         "Consumo": 226115,
         "Saldo Disponible": 325385,
-        "Saldo Disponible %": 0.59
+        "Saldo Disponible %": 0.59,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003356,
@@ -17229,7 +18218,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 474000,
         "Consumo": 221200,
         "Saldo Disponible": 252800,
-        "Saldo Disponible %": 0.5333333333333333
+        "Saldo Disponible %": 0.5333333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003269,
@@ -17246,7 +18236,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 470844801.55,
         "Consumo": 326107105.88,
         "Saldo Disponible": 144737695.67,
-        "Saldo Disponible %": 0.30740000780199755
+        "Saldo Disponible %": 0.30740000780199755,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003237,
@@ -17263,7 +18254,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 4341971,
         "Consumo": 4341971,
         "Saldo Disponible": 0,
-        "Saldo Disponible %": 0
+        "Saldo Disponible %": 0,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003210,
@@ -17280,7 +18272,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 28778360,
         "Consumo": 28778279.23,
         "Saldo Disponible": 80.77,
-        "Saldo Disponible %": 0.0000028066227540415784
+        "Saldo Disponible %": 0.0000028066227540415784,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003209,
@@ -17297,7 +18290,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 39550865,
         "Consumo": 39103850.87,
         "Saldo Disponible": 447014.13,
-        "Saldo Disponible %": 0.01130225925526534
+        "Saldo Disponible %": 0.01130225925526534,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003208,
@@ -17314,7 +18308,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 118828031,
         "Consumo": 118670897.6,
         "Saldo Disponible": 157133.4,
-        "Saldo Disponible %": 0.0013223597048410236
+        "Saldo Disponible %": 0.0013223597048410236,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003206,
@@ -17331,7 +18326,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 12060963,
         "Consumo": 12039989.7,
         "Saldo Disponible": 20973.3,
-        "Saldo Disponible %": 0.0017389407462737427
+        "Saldo Disponible %": 0.0017389407462737427,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003204,
@@ -17348,7 +18344,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 11772754,
         "Consumo": 11706072.39,
         "Saldo Disponible": 66681.61,
-        "Saldo Disponible %": 0.0056640621217431365
+        "Saldo Disponible %": 0.0056640621217431365,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003203,
@@ -17365,7 +18362,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 36302482,
         "Consumo": 36264576.53,
         "Saldo Disponible": 37905.47,
-        "Saldo Disponible %": 0.0010441564298551268
+        "Saldo Disponible %": 0.0010441564298551268,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003201,
@@ -17382,7 +18380,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 17021654,
         "Consumo": 15015784.78,
         "Saldo Disponible": 2005869.22,
-        "Saldo Disponible %": 0.11784220381873582
+        "Saldo Disponible %": 0.11784220381873582,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003199,
@@ -17399,7 +18398,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 195749017,
         "Consumo": 188124607.64,
         "Saldo Disponible": 7624409.36,
-        "Saldo Disponible %": 0.03894992412656662
+        "Saldo Disponible %": 0.03894992412656662,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003198,
@@ -17416,7 +18416,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 62464101,
         "Consumo": 62463024.54,
         "Saldo Disponible": 1076.46,
-        "Saldo Disponible %": 0.000017233258507954835
+        "Saldo Disponible %": 0.000017233258507954835,
+        "Hoy": 45239
       },
       {
         "NPA": 7600003097,
@@ -17433,7 +18434,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 784093.8,
         "Consumo": 418183.36000000004,
         "Saldo Disponible": 365910.44,
-        "Saldo Disponible %": 0.4666666666666666
+        "Saldo Disponible %": 0.4666666666666666,
+        "Hoy": 45239
       },
       {
         "NPA": 7600002673,
@@ -17450,7 +18452,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 119216.73,
         "Consumo": 60128.369999999995,
         "Saldo Disponible": 59088.36,
-        "Saldo Disponible %": 0.49563815414162093
+        "Saldo Disponible %": 0.49563815414162093,
+        "Hoy": 45239
       },
       {
         "NPA": 7600002646,
@@ -17467,7 +18470,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 60288.84,
         "Consumo": 40192.56,
         "Saldo Disponible": 20096.28,
-        "Saldo Disponible %": 0.3333333333333333
+        "Saldo Disponible %": 0.3333333333333333,
+        "Hoy": 45239
       },
       {
         "NPA": 7600002128,
@@ -17484,7 +18488,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 18000000,
         "Consumo": 5226584.24,
         "Saldo Disponible": 12773415.76,
-        "Saldo Disponible %": 0.7096342088888888
+        "Saldo Disponible %": 0.7096342088888888,
+        "Hoy": 45239
       },
       {
         "NPA": 7600002023,
@@ -17501,7 +18506,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 1939040,
         "Consumo": 1939033.64,
         "Saldo Disponible": 6.36,
-        "Saldo Disponible %": 0.0000032799735951811206
+        "Saldo Disponible %": 0.0000032799735951811206,
+        "Hoy": 45239
       },
       {
         "NPA": 7600001694,
@@ -17518,7 +18524,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 8103350.31,
         "Consumo": 7523048.949999999,
         "Saldo Disponible": 580301.36,
-        "Saldo Disponible %": 0.07161252294422898
+        "Saldo Disponible %": 0.07161252294422898,
+        "Hoy": 45239
       },
       {
         "NPA": 7600000786,
@@ -17536,7 +18543,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 5,
         "Consumo": 0.7199999999999998,
         "Saldo Disponible": 4.28,
-        "Saldo Disponible %": 0.8560000000000001
+        "Saldo Disponible %": 0.8560000000000001,
+        "Hoy": 45239
       },
       {
         "NPA": 7600000147,
@@ -17553,7 +18561,8 @@ let npas=JSON.parse(JSON.stringify(
         "Saldo inicial": 399361,
         "Consumo": 156000,
         "Saldo Disponible": 243361,
-        "Saldo Disponible %": 0.6093759781250547
+        "Saldo Disponible %": 0.6093759781250547,
+        "Hoy": 45239
       }
     ]
   }
