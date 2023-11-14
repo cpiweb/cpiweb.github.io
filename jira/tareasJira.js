@@ -9,11 +9,7 @@ divshow.style.display= "None"
 function buscarIncidencias() {
 
     let project= document.getElementById("filtro_project").value
-    let summary= document.getElementById("filtro_summary").value
-
     let estado1= document.getElementById("estado1").checked
-//    let estado2= document.getElementById("estado2").checked
-//    let estado3= document.getElementById("estado3").checked
     let estado4= document.getElementById("estado4").checked
     let estado5= document.getElementById("estado5").checked
     let subtareas= document.getElementById("subtareas").checked
@@ -31,10 +27,6 @@ function buscarIncidencias() {
         jql_list.push('project='+project)
       }
 
-      if (summary!="") {
-        jql_list.push('summary ~ '+summary)
-      }
-
       if (!subtareas) {
         jql_list.push('issuetype!=11766')
       }
@@ -44,12 +36,6 @@ function buscarIncidencias() {
       if (estado1) {
         estado_list.push('status!=10001 AND status!=12553')
       }
-//      if (estado2) {
-//        estado_list.push('status=12386')
-//      }
-//      if (estado3) {
-//        estado_list.push('status=12797')
-//      }
       if (estado4) {
         estado_list.push('status=10001')
       }
@@ -74,11 +60,8 @@ function buscarIncidencias() {
       }
 
       const html = encodeURIComponent(jql_str); 
-
       const END_POINT = "searchIssues2/" + html
 
-  //    alert(jql_str2)
-      
       fetch(BASE_URL+END_POINT)
       .then(response => response.json())
       .then(json => mostrar(json))
@@ -93,6 +76,7 @@ function mostrar (issues){
     let edificio= document.getElementById("filtro_edificio").value
     let responsable= document.getElementById("filtro_assignee").value
     let informador= document.getElementById("filtro_reporter").value
+    let summary= document.getElementById("filtro_summary").value
 
     let fecha1= document.getElementById("fecha1").checked
     let fecha2= document.getElementById("fecha2").checked
@@ -116,6 +100,7 @@ function mostrar (issues){
 
     let fechaN
     let fechaP
+    let sum
     let edif
     let resp
     let inf
@@ -127,6 +112,16 @@ function mostrar (issues){
       for (let j = 0; j < issues[i].issues.length; j++) {
           
           total= total +1
+
+          try {
+            sum= ((issues[i].issues[j].fields.summary).toLowerCase()).includes((summary).toLowerCase()) || (summary=="")
+          } catch {
+            if (summary=="") {
+              sum=true}
+            else {
+              sum=false
+            }
+          }
 
           try {
             edif= ((issues[i].issues[j].fields.customfield_13399.value).toLowerCase()).includes((edificio).toLowerCase()) || (edificio=="")
@@ -166,7 +161,7 @@ function mostrar (issues){
             fechaP= false
           }
 
-          if (edif && resp && fechaN && fechaP && inf) {
+          if (sum && edif && resp && fechaN && fechaP && inf) {
               contador=contador+1
               tr1 = table1.insertRow(-1);
               let celda = tr1.insertCell(-1)
@@ -177,7 +172,6 @@ function mostrar (issues){
               tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.summary
               tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.customfield_13402
               tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.status.name
-      //        tr1.insertCell(-1).innerHTML ='<button id="'+issues.issues[i].key+'" class="btn btn-primary" onclick="openURL(this.id)">Ver en Jira</button>'
           }
       }
     }
@@ -262,25 +256,6 @@ function mostrarIssue (issue){
     pep.setAttribute ("class", "texto_issue")
     pep.innerHTML = "PEP: " + issue.fields.customfield_13414
     divshow.appendChild(pep)
-
-/*     let dor = document.createElement("p")
-    dor.setAttribute ("class", "texto_issue")
-    try{
-      dor.innerHTML = "Definition of Ready: " + issue.fields.customfield_13399.value
-    } catch {
-      dor.innerHTML = "Definition of Ready: No informado"
-    }
-    divshow.appendChild(dor)
-
-    let dod = document.createElement("p")
-    dod.setAttribute ("class", "texto_issue")
-    try{
-      dod.innerHTML = "Definition of Done: " + issue.fields.customfield_13399.value
-    } catch {
-      dod.innerHTML = "Definition of Done: No informado"
-    }
-    divshow.appendChild(dod)
- */
 
     let boton = document.createElement("button")
     boton.setAttribute ("class", "btn btn-primary")
