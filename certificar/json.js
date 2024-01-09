@@ -28,11 +28,6 @@ let proveedores=JSON.parse(JSON.stringify(
 
       },
       {
-        "Proveedor": 1034690,
-        "Contratista": "Lizarraga Carolina",
-        "NPA": 7600020056
-      },
-      {
         "Proveedor": 1016685,
         "Contratista": "Wilion Conte y Asociados",
         "NPA": 7600017925
