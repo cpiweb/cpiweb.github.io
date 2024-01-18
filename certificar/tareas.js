@@ -7,6 +7,9 @@ divShowData2.style.display="None"
 const divShowData3 = document.getElementById('showData3');
 divShowData3.style.display="None"
 
+const divShowData5 = document.getElementById('showData5');
+divShowData5.style.display="None"
+
 
 // Llenar tabla contratistas con JSON 
 
@@ -300,7 +303,7 @@ function generar_OE(){
     }    
 
     const titulo3=document.createElement("span")
-    titulo3.innerHTML= "Plantilla generada"
+    titulo3.innerHTML= "Plantilla de OE generada"
     titulo3.setAttribute("id","generado")
     titulo3.setAttribute("class","h4")
 
@@ -316,6 +319,13 @@ function generar_OE(){
     boton4.setAttribute("id","boton4")
     boton4.setAttribute("onclick", "editar_tareas()");
     boton4.setAttribute("class", "btn btn-success");
+
+    const boton5 = document.createElement("button")
+    boton5.innerHTML = "Generar WE"
+    boton5.setAttribute("id","boton5")
+    boton5.setAttribute("onclick", "generar_WE()");
+    boton5.setAttribute("class", "btn btn-primary");
+    boton5.setAttribute("title", "genera plantilla WE para pegar en Excel y completar cuando tengas nro de OE");
 
     const titulo4=document.createElement("p")
     titulo4.innerHTML= "Proveedor: "+ nro_proveedor+" ("+nombre_proveedor+")"
@@ -368,6 +378,7 @@ function generar_OE(){
     divShowData3.appendChild(titulo4)
     divShowData3.appendChild(titulo5);
     divShowData3.appendChild(table3);
+    divShowData3.appendChild(boton5)
   }
 
 function eliminar_tarea(fila){
@@ -505,3 +516,38 @@ function obtenerFecha(fechaExcel) {
 
         return fechaJS.getDate() + "/" + (fechaJS.getMonth()+1) + "/" + fechaJS.getFullYear()
 }
+
+function generar_WE(){
+
+    divShowData4.style.display="none"
+    divShowData.style.display="none"
+    divShowData2.style.display="none"
+    divShowData3.style.display="none"
+    divShowData5.style.display="block"
+
+    let tabla= document.getElementById("myTable3")
+
+    for (i=0; i<tabla.rows.length; i++){
+
+        tabla.rows[i].cells[0].innerHTML="Nro de OE"
+        tabla.rows[i].cells[2].innerHTML= (i+1)*10
+        tabla.rows[i].cells[4].remove()
+    }
+
+    const titulo3=document.createElement("span")
+    titulo3.innerHTML= "Plantilla de WE generada"
+    titulo3.setAttribute("id","generado")
+    titulo3.setAttribute("class","h4")
+
+    const boton3 = document.createElement("button")
+    boton3.innerHTML = "Copiar"
+    boton3.setAttribute("id","boton3")
+    boton3.setAttribute("onclick", "copiar_tabla()");
+    boton3.setAttribute("class", "btn btn-success");
+    boton3.setAttribute("title", "copia en el portapapel, para luego poder pegar en el excel");
+
+    divShowData5.appendChild(titulo3);
+    divShowData5.appendChild(boton3);
+    divShowData5.appendChild(tabla);
+
+  }

@@ -386,7 +386,7 @@ function agregar_viatico(){
 
   const desarraigo = 28559
   //5371 + 4854
-  const nafta= 553
+  const nafta= 699
 
   cantidad_viatico=tecnicos*dias*desarraigo+km*nafta*0.2
   let id_row
