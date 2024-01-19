@@ -321,7 +321,7 @@ function generar_OE(){
     boton4.setAttribute("class", "btn btn-success");
 
     const boton5 = document.createElement("button")
-    boton5.innerHTML = "Generar WE"
+    boton5.innerHTML = "Plantilla WE"
     boton5.setAttribute("id","boton5")
     boton5.setAttribute("onclick", "generar_WE()");
     boton5.setAttribute("class", "btn btn-primary");
@@ -549,8 +549,31 @@ function generar_WE(){
     boton3.setAttribute("class", "btn btn-success");
     boton3.setAttribute("title", "copia en el portapapel, para luego poder pegar en el excel");
 
+    const boton4 = document.createElement("button")
+    boton4.innerHTML = "Volver a OE"
+    boton4.setAttribute("id","boton4")
+    boton4.setAttribute("onclick", "volver_OE()");
+    boton4.setAttribute("class", "btn btn-success");
+
     divShowData5.appendChild(titulo3);
-    //divShowData5.appendChild(boton3);
+    divShowData5.appendChild(boton3);
+    divShowData5.appendChild(boton4);
     divShowData5.appendChild(tabla);
 
   }
+
+  function volver_OE(){
+
+    divShowData4.style.display="none"
+    divShowData.style.display="none"
+    divShowData2.style.display="none"
+    divShowData3.style.display="block"
+    divShowData5.style.display="none"
+
+    while (divShowData5.firstChild) {
+        divShowData5.removeChild(divShowData5.lastChild);
+      }
+
+    generar_OE()
+  }
+  
