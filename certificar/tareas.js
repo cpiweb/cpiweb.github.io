@@ -310,7 +310,7 @@ function generar_OE(){
     const boton3 = document.createElement("button")
     boton3.innerHTML = "Copiar"
     boton3.setAttribute("id","boton3")
-    boton3.setAttribute("onclick", "copiar_tabla()");
+    boton3.setAttribute("onclick", "copiar_tabla('myTable3')");
     boton3.setAttribute("class", "btn btn-success");
     boton3.setAttribute("title", "copia en el portapapel, para luego poder pegar en el excel");
 
@@ -418,12 +418,15 @@ function agregar_viatico(){
   tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
       }
 
-function copiar_tabla() {
+function copiar_tabla(tabla) {
 
-        var urlField = document.getElementById("myTable3")
+        let urlField
+        let range
+
+        urlField = document.getElementById(tabla)
          
         // create a Range object
-        var range = document.createRange();  
+        range = document.createRange();  
         // set the Node to select the "range"
         range.selectNode(urlField);
         // add the Range to the set of window selections
@@ -542,12 +545,12 @@ function generar_WE(){
     const boton3 = document.createElement("button")
     boton3.innerHTML = "Copiar"
     boton3.setAttribute("id","boton3")
-    boton3.setAttribute("onclick", "copiar_tabla()");
+    boton3.setAttribute("onclick", "copiar_tabla('myTable3')");
     boton3.setAttribute("class", "btn btn-success");
     boton3.setAttribute("title", "copia en el portapapel, para luego poder pegar en el excel");
 
     divShowData5.appendChild(titulo3);
-    divShowData5.appendChild(boton3);
+    //divShowData5.appendChild(boton3);
     divShowData5.appendChild(tabla);
 
   }
