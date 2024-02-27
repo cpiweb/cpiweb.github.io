@@ -9,6 +9,9 @@ h1{
 
 #botonera {
     display: flex;
+    margin: 30px;
+    justify-content: space-around;
+
 /* 
     flex-direction: column;
     align-content: space-between;
@@ -19,4 +22,16 @@ h1{
     width: 100%
  */}
 
+.seteo_sc {
+    display: flex;
+    margin: 20px;
+}
 
+#showData2 {
+    display: flex;
+    margin-left: 20px;
+}
+
+.sel {
+    margin-left: 20px;
+}

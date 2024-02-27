@@ -105,30 +105,101 @@ function mostrar_SC (id_sc) {
             header2.innerHTML = "Solución por defecto:"
             header1.setAttribute("class","h5")
 
+            const div2 = document.createElement("div")
+            div2.setAttribute("class","seteo_sc")
+
             const text1 = document.createElement("p")
-            text1.innerHTML = "Rack: " + equipos[i].Rack[0]
+            text1.innerHTML = "Rack: "
             text1.setAttribute("class","h6")
 
+            const select1 = document.createElement("select")
+            select1.setAttribute("id","sel1")
+            select1.setAttribute("class","sel")
+
+//            select1.innerHTML='<option value="' + equipos[i].Rack[0] + '">' + equipos[i].Rack[0] + '</option>'
+
+            for (let j = 0; j < equipos[i].Rack.length; j++) {
+
+                  select1.innerHTML = select1.innerHTML +
+                    '<option value="' + equipos[i].Rack[j] + '">' + equipos[i].Rack[j] + '</option>';
+            }
+
+            div2.appendChild(text1)
+            div2.appendChild(select1)
+
+            const div3 = document.createElement("div")
+            div3.setAttribute("class","seteo_sc")
+
             const text2 = document.createElement("p")
-            text2.innerHTML = "Energía: " + equipos[i].Energia[0]
+            text2.innerHTML = "Energía: "
             text2.setAttribute("class","h6")
 
+            const select2 = document.createElement("select")
+            select2.setAttribute("id","sel2")
+            select2.setAttribute("class","sel")
+//            select2.innerHTML='<option value="' + equipos[i].Energia[0] + '">' + equipos[i].Energia[0] + '</option>'
+
+            for (let j = 0; j < equipos[i].Energia.length; j++) {
+
+                  select2.innerHTML = select2.innerHTML +
+                    '<option value="' + equipos[i].Energia[j] + '">' + equipos[i].Energia[j] + '</option>';
+            }
+
+            div3.appendChild(text2)
+            div3.appendChild(select2)
+
+            const div4 = document.createElement("div")
+            div4.setAttribute("class","seteo_sc")
+
             const text3 = document.createElement("p")
-            text3.innerHTML = "UTP: " + equipos[i].UTP[0]
+            text3.innerHTML = "UTP: "
             text3.setAttribute("class","h6")
 
+            const select3 = document.createElement("select")
+            select3.setAttribute("id","sel3")
+            select3.setAttribute("class","sel")
+
+//            select3.innerHTML='<option value="' + equipos[i].UTP[0] + '">' + equipos[i].UTP[0] + '</option>'
+
+            for (let j = 0; j < equipos[i].UTP.length; j++) {
+
+                  select3.innerHTML = select3.innerHTML +
+                    '<option value="' + equipos[i].UTP[j] + '">' + equipos[i].UTP[j] + '</option>';
+            }
+
+            div4.appendChild(text3)
+            div4.appendChild(select3)
+
+            const div5 = document.createElement("div")
+            div5.setAttribute("class","seteo_sc")
+
             const text4 = document.createElement("p")
-            text4.innerHTML = "Fibra: " + equipos[i].Fibra[0]
+            text4.innerHTML = "Fibra: "
             text4.setAttribute("class","h6")
+
+            const select4 = document.createElement("select")
+            select4.setAttribute("id","sel4")
+            select4.setAttribute("class","sel")
+
+            //            select4.innerHTML='<option value="' + equipos[i].Fibra[0] + '">' + equipos[i].Fibra[0] + '</option>'
+
+            for (let j = 0; j < equipos[i].Fibra.length; j++) {
+
+                  select4.innerHTML = select4.innerHTML +
+                    '<option value="' + equipos[i].Fibra[j] + '">' + equipos[i].Fibra[j] + '</option>';
+            }
+
+            div5.appendChild(text4)
+            div5.appendChild(select4)
 
             showData2.innerHTML = "";
             showData2.appendChild(header1)
             showData2.appendChild(div1)
             showData2.appendChild(header2)
-            showData2.appendChild(text1)
-            showData2.appendChild(text2)
-            showData2.appendChild(text3)
-            showData2.appendChild(text4)
+            showData2.appendChild(div2)
+            showData2.appendChild(div3)
+            showData2.appendChild(div4)
+            showData2.appendChild(div5)
             }
       }
 }
