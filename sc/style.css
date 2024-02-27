@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+#botonera {
+    display: flex;
+/* 
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: #ecedee;
+    width: 100%
+ */}
+
+
