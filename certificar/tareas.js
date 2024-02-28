@@ -395,7 +395,7 @@ function agregar_viatico(){
   let dias= prompt('Cant de días:')
   let km= prompt('Cant de km recorridos:')
 
-  const desarraigo = 28559
+  const desarraigo = 30580
   
   const nafta= 744
 
