@@ -1,4 +1,4 @@
-let equipos = [
+let soluciones = [
       {"Marca":"Huawei",
        "Modelo":"NE8000 F8",
        "Nombre":"Huawei NE8000 F8",

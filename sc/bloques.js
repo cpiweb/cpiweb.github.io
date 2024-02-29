@@ -1,4 +1,5 @@
-{
+let bloques = {
+
   "VINC144x20": [
     {
       "Codigo": 20600479,

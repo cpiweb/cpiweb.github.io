@@ -21,12 +21,12 @@ let tr = table.insertRow(-1);
 th.innerHTML = "Seleccionar Tareas";
 tr.appendChild(th);
  */
-for (let i = 0; i < equipos.length; i++) {
+for (let i = 0; i < soluciones.length; i++) {
 
     tr = table.insertRow(-1);
     let tabCell = tr.insertCell(-1);
-    tabCell.innerHTML = equipos[i]["Nombre"];
-    tr.insertCell(-1).innerHTML ='<button id="'+equipos[i]["ID"]+'" class="btn btn-primary" onclick="mostrar_SC(this.id)">Seleccionar</button>'
+    tabCell.innerHTML = soluciones[i]["Nombre"];
+    tr.insertCell(-1).innerHTML ='<button id="'+soluciones[i]["ID"]+'" class="btn btn-primary" onclick="mostrar_SC(this.id)">Seleccionar</button>'
 }
 
 
@@ -70,11 +70,11 @@ function mostrar_SC (id_sc) {
       showData1.style.display="None"
       showData2.style.display="block"
 
-      for (let i = 0; i < equipos.length; i++) {
+      for (let i = 0; i < soluciones.length; i++) {
 
-        if (equipos[i].ID==id_sc) {
+        if (soluciones[i].ID==id_sc) {
             const header1 = document.createElement("p")
-            header1.innerHTML = "Mostrando SC para " + equipos[i].Nombre
+            header1.innerHTML = "Mostrando SC para " + soluciones[i].Nombre
             header1.setAttribute("class","h4")
 
             const div1 = document.createElement("div")
@@ -116,12 +116,12 @@ function mostrar_SC (id_sc) {
             select1.setAttribute("id","sel1")
             select1.setAttribute("class","sel")
 
-//            select1.innerHTML='<option value="' + equipos[i].Rack[0] + '">' + equipos[i].Rack[0] + '</option>'
+//            select1.innerHTML='<option value="' + soluciones[i].Rack[0] + '">' + soluciones[i].Rack[0] + '</option>'
 
-            for (let j = 0; j < equipos[i].Rack.length; j++) {
+            for (let j = 0; j < soluciones[i].Rack.length; j++) {
 
                   select1.innerHTML = select1.innerHTML +
-                    '<option value="' + equipos[i].Rack[j] + '">' + equipos[i].Rack[j] + '</option>';
+                    '<option value="' + soluciones[i].Rack[j] + '">' + soluciones[i].Rack[j] + '</option>';
             }
 
             div2.appendChild(text1)
@@ -137,12 +137,12 @@ function mostrar_SC (id_sc) {
             const select2 = document.createElement("select")
             select2.setAttribute("id","sel2")
             select2.setAttribute("class","sel")
-//            select2.innerHTML='<option value="' + equipos[i].Energia[0] + '">' + equipos[i].Energia[0] + '</option>'
+//            select2.innerHTML='<option value="' + soluciones[i].Energia[0] + '">' + soluciones[i].Energia[0] + '</option>'
 
-            for (let j = 0; j < equipos[i].Energia.length; j++) {
+            for (let j = 0; j < soluciones[i].Energia.length; j++) {
 
                   select2.innerHTML = select2.innerHTML +
-                    '<option value="' + equipos[i].Energia[j] + '">' + equipos[i].Energia[j] + '</option>';
+                    '<option value="' + soluciones[i].Energia[j] + '">' + soluciones[i].Energia[j] + '</option>';
             }
 
             div3.appendChild(text2)
@@ -159,12 +159,12 @@ function mostrar_SC (id_sc) {
             select3.setAttribute("id","sel3")
             select3.setAttribute("class","sel")
 
-//            select3.innerHTML='<option value="' + equipos[i].UTP[0] + '">' + equipos[i].UTP[0] + '</option>'
+//            select3.innerHTML='<option value="' + soluciones[i].UTP[0] + '">' + soluciones[i].UTP[0] + '</option>'
 
-            for (let j = 0; j < equipos[i].UTP.length; j++) {
+            for (let j = 0; j < soluciones[i].UTP.length; j++) {
 
                   select3.innerHTML = select3.innerHTML +
-                    '<option value="' + equipos[i].UTP[j] + '">' + equipos[i].UTP[j] + '</option>';
+                    '<option value="' + soluciones[i].UTP[j] + '">' + soluciones[i].UTP[j] + '</option>';
             }
 
             div4.appendChild(text3)
@@ -181,12 +181,12 @@ function mostrar_SC (id_sc) {
             select4.setAttribute("id","sel4")
             select4.setAttribute("class","sel")
 
-            //            select4.innerHTML='<option value="' + equipos[i].Fibra[0] + '">' + equipos[i].Fibra[0] + '</option>'
+            //            select4.innerHTML='<option value="' + soluciones[i].Fibra[0] + '">' + soluciones[i].Fibra[0] + '</option>'
 
-            for (let j = 0; j < equipos[i].Fibra.length; j++) {
+            for (let j = 0; j < soluciones[i].Fibra.length; j++) {
 
                   select4.innerHTML = select4.innerHTML +
-                    '<option value="' + equipos[i].Fibra[j] + '">' + equipos[i].Fibra[j] + '</option>';
+                    '<option value="' + soluciones[i].Fibra[j] + '">' + soluciones[i].Fibra[j] + '</option>';
             }
 
             div5.appendChild(text4)
