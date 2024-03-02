@@ -34,8 +34,12 @@ h1{
 
 .sel {
     margin-left: 20px;
+    height: 30px;
 }
 
 .inp {
     margin-left: 20px;
+    margin-right: 20px;
+    width: 40px; 
+    height: 30px;
 }

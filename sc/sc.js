@@ -17,10 +17,6 @@ table.setAttribute("class", "table table-light table-striped");
 
 let tr = table.insertRow(-1);
 
-/* let th = document.createElement("th");
-th.innerHTML = "Seleccionar Tareas";
-tr.appendChild(th);
- */
 for (let i = 0; i < soluciones.length; i++) {
 
     tr = table.insertRow(-1);
@@ -83,18 +79,22 @@ function mostrar_SC (id_sc) {
             const boton1= document.createElement("button")
             boton1.innerHTML="Layout"
             boton1.setAttribute("id","boton1")
+            boton1.setAttribute("class","btn btn-primary")
 
             const boton2= document.createElement("button")
             boton2.innerHTML="Conectividad"
             boton2.setAttribute("id","boton2")
+            boton2.setAttribute("class","btn btn-primary")
 
             const boton3= document.createElement("button")
             boton3.innerHTML="Energía"
             boton3.setAttribute("id","boton3")
+            boton3.setAttribute("class","btn btn-primary")
 
             const boton4= document.createElement("button")
             boton4.innerHTML="Specs"
             boton4.setAttribute("id","boton4")
+            boton4.setAttribute("class","btn btn-primary")
 
             div1.appendChild(boton1)
             div1.appendChild(boton2)
@@ -116,8 +116,6 @@ function mostrar_SC (id_sc) {
             select1.setAttribute("id","sel1")
             select1.setAttribute("class","sel")
 
-            // select1.innerHTML='<option value="' + soluciones[i].Rack[0] + '">' + soluciones[i].Rack[0] + '</option>'
-
             for (let j = 0; j < soluciones[i].Rack.length; j++) {
 
                   select1.innerHTML = select1.innerHTML +
@@ -137,11 +135,11 @@ function mostrar_SC (id_sc) {
             const select2 = document.createElement("select")
             select2.setAttribute("id","sel2")
             select2.setAttribute("class","sel")
-            // select2.innerHTML='<option value="' + soluciones[i].Energia[0] + '">' + soluciones[i].Energia[0] + '</option>'
 
             const input1 = document.createElement("input")
             input1.setAttribute("id","inp1")
             input1.setAttribute("class","inp")
+            input1.setAttribute("value","20")
 
             for (let j = 0; j < soluciones[i].Energia.length; j++) {
 
@@ -149,9 +147,14 @@ function mostrar_SC (id_sc) {
                     '<option value="' + soluciones[i].Energia[j] + '">' + soluciones[i].Energia[j] + '</option>';
             }
 
+            const text5 = document.createElement("p")
+            text5.innerHTML = "metros al tablero"
+            text5.setAttribute("class","texto")
+
             div3.appendChild(text2)
             div3.appendChild(select2)
             div3.appendChild(input1)
+            div3.appendChild(text5)
 
             const div4 = document.createElement("div")
             div4.setAttribute("class","seteo_sc")
@@ -163,11 +166,11 @@ function mostrar_SC (id_sc) {
             const select3 = document.createElement("select")
             select3.setAttribute("id","sel3")
             select3.setAttribute("class","sel")
-            // select3.innerHTML='<option value="' + soluciones[i].UTP[0] + '">' + soluciones[i].UTP[0] + '</option>'
 
             const input2 = document.createElement("input")
             input2.setAttribute("id","inp2")
             input2.setAttribute("class","inp")
+            input2.setAttribute("value","20")
 
             for (let j = 0; j < soluciones[i].UTP.length; j++) {
 
@@ -175,9 +178,14 @@ function mostrar_SC (id_sc) {
                     '<option value="' + soluciones[i].UTP[j] + '">' + soluciones[i].UTP[j] + '</option>';
             }
 
+            const text6 = document.createElement("p")
+            text6.innerHTML = "metros al concentrador"
+            text6.setAttribute("class","texto")
+
             div4.appendChild(text3)
             div4.appendChild(select3)
             div4.appendChild(input2)
+            div4.appendChild(text6)
 
             const div5 = document.createElement("div")
             div5.setAttribute("class","seteo_sc")
@@ -189,11 +197,6 @@ function mostrar_SC (id_sc) {
             const select4 = document.createElement("select")
             select4.setAttribute("id","sel4")
             select4.setAttribute("class","sel")
-            // select4.innerHTML='<option value="' + soluciones[i].Fibra[0] + '">' + soluciones[i].Fibra[0] + '</option>'
-
-            const input3 = document.createElement("input")
-            input3.setAttribute("id","inp3")
-            input3.setAttribute("class","inp")
 
             for (let j = 0; j < soluciones[i].Fibra.length; j++) {
 
@@ -201,9 +204,25 @@ function mostrar_SC (id_sc) {
                     '<option value="' + soluciones[i].Fibra[j] + '">' + soluciones[i].Fibra[j] + '</option>';
             }
 
+            const select5 = document.createElement("select")
+            select5.setAttribute("id","sel5")
+            select5.setAttribute("class","sel")
+            select5.innerHTML= "<option value=20>20m</option> <option value=30>30m</option> <option value=50>50m</option> <option value=70>70m</option> <option value=100>100m</option>"
+
             div5.appendChild(text4)
             div5.appendChild(select4)
-            div5.appendChild(input3)
+            div5.appendChild(select5)
+
+            const div6 = document.createElement("div")
+            div6.setAttribute("class","seteo_sc")
+
+            const boton5 = document.createElement("button")
+            boton5.innerHTML = "Continuar"
+            boton5.setAttribute("class","btn btn-primary")
+            boton5.setAttribute("id","boton5")
+            boton5.setAttribute("onclick","agregar_var()")
+
+            div6.appendChild(boton5)
 
             showData2.innerHTML = "";
             showData2.appendChild(header1)
@@ -213,6 +232,13 @@ function mostrar_SC (id_sc) {
             showData2.appendChild(div3)
             showData2.appendChild(div4)
             showData2.appendChild(div5)
+            showData2.appendChild(div6)
+
             }
       }
+}
+
+
+function agregar_var(){
+
 }
