@@ -1,13 +1,16 @@
 let soluciones = [
       {"Marca":"Huawei",
        "Modelo":"NE8000 F8",
-       "Nombre":"Huawei NE8000 F8 (AC)",
-       "ID":"NE8000F8AC",
+       "Nombre":"Huawei NE8000 F8 AC en sitio AC",
+       "ID":"NE8000F8_AC-AC",
        "Tipo":"ROA/AGN",
-       "Rack":["1150B","1150N","POD"],
-       "Energia":["380Vx16A","380Vx32A"],
-       "UTP":["48UTP","96UTP"],
-       "Fibra":["VINC288FO","VINC576FO"]
+       "Base":{
+          "Rack":["1150B","1150N","POD"],
+          "Energia":["380Vx16A","380Vx32A"],
+          "UTP":["48UTP","96UTP"],
+          "Fibra":["VINC288FO","VINC576FO"]},
+        "Implementación":{},
+        "Otros":{}
       },
 
       {"Marca":"Huawei",

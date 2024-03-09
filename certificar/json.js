@@ -30,12 +30,7 @@ let proveedores=JSON.parse(JSON.stringify(
       {
         "Proveedor": 1016685,
         "Contratista": "Wilion Conte y Asociados",
-        "NPA": 7600017925
-      },
-      {
-        "Proveedor": 1016685,
-        "Contratista": "Wilion Conte y Asociados",
-        "NPA": 7600020057
+        "NPA": 7600023780
       },
       {
         "Proveedor": 1016859,

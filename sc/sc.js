@@ -65,6 +65,7 @@ function myFunction() {
 function mostrar_SC (id_sc) {
       showData1.style.display="None"
       showData2.style.display="block"
+      showData3.style.display="block"
 
       for (let i = 0; i < soluciones.length; i++) {
 
@@ -72,6 +73,12 @@ function mostrar_SC (id_sc) {
             const header1 = document.createElement("p")
             header1.innerHTML = "Mostrando SC para " + soluciones[i].Nombre
             header1.setAttribute("class","h4")
+
+            const sc_seleccionada = document.createElement("p")
+            sc_seleccionada.innerHTML = id_sc
+            sc_seleccionada.setAttribute("id","sc_seleccionada")
+
+            showData1.appendChild(sc_seleccionada)
 
             const div1 = document.createElement("div")
             div1.setAttribute("id","botonera")
@@ -103,7 +110,7 @@ function mostrar_SC (id_sc) {
 
             const header2 = document.createElement("p")
             header2.innerHTML = "Solución por defecto:"
-            header1.setAttribute("class","h5")
+            header2.setAttribute("class","h5")
 
             const div2 = document.createElement("div")
             div2.setAttribute("class","seteo_sc")
@@ -116,10 +123,10 @@ function mostrar_SC (id_sc) {
             select1.setAttribute("id","sel1")
             select1.setAttribute("class","sel")
 
-            for (let j = 0; j < soluciones[i].Rack.length; j++) {
+            for (let j = 0; j < soluciones[i].Base.Rack.length; j++) {
 
                   select1.innerHTML = select1.innerHTML +
-                    '<option value="' + soluciones[i].Rack[j] + '">' + soluciones[i].Rack[j] + '</option>';
+                    '<option value="' + soluciones[i].Base.Rack[j] + '">' + soluciones[i].Base.Rack[j] + '</option>';
             }
 
             div2.appendChild(text1)
@@ -141,10 +148,10 @@ function mostrar_SC (id_sc) {
             input1.setAttribute("class","inp")
             input1.setAttribute("value","20")
 
-            for (let j = 0; j < soluciones[i].Energia.length; j++) {
+            for (let j = 0; j < soluciones[i].Base.Energia.length; j++) {
 
                   select2.innerHTML = select2.innerHTML +
-                    '<option value="' + soluciones[i].Energia[j] + '">' + soluciones[i].Energia[j] + '</option>';
+                    '<option value="' + soluciones[i].Base.Energia[j] + '">' + soluciones[i].Base.Energia[j] + '</option>';
             }
 
             const text5 = document.createElement("p")
@@ -172,10 +179,10 @@ function mostrar_SC (id_sc) {
             input2.setAttribute("class","inp")
             input2.setAttribute("value","20")
 
-            for (let j = 0; j < soluciones[i].UTP.length; j++) {
+            for (let j = 0; j < soluciones[i].Base.UTP.length; j++) {
 
                   select3.innerHTML = select3.innerHTML +
-                    '<option value="' + soluciones[i].UTP[j] + '">' + soluciones[i].UTP[j] + '</option>';
+                    '<option value="' + soluciones[i].Base.UTP[j] + '">' + soluciones[i].Base.UTP[j] + '</option>';
             }
 
             const text6 = document.createElement("p")
@@ -198,10 +205,10 @@ function mostrar_SC (id_sc) {
             select4.setAttribute("id","sel4")
             select4.setAttribute("class","sel")
 
-            for (let j = 0; j < soluciones[i].Fibra.length; j++) {
+            for (let j = 0; j < soluciones[i].Base.Fibra.length; j++) {
 
                   select4.innerHTML = select4.innerHTML +
-                    '<option value="' + soluciones[i].Fibra[j] + '">' + soluciones[i].Fibra[j] + '</option>';
+                    '<option value="' + soluciones[i].Base.Fibra[j] + '">' + soluciones[i].Base.Fibra[j] + '</option>';
             }
 
             const select5 = document.createElement("select")
@@ -227,12 +234,13 @@ function mostrar_SC (id_sc) {
             showData2.innerHTML = "";
             showData2.appendChild(header1)
             showData2.appendChild(div1)
-            showData2.appendChild(header2)
-            showData2.appendChild(div2)
-            showData2.appendChild(div3)
-            showData2.appendChild(div4)
-            showData2.appendChild(div5)
-            showData2.appendChild(div6)
+            showData3.innerHTML = "";
+            showData3.appendChild(header2)
+            showData3.appendChild(div2)
+            showData3.appendChild(div3)
+            showData3.appendChild(div4)
+            showData3.appendChild(div5)
+            showData3.appendChild(div6)
 
             }
       }
@@ -241,4 +249,31 @@ function mostrar_SC (id_sc) {
 
 function agregar_var(){
 
-}
+        showData3.style.display="None"
+        showData4.style.display="block"
+
+        let sc_id = document.getElementById("sc_seleccionada").innerHTML
+
+
+        const div16 = document.createElement("div")
+        div16.setAttribute("class","seteo_sc")
+
+        const boton15 = document.createElement("button")
+        boton15.innerHTML = "Volver"
+        boton15.setAttribute("class","btn btn-primary")
+        boton15.setAttribute("id","boton15")
+        boton15.setAttribute("onclick","volver()")
+
+        const boton16 = document.createElement("button")
+        boton16.innerHTML = "Continuar"
+        boton16.setAttribute("class","btn btn-primary")
+        boton16.setAttribute("id","boton15")
+        boton16.setAttribute("onclick","generar_listado()")
+
+        div16.appendChild(boton15)
+        div16.appendChild(boton16)
+
+        showData4.appendChild(div16)
+
+            }
+      
