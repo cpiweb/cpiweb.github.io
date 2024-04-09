@@ -397,7 +397,7 @@ function agregar_viatico(){
 
   const desarraigo = 28559 // convenio telefonico Marzo 2024
   
-  const nafta= 800 // precio litro super cecha.org.ar Marzo 2024
+  const nafta= 837 // precio litro super cecha.org.ar Abril 2024
 
   cantidad_viatico=tecnicos*dias*desarraigo+km*nafta*0.2
   let id_row
