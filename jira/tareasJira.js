@@ -257,6 +257,11 @@ function mostrarIssue (issue){
     pep.innerHTML = "PEP: " + issue.fields.customfield_13414
     divshow.appendChild(pep)
 
+    let padre = document.createElement("p")
+    padre.setAttribute ("class", "texto_issue")
+    padre.innerHTML = "Tarea Padre: " + issue.fields.parent.key + " - " + issue.fields.parent.fields.summary
+    divshow.appendChild(padre)
+
     let boton = document.createElement("button")
     boton.setAttribute ("class", "btn btn-primary")
     boton.setAttribute ("onclick",`openURL('${issue.key}')`)
