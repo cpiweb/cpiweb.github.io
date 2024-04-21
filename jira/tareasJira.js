@@ -88,7 +88,7 @@ function mostrar (issues){
     table1.setAttribute("class", "table table-light table-striped");
 
     // Crear header
-    col = ["Key","Resumen","Fecha Necesidad","Estado"]
+    col = ["Key","Resumen","Fecha Vencimiento","Estado"]
     let tr1 = table1.insertRow(-1);
     for (let i = 0; i < col.length; i++) {
         let th1 = document.createElement("th");
@@ -151,7 +151,7 @@ function mostrar (issues){
             }
           }
           try{
-            fechaN= ((new Date((issues[i].issues[j].fields.customfield_13402)+'T15:00:00Z') < hoy) && fecha1) || !fecha1
+            fechaN= ((new Date((issues[i].issues[j].fields.duedate)+'T15:00:00Z') < hoy) && fecha1) || !fecha1
           } catch {
             fechaN= false
           }
@@ -170,7 +170,7 @@ function mostrar (issues){
               celda.setAttribute("class","key_class")
               celda.setAttribute("onclick","obtenerIssue(this.id)")
               tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.summary
-              tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.customfield_13402
+              tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.duedate
               tr1.insertCell(-1).innerHTML = issues[i].issues[j].fields.status.name
           }
       }
@@ -235,7 +235,7 @@ function mostrarIssue (issue){
 
     let fecha_necesidad = document.createElement("p")
     fecha_necesidad.setAttribute ("class", "texto_issue")
-    fecha_necesidad.innerHTML = "Fecha Necesidad: " + issue.fields.customfield_13402
+    fecha_necesidad.innerHTML = "Fecha Vencimiento: " + issue.fields.duedate
     divshow.appendChild(fecha_necesidad)
 
     let fecha_planificada = document.createElement("p")
