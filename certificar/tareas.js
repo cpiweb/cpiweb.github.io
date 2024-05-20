@@ -395,7 +395,7 @@ function agregar_viatico(){
   let dias= prompt('Cant de días:')
   let km= prompt('Cant de km recorridos:')
 
-  const desarraigo = 28559 // convenio telefonico Marzo 2024
+  const desarraigo = 36342 // convenio telefonico Abril 2024
   
   const nafta= 870 // precio litro super cecha.org.ar Mayo 2024
 
