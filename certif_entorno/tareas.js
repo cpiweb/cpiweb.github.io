@@ -210,7 +210,11 @@ function agregar(id_tarea){
             tr.insertCell(-1).innerHTML = posiciones[tipo_npa][j]["Pos"];
             tr.insertCell(-1).innerHTML = posiciones[tipo_npa][j]["Descripción"];
             tr.insertCell(-1).innerHTML = '<input type="text" id="'+id_row+'" name="cantidad" onkeyup="calcular_subtotal(this.value, this.id)">'
-            precio= posiciones[tipo_npa][j]["Precio Neto"]
+            if (posiciones[tipo_npa][j]["Precio Neto"]==0) {
+                precio = 1
+            } else {
+                precio= posiciones[tipo_npa][j]["Precio Neto"]
+            }
             tr.insertCell(-1).innerHTML = '$'+ precio
             tr.insertCell(-1).innerHTML = subtotal
             tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
@@ -387,6 +391,7 @@ function eliminar_tarea(fila){
     }
 }
 
+/* 
 function agregar_viatico(){
   let tecnicos= prompt('Cant de técnicos:')
   let dias= prompt('Cant de días:')
@@ -414,6 +419,7 @@ function agregar_viatico(){
   tr.insertCell(-1).innerHTML = '$'+cantidad_viatico
   tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
       }
+ */
 
 function copiar_tabla(tabla) {
 
