@@ -23,7 +23,7 @@ for (let key in npas_entorno) {
     }
     }
 
-alert (contratos)
+//alert (contratos)
 
 // Crear tabla
 const table4 = document.createElement("table");
@@ -52,7 +52,7 @@ for (let i = 0; i < contratos.length; i++) {
     celda.setAttribute("onclick","obtenerNPA(this.id)")
     tr4.insertCell(-1).innerHTML = npas_entorno[contratos[i]][0]["Proveedor"];
     tr4.insertCell(-1).innerHTML = npas_entorno[contratos[i]][0]["Moneda"];
-    tr4.insertCell(-1).innerHTML ='<button id="'+proveedores.NPAyProveedor[i][col4[2]]+'" class="btn btn-primary" onclick="seleccionar_contratista(this.id)">Seleccionar</button>'
+    tr4.insertCell(-1).innerHTML ='<button id="'+contratos[i]+'" class="btn btn-primary" onclick="seleccionar_contratista(this.id)">Seleccionar</button>'
 }
 
 const header4 = document.createElement("p")
@@ -80,20 +80,35 @@ function seleccionar_contratista(NPA){
     divShowData4.removeChild(header4)
     divShowData4.removeChild(saltolinea4)
     divShowData4.removeChild(table4);
+/* 
     for (let i = 0; i < proveedores.NPAyProveedor.length; i++) {
       if (proveedores.NPAyProveedor[i]["NPA"]==NPA){
         nro_proveedor = proveedores.NPAyProveedor[i]["Proveedor"]
         nombre_proveedor = proveedores.NPAyProveedor[i]["Contratista"]
         npa_proveedor = proveedores.NPAyProveedor[i]["NPA"]
     }
-    header4.innerHTML = "Contratista seleccionado: " + nro_proveedor + " (" + nombre_proveedor + ")"
-    header4.setAttribute ("class","h5")
+ */
+    header4.innerHTML = "Contratista seleccionado: " + npas_entorno[NPA][0]["Proveedor"]
+    header4.setAttribute ("class","h6")
 
+/*     
+    const header5 = document.createElement("p")
+    header5.innerHTML = NPA
+    header5.setAttribute ("class","h6")
+    header5.setAttribute ("id","NPA")
+ */
     divShowData4.appendChild(header4)
+//    divShowData4.appendChild(header5)
     divShowData4.appendChild(saltolinea4)
     divShowData.style.display = "block"
-    }
-}
+    
+//}
+
+/* 
+let header_NPA = document.divShowData4.getElementById("NPA")
+let NPA = header_NPA.innerHTML
+alert (NPA)
+ */
 
 const table = document.createElement("table");
 table.setAttribute("id", "myTable");
@@ -105,12 +120,12 @@ let tr = table.insertRow(-1);
 th.innerHTML = "Seleccionar Tareas";
 tr.appendChild(th);
  */
-for (let i = 0; i < tareas.Agrupados.length; i++) {
+for (let i = 0; i < npas_entorno[NPA].length; i++) {
 
     tr = table.insertRow(-1);
     let tabCell = tr.insertCell(-1);
-    tabCell.innerHTML = tareas.Agrupados[i]["Tarea"];
-    tr.insertCell(-1).innerHTML ='<button id="'+tareas.Agrupados[i]["Pos NPA"]+'" class="btn btn-primary" onclick="agregar(this.id)">Agregar</button>'
+    tabCell.innerHTML = npas_entorno[NPA][i]["Descripción"];
+    tr.insertCell(-1).innerHTML ='<button id="'+npas_entorno[NPA][i]["Pos"]+'" class="btn btn-primary" onclick="agregar(this.id,'+NPA+')">Agregar</button>'
 }
 
 const entrada = document.createElement("input")
@@ -125,7 +140,7 @@ divShowData.innerHTML = "";
 divShowData.appendChild(entrada);
 divShowData.appendChild(salto_linea);
 divShowData.appendChild(table);
-
+}
 
 function myFunction() {
     // Declare variables
@@ -188,7 +203,7 @@ divShowData2.appendChild(titulo6);
 divShowData2.appendChild(boton1);
 divShowData2.appendChild(boton2);
 
-function agregar(id_tarea){
+function agregar(id_tarea, NPA){
     
     let subtotal=0
 
@@ -196,7 +211,7 @@ function agregar(id_tarea){
     divShowData2.scrollIntoView()
 
     let id_row
-     if (table2.rows[table2.rows.length-1].cells[0].textContent=="#"){
+    if (table2.rows[table2.rows.length-1].cells[0].textContent=="#"){
         id_row=1
     } else {
         id_row=parseInt(table2.rows[table2.rows.length-1].cells[0].textContent)+1
@@ -204,14 +219,14 @@ function agregar(id_tarea){
     tr = table2.insertRow(-1);
     let cantidad=0
 
-    for (let j = 0; j < tareas.Agrupados.length; j++) {
+    for (let j = 0; j < npas_entorno[NPA].length; j++) {
     
-        if (tareas.Agrupados[j]["Pos NPA"]==id_tarea){
+        if (npas_entorno[NPA][j]["Pos"]==id_tarea){
             tr.insertCell(-1).innerHTML = id_row;
-            tr.insertCell(-1).innerHTML = tareas.Agrupados[j]["Pos NPA"];
-            tr.insertCell(-1).innerHTML = tareas.Agrupados[j]["Tarea"];
+            tr.insertCell(-1).innerHTML = npas_entorno[NPA][j]["Pos"];
+            tr.insertCell(-1).innerHTML = npas_entorno[NPA][j]["Descripción"];
             tr.insertCell(-1).innerHTML = '<input type="text" id="'+id_row+'" name="cantidad" onkeyup="calcular_subtotal(this.value, this.id)">'
-            precio= traer_precio (tareas.Agrupados[j]["Pos NPA"])
+            precio= npas_entorno[NPA][j]["Precio Neto"]
             tr.insertCell(-1).innerHTML = '$'+ precio
             tr.insertCell(-1).innerHTML = subtotal
             tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
