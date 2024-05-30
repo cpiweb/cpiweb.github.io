@@ -75,6 +75,7 @@ let nro_proveedor
 let nombre_proveedor
 let tipo_npa
 let npa_proveedor
+let simbolo
 
 function seleccionar_contratista(NPA){
     divShowData4.removeChild(header4)
@@ -96,6 +97,12 @@ function seleccionar_contratista(NPA){
     }
 //}
 
+if (tipo_npa=="Materiales") {
+        simbolo = "USD "
+} else {
+        simbolo = "ARS "
+}
+
 const table = document.createElement("table");
 table.setAttribute("id", "myTable");
 table.setAttribute("class", "table table-light table-striped");
@@ -107,7 +114,8 @@ for (let i = 0; i < posiciones[tipo_npa].length; i++) {
     tr = table.insertRow(-1);
     let tabCell = tr.insertCell(-1);
     tabCell.innerHTML = posiciones[tipo_npa][i]["Descripción"];
-    tr.insertCell(-1).innerHTML ='<button id="'+posiciones[tipo_npa][i]["Pos"]+'" class="btn btn-primary" onclick="agregar(this.id)">Agregar</button>'
+//    tr.insertCell(-1).innerHTML ='<button id="'+posiciones[tipo_npa][i]["Pos"]+'" class="btn btn-primary" onclick="agregar(this.id)">Agregar</button>'
+    tr.insertCell(-1).innerHTML ='<button id="'+posiciones[tipo_npa][i]["Posición"]+'" class="btn btn-primary" onclick="agregar('+posiciones[tipo_npa][i]["Posición"]+','+posiciones[tipo_npa][i]["Línea"]+')">Agregar</button>'
 }
 
 const entrada = document.createElement("input")
@@ -147,7 +155,7 @@ function myFunction() {
     }
   }
 
-let col2 = ["#","Pos NPA","Descripción","Cantidad","Precio","Subtotal","Acción"];
+let col2 = ["#","Posición","Línea","Descripción","Cantidad","Precio","Subtotal","Acción"];
 
 const table2 = document.createElement("table");
 table2.setAttribute("id", "myTable2");
@@ -187,7 +195,7 @@ divShowData2.appendChild(titulo6);
 divShowData2.appendChild(boton1);
 divShowData2.appendChild(boton2);
 
-function agregar(id_tarea){
+function agregar(posicion, linea){
     
     let subtotal=0
 
@@ -205,17 +213,18 @@ function agregar(id_tarea){
 
     for (let j = 0; j < posiciones[tipo_npa].length; j++) {
     
-        if (posiciones[tipo_npa][j]["Pos"]==id_tarea){
+        if ((posiciones[tipo_npa][j]["Posición"]==posicion) && (posiciones[tipo_npa][j]["Línea"]==linea)){
             tr.insertCell(-1).innerHTML = id_row;
-            tr.insertCell(-1).innerHTML = posiciones[tipo_npa][j]["Pos"];
+            tr.insertCell(-1).innerHTML = posiciones[tipo_npa][j]["Posición"];
+            tr.insertCell(-1).innerHTML = posiciones[tipo_npa][j]["Línea"];
             tr.insertCell(-1).innerHTML = posiciones[tipo_npa][j]["Descripción"];
             tr.insertCell(-1).innerHTML = '<input type="text" id="'+id_row+'" name="cantidad" onkeyup="calcular_subtotal(this.value, this.id)">'
-            if (posiciones[tipo_npa][j]["Precio Neto"]==0) {
+            if (posiciones[tipo_npa][j]["Precio"]==0) {
                 precio = 1
             } else {
-                precio= posiciones[tipo_npa][j]["Precio Neto"]
+                precio= posiciones[tipo_npa][j]["Precio"]
             }
-            tr.insertCell(-1).innerHTML = '$'+ precio
+            tr.insertCell(-1).innerHTML = simbolo + precio
             tr.insertCell(-1).innerHTML = subtotal
             tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
         }
@@ -259,7 +268,8 @@ function generar_OE(){
     let tabla= document.getElementById("myTable2")
     let filas=[]
     let fila= []
-    let posicion
+    let posicion_oe
+    let linea_oe
     let cantidad_oe
     let descripcion
     let precio
@@ -267,17 +277,21 @@ function generar_OE(){
     let total=0
 
     for (i=1; i<tabla.rows.length; i++){
-         let posNPA=tabla.rows[i].cells[1].textContent
-         let cantidad=tabla.rows[i].cells[3].children.cantidad.value
-         if (parseInt(posNPA)==posNPA){
-            posicion= posNPA
+         let pos=tabla.rows[i].cells[1].textContent
+         let lin=tabla.rows[i].cells[2].textContent
+         let cantidad=tabla.rows[i].cells[4].children.cantidad.value
+         if (parseInt(pos)==pos){
+            posicion_oe= pos
+            linea_oe= lin
             cantidad_oe=cantidad
-            descripcion= tabla.rows[i].cells[2].textContent
-            precio= parseFloat(tabla.rows[i].cells[4].textContent.slice(1))
+            descripcion= tabla.rows[i].cells[3].textContent
+            precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4))
             precio_total= (Math.round(parseFloat(cantidad)*precio*100))/100
-            fila=[npa_proveedor, "0010", posicion, descripcion, fecha_entrega, cantidad_oe, precio, precio_total]
+            fila=[npa_proveedor, posicion_oe, linea_oe, descripcion, fecha_entrega, cantidad_oe, simbolo+precio, simbolo+precio_total]
             filas.push(fila)
-            } else {
+            }
+/*             
+            else {
                 for (let j = 0; j < tareas_agrupadas.Agrupados.length; j++){
                     if (tareas_agrupadas.Agrupados[j]["Cableado"]==posNPA){
                         cantidad_oe=tareas_agrupadas.Agrupados[j]["Cantidad"]*cantidad
@@ -291,11 +305,12 @@ function generar_OE(){
                         }
                         fila=[npa_proveedor, "0010", posicion, descripcion, fecha_entrega, cantidad_oe, precio, precio_total]
                         filas.push(fila)}
-            }}   
+            }}
+ */               
     }
     let ordenador=[]
     for (let i=0; i<filas.length;i++){
-      ordenador.push(filas[i][2])
+      ordenador.push(filas[i][1])
     }
     ordenador.sort(function(a, b){return a - b})
 
@@ -355,25 +370,26 @@ function generar_OE(){
         cantidad_oe=0
         tr = table3.insertRow(-1);
         for (let j = 0; j < filas.length; j++){
-            if (ordenador[i]==filas[j][2]){
-              posicion=filas[j][2]
+            if (ordenador[i]==filas[j][1]){
+              posicion=filas[j][1]
+              linea=filas[j][2]
               descripcion=filas[j][3]
-              precio=filas[j][6]
+              precio=filas[j][6].slice(4)
               cantidad_oe=parseFloat(cantidad_oe)+parseFloat(filas[j][5])
             }
         }
         tr.insertCell(-1).innerHTML = npa_proveedor;
-        tr.insertCell(-1).innerHTML = "0010";
         tr.insertCell(-1).innerHTML = posicion;
+        tr.insertCell(-1).innerHTML = linea;
         tr.insertCell(-1).innerHTML = descripcion;
         tr.insertCell(-1).innerHTML = fecha_entrega;
         tr.insertCell(-1).innerHTML = cantidad_oe.toString().replace('.', ',');
-        tr.insertCell(-1).innerHTML = precio.toString().replace('.', ',');
-        tr.insertCell(-1).innerHTML = ((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
-        total=(Math.round((total+(precio*cantidad_oe)))*100)/100
+        tr.insertCell(-1).innerHTML = simbolo+precio.toString().replace('.', ',');
+        tr.insertCell(-1).innerHTML = simbolo+((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
+        total= (Math.round((total+(precio*cantidad_oe)))*100)/100
     }
     let titulo5 = document.createElement("span")
-    titulo5.innerHTML= "Monto total OE:  $" + total
+    titulo5.innerHTML= "Monto total OE: " + simbolo + total
     titulo5.setAttribute("id","total_OE")
     titulo5.setAttribute("class","h5")
     divShowData3.appendChild(titulo4)
@@ -451,9 +467,9 @@ function calcular_subtotal(cantidad,id_row){
     let subtotal=0
     for (i=1; i<tabla.rows.length; i++){
         if (tabla.rows[i].cells[0].textContent==id_row){
-            tabla.rows[i].cells[5].textContent= "$"+((Math.round(parseFloat(tabla.rows[i].cells[4].textContent.slice(1))*cantidad*100))/100).toString()
+            tabla.rows[i].cells[6].textContent= simbolo+((Math.round(parseFloat(tabla.rows[i].cells[5].textContent.slice(4))*cantidad*100))/100).toString()
         }
-        subtotal=subtotal+parseFloat(tabla.rows[i].cells[5].textContent.slice(1))
+        subtotal=subtotal+parseFloat(tabla.rows[i].cells[6].textContent.slice(1))
         console.log(subtotal)
     }
 //    titulo6.innerHTML= "Monto Total OE:  $"+subtotal       
