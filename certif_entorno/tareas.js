@@ -95,7 +95,6 @@ function seleccionar_contratista(NPA){
     divShowData4.appendChild(saltolinea4)
     divShowData.style.display = "block"
     }
-//}
 
 if (tipo_npa=="Materiales") {
         simbolo = "USD "
@@ -114,7 +113,6 @@ for (let i = 0; i < posiciones[tipo_npa].length; i++) {
     tr = table.insertRow(-1);
     let tabCell = tr.insertCell(-1);
     tabCell.innerHTML = posiciones[tipo_npa][i]["Descripción"];
-//    tr.insertCell(-1).innerHTML ='<button id="'+posiciones[tipo_npa][i]["Pos"]+'" class="btn btn-primary" onclick="agregar(this.id)">Agregar</button>'
     tr.insertCell(-1).innerHTML ='<button id="'+posiciones[tipo_npa][i]["Posición"]+'" class="btn btn-primary" onclick="agregar('+posiciones[tipo_npa][i]["Posición"]+','+posiciones[tipo_npa][i]["Línea"]+')">Agregar</button>'
 }
 
@@ -177,13 +175,6 @@ boton1.innerHTML = "Generar OE"
 boton1.setAttribute("onclick", "generar_OE()");
 boton1.setAttribute("class", "btn btn-success");
 
-/* 
-const boton2 = document.createElement("button")
-boton2.innerHTML = "Agregar viático"
-boton2.setAttribute("onclick", "agregar_viatico()");
-boton2.setAttribute("class", "btn btn-success");
-boton2.setAttribute("id", "boton2");
- */
 const titulo6 = document.createElement("p")
 titulo6.setAttribute("id","subtotal_OE")
 titulo6.setAttribute("class","h5")
@@ -193,7 +184,6 @@ divShowData2.appendChild(titulo2)
 divShowData2.appendChild(table2);
 divShowData2.appendChild(titulo6);
 divShowData2.appendChild(boton1);
-divShowData2.appendChild(boton2);
 
 function agregar(posicion, linea){
     
@@ -231,29 +221,6 @@ function agregar(posicion, linea){
     }
 }
 
-/* 
-function traer_precio(tipo_tarea){
-    if (parseInt(tipo_tarea)==tipo_tarea){
-        for (let j = 0; j < posiciones.NPAyPosiciones.length; j++){
-            if (posiciones.NPAyPosiciones[j]["Posición"]==tipo_tarea){
-                return posiciones.NPAyPosiciones[j]["Precio"]
-            }
-        }
-    } else {
-        let suma=0
-        for (let j = 0; j < tareas_agrupadas.Agrupados.length; j++){
-            if (tareas_agrupadas.Agrupados[j]["Cableado"]==tipo_tarea){
-                for (let i = 0; i < posiciones.NPAyPosiciones.length; i++){
-                    if (posiciones.NPAyPosiciones[i]["Servicio"]==tareas_agrupadas.Agrupados[j]["Código"]){
-                        suma= suma+(parseFloat(posiciones.NPAyPosiciones[i]["Precio"])*parseFloat(tareas_agrupadas.Agrupados[j]["Cantidad"]))
-                    }
-                suma= (Math.round(suma*100))/100
-            }
-        }
-    } return suma
-}}
- */
-
 function generar_OE(){
 
     let fecha = new Date();
@@ -268,8 +235,8 @@ function generar_OE(){
     let tabla= document.getElementById("myTable2")
     let filas=[]
     let fila= []
-    let posicion_oe
-    let linea_oe
+//    let posicion_oe
+//    let linea_oe
     let cantidad_oe
     let descripcion
     let precio
@@ -280,44 +247,36 @@ function generar_OE(){
          let pos=tabla.rows[i].cells[1].textContent
          let lin=tabla.rows[i].cells[2].textContent
          let cantidad=tabla.rows[i].cells[4].children.cantidad.value
-         if (parseInt(pos)==pos){
-            posicion_oe= pos
-            linea_oe= lin
-            cantidad_oe=cantidad
-            descripcion= tabla.rows[i].cells[3].textContent
-            precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4))
-            precio_total= (Math.round(parseFloat(cantidad)*precio*100))/100
-            fila=[npa_proveedor, posicion_oe, linea_oe, descripcion, fecha_entrega, cantidad_oe, simbolo+precio, simbolo+precio_total]
-            filas.push(fila)
-            }
-/*             
-            else {
-                for (let j = 0; j < tareas_agrupadas.Agrupados.length; j++){
-                    if (tareas_agrupadas.Agrupados[j]["Cableado"]==posNPA){
-                        cantidad_oe=tareas_agrupadas.Agrupados[j]["Cantidad"]*cantidad
-                        descripcion=tareas_agrupadas.Agrupados[j]["Descripción"]
-                        for (let k = 0; k < posiciones.NPAyPosiciones.length; k++){
-                            if (posiciones.NPAyPosiciones[k]["Servicio"]==tareas_agrupadas.Agrupados[j]["Código"]){
-                                posicion=posiciones.NPAyPosiciones[k]["Posición"]
-                                precio=posiciones.NPAyPosiciones[k]["Precio"]
-                                precio_total=precio*cantidad_oe
-                                }
-                        }
-                        fila=[npa_proveedor, "0010", posicion, descripcion, fecha_entrega, cantidad_oe, precio, precio_total]
-                        filas.push(fila)}
-            }}
- */               
-    }
-    let ordenador=[]
-    for (let i=0; i<filas.length;i++){
-      ordenador.push(filas[i][1])
-    }
-    ordenador.sort(function(a, b){return a - b})
+//         if (parseInt(pos)==pos){
+         cantidad_oe=cantidad
+         descripcion= tabla.rows[i].cells[3].textContent
+         precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4))
+         precio_total= (Math.round(parseFloat(cantidad)*precio*100))/100
+         total= (Math.round((total+(precio*cantidad_oe)))*100)/100
+         fila=[npa_proveedor, pos, lin, descripcion, fecha_entrega, cantidad_oe, simbolo+precio, simbolo+precio_total]
+         filas.push(fila)
+//            }
+        }
+ 
 
-    for(var i = ordenador.length -1; i >=0; i--){
-      if(ordenador.indexOf(ordenador[i]) !== i) ordenador.splice(i,1);
-    }    
+    // definimos la función de comparación
+    function compare(a, b) {
+        // comparamos los elementos en los índices indicados
+        return (parseInt(a[indiceOrdenacion]) >= parseInt(b[indiceOrdenacion])) ? 1 : -1;
+    }
+    
+    // paso 1: especificar la columna que se usará para ordenar
+    var indiceOrdenacion = 2;
+    // paso 2: llamar a la ordenación con nuestra función de comparación propia
+    filas = filas.sort(compare);
 
+    // ORDENAR 2 VECES (por POS y LIN)
+
+    // paso 1: especificar la columna que se usará para ordenar
+    var indiceOrdenacion = 1;
+    // paso 2: llamar a la ordenación con nuestra función de comparación propia
+    filas = filas.sort(compare);
+    
     const titulo3=document.createElement("span")
     titulo3.innerHTML= "Plantilla de OE generada"
     titulo3.setAttribute("id","generado")
@@ -348,46 +307,48 @@ function generar_OE(){
     titulo4.setAttribute("id","proveedor")
     titulo4.setAttribute("class","h5")
 
-//    let col3 = ["NPA","Posición","Línea","Descripción", "Fecha", "Cantidad","P. Unit","P. Total"];
-
     const table3 = document.createElement("table");
     table3.setAttribute("id", "myTable3");
     table3.setAttribute("class", "table");
-/*     let tr3 = table3.insertRow(-1);                   // table row.
 
-    for (let i = 0; i < col3.length; i++) {
-        let th3 = document.createElement("th");      // table header.
-        th3.innerHTML = col3[i];
-        tr3.appendChild(th3);
-    }
- */
     divShowData3.innerHTML = "";
     divShowData3.appendChild(titulo3)
     divShowData3.appendChild(boton3)
     divShowData3.appendChild(boton4)
 
-    for (let i = 0; i < ordenador.length; i++){
-        cantidad_oe=0
-        tr = table3.insertRow(-1);
-        for (let j = 0; j < filas.length; j++){
-            if (ordenador[i]==filas[j][1]){
-              posicion=filas[j][1]
-              linea=filas[j][2]
-              descripcion=filas[j][3]
-              precio=filas[j][6].slice(4)
-              cantidad_oe=parseFloat(cantidad_oe)+parseFloat(filas[j][5])
+    let pos_previa = 0
+    let lin_previa = 0
+    cantidad_oe = 0
+
+    for (let i = 0; i < filas.length; i++){
+        if ((pos_previa==filas[i][1]) && (lin_previa==filas[i][2])) {
+                cantidad_oe=parseFloat(cantidad_oe)+parseFloat(filas[i][5])
+                precio=filas[i][6].slice(4)
+                tr.deleteCell(5)
+                tr.insertCell(5).innerHTML = cantidad_oe.toString().replace('.', ',');
+                tr.deleteCell(7)
+                tr.insertCell(7).innerHTML = simbolo+((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
+        
+            } else {
+                tr = table3.insertRow(-1);
+                cantidad_oe=parseFloat(filas[i][5])
+                precio=filas[i][6].slice(4)
+                tr.insertCell(-1).innerHTML = npa_proveedor;
+                tr.insertCell(-1).innerHTML = filas[i][1];
+                tr.insertCell(-1).innerHTML = filas[i][2];
+                tr.insertCell(-1).innerHTML = filas[i][3];
+                tr.insertCell(-1).innerHTML = fecha_entrega;
+                tr.insertCell(-1).innerHTML = cantidad_oe.toString().replace('.', ',');
+                tr.insertCell(-1).innerHTML = simbolo+precio.toString().replace('.', ',');
+                tr.insertCell(-1).innerHTML = simbolo+((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
+
             }
-        }
-        tr.insertCell(-1).innerHTML = npa_proveedor;
-        tr.insertCell(-1).innerHTML = posicion;
-        tr.insertCell(-1).innerHTML = linea;
-        tr.insertCell(-1).innerHTML = descripcion;
-        tr.insertCell(-1).innerHTML = fecha_entrega;
-        tr.insertCell(-1).innerHTML = cantidad_oe.toString().replace('.', ',');
-        tr.insertCell(-1).innerHTML = simbolo+precio.toString().replace('.', ',');
-        tr.insertCell(-1).innerHTML = simbolo+((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
-        total= (Math.round((total+(precio*cantidad_oe)))*100)/100
+
+//        total= (Math.round((total+(precio*cantidad_oe)))*100)/100
+        pos_previa = filas[i][1]
+        lin_previa = filas[i][2]
     }
+ 
     let titulo5 = document.createElement("span")
     titulo5.innerHTML= "Monto total OE: " + simbolo + total
     titulo5.setAttribute("id","total_OE")
@@ -407,35 +368,6 @@ function eliminar_tarea(fila){
     }
 }
 
-/* 
-function agregar_viatico(){
-  let tecnicos= prompt('Cant de técnicos:')
-  let dias= prompt('Cant de días:')
-  let km= prompt('Cant de km recorridos:')
-
-  const desarraigo = 36342 // convenio telefonico Abril 2024
-  
-  const nafta= 870 // precio litro super cecha.org.ar Mayo 2024
-
-  cantidad_viatico=tecnicos*dias*desarraigo+km*nafta*0.2
-  let id_row
-  if (table2.rows[table2.rows.length-1].cells[0].textContent=="#"){
-     id_row=1
-  } else {
-     id_row=parseInt(table2.rows[table2.rows.length-1].cells[0].textContent)+1
-  }
-
-  tr = table2.insertRow(-1);
-
-  tr.insertCell(-1).innerHTML = id_row;
-  tr.insertCell(-1).innerHTML = "100";
-  tr.insertCell(-1).innerHTML = "ADICIONAL TRASLADO Y UBICACIÓN DE OBRA";
-  tr.insertCell(-1).innerHTML = '<input type="text" name="cantidad" value="'+cantidad_viatico+'">';
-  tr.insertCell(-1).innerHTML = '$1.0'
-  tr.insertCell(-1).innerHTML = '$'+cantidad_viatico
-  tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
-      }
- */
 
 function copiar_tabla(tabla) {
 
@@ -552,6 +484,7 @@ function generar_WE(){
     for (i=0; i<tabla.rows.length; i++){
 
         tabla.rows[i].cells[0].innerHTML="Nro de OE"
+        tabla.rows[i].cells[1].innerHTML= 10
         tabla.rows[i].cells[2].innerHTML= (i+1)*10
         tabla.rows[i].cells[4].remove()
     }
