@@ -259,7 +259,11 @@ function mostrarIssue (issue){
 
     let padre = document.createElement("p")
     padre.setAttribute ("class", "texto_issue")
-    padre.innerHTML = "Tarea Padre: " + issue.fields.parent.key + " - " + issue.fields.parent.fields.summary
+    try{
+      padre.innerHTML = "Tarea Padre: " + issue.fields.parent.key + " - " + issue.fields.parent.fields.summary
+    } catch {
+      padre.innerHTML = "Tarea Padre: No Tiene"
+    }
     divshow.appendChild(padre)
 
     let boton = document.createElement("button")
