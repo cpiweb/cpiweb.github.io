@@ -214,7 +214,7 @@ function agregar(posicion, linea){
             } else {
                 precio= posiciones[tipo_npa][j]["Precio"]
             }
-            tr.insertCell(-1).innerHTML = simbolo + precio
+            tr.insertCell(-1).innerHTML = precio
             tr.insertCell(-1).innerHTML = subtotal
             tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
         }
@@ -250,14 +250,16 @@ function generar_OE(){
 //         if (parseInt(pos)==pos){
          cantidad_oe=cantidad
          descripcion= tabla.rows[i].cells[3].textContent
-         precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4))
+//         precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(1))
+         precio= parseFloat(tabla.rows[i].cells[5].textContent)
          precio_total= (Math.round(parseFloat(cantidad)*precio*100))/100
-         total= (Math.round((total+(precio*cantidad_oe)))*100)/100
-         fila=[npa_proveedor, pos, lin, descripcion, fecha_entrega, cantidad_oe, simbolo+precio, simbolo+precio_total]
+         total= total+(precio*cantidad_oe)
+         fila=[npa_proveedor, pos, lin, descripcion, fecha_entrega, cantidad_oe, precio, precio_total]
          filas.push(fila)
 //            }
         }
  
+    total= Math.round(total*100)/100
 
     // definimos la función de comparación
     function compare(a, b) {
@@ -323,24 +325,24 @@ function generar_OE(){
     for (let i = 0; i < filas.length; i++){
         if ((pos_previa==filas[i][1]) && (lin_previa==filas[i][2])) {
                 cantidad_oe=parseFloat(cantidad_oe)+parseFloat(filas[i][5])
-                precio=filas[i][6].slice(4)
+                precio=filas[i][6]
                 tr.deleteCell(5)
                 tr.insertCell(5).innerHTML = cantidad_oe.toString().replace('.', ',');
                 tr.deleteCell(7)
-                tr.insertCell(7).innerHTML = simbolo+((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
+                tr.insertCell(7).innerHTML = ((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
         
             } else {
                 tr = table3.insertRow(-1);
                 cantidad_oe=parseFloat(filas[i][5])
-                precio=filas[i][6].slice(4)
+                precio=filas[i][6]
                 tr.insertCell(-1).innerHTML = npa_proveedor;
                 tr.insertCell(-1).innerHTML = filas[i][1];
                 tr.insertCell(-1).innerHTML = filas[i][2];
                 tr.insertCell(-1).innerHTML = filas[i][3];
                 tr.insertCell(-1).innerHTML = fecha_entrega;
                 tr.insertCell(-1).innerHTML = cantidad_oe.toString().replace('.', ',');
-                tr.insertCell(-1).innerHTML = simbolo+precio.toString().replace('.', ',');
-                tr.insertCell(-1).innerHTML = simbolo+((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
+                tr.insertCell(-1).innerHTML = precio.toString().replace('.', ',');
+                tr.insertCell(-1).innerHTML = ((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
 
             }
 
@@ -399,12 +401,13 @@ function calcular_subtotal(cantidad,id_row){
     let subtotal=0
     for (i=1; i<tabla.rows.length; i++){
         if (tabla.rows[i].cells[0].textContent==id_row){
-            tabla.rows[i].cells[6].textContent= simbolo+((Math.round(parseFloat(tabla.rows[i].cells[5].textContent.slice(4))*cantidad*100))/100).toString()
+//            tabla.rows[i].cells[6].textContent= ((Math.round(parseFloat(tabla.rows[i].cells[5].textContent.slice(1))*cantidad*100))/100).toString()
+            tabla.rows[i].cells[6].textContent= ((Math.round(parseFloat(tabla.rows[i].cells[5].textContent)*cantidad*100))/100).toString()
         }
-        subtotal=subtotal+parseFloat(tabla.rows[i].cells[6].textContent.slice(1))
+//        subtotal=subtotal+parseFloat(tabla.rows[i].cells[6].textContent.slice(1))
+        subtotal=subtotal+parseFloat(tabla.rows[i].cells[6].textContent)
         console.log(subtotal)
     }
-//    titulo6.innerHTML= "Monto Total OE:  $"+subtotal       
 }
 
 function borrarHijos() {
