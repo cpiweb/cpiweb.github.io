@@ -12,7 +12,8 @@ for (let i = 0; i < listamat["LISTAMAT"].length; i++) {
     tr = table.insertRow(-1);
     tr.insertCell(-1).innerHTML = listamat["LISTAMAT"][i]["MATERIAL"];
     tr.insertCell(-1).innerHTML = listamat["LISTAMAT"][i]["DESCRIPCION"];
-    tr.insertCell(-1).innerHTML ='<button id="'+listamat["LISTAMAT"][i]["MATERIAL"]+'" class="btn btn-primary" onclick="ver_mas(this.id)">Más info</button>'
+    tr.insertCell(-1).innerHTML ='<button class="btn btn-primary" onclick="ver_stock('+listamat["LISTAMAT"][i]["MATERIAL"]+')">Stock</button>'
+    tr.insertCell(-1).innerHTML ='<button class="btn btn-success" onclick="agregar('+listamat["LISTAMAT"][i]["MATERIAL"]+')">Agregar</button>'
 }
 
 const entrada = document.createElement("input")
@@ -30,7 +31,7 @@ divShowData.appendChild(table);
 
 function myFunction() {
     // Declare variables
-    var input, filter, table, tr, td, i, txtValue;
+    var input, filter, table, tr, td0, td1, i, txtValue0, txtValue1;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     table = document.getElementById("myTable");
@@ -38,15 +39,17 @@ function myFunction() {
   
     // Loop through all table rows, and hide those who don't match the search query
     for (i = 0; i < tr.length; i++) {
-      td = tr[i].getElementsByTagName("td")[1];
-      if (td) {
-        txtValue = td.textContent || td.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          tr[i].style.display = "";
-        } else {
-          tr[i].style.display = "none";
+        td0 = tr[i].getElementsByTagName("td")[0];
+        td1 = tr[i].getElementsByTagName("td")[1];
+        if (td0) {
+          txtValue0 = td0.textContent || td0.innerText;
+          txtValue1 = td1.textContent || td1.innerText;
+          if ((txtValue0.toUpperCase().indexOf(filter) > -1) || (txtValue1.toUpperCase().indexOf(filter) > -1)) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
         }
-      }
     }
   }
 
