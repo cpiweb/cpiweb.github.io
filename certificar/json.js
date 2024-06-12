@@ -65,7 +65,7 @@ let proveedores=JSON.parse(JSON.stringify(
       {
         "Proveedor": 1010502,
         "Contratista": "ElectroTotal",
-        "NPA": 7600020060
+        "NPA": 7600025630
       }
     ]
   }))
