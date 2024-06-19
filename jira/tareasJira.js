@@ -34,13 +34,14 @@ function buscarIncidencias() {
       estado_list = []
 
       if (estado1) {
-        estado_list.push('status!=10001 AND status!=12553')
+//        estado_list.push('status!=10001 AND status!=12553')
+        estado_list.push('status!=10001 AND status!=11002')
       }
       if (estado4) {
         estado_list.push('status=10001')
       }
       if (estado5) {
-        estado_list.push('status=12553')
+        estado_list.push('status=11002')
       }
 
       let estado_str= estado_list[0]
