@@ -3,6 +3,9 @@ const DOLAR = 850
 const divShowData = document.getElementById('showData');
 divShowData.style.display = "block"
 
+const divShowData2 = document.getElementById('showData2');
+divShowData2.style.display="None"
+
 let divshow= document.getElementById("div_show")
 divshow.style.display= "None"
 
@@ -197,8 +200,78 @@ function ver_stock(material) {
  */
 }
 
-function agregar(material) {
+let col2 = ["#","Material","Descripción","u.m.","Cantidad","USD Unit","Subtotal","Acción"];
 
+const table2 = document.createElement("table");
+table2.setAttribute("id", "myTable2");
+table2.setAttribute("class", "table");
+table2.setAttribute("class", "table table-light table-striped");
+
+let tr2 = table2.insertRow(-1);                   // table row.
+
+for (let i = 0; i < col2.length; i++) {
+    let th2 = document.createElement("th");      // table header.
+    th2.innerHTML = col2[i];
+    tr2.appendChild(th2);
+}
+
+const titulo2 = document.createElement("h5")
+titulo2.innerHTML = "Tareas Seleccionadas"
+
+const boton1 = document.createElement("button")
+boton1.innerHTML = "Generar OE"
+boton1.setAttribute("onclick", "generar_OE()");
+boton1.setAttribute("class", "btn btn-success");
+
+const boton2 = document.createElement("button")
+boton2.innerHTML = "Agregar viático"
+boton2.setAttribute("onclick", "agregar_viatico()");
+boton2.setAttribute("class", "btn btn-success");
+boton2.setAttribute("id", "boton2");
+
+const titulo6 = document.createElement("p")
+titulo6.setAttribute("id","subtotal_OE")
+titulo6.setAttribute("class","h5")
+
+divShowData2.innerHTML = "";
+divShowData2.appendChild(titulo2)
+divShowData2.appendChild(table2);
+divShowData2.appendChild(titulo6);
+divShowData2.appendChild(boton1);
+divShowData2.appendChild(boton2);
+
+function agregar(material){
+    
+    let subtotal=0
+
+    divShowData2.style.display="block"
+    divShowData2.scrollIntoView()
+
+    let id_row
+     if (table2.rows[table2.rows.length-1].cells[0].textContent=="#"){
+        id_row=1
+    } else {
+        id_row=parseInt(table2.rows[table2.rows.length-1].cells[0].textContent)+1
+    }
+
+    tr = table2.insertRow(-1);
+    let cantidad=0
+
+    for (let j = 0; j < stock["Bajada_diaria"].length; j++) {
+    
+        if ((stock["Bajada_diaria"][j]["Material"]==material) && (stock["Bajada_diaria"][j]["Libre utilización"]!=0)){
+            tr.insertCell(-1).innerHTML = id_row;
+            tr.insertCell(-1).innerHTML = stock["Bajada_diaria"][j]["Material"];
+            tr.insertCell(-1).innerHTML = stock["Bajada_diaria"][j]["Texto breve de material"];
+            tr.insertCell(-1).innerHTML = stock["Bajada_diaria"][j]["UMB"];
+            tr.insertCell(-1).innerHTML = '<input type="text" id="'+id_row+'" name="cantidad" onkeyup="calcular_subtotal(this.value, this.id)">'
+//            precio= traer_precio (tareas.Agrupados[j]["Pos NPA"])
+            tr.insertCell(-1).innerHTML = 'USD '+ new Intl.NumberFormat("de-DE").format((stock["Bajada_diaria"][j]["Valor libre util."]/stock["Bajada_diaria"][j]["Libre utilización"])/DOLAR)
+            tr.insertCell(-1).innerHTML = subtotal
+            tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
+            break;
+        }
+    }
 }
 
 function borrarHijos() {
