@@ -94,8 +94,13 @@ function ver_stock(material) {
 
     let catalogo = document.createElement("p")
     catalogo.setAttribute ("class", "titulo_issue")
-    catalogo.innerHTML = material + "-" + descripcion
+    catalogo.innerHTML = material + " - " + descripcion
     divshow.appendChild(catalogo)
+
+    let precio = document.createElement("p")
+    precio.setAttribute ("class", "texto_issue")
+    precio.innerHTML = "Precio unidad:  $ " + new Intl.NumberFormat("de-DE").format(valorizado/cantidad) + "  (USD " + new Intl.NumberFormat("de-DE").format((valorizado/cantidad)/DOLAR) + ")"
+    divshow.appendChild(precio)
 
 //    alert(lista)
 
@@ -103,8 +108,16 @@ function ver_stock(material) {
     tabla.setAttribute("id", "Tabla");
 //    tabla.setAttribute("class", "table table-light table-striped");
 
-//    let tr = tabla.insertRow(-1);
+    let headers = ["Centro", "Almacén", "u.m.", "Stock"]
 
+    let tr = tabla.insertRow(-1);
+  
+    for (let n = 0; n < headers.length; n++) {
+      let th = document.createElement("th");
+      th.innerHTML = headers[n];
+      tr.appendChild(th);
+    }
+  
     for (let j = 0; j < lista.length; j++) {
 
         let tr = tabla.insertRow(-1);
@@ -115,6 +128,14 @@ function ver_stock(material) {
     }
 
     divshow.appendChild(tabla)
+
+    let espacio = document.createElement("br")
+    divshow.appendChild(espacio)
+
+    let actualizado = document.createElement("p")
+    actualizado.setAttribute ("class", "texto_issue")
+    actualizado.innerHTML = "Información actualizada al: " + obtenerFecha(fecha)
+    divshow.appendChild(actualizado)
 
 /*     let responsable = document.createElement("p")
     responsable.setAttribute ("class", "texto_issue")
@@ -188,6 +209,12 @@ function borrarHijos() {
   myNode.style.display="None"
 }
 
+function obtenerFecha(fechaExcel) {
+
+  fechaJS= new Date (Date.UTC(0,0,fechaExcel))
+
+  return fechaJS.getDate() + "/" + (fechaJS.getMonth()+1) + "/" + fechaJS.getFullYear()
+}
 
 /*
 let col2 = ["#","Pos NPA","Tarea","Cantidad","Precio","Subtotal","Acción"];

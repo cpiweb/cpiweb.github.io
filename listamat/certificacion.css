@@ -37,3 +37,14 @@ h1{
 .link_class:hover {
     color:blueviolet;
 }
+
+
+.titulo_issue {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: beige;
+}
+
+.texto_issue {
+    background-color: beige;
+}
