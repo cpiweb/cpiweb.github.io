@@ -6,6 +6,9 @@ divShowData.style.display = "block"
 const divShowData2 = document.getElementById('showData2');
 divShowData2.style.display="None"
 
+const divShowData3 = document.getElementById('showData3');
+divShowData3.style.display="None"
+
 let divshow= document.getElementById("div_show")
 divshow.style.display= "None"
 
@@ -240,10 +243,12 @@ function calcular_subtotal(cantidad,id_row){
   let tabla = document.getElementById("myTable2")
   let subtotal=0
   for (i=1; i<tabla.rows.length; i++){
-      if (tabla.rows[i].cells[0].textContent==id_row){
-          tabla.rows[i].cells[5].textContent= "$"+((Math.round(parseFloat(tabla.rows[i].cells[4].textContent.slice(1))*cantidad*100))/100).toString()
+
+    if (tabla.rows[i].cells[0].textContent==id_row){
+          let precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4).replace(',', '.'))      
+          tabla.rows[i].cells[6].textContent= "USD "+((Math.round(precio*cantidad*100))/100).toString().replace('.', ',')
       }
-      subtotal=subtotal+parseFloat(tabla.rows[i].cells[5].textContent.slice(1))
+      subtotal=subtotal+parseFloat(tabla.rows[i].cells[5].textContent.slice(4).replace(',', '.'))
       console.log(subtotal)
   }
 //    titulo6.innerHTML= "Monto Total OE:  $"+subtotal       
@@ -258,13 +263,13 @@ function eliminar_tarea(fila){
   }
 }
 
-function generar_OE(){
+function generar_MM(){
 
-  let fecha = new Date();
-  fecha.setDate(fecha.getDate()+15)
-  let fecha_entrega = fecha.getDate()+"/"+(fecha.getMonth()+1)+"/"+fecha.getFullYear()
+//  let fecha = new Date();
+//  fecha.setDate(fecha.getDate()+15)
+//  let fecha_entrega = fecha.getDate()+"/"+(fecha.getMonth()+1)+"/"+fecha.getFullYear()
 
-  divShowData4.style.display="none"
+//  divShowData4.style.display="none"
   divShowData.style.display="none"
   divShowData2.style.display="none"
   divShowData3.style.display="block"
@@ -272,43 +277,31 @@ function generar_OE(){
   let tabla= document.getElementById("myTable2")
   let filas=[]
   let fila= []
-  let posicion
-  let cantidad_oe
+  let material
   let descripcion
+  let unidad
+  let cantidad
   let precio
   let precio_total
   let total=0
 
   for (i=1; i<tabla.rows.length; i++){
-       let posNPA=tabla.rows[i].cells[1].textContent
-       let cantidad=tabla.rows[i].cells[3].children.cantidad.value
-       if (parseInt(posNPA)==posNPA){
-          posicion= posNPA
-          cantidad_oe=cantidad
-          descripcion= tabla.rows[i].cells[2].textContent
-          precio= parseFloat(tabla.rows[i].cells[4].textContent.slice(1))
-          precio_total= (Math.round(parseFloat(cantidad)*precio*100))/100
-          fila=[npa_proveedor, "0010", posicion, descripcion, fecha_entrega, cantidad_oe, precio, precio_total]
-          filas.push(fila)
-          } else {
-              for (let j = 0; j < tareas_agrupadas.Agrupados.length; j++){
-                  if (tareas_agrupadas.Agrupados[j]["Cableado"]==posNPA){
-                      cantidad_oe=tareas_agrupadas.Agrupados[j]["Cantidad"]*cantidad
-                      descripcion=tareas_agrupadas.Agrupados[j]["Descripción"]
-                      for (let k = 0; k < posiciones.NPAyPosiciones.length; k++){
-                          if (posiciones.NPAyPosiciones[k]["Servicio"]==tareas_agrupadas.Agrupados[j]["Código"]){
-                              posicion=posiciones.NPAyPosiciones[k]["Posición"]
-                              precio=posiciones.NPAyPosiciones[k]["Precio"]
-                              precio_total=precio*cantidad_oe
-                              }
-                      }
-                      fila=[npa_proveedor, "0010", posicion, descripcion, fecha_entrega, cantidad_oe, precio, precio_total]
-                      filas.push(fila)}
-          }}   
-  }
+
+    material= tabla.rows[i].cells[1].textContent
+    descripcion= tabla.rows[i].cells[2].textContent
+    unidad= tabla.rows[i].cells[3].textContent
+    cantidad= tabla.rows[i].cells[4].children.cantidad.value
+    precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4).replace(',', '.'))
+    precio_total= (Math.round(precio*cantidad*100))/100
+    fila=[material, descripcion, unidad, cantidad, precio, precio_total]
+    filas.push(fila)
+    }
+
+//  alert(filas)
+
   let ordenador=[]
   for (let i=0; i<filas.length;i++){
-    ordenador.push(filas[i][2])
+    ordenador.push(filas[i][0])
   }
   ordenador.sort(function(a, b){return a - b})
 
@@ -317,7 +310,7 @@ function generar_OE(){
   }    
 
   const titulo3=document.createElement("span")
-  titulo3.innerHTML= "Plantilla de OE generada"
+  titulo3.innerHTML= "Plantilla de MM generada"
   titulo3.setAttribute("id","generado")
   titulo3.setAttribute("class","h4")
 
@@ -334,19 +327,21 @@ function generar_OE(){
   boton4.setAttribute("onclick", "editar_tareas()");
   boton4.setAttribute("class", "btn btn-success");
 
+/* 
   const boton5 = document.createElement("button")
   boton5.innerHTML = "Plantilla WE"
   boton5.setAttribute("id","boton5")
   boton5.setAttribute("onclick", "generar_WE()");
   boton5.setAttribute("class", "btn btn-primary");
   boton5.setAttribute("title", "genera plantilla WE para pegar en Excel y completar cuando tengas nro de OE");
-
+ 
   const titulo4=document.createElement("p")
   titulo4.innerHTML= "Proveedor: "+ nro_proveedor+" ("+nombre_proveedor+")"
   titulo4.setAttribute("id","proveedor")
   titulo4.setAttribute("class","h5")
 
 //    let col3 = ["NPA","Posición","Línea","Descripción", "Fecha", "Cantidad","P. Unit","P. Total"];
+*/
 
   const table3 = document.createElement("table");
   table3.setAttribute("id", "myTable3");
@@ -365,32 +360,57 @@ function generar_OE(){
   divShowData3.appendChild(boton4)
 
   for (let i = 0; i < ordenador.length; i++){
-      cantidad_oe=0
+      let cantidad_mm=0
       tr = table3.insertRow(-1);
       for (let j = 0; j < filas.length; j++){
-          if (ordenador[i]==filas[j][2]){
-            posicion=filas[j][2]
-            descripcion=filas[j][3]
-            precio=filas[j][6]
-            cantidad_oe=parseFloat(cantidad_oe)+parseFloat(filas[j][5])
+          if (ordenador[i]==filas[j][0]){
+            material=filas[j][0]
+            descripcion=filas[j][1]
+            unidad=filas[j][2]
+            precio=filas[j][4]
+            cantidad_mm=parseFloat(cantidad_mm)+parseFloat(filas[j][3])
           }
       }
-      tr.insertCell(-1).innerHTML = npa_proveedor;
-      tr.insertCell(-1).innerHTML = "0010";
-      tr.insertCell(-1).innerHTML = posicion;
+//      tr.insertCell(-1).innerHTML = npa_proveedor;
+//      tr.insertCell(-1).innerHTML = "0010";
+      tr.insertCell(-1).innerHTML = material;
       tr.insertCell(-1).innerHTML = descripcion;
-      tr.insertCell(-1).innerHTML = fecha_entrega;
-      tr.insertCell(-1).innerHTML = cantidad_oe.toString().replace('.', ',');
+      tr.insertCell(-1).innerHTML = unidad;
+      tr.insertCell(-1).innerHTML = cantidad_mm.toString().replace('.', ',');
       tr.insertCell(-1).innerHTML = precio.toString().replace('.', ',');
-      tr.insertCell(-1).innerHTML = ((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
-      total=(Math.round((total+(precio*cantidad_oe)))*100)/100
+      tr.insertCell(-1).innerHTML = ((Math.round(precio*cantidad_mm*100))/100).toString().replace('.', ',')
+      total = total + (Math.round(precio*cantidad_mm*100))/100
   }
-  let titulo5 = document.createElement("span")
-  titulo5.innerHTML= "Monto total OE:  $" + total
+  let titulo5 = document.createElement("p")
+  titulo5.innerHTML= "Monto total:  USD " + total
   titulo5.setAttribute("id","total_OE")
   titulo5.setAttribute("class","h5")
-  divShowData3.appendChild(titulo4)
+//  divShowData3.appendChild(titulo4)
   divShowData3.appendChild(titulo5);
   divShowData3.appendChild(table3);
-  divShowData3.appendChild(boton5)
+//  divShowData3.appendChild(boton5)
 }
+
+function copiar_tabla(tabla) {
+
+  let urlField
+  let range
+
+  urlField = document.getElementById(tabla)
+   
+  // create a Range object
+  range = document.createRange();  
+  // set the Node to select the "range"
+  range.selectNode(urlField);
+  // add the Range to the set of window selections
+  window.getSelection().addRange(range);
+   
+  // execute 'copy', can't 'cut' in this case
+  document.execCommand('copy');
+}
+
+function editar_tareas(){
+divShowData.style.display="block"
+divShowData2.style.display="block"
+divShowData3.style.display="none"
+}      
