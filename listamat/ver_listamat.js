@@ -9,8 +9,8 @@ divShowData2.style.display="None"
 const divShowData3 = document.getElementById('showData3');
 divShowData3.style.display="None"
 
-let divshow= document.getElementById("div_show")
-divshow.style.display= "None"
+//let divshow= document.getElementById("div_show")
+//divshow.style.display= "None"
 
 const table = document.createElement("table");
 table.setAttribute("id", "myTable");
@@ -129,7 +129,7 @@ function ver_stock(material) {
             tr.insertCell(-1).innerHTML = lista[j][2];
             tr.insertCell(-1).innerHTML = lista[j][3];
             tr.insertCell(-1).innerHTML = lista[j][4];
-            tr.insertCell(-1).innerHTML = lista[j][5];
+            tr.insertCell(-1).innerHTML = lista[j][5].toString().replace(".",",");
         }
 
         divshow.appendChild(tabla)
@@ -147,7 +147,8 @@ function ver_stock(material) {
 
 }
 
-let col2 = ["#","Material","Descripción","u.m.","Cantidad","USD Unit","Subtotal","Acción"];
+//let col2 = ["#","Material","Descripción","u.m.","Cantidad","USD Unit","Subtotal","Acción"];
+let col2 = ["#","Material","Descripción","u.m.","Cantidad","USD Unit","Subtotal","Acción","Stock"];
 
 const table2 = document.createElement("table");
 table2.setAttribute("id", "myTable2");
@@ -163,7 +164,7 @@ for (let i = 0; i < col2.length; i++) {
 }
 
 const titulo2 = document.createElement("h5")
-titulo2.innerHTML = "Tareas Seleccionadas"
+titulo2.innerHTML = "Materiales Seleccionados"
 
 const boton1 = document.createElement("button")
 boton1.innerHTML = "Plantilla MM"
@@ -212,6 +213,8 @@ function agregar(material){
             tr.insertCell(-1).innerHTML = 'USD '+ new Intl.NumberFormat("de-DE").format((stock["Bajada_diaria"][j]["Valor libre util."]/stock["Bajada_diaria"][j]["Libre utilización"])/DOLAR)
             tr.insertCell(-1).innerHTML = subtotal
             tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
+            let resp = suma_stock(material)
+            tr.insertCell(-1).innerHTML = resp.toString().replace(".",",")
             break;
         }
     }
@@ -233,7 +236,7 @@ function agregar(material){
                     tr.insertCell(-1).innerHTML = 'USD '+ new Intl.NumberFormat("de-DE").format(precio)
                     tr.insertCell(-1).innerHTML = subtotal
                     tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
-
+                    tr.insertCell(-1).innerHTML = "N/A"
                   }
               }
           }   
@@ -396,3 +399,19 @@ divShowData.style.display="block"
 divShowData2.style.display="block"
 divShowData3.style.display="none"
 }      
+
+function suma_stock (material) {
+
+    let suma = 0
+
+    for (let j = 0; j < stock["Bajada_diaria"].length; j++) {
+    
+        if ((stock["Bajada_diaria"][j]["Material"]==material) && (stock["Bajada_diaria"][j]["Libre utilización"]!=0)){
+
+            suma = suma + stock["Bajada_diaria"][j]["Libre utilización"]
+        }
+
+    }
+    
+    return (suma)
+}

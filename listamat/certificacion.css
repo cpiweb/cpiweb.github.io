@@ -28,6 +28,7 @@ h1{
     border: 2px black solid;
     border-radius: 20px;
     padding: 10px;
+    display: none;
 }
 
 #div_show img {
