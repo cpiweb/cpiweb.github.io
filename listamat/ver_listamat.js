@@ -319,7 +319,7 @@ function generar_MM(){
   }    
 
   const titulo3=document.createElement("span")
-  titulo3.innerHTML= "Plantilla de MM generada"
+  titulo3.innerHTML= "Plantilla Maestro Materiales generada"
   titulo3.setAttribute("id","generado")
   titulo3.setAttribute("class","h4")
 
