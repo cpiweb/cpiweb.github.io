@@ -41,14 +41,13 @@ divShowData.appendChild(salto_linea);
 divShowData.appendChild(table);
 
 function myFunction() {
-    // Declare variables
+
     var input, filter, table, tr, td0, td1, i, txtValue0, txtValue1;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     table = document.getElementById("myTable");
     tr = table.getElementsByTagName("tr");
   
-    // Loop through all table rows, and hide those who don't match the search query
     for (i = 0; i < tr.length; i++) {
       if (filter.length>2){
         td0 = tr[i].getElementsByTagName("td")[0];
@@ -68,15 +67,16 @@ function myFunction() {
 
 function ver_stock(material) {
 
-    let i, descripcion, centro, almacen, unidad, cantidad, valorizado, fecha, linea, lista
+    let i, descripcion, centro, almacen, unidad, cantidad, valorizado, fecha, linea, lista, encontrado
 
     linea= []
     lista= []
+    encontrado= false
 
     for (i = 0; i < stock["Bajada_diaria"].length; i++) {
 
         if (stock["Bajada_diaria"][i]["Material"]==material){
-
+            encontrado = true
             descripcion = stock["Bajada_diaria"][i]["Texto breve de material"]
             centro = stock["Bajada_diaria"][i]["Ce."]
             almacen = stock["Bajada_diaria"][i]["Alm."]
@@ -88,62 +88,62 @@ function ver_stock(material) {
             lista.push(linea)
         }
     }
+    if (encontrado==true) {
+        let divshow= document.getElementById("div_show")
+        divshow.style.display= "flex"
+        divshow.style.flexDirection= "column"
+        divshow.scrollIntoView()
 
-    let divshow= document.getElementById("div_show")
-    divshow.style.display= "flex"
-    divshow.style.flexDirection= "column"
-    divshow.scrollIntoView()
+        let icono= document.createElement("img")
+        icono.setAttribute("src","./close.svg")
+        icono.setAttribute("width","20 rem")
+        icono.setAttribute("onclick","borrarHijos()")
+        divshow.appendChild(icono)
 
-    let icono= document.createElement("img")
-    icono.setAttribute("src","./close.svg")
-    icono.setAttribute("width","20 rem")
-    icono.setAttribute("onclick","borrarHijos()")
-    divshow.appendChild(icono)
+        let catalogo = document.createElement("p")
+        catalogo.setAttribute ("class", "titulo_issue")
+        catalogo.innerHTML = material + " - " + descripcion
+        divshow.appendChild(catalogo)
 
-    let catalogo = document.createElement("p")
-    catalogo.setAttribute ("class", "titulo_issue")
-    catalogo.innerHTML = material + " - " + descripcion
-    divshow.appendChild(catalogo)
+        let precio = document.createElement("p")
+        precio.setAttribute ("class", "texto_issue")
+        precio.innerHTML = "Precio unidad:  $ " + new Intl.NumberFormat("de-DE").format(valorizado/cantidad) + "  (USD " + new Intl.NumberFormat("de-DE").format((valorizado/cantidad)/DOLAR) + ")"
+        divshow.appendChild(precio)
 
-    let precio = document.createElement("p")
-    precio.setAttribute ("class", "texto_issue")
-    precio.innerHTML = "Precio unidad:  $ " + new Intl.NumberFormat("de-DE").format(valorizado/cantidad) + "  (USD " + new Intl.NumberFormat("de-DE").format((valorizado/cantidad)/DOLAR) + ")"
-    divshow.appendChild(precio)
+        const tabla = document.createElement("table");
+        tabla.setAttribute("id", "Tabla");
 
-//    alert(lista)
-
-    const tabla = document.createElement("table");
-    tabla.setAttribute("id", "Tabla");
-//    tabla.setAttribute("class", "table table-light table-striped");
-
-    let headers = ["Centro", "Almacén", "u.m.", "Stock"]
-
-    let tr = tabla.insertRow(-1);
-  
-    for (let n = 0; n < headers.length; n++) {
-      let th = document.createElement("th");
-      th.innerHTML = headers[n];
-      tr.appendChild(th);
-    }
-  
-    for (let j = 0; j < lista.length; j++) {
+        let headers = ["Centro", "Almacén", "u.m.", "Stock"]
 
         let tr = tabla.insertRow(-1);
-        tr.insertCell(-1).innerHTML = lista[j][2];
-        tr.insertCell(-1).innerHTML = lista[j][3];
-        tr.insertCell(-1).innerHTML = lista[j][4];
-        tr.insertCell(-1).innerHTML = lista[j][5];
-    }
+      
+        for (let n = 0; n < headers.length; n++) {
+          let th = document.createElement("th");
+          th.innerHTML = headers[n];
+          tr.appendChild(th);
+        }
+      
+        for (let j = 0; j < lista.length; j++) {
 
-    divshow.appendChild(tabla)
+            let tr = tabla.insertRow(-1);
+            tr.insertCell(-1).innerHTML = lista[j][2];
+            tr.insertCell(-1).innerHTML = lista[j][3];
+            tr.insertCell(-1).innerHTML = lista[j][4];
+            tr.insertCell(-1).innerHTML = lista[j][5];
+        }
 
-    let espacio = document.createElement("br")
-    divshow.appendChild(espacio)
+        divshow.appendChild(tabla)
 
-    let actualizado = document.createElement("p")
-    actualizado.setAttribute ("class", "texto_issue")
-    actualizado.innerHTML = "Información actualizada al: " + obtenerFecha(fecha)
-    divshow.appendChild(actualizado)
+        let espacio = document.createElement("br")
+        divshow.appendChild(espacio)
+
+        let actualizado = document.createElement("p")
+        actualizado.setAttribute ("class", "texto_issue")
+        actualizado.innerHTML = "Información actualizada al: " + obtenerFecha(fecha)
+        divshow.appendChild(actualizado)
+      } else {
+        alert ("El material no se encuentra en Listado Stock")
+      }
 
 }
 
@@ -154,10 +154,10 @@ table2.setAttribute("id", "myTable2");
 table2.setAttribute("class", "table");
 table2.setAttribute("class", "table table-light table-striped");
 
-let tr2 = table2.insertRow(-1);                   // table row.
+let tr2 = table2.insertRow(-1);
 
 for (let i = 0; i < col2.length; i++) {
-    let th2 = document.createElement("th");      // table header.
+    let th2 = document.createElement("th");
     th2.innerHTML = col2[i];
     tr2.appendChild(th2);
 }
@@ -169,14 +169,6 @@ const boton1 = document.createElement("button")
 boton1.innerHTML = "Plantilla MM"
 boton1.setAttribute("onclick", "generar_MM()");
 boton1.setAttribute("class", "btn btn-success");
-
-/* 
-const boton2 = document.createElement("button")
-boton2.innerHTML = "Agregar viático"
-boton2.setAttribute("onclick", "agregar_viatico()");
-boton2.setAttribute("class", "btn btn-success");
-boton2.setAttribute("id", "boton2");
- */
 
 const titulo6 = document.createElement("p")
 titulo6.setAttribute("id","subtotal_OE")
@@ -197,31 +189,56 @@ function agregar(material){
     divShowData2.scrollIntoView()
 
     let id_row
+
      if (table2.rows[table2.rows.length-1].cells[0].textContent=="#"){
         id_row=1
     } else {
         id_row=parseInt(table2.rows[table2.rows.length-1].cells[0].textContent)+1
     }
 
-    tr = table2.insertRow(-1);
-    let cantidad=0
+    let cantidad = 0
+    let encontrado = false
 
     for (let j = 0; j < stock["Bajada_diaria"].length; j++) {
     
         if ((stock["Bajada_diaria"][j]["Material"]==material) && (stock["Bajada_diaria"][j]["Libre utilización"]!=0)){
+            encontrado = true
+            tr = table2.insertRow(-1);
             tr.insertCell(-1).innerHTML = id_row;
             tr.insertCell(-1).innerHTML = stock["Bajada_diaria"][j]["Material"];
             tr.insertCell(-1).innerHTML = stock["Bajada_diaria"][j]["Texto breve de material"];
             tr.insertCell(-1).innerHTML = stock["Bajada_diaria"][j]["UMB"];
             tr.insertCell(-1).innerHTML = '<input type="text" id="'+id_row+'" name="cantidad" onkeyup="calcular_subtotal(this.value, this.id)">'
-//            precio= traer_precio (tareas.Agrupados[j]["Pos NPA"])
             tr.insertCell(-1).innerHTML = 'USD '+ new Intl.NumberFormat("de-DE").format((stock["Bajada_diaria"][j]["Valor libre util."]/stock["Bajada_diaria"][j]["Libre utilización"])/DOLAR)
             tr.insertCell(-1).innerHTML = subtotal
             tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
             break;
         }
     }
-}
+    if (encontrado==false) {
+
+          precio = prompt ("El material no se encuentra en Listado Stock, no hay parámetro de precio. Ingresar precio unitario USD estimado: ",0)
+          if (precio!=null) {
+
+            for (let j = 0; j < listamat["LISTAMAT"].length; j++) {
+
+                if (listamat["LISTAMAT"][j]["MATERIAL"]==material) {
+
+                    tr = table2.insertRow(-1);
+                    tr.insertCell(-1).innerHTML = id_row;
+                    tr.insertCell(-1).innerHTML = material;
+                    tr.insertCell(-1).innerHTML = listamat["LISTAMAT"][j]["DESCRIPCION"];
+                    tr.insertCell(-1).innerHTML = "UMB";
+                    tr.insertCell(-1).innerHTML = '<input type="text" id="'+id_row+'" name="cantidad" onkeyup="calcular_subtotal(this.value, this.id)">'
+                    tr.insertCell(-1).innerHTML = 'USD '+ new Intl.NumberFormat("de-DE").format(precio)
+                    tr.insertCell(-1).innerHTML = subtotal
+                    tr.insertCell(-1).innerHTML = '<button id="'+id_row+'" class="btn btn-danger" onclick="eliminar_tarea('+id_row+')">Eliminar</button>'
+
+                  }
+              }
+          }   
+      }
+  }
 
 function borrarHijos() {
   const myNode = document.getElementById("div_show");
@@ -251,7 +268,6 @@ function calcular_subtotal(cantidad,id_row){
       subtotal=subtotal+parseFloat(tabla.rows[i].cells[5].textContent.slice(4).replace(',', '.'))
       console.log(subtotal)
   }
-//    titulo6.innerHTML= "Monto Total OE:  $"+subtotal       
 }
 
 function eliminar_tarea(fila){
@@ -265,11 +281,6 @@ function eliminar_tarea(fila){
 
 function generar_MM(){
 
-//  let fecha = new Date();
-//  fecha.setDate(fecha.getDate()+15)
-//  let fecha_entrega = fecha.getDate()+"/"+(fecha.getMonth()+1)+"/"+fecha.getFullYear()
-
-//  divShowData4.style.display="none"
   divShowData.style.display="none"
   divShowData2.style.display="none"
   divShowData3.style.display="block"
@@ -296,8 +307,6 @@ function generar_MM(){
     fila=[material, descripcion, unidad, cantidad, precio, precio_total]
     filas.push(fila)
     }
-
-//  alert(filas)
 
   let ordenador=[]
   for (let i=0; i<filas.length;i++){
@@ -327,33 +336,10 @@ function generar_MM(){
   boton4.setAttribute("onclick", "editar_tareas()");
   boton4.setAttribute("class", "btn btn-success");
 
-/* 
-  const boton5 = document.createElement("button")
-  boton5.innerHTML = "Plantilla WE"
-  boton5.setAttribute("id","boton5")
-  boton5.setAttribute("onclick", "generar_WE()");
-  boton5.setAttribute("class", "btn btn-primary");
-  boton5.setAttribute("title", "genera plantilla WE para pegar en Excel y completar cuando tengas nro de OE");
- 
-  const titulo4=document.createElement("p")
-  titulo4.innerHTML= "Proveedor: "+ nro_proveedor+" ("+nombre_proveedor+")"
-  titulo4.setAttribute("id","proveedor")
-  titulo4.setAttribute("class","h5")
-
-//    let col3 = ["NPA","Posición","Línea","Descripción", "Fecha", "Cantidad","P. Unit","P. Total"];
-*/
-
   const table3 = document.createElement("table");
   table3.setAttribute("id", "myTable3");
   table3.setAttribute("class", "table");
-/*     let tr3 = table3.insertRow(-1);                   // table row.
 
-  for (let i = 0; i < col3.length; i++) {
-      let th3 = document.createElement("th");      // table header.
-      th3.innerHTML = col3[i];
-      tr3.appendChild(th3);
-  }
-*/
   divShowData3.innerHTML = "";
   divShowData3.appendChild(titulo3)
   divShowData3.appendChild(boton3)
@@ -371,24 +357,20 @@ function generar_MM(){
             cantidad_mm=parseFloat(cantidad_mm)+parseFloat(filas[j][3])
           }
       }
-//      tr.insertCell(-1).innerHTML = npa_proveedor;
-//      tr.insertCell(-1).innerHTML = "0010";
       tr.insertCell(-1).innerHTML = material;
       tr.insertCell(-1).innerHTML = descripcion;
       tr.insertCell(-1).innerHTML = unidad;
       tr.insertCell(-1).innerHTML = cantidad_mm.toString().replace('.', ',');
       tr.insertCell(-1).innerHTML = precio.toString().replace('.', ',');
       tr.insertCell(-1).innerHTML = ((Math.round(precio*cantidad_mm*100))/100).toString().replace('.', ',')
-      total = total + (Math.round(precio*cantidad_mm*100))/100
+      total = Math.round((total + (Math.round(precio*cantidad_mm*100))/100)*100)/100
   }
   let titulo5 = document.createElement("p")
   titulo5.innerHTML= "Monto total:  USD " + total
   titulo5.setAttribute("id","total_OE")
   titulo5.setAttribute("class","h5")
-//  divShowData3.appendChild(titulo4)
   divShowData3.appendChild(titulo5);
   divShowData3.appendChild(table3);
-//  divShowData3.appendChild(boton5)
 }
 
 function copiar_tabla(tabla) {
