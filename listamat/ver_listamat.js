@@ -359,7 +359,7 @@ function generar_MM(){
       }
       tr.insertCell(-1).innerHTML = material;
       tr.insertCell(-1).innerHTML = descripcion;
-      tr.insertCell(-1).innerHTML = unidad;
+//      tr.insertCell(-1).innerHTML = unidad;
       tr.insertCell(-1).innerHTML = cantidad_mm.toString().replace('.', ',');
       tr.insertCell(-1).innerHTML = precio.toString().replace('.', ',');
       tr.insertCell(-1).innerHTML = ((Math.round(precio*cantidad_mm*100))/100).toString().replace('.', ',')
