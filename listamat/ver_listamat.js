@@ -228,7 +228,7 @@ function agregar(material){
                     tr.insertCell(-1).innerHTML = id_row;
                     tr.insertCell(-1).innerHTML = material;
                     tr.insertCell(-1).innerHTML = listamat["LISTAMAT"][j]["DESCRIPCION"];
-                    tr.insertCell(-1).innerHTML = "UMB";
+                    tr.insertCell(-1).innerHTML = listamat["LISTAMAT"][j]["UNIDAD"];
                     tr.insertCell(-1).innerHTML = '<input type="text" id="'+id_row+'" name="cantidad" onkeyup="calcular_subtotal(this.value, this.id)">'
                     tr.insertCell(-1).innerHTML = 'USD '+ new Intl.NumberFormat("de-DE").format(precio)
                     tr.insertCell(-1).innerHTML = subtotal
