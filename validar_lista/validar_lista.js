@@ -1,46 +1,80 @@
+
+const DOLAR = 850;
+
+const divShowData = document.getElementById('showData');
+
+const divShowData2 = document.getElementById('showData2');
+divShowData2.style.display="None"
+
 function validar(){
+
+    divShowData.style.display="None"
+    divShowData2.style.display="block"
+
+    const table1 = document.createElement("table");
+    table1.setAttribute("id", "myTable1");
+    table1.setAttribute("class", "table");
+
+    divShowData2.appendChild(table1)
 
     var cuadroTexto = document.getElementById("cuadroTexto");
     var st = cuadroTexto.value;
     lista = st.split("\n");
-    var numrows = lista.length; 
 
+    for (let i=0; i<lista.length; i++) {
 
-    /*     
-    var ii;
-      var xs = [];
-      var ys = [];
-      for (ii = 0 ; ii < numrows ; ii++) {
-          // tab or comma deliminated data
-          if ( Ast[ii].split(",",2)[1] != null ){ ys[ii] = Ast[ii].split(",")[1]; xs[ii] = Ast[ii].split(",")[0];}
-          if ( Ast[ii].split("\t",2)[1] != null ){ ys[ii] = Ast[ii].split("\t")[1]; xs[ii] = Ast[ii].split("\t")[0];}
-      }
-    
-    
-    
-    var xss = [];
-      var yss = [];
-      var numgoodrows = 0;
-      var iii =0;
-      for (ii = 0 ; ii < numrows ; ii++) { 
-          if ( xs[ii] != null && ys[ii] != null) {
-              xss[iii] = xs[ii];
-              yss[iii] = ys[ii];
-              iii++;
+          let material = lista[i]
+          let tr = table1.insertRow(-1);
+
+          tr.insertCell(-1).innerHTML = material;
+
+          for (let j=0; j<stock["Bajada_diaria"].length; j++) {
+
+                if ((stock["Bajada_diaria"][j]["Material"] == material) && (stock["Bajada_diaria"][j]["Valor libre util."] != 0)) {
+
+                    tr.insertCell(-1).innerHTML = stock["Bajada_diaria"][j]["Texto breve de material"];
+                    tr.insertCell(-1).innerHTML = Math.round(((stock["Bajada_diaria"][j]["Valor libre util."]/stock["Bajada_diaria"][j]["Libre utilización"])/DOLAR)*100)/100;
+                    console.log(lista[i]+" encontrado en stock")
+                    break;
+
+                }
           }
-      }
-      numgoodrows = iii;
-      // next I need to convert to floating point array var xf = [], var yf = [];
-    
-    
-    
-    var xf = [];
-      var yf = [];
-      for (ii = 0 ; ii < numgoodrows ; ii++) { 
-        xf[ii] = parseFloat(xss[ii]);
-        yf[ii] = parseFloat(yss[ii]);
-      }
- */    
-    
-    
+
+          
     }
+
+
+}
+
+/* 
+    const table3 = document.createElement("table");
+    table3.setAttribute("id", "myTable3");
+    table3.setAttribute("class", "table");
+
+    divShowData3.innerHTML = "";
+    divShowData3.appendChild(titulo3)
+    divShowData3.appendChild(boton3)
+    divShowData3.appendChild(boton4)
+
+    for (let i = 0; i < ordenador.length; i++){
+        cantidad_oe=0
+        tr = table3.insertRow(-1);
+        for (let j = 0; j < filas.length; j++){
+            if (ordenador[i]==filas[j][2]){
+              posicion=filas[j][2]
+              descripcion=filas[j][3]
+              precio=filas[j][6]
+              cantidad_oe=parseFloat(cantidad_oe)+parseFloat(filas[j][5])
+            }
+        }
+        tr.insertCell(-1).innerHTML = npa_proveedor;
+        tr.insertCell(-1).innerHTML = "0010";
+        tr.insertCell(-1).innerHTML = posicion;
+        tr.insertCell(-1).innerHTML = descripcion;
+        tr.insertCell(-1).innerHTML = fecha_entrega;
+        tr.insertCell(-1).innerHTML = cantidad_oe.toString().replace('.', ',');
+        tr.insertCell(-1).innerHTML = precio.toString().replace('.', ',');
+        tr.insertCell(-1).innerHTML = ((Math.round(precio*cantidad_oe*100))/100).toString().replace('.', ',')
+        total=(Math.round((total+(precio*cantidad_oe)))*100)/100
+    }
+ */

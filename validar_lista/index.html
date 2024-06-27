@@ -7,10 +7,16 @@
 </head>
 <body>
 
-    <textarea id="cuadroTexto" rows=24 cols=72> </textarea>
+    <h1 id="principal" class="display-5">Precio actual Material</h1>
+    <br>
+    <p id="showData">
+        <textarea id="cuadroTexto" rows=24 cols=72> </textarea>
 
-    <input type="button" value="Validar" onClick="validar();">
-
+        <input type="button" value="Validar" onClick="validar()">
+    </p>
+    <p id="showData2"></p>
+ 
+    <script src="../listamat/stock.js"></script>
     <script src="./validar_lista.js"></script>
 
 </body>
