@@ -17,6 +17,15 @@ function validar(){
 
     divShowData2.appendChild(table1)
 
+    let tr = table1.insertRow(-1);
+  
+    let col = ["Material","Descripción","USD Unit"]
+    for (let i = 0; i < col.length; i++) {
+      let th2 = document.createElement("th");      // table header.
+      th2.innerHTML = col[i];
+      tr.appendChild(th2);
+    }
+  
     var cuadroTexto = document.getElementById("cuadroTexto");
     var st = cuadroTexto.value;
     lista = st.split("\n");
