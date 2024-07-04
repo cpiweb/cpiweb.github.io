@@ -1,3 +1,5 @@
+const DOLAR = 850;
+
 const divShowData = document.getElementById('showData');
 divShowData.style.display="None"
 
@@ -327,6 +329,13 @@ function generar_OE(){
     boton5.setAttribute("class", "btn btn-primary");
     boton5.setAttribute("title", "genera plantilla WE para pegar en Excel y completar cuando tengas nro de OE");
 
+    const boton6 = document.createElement("button")
+    boton6.innerHTML = "Plantilla MM"
+    boton6.setAttribute("id","boton6")
+    boton6.setAttribute("onclick", "plantilla_MM()");
+    boton6.setAttribute("class", "btn btn-primary");
+    boton6.setAttribute("title", "genera plantilla MM para pegar en Maestro Materiales");
+
     const titulo4=document.createElement("p")
     titulo4.innerHTML= "Proveedor: "+ nro_proveedor+" ("+nombre_proveedor+")"
     titulo4.setAttribute("id","proveedor")
@@ -378,7 +387,8 @@ function generar_OE(){
     divShowData3.appendChild(titulo4)
     divShowData3.appendChild(titulo5);
     divShowData3.appendChild(table3);
-    divShowData3.appendChild(boton5)
+    divShowData3.appendChild(boton5);
+    divShowData3.appendChild(boton6);
   }
 
 function eliminar_tarea(fila){
@@ -577,3 +587,56 @@ function generar_WE(){
     generar_OE()
   }
   
+  function plantilla_MM(){
+
+    divShowData4.style.display="none"
+    divShowData.style.display="none"
+    divShowData2.style.display="none"
+    divShowData3.style.display="none"
+    divShowData5.style.display="block"
+
+    let tabla= document.getElementById("myTable3")
+
+    for (i=0; i<tabla.rows.length; i++){
+
+        for (let j=0; j<posiciones["NPAyPosiciones"].length; j++) {
+
+            if (tabla.rows[i].cells[2].innerHTML==posiciones["NPAyPosiciones"][j]["Posición"]) { 
+
+                tabla.rows[i].cells[0].innerHTML = posiciones["NPAyPosiciones"][j]["Servicio"]
+            }
+        }
+
+        tabla.rows[i].cells[1].innerHTML= tabla.rows[i].cells[3].innerHTML;
+        tabla.rows[i].cells[2].innerHTML= tabla.rows[i].cells[5].innerHTML;
+        tabla.rows[i].cells[3].innerHTML= (Math.round(parseFloat(tabla.rows[i].cells[6].innerHTML)*100/DOLAR)/100).toString().replace('.', ',');
+        tabla.rows[i].cells[4].innerHTML= (Math.round(parseFloat(tabla.rows[i].cells[7].innerHTML)*100/DOLAR)/100).toString().replace('.', ',');
+        tabla.rows[i].cells[5].remove();
+        tabla.rows[i].cells[5].remove();
+        tabla.rows[i].cells[5].remove();
+    }
+
+    const titulo3=document.createElement("span")
+    titulo3.innerHTML= "Plantilla de MM generada (precios en USD)"
+    titulo3.setAttribute("id","generado")
+    titulo3.setAttribute("class","h4")
+
+    const boton3 = document.createElement("button")
+    boton3.innerHTML = "Copiar"
+    boton3.setAttribute("id","boton3")
+    boton3.setAttribute("onclick", "copiar_tabla('myTable3')");
+    boton3.setAttribute("class", "btn btn-success");
+    boton3.setAttribute("title", "copia en el portapapel, para luego poder pegar en el excel");
+
+    const boton4 = document.createElement("button")
+    boton4.innerHTML = "Volver a OE"
+    boton4.setAttribute("id","boton4")
+    boton4.setAttribute("onclick", "volver_OE()");
+    boton4.setAttribute("class", "btn btn-success");
+
+    divShowData5.appendChild(titulo3);
+    divShowData5.appendChild(boton3);
+    divShowData5.appendChild(boton4);
+    divShowData5.appendChild(tabla);
+
+  }
