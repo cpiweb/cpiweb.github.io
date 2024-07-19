@@ -265,7 +265,8 @@ function calcular_subtotal(cantidad,id_row){
   for (i=1; i<tabla.rows.length; i++){
 
     if (tabla.rows[i].cells[0].textContent==id_row){
-          let precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4).replace(',', '.'))      
+          let precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4).replace('.', '').replace(',', '.'))
+//          alert(precio)      
           tabla.rows[i].cells[6].textContent= "USD "+((Math.round(precio*cantidad*100))/100).toString().replace('.', ',')
       }
       subtotal=subtotal+parseFloat(tabla.rows[i].cells[5].textContent.slice(4).replace(',', '.'))
