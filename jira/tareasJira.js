@@ -6,6 +6,17 @@ pshow1.style.display= "None"
 let divshow= document.getElementById("div_show")
 divshow.style.display= "None"
 
+/* 
+let clave = prompt('Password:')
+
+while (clave!="h0l4") {
+        
+    clave = prompt('Password:')
+
+}
+ */
+
+
 function buscarIncidencias() {
 
     let project= document.getElementById("filtro_project").value

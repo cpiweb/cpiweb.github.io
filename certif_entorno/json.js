@@ -7,7 +7,7 @@ let proveedores=JSON.parse(JSON.stringify(
         "Proveedor": 1002862,
         "Contratista": "EMEYT S.R.L.",
         "Tipo": "Mano de Obra",
-        "NPA": 7600024046
+        "NPA": 7600026223
       },
       {
         "Proveedor": 1002862,
@@ -19,7 +19,7 @@ let proveedores=JSON.parse(JSON.stringify(
         "Proveedor": 1007368,
         "Contratista": "EXSEI SA",
         "Tipo": "Mano de Obra",
-        "NPA": 7600024050
+        "NPA": 7600026228
       },
       {
         "Proveedor": 1007368,
@@ -31,7 +31,7 @@ let proveedores=JSON.parse(JSON.stringify(
         "Proveedor": 1010502,
         "Contratista": "DISTRIBUIDORA ELECTROTOTAL",
         "Tipo": "Mano de Obra",
-        "NPA": 7600024047
+        "NPA": 7600026224
       },
       {
         "Proveedor": 1010502,
@@ -43,7 +43,7 @@ let proveedores=JSON.parse(JSON.stringify(
         "Proveedor": 1010540,
         "Contratista": "ACUMULADORES ARIZONA S.R.L.",
         "Tipo": "Mano de Obra",
-        "NPA": 7600024048
+        "NPA": 7600025641
       },
       {
         "Proveedor": 1010540,
@@ -55,13 +55,14 @@ let proveedores=JSON.parse(JSON.stringify(
         "Proveedor": 1011945,
         "Contratista": "BAGNOLS SA.",
         "Tipo": "Mano de Obra",
-        "NPA": 7600024047
+        "NPA": 7600026227
       },
       {
         "Proveedor": 1011945,
         "Contratista": "BAGNOLS SA.",
         "Tipo": "Materiales",
-        "NPA": 7600019079
+        "NPA": 7600026354
+
       },
     ]
   }))

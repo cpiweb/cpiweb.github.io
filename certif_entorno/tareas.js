@@ -10,6 +10,16 @@ divShowData3.style.display="None"
 const divShowData5 = document.getElementById('showData5');
 divShowData5.style.display="None"
 
+/* 
+let clave = prompt('Password:')
+
+while (clave!="h0l4") {
+        
+    clave = prompt('Password:')
+
+}
+ */
+
 
 // Llenar tabla contratistas con JSON 
 
