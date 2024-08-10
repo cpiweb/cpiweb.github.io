@@ -483,7 +483,11 @@ function obtenerFecha(fechaExcel) {
 
         return fechaJS.getDate() + "/" + (fechaJS.getMonth()+1) + "/" + fechaJS.getFullYear()
 }
+function generar_WE(){
+        alert('Función en mantenimiento...')
+}
 
+/* 
 function generar_WE(){
 
     divShowData4.style.display="none"
@@ -526,7 +530,7 @@ function generar_WE(){
     divShowData5.appendChild(tabla);
 
   }
-
+ */
   function volver_OE(){
 
     divShowData4.style.display="none"
