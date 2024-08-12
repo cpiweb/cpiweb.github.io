@@ -306,7 +306,7 @@ function generar_MM(){
     descripcion= tabla.rows[i].cells[2].textContent
     unidad= tabla.rows[i].cells[3].textContent
     cantidad= tabla.rows[i].cells[4].children.cantidad.value
-    precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4).replace(',', '.'))
+    precio= parseFloat(tabla.rows[i].cells[5].textContent.slice(4).replace('.','').replace(',', '.'))
     precio_total= (Math.round(precio*cantidad*100))/100
     fila=[material, descripcion, unidad, cantidad, precio, precio_total]
     filas.push(fila)
