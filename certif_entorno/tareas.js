@@ -483,11 +483,13 @@ function obtenerFecha(fechaExcel) {
 
         return fechaJS.getDate() + "/" + (fechaJS.getMonth()+1) + "/" + fechaJS.getFullYear()
 }
+
+/* 
 function generar_WE(){
         alert('Función en mantenimiento...')
 }
-
-/* 
+ */
+ 
 function generar_WE(){
 
     divShowData4.style.display="none"
@@ -497,13 +499,39 @@ function generar_WE(){
     divShowData5.style.display="block"
 
     let tabla= document.getElementById("myTable3")
+    let contador_pos = 1
+    let contador_lin = 1
+
+    for (i=0; i<tabla.rows.length; i++){
+
+        if (i>0) {
+
+            if (tabla.rows[i].cells[1].innerHTML == tabla.rows[i-1].cells[1].innerHTML){
+
+                contador_lin ++
+
+            }
+            else {
+                contador_pos ++
+                contador_lin = 1
+            }
+
+        }
+        tabla.rows[i].insertCell(-1).innerHTML= contador_pos * 10
+        tabla.rows[i].insertCell(-1).innerHTML= contador_lin * 10
+
+    }
+
+//    alert (tabla)
 
     for (i=0; i<tabla.rows.length; i++){
 
         tabla.rows[i].cells[0].innerHTML="Nro de OE"
-        tabla.rows[i].cells[1].innerHTML= 10
-        tabla.rows[i].cells[2].innerHTML= (i+1)*10
+        tabla.rows[i].cells[1].innerHTML= tabla.rows[i].cells[8].innerHTML
+        tabla.rows[i].cells[2].innerHTML= tabla.rows[i].cells[9].innerHTML
         tabla.rows[i].cells[4].remove()
+        tabla.rows[i].cells[7].remove()
+        tabla.rows[i].cells[7].remove()
     }
 
     const titulo3=document.createElement("span")
@@ -530,7 +558,7 @@ function generar_WE(){
     divShowData5.appendChild(tabla);
 
   }
- */
+ 
   function volver_OE(){
 
     divShowData4.style.display="none"
