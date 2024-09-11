@@ -32,7 +32,7 @@ function buscarIncidencias() {
       let jql_list=[]
 
       if (project=="") {
-        jql_list.push('(project=EASCGS)')
+        jql_list.push('(project=EASCGS OR project=EASGNO)')
       }
       else {
         jql_list.push('project='+project)
