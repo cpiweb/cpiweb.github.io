@@ -3,22 +3,830 @@ let npas=JSON.parse(JSON.stringify(
   {
     "Hoja1": [
       {
+        "NPA": 7600027570,
+        "Pos": 10,
+        "Fecha": 45553,
+        "Material/Servicio": 170210002,
+        "Descripción": "ANILLA DISTRIBUCION D=32MM P/CABLE DISTR",
+        "Proveedor": "1004544    INDUSTRIAS KC S.R.L.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 19.6,
+        "Inicio Contrato": 45554,
+        "Fin Contrato": 46142,
+        "Moneda": "USD",
+        "Precio Neto": 0.22,
+        "Saldo inicial": 65994,
+        "Consumo": 0,
+        "Saldo Disponible": 65994,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027568,
+        "Pos": 10,
+        "Fecha": 45553,
+        "Material/Servicio": 191000002,
+        "Descripción": "ABRAZ.UNIV.P/TEND.D/ REDES FTTH Y DEVAND",
+        "Proveedor": "1034649    Set In Sas",
+        "Status": "Vigente",
+        "Meses de Vigencia": 19.6,
+        "Inicio Contrato": 45554,
+        "Fin Contrato": 46142,
+        "Moneda": "USD",
+        "Precio Neto": 0.5,
+        "Saldo inicial": 246528,
+        "Consumo": 0,
+        "Saldo Disponible": 246528,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027567,
+        "Pos": 10,
+        "Fecha": 45553,
+        "Material/Servicio": 191000002,
+        "Descripción": "ABRAZ.UNIV.P/TEND.D/ REDES FTTH Y DEVAND",
+        "Proveedor": "1015242    TMI METALURGICA SRL",
+        "Status": "Vigente",
+        "Meses de Vigencia": 19.6,
+        "Inicio Contrato": 45554,
+        "Fin Contrato": 46142,
+        "Moneda": "USD",
+        "Precio Neto": 0.55,
+        "Saldo inicial": 527255,
+        "Consumo": 0,
+        "Saldo Disponible": 527255,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027562,
+        "Pos": 10,
+        "Fecha": 45553,
+        "Descripción": "IP Transit 1 Gbps + Cruzada FO NAP Miam",
+        "Proveedor": "2000509    GTT AMERICAS, LLC",
+        "Status": "Vigente",
+        "Meses de Vigencia": 25.733333333333334,
+        "Inicio Contrato": 45553,
+        "Fin Contrato": 46326,
+        "Moneda": "USD",
+        "Precio Neto": 13056,
+        "Saldo inicial": 13056,
+        "Consumo": 0,
+        "Saldo Disponible": 13056,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027542,
+        "Pos": 10,
+        "Fecha": 45552,
+        "Descripción": "Canon hora oficial TA-2024",
+        "Proveedor": "1001402    MINISTERIO DE DEFENSA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 15.6,
+        "Inicio Contrato": 45552,
+        "Fin Contrato": 46022,
+        "Moneda": "USD",
+        "Precio Neto": 20000,
+        "Saldo inicial": 20000,
+        "Consumo": 20000,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027511,
+        "Pos": 10,
+        "Fecha": 45552,
+        "Material/Servicio": 10611018,
+        "Descripción": "PATCH CAT6A 10GX UTPAWG28 1,2M #AX109912",
+        "Proveedor": "2025795    BELDEN INC.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 24.2,
+        "Inicio Contrato": 45551,
+        "Fin Contrato": 46280,
+        "Moneda": "USD",
+        "Precio Neto": 14.16,
+        "Saldo inicial": 129393.1,
+        "Consumo": 0,
+        "Saldo Disponible": 129393.1,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027491,
+        "Pos": 10,
+        "Fecha": 45551,
+        "Descripción": "Soporte y Servicios Profesionales",
+        "Proveedor": "2000604    Harmonic International G",
+        "Status": "Vigente",
+        "Meses de Vigencia": 15.6,
+        "Inicio Contrato": 45551,
+        "Fin Contrato": 46022,
+        "Moneda": "USD",
+        "Precio Neto": 13990,
+        "Saldo inicial": 13990,
+        "Consumo": 0,
+        "Saldo Disponible": 13990,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027490,
+        "Pos": 10,
+        "Fecha": 45551,
+        "Descripción": "Licencias full OTT",
+        "Proveedor": "2000604    Harmonic International G",
+        "Status": "Vigente",
+        "Meses de Vigencia": 15.6,
+        "Inicio Contrato": 45551,
+        "Fin Contrato": 46022,
+        "Moneda": "USD",
+        "Precio Neto": 51000,
+        "Saldo inicial": 51000,
+        "Consumo": 0,
+        "Saldo Disponible": 51000,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027482,
+        "Pos": 10,
+        "Fecha": 45548,
+        "Material/Servicio": 80400038,
+        "Descripción": "LAT. C/ENCAST. P/PSO. TECN.",
+        "Proveedor": "1007412    MOBLAR SUDAMERICANA S.A.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 24.033333333333335,
+        "Inicio Contrato": 45546,
+        "Fin Contrato": 46275,
+        "Moneda": "USD",
+        "Precio Neto": 56.52,
+        "Saldo inicial": 172649,
+        "Consumo": 0,
+        "Saldo Disponible": 172649,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027474,
+        "Pos": 10,
+        "Fecha": 45548,
+        "Descripción": "Enlace IP 1Gb Río Grande y Com Rivadavia",
+        "Proveedor": "1010518    TELEFONICA MOVILES ARGEN",
+        "Status": "Vigente",
+        "Meses de Vigencia": 27.766666666666666,
+        "Inicio Contrato": 45548,
+        "Fin Contrato": 46387,
+        "Moneda": "USD",
+        "Precio Neto": 127900,
+        "Saldo inicial": 325400,
+        "Consumo": 0,
+        "Saldo Disponible": 325400,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027472,
+        "Pos": 10,
+        "Fecha": 45548,
+        "Descripción": "Servicio de Inventario Físico 2024",
+        "Proveedor": "1003808    LOGICALIS ARGENTINA S. A",
+        "Status": "Vigente",
+        "Meses de Vigencia": 12.033333333333333,
+        "Inicio Contrato": 45551,
+        "Fin Contrato": 45915,
+        "Moneda": "ARS",
+        "Precio Neto": 60753326.52,
+        "Saldo inicial": 60753326.52,
+        "Consumo": 0,
+        "Saldo Disponible": 60753326.52,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027469,
+        "Pos": 10,
+        "Fecha": 45548,
+        "Material/Servicio": 320700087,
+        "Descripción": "CBL.POWERCORD C13-C14 60CM P/DATACENTER",
+        "Proveedor": "1006719    CIDI COM SA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 11.933333333333334,
+        "Inicio Contrato": 45547,
+        "Fin Contrato": 45912,
+        "Moneda": "USD",
+        "Precio Neto": 16.48,
+        "Saldo inicial": 82738.02,
+        "Consumo": 0,
+        "Saldo Disponible": 82738.02,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027468,
+        "Pos": 10,
+        "Fecha": 45548,
+        "Material/Servicio": 320700087,
+        "Descripción": "CBL.POWERCORD C13-C14 60CM P/DATACENTER",
+        "Proveedor": "2029857    Artic Fiber Optic LLC",
+        "Status": "Vigente",
+        "Meses de Vigencia": 11.933333333333334,
+        "Inicio Contrato": 45547,
+        "Fin Contrato": 45912,
+        "Moneda": "USD",
+        "Precio Neto": 3628.38,
+        "Saldo inicial": 3833.96,
+        "Consumo": 0,
+        "Saldo Disponible": 3833.96,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027395,
+        "Pos": 10,
+        "Fecha": 45547,
+        "Material/Servicio": 320700087,
+        "Descripción": "CBL.POWERCORD C13-C14 60CM P/DATACENTER",
+        "Proveedor": "2027358    JERS TECNOLOGIA SPA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 11.933333333333334,
+        "Inicio Contrato": 45547,
+        "Fin Contrato": 45912,
+        "Moneda": "USD",
+        "Precio Neto": 2.88,
+        "Saldo inicial": 3258.36,
+        "Consumo": 0,
+        "Saldo Disponible": 3258.36,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027392,
+        "Pos": 10,
+        "Fecha": 45547,
+        "Descripción": "Retrazado & Retendido - 3er Camino Cirio",
+        "Proveedor": "1009233    TECNOLOGIA Y CABLEADOS S",
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 45547,
+        "Fin Contrato": 45657,
+        "Moneda": "ARS",
+        "Precio Neto": 26062643,
+        "Saldo inicial": 0.1,
+        "Consumo": 0,
+        "Saldo Disponible": 0.1,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027391,
+        "Pos": 10,
+        "Fecha": 45547,
+        "Material/Servicio": 320700087,
+        "Descripción": "CBL.POWERCORD C13-C14 60CM P/DATACENTER",
+        "Proveedor": "2028894    AMERINODE DEL PERÚ S.A.C",
+        "Status": "Vigente",
+        "Meses de Vigencia": 11.933333333333334,
+        "Inicio Contrato": 45547,
+        "Fin Contrato": 45912,
+        "Moneda": "USD",
+        "Precio Neto": 1.69,
+        "Saldo inicial": 3031.28,
+        "Consumo": 0,
+        "Saldo Disponible": 3031.28,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027390,
+        "Pos": 10,
+        "Fecha": 45537,
+        "Descripción": "(EVENTOS) SERV. CONTRATISTAS P.E. OBRAS",
+        "Proveedor": "1009233    TECNOLOGIA Y CABLEADOS S",
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 45537,
+        "Fin Contrato": 45657,
+        "Moneda": "ARS",
+        "Precio Neto": 0,
+        "Saldo inicial": 26062643,
+        "Consumo": 8852627.3,
+        "Saldo Disponible": 17210015.7,
+        "Saldo Disponible %": 0.660332710692465,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027384,
+        "Pos": 10,
+        "Fecha": 45547,
+        "Material/Servicio": 281200024,
+        "Descripción": "LIQ.LIMP.D/GEL P/F.O.EN BDON.D/5L O EQUI",
+        "Proveedor": "1018653    API HERRAMIENTAS SAS",
+        "Status": "Vigente",
+        "Meses de Vigencia": 1.8,
+        "Inicio Contrato": 45547,
+        "Fin Contrato": 45608,
+        "Moneda": "USD",
+        "Precio Neto": 76.08,
+        "Saldo inicial": 22095.6,
+        "Consumo": 0,
+        "Saldo Disponible": 22095.6,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027366,
+        "Pos": 10,
+        "Fecha": 45547,
+        "Descripción": "Serv Implementación DNS Flow",
+        "Proveedor": "1001930    PERT CONSULTORES S.R.L.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 8.466666666666667,
+        "Inicio Contrato": 45555,
+        "Fin Contrato": 45808,
+        "Moneda": "ARS",
+        "Precio Neto": 8986852,
+        "Saldo inicial": 8986852,
+        "Consumo": 0,
+        "Saldo Disponible": 8986852,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027362,
+        "Pos": 10,
+        "Fecha": 45547,
+        "Descripción": "Soporte Sistemas Operativos Linux",
+        "Proveedor": "1003340    MEGA TECH S.A.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 10.5,
+        "Inicio Contrato": 45474,
+        "Fin Contrato": 45869,
+        "Moneda": "ARS",
+        "Precio Neto": 0,
+        "Saldo inicial": 133297880.87,
+        "Consumo": 0,
+        "Saldo Disponible": 133297880.87,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027357,
+        "Pos": 10,
+        "Fecha": 45546,
+        "Descripción": "Integración Telgat con FMC",
+        "Proveedor": "1010645    PLANEX S.A.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 11.866666666666667,
+        "Inicio Contrato": 45546,
+        "Fin Contrato": 45910,
+        "Moneda": "USD",
+        "Precio Neto": 27700,
+        "Saldo inicial": 27700,
+        "Consumo": 27700,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027337,
+        "Pos": 10,
+        "Fecha": 45546,
+        "Descripción": "Servicios Profesionales (SSPP)",
+        "Proveedor": "1006410    BVS TV SA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 2202.9666666666667,
+        "Inicio Contrato": 45536,
+        "Fin Contrato": 111643,
+        "Moneda": "USD",
+        "Precio Neto": 120813.91,
+        "Saldo inicial": 120813.91,
+        "Consumo": 0,
+        "Saldo Disponible": 120813.91,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027331,
+        "Pos": 10,
+        "Fecha": 45546,
+        "Descripción": "Servicios Obra TermoMecanica",
+        "Proveedor": "1016999    Q2 Group SA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 7.433333333333334,
+        "Inicio Contrato": 45545,
+        "Fin Contrato": 45777,
+        "Moneda": "ARS",
+        "Precio Neto": 0,
+        "Saldo inicial": 121757679.54,
+        "Consumo": 0,
+        "Saldo Disponible": 121757679.54,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027325,
+        "Pos": 10,
+        "Fecha": 45545,
+        "Descripción": "PUESTA EN MARCHA Y PRUEBAS",
+        "Proveedor": "1000348    ENERGY LINK SA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 45545,
+        "Fin Contrato": 45657,
+        "Moneda": "ARS",
+        "Precio Neto": 118710,
+        "Saldo inicial": 118710,
+        "Consumo": 118710,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027315,
+        "Pos": 10,
+        "Fecha": 45545,
+        "Descripción": "Materiales Obra TermoMecanica",
+        "Proveedor": "1016999    Q2 Group SA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 7.433333333333334,
+        "Inicio Contrato": 45545,
+        "Fin Contrato": 45777,
+        "Moneda": "USD",
+        "Precio Neto": 0,
+        "Saldo inicial": 239923.82,
+        "Consumo": 143013.90000000002,
+        "Saldo Disponible": 96909.92,
+        "Saldo Disponible %": 0.4039195441286321,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027311,
+        "Pos": 10,
+        "Fecha": 45545,
+        "Descripción": "Central receptora de alarmas",
+        "Proveedor": "1006685    XIDEN SACI",
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 45545,
+        "Fin Contrato": 45657,
+        "Moneda": "USD",
+        "Precio Neto": 82330.22,
+        "Saldo inicial": 82330.22,
+        "Consumo": 82330.22,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027301,
+        "Pos": 10,
+        "Fecha": 45544,
+        "Material/Servicio": 80410042,
+        "Descripción": "PANEL CIEGO 1RU 19\"COMPUSPACE#PF-27U-W10",
+        "Proveedor": "1003088    ANIXTER ARGENTINA S.A.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 11.7,
+        "Inicio Contrato": 45541,
+        "Fin Contrato": 45905,
+        "Moneda": "USD",
+        "Precio Neto": 4.15,
+        "Saldo inicial": 75502,
+        "Consumo": 75419,
+        "Saldo Disponible": 83,
+        "Saldo Disponible %": 0.0010993086275860242,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027287,
+        "Pos": 10,
+        "Fecha": 45541,
+        "Material/Servicio": 310600224,
+        "Descripción": "INTERRUP.DIF.2POLOS 40A 30mA IDSI SCHNEI",
+        "Proveedor": "1002862    EMEYT SRL",
+        "Status": "Vigente",
+        "Meses de Vigencia": 1.4,
+        "Inicio Contrato": 45541,
+        "Fin Contrato": 45596,
+        "Moneda": "USD",
+        "Precio Neto": 187.6,
+        "Saldo inicial": 20000,
+        "Consumo": 9326.05,
+        "Saldo Disponible": 10673.95,
+        "Saldo Disponible %": 0.5336975,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027273,
+        "Pos": 10,
+        "Fecha": 45541,
+        "Descripción": "Instalacion Ob. Electrom. Media Tension",
+        "Proveedor": "1002862    EMEYT SRL",
+        "Status": "Vigente",
+        "Meses de Vigencia": 1.4,
+        "Inicio Contrato": 45541,
+        "Fin Contrato": 45596,
+        "Moneda": "ARS",
+        "Precio Neto": 0,
+        "Saldo inicial": 100543936,
+        "Consumo": 65259591.64,
+        "Saldo Disponible": 35284344.36,
+        "Saldo Disponible %": 0.3509345840608428,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027271,
+        "Pos": 10,
+        "Fecha": 45541,
+        "Descripción": "Servicio transito regional ANTEL/TECO",
+        "Proveedor": "1031067    ANTEL TELECOMUNICACIONES",
+        "Status": "Vigente",
+        "Meses de Vigencia": 13.566666666666666,
+        "Inicio Contrato": 45231,
+        "Fin Contrato": 45961,
+        "Moneda": "USD",
+        "Precio Neto": 240000,
+        "Saldo inicial": 297600,
+        "Consumo": 110000,
+        "Saldo Disponible": 187600,
+        "Saldo Disponible %": 0.6303763440860215,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027267,
+        "Pos": 10,
+        "Fecha": 45541,
+        "Material/Servicio": 300600468,
+        "Descripción": "CBL.SUBT.4X16MM LS0H NOR.62266 VNA.AZ.",
+        "Proveedor": "1003802    PRYSMIAN ENERGIA CABLES",
+        "Status": "Vigente",
+        "Meses de Vigencia": 11.533333333333333,
+        "Inicio Contrato": 45541,
+        "Fin Contrato": 45900,
+        "Moneda": "USD",
+        "Precio Neto": 152.11,
+        "Saldo inicial": 388732,
+        "Consumo": 29316.5,
+        "Saldo Disponible": 359415.5,
+        "Saldo Disponible %": 0.9245842894333371,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027266,
+        "Pos": 10,
+        "Fecha": 45541,
+        "Material/Servicio": 300600468,
+        "Descripción": "CBL.SUBT.4X16MM LS0H NOR.62266 VNA.AZ.",
+        "Proveedor": "1009085    MARLEW S.A.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 11.533333333333333,
+        "Inicio Contrato": 45541,
+        "Fin Contrato": 45900,
+        "Moneda": "USD",
+        "Precio Neto": 13.76,
+        "Saldo inicial": 597235,
+        "Consumo": 0,
+        "Saldo Disponible": 597235,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027265,
+        "Pos": 10,
+        "Fecha": 45541,
+        "Descripción": "Soporte HaaS ACS",
+        "Proveedor": "1016661    Stechs S.R.L.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 9.966666666666667,
+        "Inicio Contrato": 45489,
+        "Fin Contrato": 45853,
+        "Moneda": "ARS",
+        "Precio Neto": 72407000,
+        "Saldo inicial": 72407000,
+        "Consumo": 72407000,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027264,
+        "Pos": 10,
+        "Fecha": 45540,
+        "Descripción": "AT Plataforma de Mensajería Móvil (NMM)",
+        "Proveedor": "2025628    ESW TECHNOLOGIES FZ-LLC",
+        "Status": "Vigente",
+        "Meses de Vigencia": 27.766666666666666,
+        "Inicio Contrato": 45292,
+        "Fin Contrato": 46387,
+        "Moneda": "USD",
+        "Precio Neto": 560000,
+        "Saldo inicial": 560000,
+        "Consumo": 0,
+        "Saldo Disponible": 560000,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027263,
+        "Pos": 10,
+        "Fecha": 45540,
+        "Descripción": "SERVICIOS DE OBRA",
+        "Proveedor": "1011945    BAGNOLS SA.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 6.433333333333334,
+        "Inicio Contrato": 45541,
+        "Fin Contrato": 45747,
+        "Moneda": "USD",
+        "Precio Neto": 662000,
+        "Saldo inicial": 662000,
+        "Consumo": 662000,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027252,
+        "Pos": 10,
+        "Fecha": 45540,
+        "Descripción": "REPARACIÓN Y BLASTINADO AMPLIF EDIF",
+        "Proveedor": "1015556    NEVICORP SA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 45540,
+        "Fin Contrato": 45657,
+        "Moneda": "USD",
+        "Precio Neto": 98494.39,
+        "Saldo inicial": 98494.39,
+        "Consumo": 0,
+        "Saldo Disponible": 98494.39,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027251,
+        "Pos": 10,
+        "Fecha": 45540,
+        "Descripción": "OBRA ELECTROMECANICA EN DATA CENTER",
+        "Proveedor": "1036338    NTWPR SERVICES SA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 9.466666666666667,
+        "Inicio Contrato": 45540,
+        "Fin Contrato": 45838,
+        "Moneda": "USD",
+        "Precio Neto": 7517,
+        "Saldo inicial": 7517,
+        "Consumo": 0,
+        "Saldo Disponible": 7517,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027234,
+        "Pos": 10,
+        "Fecha": 45539,
+        "Descripción": "Lote Materiles Inst.RE.LH Split",
+        "Proveedor": "1005176    CYAC S.R.L.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 45536,
+        "Fin Contrato": 45657,
+        "Moneda": "USD",
+        "Precio Neto": 0,
+        "Saldo inicial": 287862.52,
+        "Consumo": 10058.550000000047,
+        "Saldo Disponible": 277803.97,
+        "Saldo Disponible %": 0.9650577991188292,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027212,
+        "Pos": 10,
+        "Fecha": 45538,
+        "Descripción": "Ampliación Trace Server",
+        "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
+        "Status": "Vigente",
+        "Meses de Vigencia": 27.766666666666666,
+        "Inicio Contrato": 45538,
+        "Fin Contrato": 46387,
+        "Moneda": "USD",
+        "Precio Neto": 272830.4,
+        "Saldo inicial": 272831,
+        "Consumo": 0,
+        "Saldo Disponible": 272831,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027208,
+        "Pos": 10,
+        "Fecha": 45538,
+        "Material/Servicio": 140200328,
+        "Descripción": "E6000 KIT CHASIS GEN2 S/RSM2 #796834",
+        "Proveedor": "2000451    COMMSCOPE TECHNOLOGIES L",
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 45538,
+        "Fin Contrato": 45657,
+        "Moneda": "USD",
+        "Precio Neto": 22400,
+        "Saldo inicial": 582400,
+        "Consumo": 582400,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027196,
+        "Pos": 10,
+        "Fecha": 45538,
+        "Material/Servicio": 300100062,
+        "Descripción": "EXTR.P/RIEL NS 10MM BAJO",
+        "Proveedor": "1003068    TRANSELEC S.R.L.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 9.466666666666667,
+        "Inicio Contrato": 45538,
+        "Fin Contrato": 45838,
+        "Moneda": "USD",
+        "Precio Neto": 0.76,
+        "Saldo inicial": 2202.7,
+        "Consumo": 0,
+        "Saldo Disponible": 2202.7,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027147,
+        "Pos": 10,
+        "Fecha": 45534,
+        "Descripción": "Licencia  para la herramienta GitProtect",
+        "Proveedor": "2030899    Xopero Software",
+        "Status": "Vigente",
+        "Meses de Vigencia": 11.933333333333334,
+        "Inicio Contrato": 45548,
+        "Fin Contrato": 45912,
+        "Moneda": "USD",
+        "Precio Neto": 14000,
+        "Saldo inicial": 14000,
+        "Consumo": 14000,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027137,
+        "Pos": 10,
+        "Fecha": 45536,
+        "Descripción": "Aceite York C x 20 lts",
+        "Proveedor": "1012697    CA Group S.A.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 5.4,
+        "Inicio Contrato": 45505,
+        "Fin Contrato": 45716,
+        "Moneda": "USD",
+        "Precio Neto": 3214,
+        "Saldo inicial": 4494,
+        "Consumo": 4494,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600027136,
+        "Pos": 10,
+        "Fecha": 45505,
+        "Descripción": "Mantto D./Chillers",
+        "Proveedor": "1012697    CA Group S.A.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 5.4,
+        "Inicio Contrato": 45505,
+        "Fin Contrato": 45716,
+        "Moneda": "ARS",
+        "Precio Neto": 4130322,
+        "Saldo inicial": 10974642,
+        "Consumo": 10974642,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
+      },
+      {
         "NPA": 7600027116,
         "Pos": 10,
         "Fecha": 45532,
-        "Descripción": "Servicios desarrollo Intraway para integ",
+        "Descripción": "Desarrollos Intraway para TECO VNO",
         "Proveedor": "1006449    INTRAWAY CORPORATION S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45532,
         "Fin Contrato": 45747,
         "Moneda": "USD",
         "Precio Neto": 48960,
         "Saldo inicial": 48960,
-        "Consumo": 0,
-        "Saldo Disponible": 48960,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 48960,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
       },
       {
         "NPA": 7600027112,
@@ -27,16 +835,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INROW.DX MO PRUEBAS FUNCIONALES (PEM)",
         "Proveedor": "1036338    NTWPR SERVICES SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45532,
         "Fin Contrato": 45747,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 9000,
-        "Consumo": 0,
-        "Saldo Disponible": 9000,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 3596.59,
+        "Saldo Disponible": 5403.41,
+        "Saldo Disponible %": 0.6003788888888889,
+        "Hoy": 45554
       },
       {
         "NPA": 7600027095,
@@ -45,16 +853,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Datapower SLA 2024",
         "Proveedor": "1008872    VAREGOS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45838,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 24655950,
-        "Consumo": 0,
-        "Saldo Disponible": 24655950,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 24653532.48,
+        "Saldo Disponible": 2417.52,
+        "Saldo Disponible %": 0.00009805016638985721,
+        "Hoy": 45554
       },
       {
         "NPA": 7600027092,
@@ -63,16 +871,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "200 Mbp en San Antonio de los Cobres",
         "Proveedor": "1004158    EMPRESA ARGENTINA DE SOL",
         "Status": "Vigente",
-        "Meses de Vigencia": 35.46666666666667,
+        "Meses de Vigencia": 34.96666666666667,
         "Inicio Contrato": 45509,
         "Fin Contrato": 46603,
         "Moneda": "USD",
         "Precio Neto": 6480,
         "Saldo inicial": 6480,
-        "Consumo": 0,
-        "Saldo Disponible": 6480,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 336.77000000000044,
+        "Saldo Disponible": 6143.23,
+        "Saldo Disponible %": 0.9480293209876542,
+        "Hoy": 45554
       },
       {
         "NPA": 7600027087,
@@ -82,7 +890,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BAT.D/GEL 12V 9AH",
         "Proveedor": "1006846    BATERIAS MOURA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45531,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -91,7 +899,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 27857.7,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600027074,
@@ -100,7 +908,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicio Intermedio MMPX 403",
         "Proveedor": "1025755    ALFA LAVAL S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45530,
         "Fin Contrato": 45657,
         "Moneda": "EUR",
@@ -109,7 +917,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9905.42,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600027066,
@@ -118,7 +926,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de instalacion",
         "Proveedor": "1010540    ACUMULADORES ARIZONA S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45530,
         "Fin Contrato": 45747,
         "Moneda": "ARS",
@@ -127,7 +935,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 13456771,
         "Saldo Disponible": 39398709,
         "Saldo Disponible %": 0.7454044311015622,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600027054,
@@ -136,7 +944,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencia por uso de la Plataforma e-SIM",
         "Proveedor": "1002224    THALES ARGENTINA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45869,
         "Moneda": "USD",
@@ -145,7 +953,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 174800,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600027046,
@@ -154,16 +962,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Cross Connect B2B Ago 24 a Jul 27",
         "Proveedor": "1032390    KYNDRYL ARGENTINA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45527,
         "Fin Contrato": 45869,
         "Moneda": "USD",
         "Precio Neto": 255000,
         "Saldo inicial": 477600,
-        "Consumo": 61050,
-        "Saldo Disponible": 416550,
-        "Saldo Disponible %": 0.8721733668341709,
-        "Hoy": 45539
+        "Consumo": 100850,
+        "Saldo Disponible": 376750,
+        "Saldo Disponible %": 0.7888400335008375,
+        "Hoy": 45554
       },
       {
         "NPA": 7600027031,
@@ -172,16 +980,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Serv. Comedor Bosque Alegre",
         "Proveedor": "1002452    CUFRE MARCOS SALVADOR",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45526,
         "Fin Contrato": 45688,
         "Moneda": "ARS",
         "Precio Neto": 3595350,
         "Saldo inicial": 26325648,
-        "Consumo": 3595350,
-        "Saldo Disponible": 22730298,
-        "Saldo Disponible %": 0.8634278632001765,
-        "Hoy": 45539
+        "Consumo": 7718018,
+        "Saldo Disponible": 18607630,
+        "Saldo Disponible %": 0.7068251463363788,
+        "Hoy": 45554
       },
       {
         "NPA": 7600027024,
@@ -190,16 +998,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Gestiones Municipales para Obras Civiles",
         "Proveedor": "1006016    ATLANTICA CONSULTING GRO",
         "Status": "Vigente",
-        "Meses de Vigencia": 13.033333333333333,
+        "Meses de Vigencia": 12.533333333333333,
         "Inicio Contrato": 45526,
         "Fin Contrato": 45930,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 3000000,
-        "Consumo": 838625,
-        "Saldo Disponible": 2161375,
-        "Saldo Disponible %": 0.7204583333333333,
-        "Hoy": 45539
+        "Consumo": 1402181,
+        "Saldo Disponible": 1597819,
+        "Saldo Disponible %": 0.5326063333333333,
+        "Hoy": 45554
       },
       {
         "NPA": 7600027014,
@@ -208,16 +1016,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Pack Licencias OTA LTE 1 Millón",
         "Proveedor": "1002224    THALES ARGENTINA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45525,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 125000,
         "Saldo inicial": 125000,
-        "Consumo": 0,
-        "Saldo Disponible": 125000,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 125000,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026999,
@@ -226,16 +1034,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Gitlab Ultimate Año 1",
         "Proveedor": "1029169    TSOFT INFORMATICA",
         "Status": "Vigente",
-        "Meses de Vigencia": 23.166666666666668,
+        "Meses de Vigencia": 22.666666666666668,
         "Inicio Contrato": 45505,
         "Fin Contrato": 46234,
         "Moneda": "USD",
         "Precio Neto": 357270.87,
         "Saldo inicial": 1807678.68,
-        "Consumo": 0,
-        "Saldo Disponible": 1807678.68,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 357270.8699999999,
+        "Saldo Disponible": 1450407.81,
+        "Saldo Disponible %": 0.8023593053606187,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026990,
@@ -245,35 +1053,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INTERRUP.DIF.2POLOS 40A 30mA IDSI SCHNEI",
         "Proveedor": "1011945    BAGNOLS SA.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45524,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 187.6,
         "Saldo inicial": 841573,
-        "Consumo": 753330.13,
-        "Saldo Disponible": 88242.87,
-        "Saldo Disponible %": 0.10485468283797127,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600026983,
-        "Pos": 10,
-        "Fecha": 45523,
-        "Material/Servicio": 110300141,
-        "Descripción": "SERVDR.D/VDEO. TELESTREAM #V-LS-G6-WWSVR",
-        "Proveedor": "1011995    SISTEMAS DE VIDEO COMUNI",
-        "Status": "Vigente",
-        "Meses de Vigencia": 3.8,
-        "Inicio Contrato": 45524,
-        "Fin Contrato": 45653,
-        "Moneda": "USD",
-        "Precio Neto": 90000,
-        "Saldo inicial": 90000,
-        "Consumo": 0,
-        "Saldo Disponible": 90000,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 753425.13,
+        "Saldo Disponible": 88147.87,
+        "Saldo Disponible %": 0.10474179898832305,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026982,
@@ -282,16 +1071,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TV Noblex 32\" HD Android Series 91DR32X7",
         "Proveedor": "1020913    NEWSAN S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45523,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
         "Precio Neto": 182561.98,
         "Saldo inicial": 132000000,
-        "Consumo": 0,
-        "Saldo Disponible": 132000000,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 54768594,
+        "Saldo Disponible": 77231406,
+        "Saldo Disponible %": 0.5850864090909091,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026981,
@@ -300,7 +1089,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Canon mantenimiento anual",
         "Proveedor": "1033323    UFINET ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45523,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -309,7 +1098,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 15147177.170000002,
         "Saldo Disponible": 0.04,
         "Saldo Disponible %": 2.640756059392534e-9,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026980,
@@ -318,7 +1107,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Instalación Sistema Extinción en DC04",
         "Proveedor": "1014938    DIGI - PLAY GROUP SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45523,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -327,7 +1116,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 21250,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026955,
@@ -337,16 +1126,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INTERRUP.DIF.2POLOS 40A 30mA IDSI SCHNEI",
         "Proveedor": "1010540    ACUMULADORES ARIZONA S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45520,
         "Fin Contrato": 45596,
         "Moneda": "USD",
         "Precio Neto": 187.6,
         "Saldo inicial": 55074,
-        "Consumo": 0,
-        "Saldo Disponible": 55074,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 1222.1200000000026,
+        "Saldo Disponible": 53851.88,
+        "Saldo Disponible %": 0.9778094926825724,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026953,
@@ -356,7 +1145,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INTERRUP.DIF.2POLOS 40A 30mA IDSI SCHNEI",
         "Proveedor": "1010502    DISTRIBUIDORA ELECTROTOT",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45520,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -365,7 +1154,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 5756.369999999995,
         "Saldo Disponible": 123715.63,
         "Saldo Disponible %": 0.9555396533613446,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026950,
@@ -375,7 +1164,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INTERRUP.DIF.2POLOS 40A 30mA IDSI SCHNEI",
         "Proveedor": "1007368    EXSEI SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45520,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -384,7 +1173,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 103118,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026949,
@@ -394,16 +1183,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INTERRUP.DIF.2POLOS 40A 30mA IDSI SCHNEI",
         "Proveedor": "1002862    EMEYT SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45520,
         "Fin Contrato": 45596,
         "Moneda": "USD",
         "Precio Neto": 187.6,
         "Saldo inicial": 50000,
-        "Consumo": 49989.45,
-        "Saldo Disponible": 10.55,
-        "Saldo Disponible %": 0.000211,
-        "Hoy": 45539
+        "Consumo": 46219.53,
+        "Saldo Disponible": 3780.47,
+        "Saldo Disponible %": 0.0756094,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026947,
@@ -412,16 +1201,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SWAP FO 2012 fecha 22/9/2023 a 21/9/2024",
         "Proveedor": "1010518    TELEFONICA MOVILES ARGEN",
         "Status": "Vigente",
-        "Meses de Vigencia": 15.4,
+        "Meses de Vigencia": 14.9,
         "Inicio Contrato": 45520,
         "Fin Contrato": 46001,
         "Moneda": "USD",
         "Precio Neto": 31230,
         "Saldo inicial": 62460,
-        "Consumo": 31230,
-        "Saldo Disponible": 31230,
-        "Saldo Disponible %": 0.5,
-        "Hoy": 45539
+        "Consumo": 62460,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026919,
@@ -430,7 +1219,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Flow (7x24)",
         "Proveedor": "1005190    WETCOM S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45383,
         "Fin Contrato": 45747,
         "Moneda": "ARS",
@@ -439,7 +1228,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 113654912.33,
         "Saldo Disponible": 0.03,
         "Saldo Disponible %": 2.639569146380185e-10,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026897,
@@ -448,16 +1237,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Instalacion Ob. Electrom. Media Tension",
         "Proveedor": "1007368    EXSEI SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45518,
         "Fin Contrato": 45596,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 27330857,
-        "Consumo": 0,
-        "Saldo Disponible": 27330857,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 582689,
+        "Saldo Disponible": 26748168,
+        "Saldo Disponible %": 0.978680178232245,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026896,
@@ -466,34 +1255,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Instalacion Ob. Electrom. Media Tension",
         "Proveedor": "1010502    DISTRIBUIDORA ELECTROTOT",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45518,
         "Fin Contrato": 45596,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 50002466,
-        "Consumo": 5459599,
-        "Saldo Disponible": 44542867,
-        "Saldo Disponible %": 0.8908134050828613,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600026895,
-        "Pos": 10,
-        "Fecha": 45518,
-        "Descripción": "Instalacion Ob. Electrom. Media Tension",
-        "Proveedor": "1002862    EMEYT SRL",
-        "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
-        "Inicio Contrato": 45518,
-        "Fin Contrato": 45596,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 32085302,
-        "Consumo": 31541365.5,
-        "Saldo Disponible": 543936.5,
-        "Saldo Disponible %": 0.016952824692128502,
-        "Hoy": 45539
+        "Consumo": 9754158.5,
+        "Saldo Disponible": 40248307.5,
+        "Saldo Disponible %": 0.8049264510274353,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026891,
@@ -502,16 +1273,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Instalacion Ob. Electrom. Media Tension",
         "Proveedor": "1010540    ACUMULADORES ARIZONA S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45518,
         "Fin Contrato": 45596,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 29370000,
-        "Consumo": 0,
-        "Saldo Disponible": 29370000,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 3612142.6000000015,
+        "Saldo Disponible": 25757857.4,
+        "Saldo Disponible %": 0.8770125093632958,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026887,
@@ -520,7 +1291,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Instalacion Ob. Electrom. Media Tension",
         "Proveedor": "1011945    BAGNOLS SA.",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45518,
         "Fin Contrato": 45596,
         "Moneda": "ARS",
@@ -529,7 +1300,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 114608728.9,
         "Saldo Disponible": 1098237.1,
         "Saldo Disponible %": 0.009491538305481106,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026885,
@@ -539,7 +1310,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CJA.ESTNC.GDE.S/BDJ",
         "Proveedor": "1015242    TMI METALURGICA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45519,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -548,7 +1319,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 66140,
         "Saldo Disponible": 159346,
         "Saldo Disponible %": 0.7066780199214142,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026823,
@@ -557,7 +1328,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1028692    HAGAMA S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45518,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -566,7 +1337,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3483472.9799999967,
         "Saldo Disponible": 56516527.02,
         "Saldo Disponible %": 0.9419421170000001,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026821,
@@ -575,16 +1346,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1016936    PITTELLA E HIJOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45518,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 50000000,
-        "Consumo": 9373967.329999998,
-        "Saldo Disponible": 40626032.67,
-        "Saldo Disponible %": 0.8125206534,
-        "Hoy": 45539
+        "Consumo": 34147803.28,
+        "Saldo Disponible": 15852196.72,
+        "Saldo Disponible %": 0.3170439344,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026799,
@@ -594,16 +1365,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CHASSIS RTN 910A HUAWEI #10003",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45516,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 63.73,
-        "Saldo inicial": 382185,
-        "Consumo": 0,
-        "Saldo Disponible": 382185,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Saldo inicial": 296622,
+        "Consumo": 284155.68,
+        "Saldo Disponible": 12466.32,
+        "Saldo Disponible %": 0.04202763112648421,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026797,
@@ -612,7 +1383,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "InRow - Hornos",
         "Proveedor": "1014955    CRITICAL SYSTEMS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.566666666666667,
+        "Meses de Vigencia": 2.066666666666667,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45616,
         "Moneda": "ARS",
@@ -621,7 +1392,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 24467700,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026796,
@@ -630,7 +1401,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS OBRAS DATACENTER",
         "Proveedor": "1006280    STEFANI RICARDO ALBERTO",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45516,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -639,7 +1410,25 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2250000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600026794,
+        "Pos": 10,
+        "Fecha": 45516,
+        "Descripción": "Licencias Software RE.SH Indoor Outdoor",
+        "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 45516,
+        "Fin Contrato": 45657,
+        "Moneda": "USD",
+        "Precio Neto": 0,
+        "Saldo inicial": 46116,
+        "Consumo": 46115.77,
+        "Saldo Disponible": 0.23,
+        "Saldo Disponible %": 0.000004987423020209906,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026789,
@@ -649,7 +1438,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CORT.D/PELOS/P/FTTH SENKO MOD.AFT-T-CL-1",
         "Proveedor": "2026057    BI CONNECTIONS LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 11.4,
+        "Meses de Vigencia": 10.9,
         "Inicio Contrato": 45516,
         "Fin Contrato": 45881,
         "Moneda": "USD",
@@ -658,7 +1447,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 35454.42,
         "Saldo Disponible": 60595.58,
         "Saldo Disponible %": 0.6308753774076002,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026783,
@@ -668,7 +1457,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.HDMI 2.0BW 18GBIT/S 60FPS HIGH SPEED",
         "Proveedor": "2000612    ANIXTER INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45516,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -677,7 +1466,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 80399.2,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026782,
@@ -686,7 +1475,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Espacios Operativos en Coop El Bolson",
         "Proveedor": "1002635    COOPERATIVA DE OBRAS Y S",
         "Status": "Vigente",
-        "Meses de Vigencia": 29.3,
+        "Meses de Vigencia": 28.8,
         "Inicio Contrato": 45323,
         "Fin Contrato": 46418,
         "Moneda": "USD",
@@ -695,7 +1484,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3850,
         "Saldo Disponible": 29450,
         "Saldo Disponible %": 0.8843843843843844,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026778,
@@ -704,7 +1493,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Implementación DWDM",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 24.2,
+        "Meses de Vigencia": 23.7,
         "Inicio Contrato": 45513,
         "Fin Contrato": 46265,
         "Moneda": "USD",
@@ -713,7 +1502,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 140000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026776,
@@ -723,7 +1512,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TABL.D/DISTRIB.D/ILUMINAC.TDI.40KW C/TMA",
         "Proveedor": "1003068    TRANSELEC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45513,
         "Fin Contrato": 45869,
         "Moneda": "USD",
@@ -732,7 +1521,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 55200,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026764,
@@ -742,7 +1531,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IDU  IP-20F-RIT3-E6-T16-C #30-0001-0_2+0",
         "Proveedor": "2000434    CERAGON NETWORKS LTD",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45513,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -751,7 +1540,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 390661.42000000004,
         "Saldo Disponible": 338.48,
         "Saldo Disponible %": 0.0008656779707616293,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026713,
@@ -761,7 +1550,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RACK 21\"-45U-1150MM C/GUIA D/EMBU.SITIOS",
         "Proveedor": "1001979    QUALITY TECH S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 11.166666666666666,
+        "Meses de Vigencia": 10.666666666666666,
         "Inicio Contrato": 45510,
         "Fin Contrato": 45874,
         "Moneda": "USD",
@@ -770,7 +1559,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 0.85,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026695,
@@ -780,7 +1569,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TRAFO.220-48 VAC, CONEC.F/P/TEXSC.",
         "Proveedor": "1018497    Nitto Optikon SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 11.2,
+        "Meses de Vigencia": 10.7,
         "Inicio Contrato": 45510,
         "Fin Contrato": 45875,
         "Moneda": "USD",
@@ -789,7 +1578,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 16125,
         "Saldo Disponible": 16125,
         "Saldo Disponible %": 0.5,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026694,
@@ -799,7 +1588,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TRAFO.220-48 VAC, CONEC.F/P/TEXSC.",
         "Proveedor": "1015152    LATPOWER SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 11.2,
+        "Meses de Vigencia": 10.7,
         "Inicio Contrato": 45510,
         "Fin Contrato": 45875,
         "Moneda": "USD",
@@ -808,7 +1597,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 27690,
         "Saldo Disponible": 46860,
         "Saldo Disponible %": 0.6285714285714286,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026691,
@@ -817,16 +1606,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Traslado y guarda de cintas",
         "Proveedor": "1010720    IRON MOUNTAIN ARG. S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 21000000,
-        "Consumo": 0,
-        "Saldo Disponible": 21000000,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 4099941.3099999987,
+        "Saldo Disponible": 16900058.69,
+        "Saldo Disponible %": 0.8047646995238096,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026681,
@@ -835,7 +1624,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Ampli. de fecha y monto 7600021052",
         "Proveedor": "1002740    QUANTUM TECNOLOGIA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.433333333333334,
+        "Meses de Vigencia": 3.933333333333333,
         "Inicio Contrato": 45506,
         "Fin Contrato": 45672,
         "Moneda": "ARS",
@@ -844,7 +1633,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 3022920,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026676,
@@ -853,16 +1642,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Abono Analista Jr SI x ABONO",
         "Proveedor": "1000324    CONSULTORIA EN TECNOLOGI",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
         "Precio Neto": 34759950,
         "Saldo inicial": 195988026,
-        "Consumo": 21663592,
-        "Saldo Disponible": 174324434,
-        "Saldo Disponible %": 0.8894647165842673,
-        "Hoy": 45539
+        "Consumo": 34545811,
+        "Saldo Disponible": 161442215,
+        "Saldo Disponible %": 0.8237350938980323,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026671,
@@ -872,7 +1661,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CJA.D/EMPALM.T/DOMO 48 INCLU. KIT Y ACC.",
         "Proveedor": "2000000    TECHNOLOGY BUREAU USA CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -881,7 +1670,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 14619,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026670,
@@ -891,7 +1680,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CJA.P/144 EMP.C/CRRE.MEC#FBG-CBV-800-144",
         "Proveedor": "2026228    HENGTONG OPTIC-ELECTRIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -900,7 +1689,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 11890,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026669,
@@ -910,7 +1699,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CAJA  EMPALME 24 FO P/AEREO Y SUBT.DOMO",
         "Proveedor": "1002740    QUANTUM TECNOLOGIA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -919,7 +1708,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 34981,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026668,
@@ -929,7 +1718,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CJA.P/144 EMP.C/CRRE.MEC#FBG-CBV-800-144",
         "Proveedor": "1002017    PREFORM S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -938,7 +1727,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 20695.800000000003,
         "Saldo Disponible": 49072.2,
         "Saldo Disponible %": 0.7033625730994152,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026667,
@@ -948,7 +1737,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CJA.D/EMPALM.T/DOMO 48 INCLU. KIT Y ACC.",
         "Proveedor": "1004982    POWERCOM S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -957,7 +1746,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 37575,
         "Saldo Disponible": 26391,
         "Saldo Disponible %": 0.4125785573585968,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026636,
@@ -965,9 +1754,9 @@ let npas=JSON.parse(JSON.stringify(
         "Fecha": 45505,
         "Material/Servicio": 320300087,
         "Descripción": "MODUL./POT.30KW P/APM #UHRF3S67Z1",
-        "Proveedor": "1002699    DACAS S.A.",
+        "Proveedor": "1002699    DACAS S. R. L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -976,7 +1765,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 95000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026612,
@@ -985,7 +1774,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Hardware HP 2024",
         "Proveedor": "1003795    HEWLETT PACKARD ARG. S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -994,7 +1783,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 300874.80000000005,
         "Saldo Disponible": 0.04,
         "Saldo Disponible %": 1.3294564610321021e-7,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026602,
@@ -1004,7 +1793,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCH E2K/APC A.PERF.- LC/APC A.POT. 3M",
         "Proveedor": "1006852    GLOBO GROUP S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.933333333333334,
+        "Meses de Vigencia": 10.433333333333334,
         "Inicio Contrato": 45502,
         "Fin Contrato": 45867,
         "Moneda": "USD",
@@ -1013,7 +1802,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 11350,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026596,
@@ -1023,7 +1812,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "UPS SIST.D/ALIM.ININT.1200KVA / 1500KVA",
         "Proveedor": "1010577    SCHNEIDER ELECTRIC ARGEN",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45869,
         "Moneda": "USD",
@@ -1032,7 +1821,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 680266,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026590,
@@ -1041,7 +1830,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS DE DESARROLLOS DE APLICACIONES",
         "Proveedor": "1033442    GLOBAL CARE S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45838,
         "Moneda": "ARS",
@@ -1050,7 +1839,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 107383040,
         "Saldo Disponible": 334239888.02,
         "Saldo Disponible %": 0.7568445087725678,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026586,
@@ -1060,7 +1849,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "OTDR JDSU OTU 8000E",
         "Proveedor": "1010489    TECNOUS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.8,
+        "Meses de Vigencia": 10.3,
         "Inicio Contrato": 45499,
         "Fin Contrato": 45863,
         "Moneda": "USD",
@@ -1069,7 +1858,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 5138,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026580,
@@ -1079,7 +1868,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "LINEAS DIRECTASDE PARED - IDEM LINEA DI",
         "Proveedor": "1006346    TECNO AMERICA S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45506,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -1088,7 +1877,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 5820400,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026579,
@@ -1098,7 +1887,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "LINEAS DIRECTASDE PARED - IDEM LINEA DI",
         "Proveedor": "1027613    AL SOL AMOBLAMIENTOS S.A",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45506,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -1107,7 +1896,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 46082305,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026576,
@@ -1117,7 +1906,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CTS-MIC-CLNG-G2=",
         "Proveedor": "1003808    LOGICALIS ARGENTINA S. A",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45503,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -1126,7 +1915,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 45070.95,
         "Saldo Disponible": 1372.68,
         "Saldo Disponible %": 0.029555829292413193,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026563,
@@ -1135,7 +1924,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INSTALACIÓN Y PECF RECTIFICADOR",
         "Proveedor": "1002862    EMEYT SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45497,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -1144,7 +1933,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 21077707,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026556,
@@ -1153,7 +1942,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "REINGENIERIA INVENTARIO GIS - EQUIPO DE",
         "Proveedor": "1016661    Stechs S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 45505,
         "Fin Contrato": 45716,
         "Moneda": "USD",
@@ -1162,7 +1951,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 110073,
         "Saldo Disponible": 47398,
         "Saldo Disponible %": 0.30099510386039335,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026524,
@@ -1171,7 +1960,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "10 Gbps temporales Copa America 2024",
         "Proveedor": "1002885    TI SPARKLE ARGENTINA S.A",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45453,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -1180,7 +1969,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 25200,
         "Saldo Disponible": 12600,
         "Saldo Disponible %": 0.3333333333333333,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026495,
@@ -1190,7 +1979,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MODUL.TX.OPT.14DBM #A-FT3E-S-14-M-S-12",
         "Proveedor": "2000612    ANIXTER INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.566666666666666,
+        "Meses de Vigencia": 10.066666666666666,
         "Inicio Contrato": 45492,
         "Fin Contrato": 45856,
         "Moneda": "USD",
@@ -1199,7 +1988,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 692226.75,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026465,
@@ -1208,7 +1997,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reparacion de rectificadores 2022/2023",
         "Proveedor": "1006595    OVATIO S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45491,
         "Fin Contrato": 45869,
         "Moneda": "USD",
@@ -1217,7 +2006,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 630,
         "Saldo Disponible": 27202,
         "Saldo Disponible %": 0.977364185110664,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026462,
@@ -1226,16 +2015,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reparacion de rectificadores 2022/2023",
         "Proveedor": "1003887    C.I.S. GROUP LATINOAMERI",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45491,
         "Fin Contrato": 45869,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 23642,
-        "Consumo": 2325,
-        "Saldo Disponible": 21317,
-        "Saldo Disponible %": 0.9016580661534557,
-        "Hoy": 45539
+        "Consumo": 2697,
+        "Saldo Disponible": 20945,
+        "Saldo Disponible %": 0.8859233567380086,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026457,
@@ -1244,16 +2033,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reparacion de rectificadores 2022/2023",
         "Proveedor": "1003849    MELTA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45491,
         "Fin Contrato": 45869,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 31643,
-        "Consumo": 0,
-        "Saldo Disponible": 31643,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 2010,
+        "Saldo Disponible": 29633,
+        "Saldo Disponible %": 0.9364788420819771,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026445,
@@ -1263,7 +2052,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PLA.CTRLD.IP-20 TCC-U. #24-T014-3",
         "Proveedor": "2000434    CERAGON NETWORKS LTD",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45490,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -1272,7 +2061,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0.38,
         "Saldo Disponible": 0.02,
         "Saldo Disponible %": 0.049999999999999996,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026444,
@@ -1281,16 +2070,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reparacion de rectificadores 2023/24",
         "Proveedor": "1002197    TENOMA S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45492,
         "Fin Contrato": 45869,
         "Moneda": "USD",
         "Precio Neto": 73,
         "Saldo inicial": 62140,
-        "Consumo": 3958,
-        "Saldo Disponible": 58182,
-        "Saldo Disponible %": 0.9363051174766656,
-        "Hoy": 45539
+        "Consumo": 5806,
+        "Saldo Disponible": 56334,
+        "Saldo Disponible %": 0.9065658191181204,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026436,
@@ -1299,7 +2088,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Obra TermoMecanica",
         "Proveedor": "1016999    Q2 Group SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45489,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -1308,7 +2097,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 138717792.93,
         "Saldo Disponible": 54282207.07,
         "Saldo Disponible %": 0.2812549589119171,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026383,
@@ -1318,7 +2107,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CINTA D/PREVENCION PLASTICA P/INST.SUBT.",
         "Proveedor": "1012183    PRENTEX S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.466666666666667,
+        "Meses de Vigencia": 9.966666666666667,
         "Inicio Contrato": 45488,
         "Fin Contrato": 45853,
         "Moneda": "USD",
@@ -1327,7 +2116,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 22704,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026370,
@@ -1336,7 +2125,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mantenimiento FO TL 2024",
         "Proveedor": "1006193    COMUNICACIONES Y CONSUMO",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45485,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -1345,7 +2134,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 12877.04,
         "Saldo Disponible": 1100,
         "Saldo Disponible %": 0.07870049738714348,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026350,
@@ -1354,16 +2143,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Abono Adm SO Plataf In (10 RH) 6/24",
         "Proveedor": "1010651    T.D.I. S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 465016526.86,
-        "Consumo": 0,
-        "Saldo Disponible": 465016526.86,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 135868794,
+        "Saldo Disponible": 329147732.86,
+        "Saldo Disponible %": 0.7078194297363,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026340,
@@ -1373,16 +2162,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BALDOSA P/PSO.TECN. HO/CEMNT. 60X60CM",
         "Proveedor": "1007412    MOBLAR SUDAMERICANA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.3,
+        "Meses de Vigencia": 9.8,
         "Inicio Contrato": 45484,
         "Fin Contrato": 45848,
         "Moneda": "USD",
         "Precio Neto": 43.9,
         "Saldo inicial": 55533.5,
-        "Consumo": 35120,
-        "Saldo Disponible": 20413.5,
-        "Saldo Disponible %": 0.3675889328063241,
-        "Hoy": 45539
+        "Consumo": 55533.5,
+        "Saldo Disponible": 0,
+        "Saldo Disponible %": 0,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026336,
@@ -1391,7 +2180,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Serv BH 100 Mbps SS Jujuy Pastos Chicos",
         "Proveedor": "1004158    EMPRESA ARGENTINA DE SOL",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.43333333333333,
+        "Meses de Vigencia": 39.93333333333333,
         "Inicio Contrato": 45484,
         "Fin Contrato": 46752,
         "Moneda": "USD",
@@ -1400,7 +2189,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 3240,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026335,
@@ -1409,7 +2198,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Sketchup Pro",
         "Proveedor": "1036981    M2-BIM S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.933333333333334,
+        "Meses de Vigencia": 9.433333333333334,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45837,
         "Moneda": "ARS",
@@ -1418,7 +2207,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9800000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026281,
@@ -1428,7 +2217,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PAT.DUP.ALT.APC/APC 7M #970B101A7288CBA7",
         "Proveedor": "1006852    GLOBO GROUP S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.266666666666667,
+        "Meses de Vigencia": 9.766666666666667,
         "Inicio Contrato": 45483,
         "Fin Contrato": 45847,
         "Moneda": "USD",
@@ -1437,7 +2226,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 19258.600000000002,
         "Saldo Disponible": 23714.8,
         "Saldo Disponible %": 0.5518483527019039,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026279,
@@ -1446,7 +2235,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Hardware HP 2024",
         "Proveedor": "1003795    HEWLETT PACKARD ARG. S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45838,
         "Moneda": "ARS",
@@ -1455,7 +2244,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 12034332.120000001,
         "Saldo Disponible": 0.03,
         "Saldo Disponible %": 2.4928678738520607e-9,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026267,
@@ -1465,7 +2254,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TABL.ANTIVAN.OUTDOOR P/PROY.KUIPER C/BAT",
         "Proveedor": "1015152    LATPOWER SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45483,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -1474,7 +2263,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 50576,
         "Saldo Disponible": 128187,
         "Saldo Disponible %": 0.717077918808702,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026265,
@@ -1483,7 +2272,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Alerce",
         "Proveedor": "1001930    PERT CONSULTORES S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
@@ -1492,7 +2281,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 35472521.7,
         "Saldo Disponible": 133504038.02,
         "Saldo Disponible %": 0.790074305224469,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026264,
@@ -1501,7 +2290,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Obra TermoMecanica",
         "Proveedor": "1008744    SERVICIOS DE CLIMATIZACI",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45483,
         "Fin Contrato": 45777,
         "Moneda": "ARS",
@@ -1510,7 +2299,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7001421.870000005,
         "Saldo Disponible": 112998578.13,
         "Saldo Disponible %": 0.9416548177499999,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026263,
@@ -1519,7 +2308,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Obra TermoMecanica",
         "Proveedor": "1008744    SERVICIOS DE CLIMATIZACI",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45483,
         "Fin Contrato": 45777,
         "Moneda": "USD",
@@ -1528,7 +2317,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 221582.37,
         "Saldo Disponible": 35417.63,
         "Saldo Disponible %": 0.13781178988326848,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026252,
@@ -1537,7 +2326,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RFP Red de Sincronismo - Relojes - Plan",
         "Proveedor": "1010592    TECHNOLOGY BUREAU S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 35.36666666666667,
+        "Meses de Vigencia": 34.86666666666667,
         "Inicio Contrato": 45506,
         "Fin Contrato": 46600,
         "Moneda": "USD",
@@ -1546,7 +2335,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 145607,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026233,
@@ -1555,7 +2344,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios y Materiales Insta.RE DualBand",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45481,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -1564,7 +2353,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 16981,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026232,
@@ -1574,7 +2363,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IDU RTN910A IS8 4+0 C/ACCES.#30012341",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45481,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -1583,7 +2372,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 10997.02,
         "Saldo Disponible": 10998.98,
         "Saldo Disponible %": 0.5000445535551918,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026221,
@@ -1592,7 +2381,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Compra HW Kyndryl",
         "Proveedor": "1032390    KYNDRYL ARGENTINA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -1601,7 +2390,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 170000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026219,
@@ -1610,7 +2399,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Integracion Certa GIS - App Diseño FTTH",
         "Proveedor": "1035086    Inimatica SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45495,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -1619,7 +2408,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 18875,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026187,
@@ -1629,16 +2418,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TBO.TERMOCONT.D/1.700 (D.NO CONTRAIDO)",
         "Proveedor": "1012106    RUTAS DE COMUNICACIONES",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.1,
+        "Meses de Vigencia": 9.6,
         "Inicio Contrato": 45477,
         "Fin Contrato": 45842,
         "Moneda": "USD",
         "Precio Neto": 6.45,
         "Saldo inicial": 98545,
-        "Consumo": 24652.5,
-        "Saldo Disponible": 73892.5,
-        "Saldo Disponible %": 0.7498351007154092,
-        "Hoy": 45539
+        "Consumo": 28228.5,
+        "Saldo Disponible": 70316.5,
+        "Saldo Disponible %": 0.7135471104571516,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026165,
@@ -1647,7 +2436,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Repuestos GE - DC Pacheco",
         "Proveedor": "1036305    MT ENERGIA Y GENERACION",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -1656,7 +2445,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 83940,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026160,
@@ -1666,7 +2455,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TBO.PASA PAR.BCO.P/RG-6 D.I.8.2 mm",
         "Proveedor": "1013316    GOMEZ HUGO ALBERTO",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.1,
+        "Meses de Vigencia": 9.6,
         "Inicio Contrato": 45477,
         "Fin Contrato": 45842,
         "Moneda": "USD",
@@ -1675,7 +2464,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 8237.5,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026159,
@@ -1684,7 +2473,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Jornada de inspección",
         "Proveedor": "1025755    ALFA LAVAL S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45657,
         "Moneda": "EUR",
@@ -1693,7 +2482,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026158,
@@ -1702,7 +2491,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de consultoria en transmisión",
         "Proveedor": "2032097    ISMAEL SALDIVIA FAGUNDEZ",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45476,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -1711,7 +2500,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 25000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026154,
@@ -1721,16 +2510,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "FO.CBL.96FO AUTOPORT. G652D ADSS BBI",
         "Proveedor": "2026228    HENGTONG OPTIC-ELECTRIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 22.133333333333333,
+        "Meses de Vigencia": 21.633333333333333,
         "Inicio Contrato": 45476,
         "Fin Contrato": 46203,
         "Moneda": "USD",
         "Precio Neto": 5.74,
         "Saldo inicial": 1024507,
-        "Consumo": 176464,
-        "Saldo Disponible": 848043,
-        "Saldo Disponible %": 0.8277571553927889,
-        "Hoy": 45539
+        "Consumo": 337264,
+        "Saldo Disponible": 687243,
+        "Saldo Disponible %": 0.6708036157878863,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026152,
@@ -1740,16 +2529,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "FO.CBL.96FO AUTOPORT. G652D ADSS BBI",
         "Proveedor": "2000000    TECHNOLOGY BUREAU USA CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 22.133333333333333,
+        "Meses de Vigencia": 21.633333333333333,
         "Inicio Contrato": 45476,
         "Fin Contrato": 46203,
         "Moneda": "USD",
         "Precio Neto": 0.71,
         "Saldo inicial": 2263944,
-        "Consumo": 28500,
-        "Saldo Disponible": 2235444,
-        "Saldo Disponible %": 0.9874113493973349,
-        "Hoy": 45539
+        "Consumo": 240500,
+        "Saldo Disponible": 2023444,
+        "Saldo Disponible %": 0.8937694571950543,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026138,
@@ -1759,7 +2548,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CVA.ARTICUL.ALA 50MM A.150MM #EPS-150-Z",
         "Proveedor": "1003068    TRANSELEC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45475,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -1768,7 +2557,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 13781.399999999994,
         "Saldo Disponible": 68137.6,
         "Saldo Disponible %": 0.8317679659175528,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026134,
@@ -1777,16 +2566,34 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Interconexion CABASE 2do semestre 2024",
         "Proveedor": "1012212    CAMARA ARGENTINA DE INTE",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45475,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 20000000,
         "Saldo inicial": 20000000,
-        "Consumo": 8471436,
-        "Saldo Disponible": 11528564,
-        "Saldo Disponible %": 0.5764282,
-        "Hoy": 45539
+        "Consumo": 13442698,
+        "Saldo Disponible": 6557302,
+        "Saldo Disponible %": 0.3278651,
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600026129,
+        "Pos": 10,
+        "Fecha": 45475,
+        "Descripción": "Abono Pospago Jul a Ago 2024",
+        "Proveedor": "1003807    SOFRE DIGITAL S. A.",
+        "Status": "Vigente",
+        "Meses de Vigencia": 9.466666666666667,
+        "Inicio Contrato": 45474,
+        "Fin Contrato": 45838,
+        "Moneda": "ARS",
+        "Precio Neto": 0,
+        "Saldo inicial": 4262515571.48,
+        "Consumo": 1332744848.88,
+        "Saldo Disponible": 2929770722.6,
+        "Saldo Disponible %": 0.6873337289845363,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026126,
@@ -1795,16 +2602,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Ana/Téc SR Jul24",
         "Proveedor": "1005310    ATOS ARGENTINA S A",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 2159040515.71,
-        "Consumo": 1441598312,
-        "Saldo Disponible": 717442203.71,
-        "Saldo Disponible %": 0.3322967765030891,
-        "Hoy": 45539
+        "Consumo": 1512360218,
+        "Saldo Disponible": 646680297.71,
+        "Saldo Disponible %": 0.29952207612803383,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026112,
@@ -1813,16 +2620,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1015084    PRONETBA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 20000000,
-        "Consumo": 10571562.03,
-        "Saldo Disponible": 9428437.97,
-        "Saldo Disponible %": 0.47142189850000005,
-        "Hoy": 45539
+        "Consumo": 16581703.27,
+        "Saldo Disponible": 3418296.73,
+        "Saldo Disponible %": 0.1709148365,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026100,
@@ -1831,7 +2638,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "12 pelos de FO en trazas",
         "Proveedor": "2031947    BRASIL TECPAR SERV DE TE",
         "Status": "Vigente",
-        "Meses de Vigencia": 301.1666666666667,
+        "Meses de Vigencia": 300.6666666666667,
         "Inicio Contrato": 45413,
         "Fin Contrato": 54574,
         "Moneda": "USD",
@@ -1840,7 +2647,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 238533,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026067,
@@ -1850,7 +2657,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "GMPA.OMEGA C/ZUNCH.P/MED.CAÑA D/1 (25 m",
         "Proveedor": "1015242    TMI METALURGICA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -1859,7 +2666,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 53488.75,
         "Saldo Disponible": 1.25,
         "Saldo Disponible %": 0.00002336885399140026,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026066,
@@ -1869,7 +2676,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SOP.TRAS.REG.1UR P/PATCH.RJ-45 1657185-5",
         "Proveedor": "1006244    TEMPEL SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -1878,7 +2685,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 1110,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026065,
@@ -1888,16 +2695,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SOP.TRAS.REG.1UR P/PATCH.RJ-45 1657185-5",
         "Proveedor": "1034649    Set In Sas",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45900,
         "Moneda": "USD",
         "Precio Neto": 4.24,
         "Saldo inicial": 6328.5,
-        "Consumo": 1696,
-        "Saldo Disponible": 4632.5,
-        "Saldo Disponible %": 0.7320060045824445,
-        "Hoy": 45539
+        "Consumo": 6271,
+        "Saldo Disponible": 57.5,
+        "Saldo Disponible %": 0.009085881330489057,
+        "Hoy": 45554
       },
       {
         "NPA": 7600026064,
@@ -1907,7 +2714,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "JAB.D/HO.COBRADA T/COPPW.D/1.5 mX12.7 mm",
         "Proveedor": "1007037    PRECINCOR S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -1916,7 +2723,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 5569,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026063,
@@ -1926,7 +2733,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TORNQ. DOB.",
         "Proveedor": "1004544    INDUSTRIAS KC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -1935,7 +2742,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 25456.8,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026062,
@@ -1945,7 +2752,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BZO.D/EXT.GDE.P/RIEN.A PIQUE",
         "Proveedor": "1011975    FAMEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -1954,7 +2761,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 76171.4,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026024,
@@ -1963,7 +2770,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Asistencia Técnica instrumento Octobox",
         "Proveedor": "1010489    TECNOUS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -1972,7 +2779,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 206627.85,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026017,
@@ -1981,7 +2788,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Virus Total Professional Bundle 07/2024",
         "Proveedor": "2031388    Chronicle LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 34.3,
+        "Meses de Vigencia": 33.8,
         "Inicio Contrato": 45474,
         "Fin Contrato": 46568,
         "Moneda": "USD",
@@ -1990,7 +2797,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 76500,
         "Saldo Disponible": 153000,
         "Saldo Disponible %": 0.6666666666666666,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600026008,
@@ -1999,7 +2806,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MANTTO D./UPS - DC SAN LORENZO",
         "Proveedor": "1010483    EATON INDUSTRIES (ARGENT",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -2008,7 +2815,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9695397,
         "Saldo Disponible": 3336054,
         "Saldo Disponible %": 0.25600019522001044,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025995,
@@ -2018,7 +2825,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "EQ.GEN D/TAGS AGIL P/FUGAS QAM MAKER",
         "Proveedor": "2000592    ADVANCED MEDIA TECHNOLOG",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.833333333333334,
+        "Meses de Vigencia": 9.333333333333334,
         "Inicio Contrato": 45469,
         "Fin Contrato": 45834,
         "Moneda": "USD",
@@ -2027,7 +2834,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 22735.42,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025988,
@@ -2037,7 +2844,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "KIT D/TRPTE.P/DETECC.D/FUGAS",
         "Proveedor": "1006852    GLOBO GROUP S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.833333333333334,
+        "Meses de Vigencia": 9.333333333333334,
         "Inicio Contrato": 45469,
         "Fin Contrato": 45834,
         "Moneda": "USD",
@@ -2046,7 +2853,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 14209.96,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025984,
@@ -2055,16 +2862,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias FortiFy",
         "Proveedor": "1010737    NOVELL DE ARGENTINA S.A",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45468,
         "Fin Contrato": 45900,
         "Moneda": "USD",
         "Precio Neto": 130000,
         "Saldo inicial": 213000,
-        "Consumo": 135000,
-        "Saldo Disponible": 78000,
-        "Saldo Disponible %": 0.36619718309859156,
-        "Hoy": 45539
+        "Consumo": 167500,
+        "Saldo Disponible": 45500,
+        "Saldo Disponible %": 0.2136150234741784,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025968,
@@ -2073,16 +2880,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Bosque Alegre Reg. Almac. Combustibles",
         "Proveedor": "1006280    STEFANI RICARDO ALBERTO",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45468,
         "Fin Contrato": 45838,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 22687500,
-        "Consumo": 4080000,
-        "Saldo Disponible": 18607500,
-        "Saldo Disponible %": 0.8201652892561984,
-        "Hoy": 45539
+        "Consumo": 14190000,
+        "Saldo Disponible": 8497500,
+        "Saldo Disponible %": 0.37454545454545457,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025956,
@@ -2091,7 +2898,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Excedentes 1/3/2023 al 31/3/2024",
         "Proveedor": "2000332    COMFONE AG",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44986,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -2100,7 +2907,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 14721,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025950,
@@ -2109,7 +2916,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Acometida Av. del Campo",
         "Proveedor": "1001929    CIRION TECHNOLOGIES ARGE",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45458,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -2118,7 +2925,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7220.010000000002,
         "Saldo Disponible": 61179.99,
         "Saldo Disponible %": 0.894444298245614,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025947,
@@ -2127,16 +2934,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Provision Transmision año 2024",
         "Proveedor": "1004890    COOP TELEFONICA DE LA CA",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45292,
         "Fin Contrato": 46387,
         "Moneda": "USD",
         "Precio Neto": 118905.6,
         "Saldo inicial": 330245.6,
-        "Consumo": 86354.39999999997,
-        "Saldo Disponible": 243891.2,
-        "Saldo Disponible %": 0.738514608521658,
-        "Hoy": 45539
+        "Consumo": 98034.19999999998,
+        "Saldo Disponible": 232211.4,
+        "Saldo Disponible %": 0.7031475968188524,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025914,
@@ -2145,7 +2952,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ASISTENCIA TECNICA ROUTER NE8000-F8",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 52.63333333333333,
+        "Meses de Vigencia": 52.13333333333333,
         "Inicio Contrato": 45462,
         "Fin Contrato": 47118,
         "Moneda": "USD",
@@ -2154,7 +2961,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 61675,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025913,
@@ -2163,7 +2970,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SOFTWARE",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 52.63333333333333,
+        "Meses de Vigencia": 52.13333333333333,
         "Inicio Contrato": 45462,
         "Fin Contrato": 47118,
         "Moneda": "USD",
@@ -2172,7 +2979,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 356000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025912,
@@ -2182,7 +2989,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ROUTER NE8000F8 (2T) AC HUAWEI #02355NFN",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 52.63333333333333,
+        "Meses de Vigencia": 52.13333333333333,
         "Inicio Contrato": 45462,
         "Fin Contrato": 47118,
         "Moneda": "USD",
@@ -2191,7 +2998,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 166630.09999999998,
         "Saldo Disponible": 382719.9,
         "Saldo Disponible %": 0.6966777100209339,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025892,
@@ -2200,7 +3007,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MANTTO PREV+ATURG IR+FC+CH EDIF CORP",
         "Proveedor": "1014955    CRITICAL SYSTEMS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45467,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -2209,7 +3016,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4040,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025881,
@@ -2218,7 +3025,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Ptes Artigas+San Martín 16-2-23/15-2-24",
         "Proveedor": "2000002    COMISION ADMINISTRADORA",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45461,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -2227,7 +3034,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 102491,
         "Saldo Disponible": 103736,
         "Saldo Disponible %": 0.5030185184287217,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025874,
@@ -2236,7 +3043,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte AGT Mobileum 2024/2025",
         "Proveedor": "1010555    ADECEF S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "USD",
@@ -2245,7 +3052,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 100000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025873,
@@ -2254,7 +3061,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de instalacion",
         "Proveedor": "1015152    LATPOWER SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45460,
         "Fin Contrato": 45747,
         "Moneda": "ARS",
@@ -2263,7 +3070,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 8306750,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025869,
@@ -2272,7 +3079,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mantenimiento GE edif Hornos y SLO",
         "Proveedor": "1036305    MT ENERGIA Y GENERACION",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -2281,7 +3088,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 11122644,
         "Saldo Disponible": 11832689,
         "Saldo Disponible %": 0.5154657961180524,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025852,
@@ -2290,7 +3097,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Hardware Huawei",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -2299,7 +3106,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 149038.08,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025828,
@@ -2308,16 +3115,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "REPARACION DE MODULOS DE RED MOVIL FLEXI",
         "Proveedor": "1005614    TERASAT S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45838,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 80253,
-        "Consumo": 40094,
-        "Saldo Disponible": 40159,
-        "Saldo Disponible %": 0.5004049692846373,
-        "Hoy": 45539
+        "Consumo": 43262,
+        "Saldo Disponible": 36991,
+        "Saldo Disponible %": 0.4609298094775273,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025826,
@@ -2326,16 +3133,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "REPARACION DE MODULOS DE RED MOVIL FLEXI",
         "Proveedor": "1003849    MELTA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45838,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 60190,
-        "Consumo": 4585.4000000000015,
-        "Saldo Disponible": 55604.6,
-        "Saldo Disponible %": 0.9238179099518192,
-        "Hoy": 45539
+        "Consumo": 6603.4000000000015,
+        "Saldo Disponible": 53586.6,
+        "Saldo Disponible %": 0.8902907459710915,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025824,
@@ -2344,7 +3151,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "REPARACION DE MODULOS DE RED MOVIL FLEXI",
         "Proveedor": "1003887    C.I.S. GROUP LATINOAMERI",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45474,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -2353,7 +3160,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 60190,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025816,
@@ -2362,16 +3169,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "REPARACIÓN ESCALERAS",
         "Proveedor": "1009413    INDUSTRIAS FERPAK SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 39050150.3,
-        "Consumo": 30543122.86,
-        "Saldo Disponible": 8507027.44,
-        "Saldo Disponible %": 0.21784877585989726,
-        "Hoy": 45539
+        "Consumo": 32431140.629999995,
+        "Saldo Disponible": 6619009.67,
+        "Saldo Disponible %": 0.16950023544467638,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025788,
@@ -2380,7 +3187,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Instalacion VRV Mitsubishi",
         "Proveedor": "1013688    EQUIPAIRE OBRAS Y SERVIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "USD",
@@ -2389,7 +3196,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 80000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025784,
@@ -2399,7 +3206,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CAMR.PREMOL.D/TRES TAPAS",
         "Proveedor": "1004646    DIACO MATERIALES SOC DE",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45455,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -2408,7 +3215,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 12030,
         "Saldo Disponible": 34115,
         "Saldo Disponible %": 0.7393000325062303,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025781,
@@ -2417,7 +3224,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Serv.Instalacion VRV MITSUBISHI",
         "Proveedor": "1013688    EQUIPAIRE OBRAS Y SERVIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
@@ -2426,7 +3233,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 150000000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025780,
@@ -2435,7 +3242,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "L2L 400 Mbps Tapalque - Bahia Blanca",
         "Proveedor": "1004158    EMPRESA ARGENTINA DE SOL",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.43333333333333,
+        "Meses de Vigencia": 39.93333333333333,
         "Inicio Contrato": 45455,
         "Fin Contrato": 46752,
         "Moneda": "USD",
@@ -2444,7 +3251,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 12960,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025767,
@@ -2453,7 +3260,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AMPLIACIÓN MONTO Y FECHA 7600022991",
         "Proveedor": "1006852    GLOBO GROUP S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -2462,7 +3269,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2144.73,
         "Saldo Disponible": 1935.31,
         "Saldo Disponible %": 0.4743360359212164,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025766,
@@ -2471,7 +3278,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Ampl monto y fecha SERV TRASL 7600020271",
         "Proveedor": "1006852    GLOBO GROUP S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -2480,7 +3287,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 584315.11,
         "Saldo Disponible": 775871.84,
         "Saldo Disponible %": 0.5704155888276975,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025764,
@@ -2489,16 +3296,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Control Desk Saas - S&S",
         "Proveedor": "1003798    IBM ARGENTINA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45473,
         "Fin Contrato": 45838,
         "Moneda": "USD",
         "Precio Neto": 1145087.3,
         "Saldo inicial": 2636329.59,
-        "Consumo": 2319119.98,
-        "Saldo Disponible": 317209.61,
-        "Saldo Disponible %": 0.12032244041231582,
-        "Hoy": 45539
+        "Consumo": 2364342.38,
+        "Saldo Disponible": 271987.21,
+        "Saldo Disponible %": 0.10316889475113013,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025727,
@@ -2507,7 +3314,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RFP Red de Sincronismo - Relojes - Plan",
         "Proveedor": "1010489    TECNOUS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 33.6,
+        "Meses de Vigencia": 33.1,
         "Inicio Contrato": 45453,
         "Fin Contrato": 46547,
         "Moneda": "USD",
@@ -2516,7 +3323,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 189300,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025716,
@@ -2525,7 +3332,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Anual Storage",
         "Proveedor": "1003075    DELL AMERICA LATINA CORP",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -2534,7 +3341,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 256461,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025702,
@@ -2543,16 +3350,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Capacidad 1Gbps Río Gallegos y Ushuaia",
         "Proveedor": "1010518    TELEFONICA MOVILES ARGEN",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44809,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 28333.33,
         "Saldo inicial": 28333.33,
-        "Consumo": 17500,
-        "Saldo Disponible": 10833.33,
-        "Saldo Disponible %": 0.38235286851210215,
-        "Hoy": 45539
+        "Consumo": 20000,
+        "Saldo Disponible": 8333.33,
+        "Saldo Disponible %": 0.29411756401383105,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025701,
@@ -2561,16 +3368,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Saldo Segurizac. Comodoro-R Gallegos 3Gb",
         "Proveedor": "1010518    TELEFONICA MOVILES ARGEN",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45083,
         "Fin Contrato": 46387,
         "Moneda": "USD",
         "Precio Neto": 387200,
         "Saldo inicial": 387200,
-        "Consumo": 84000,
-        "Saldo Disponible": 303200,
-        "Saldo Disponible %": 0.7830578512396694,
-        "Hoy": 45539
+        "Consumo": 96000,
+        "Saldo Disponible": 291200,
+        "Saldo Disponible %": 0.7520661157024794,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025700,
@@ -2579,16 +3386,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Saldo Full IP Garayalde",
         "Proveedor": "1010518    TELEFONICA MOVILES ARGEN",
         "Status": "Vigente",
-        "Meses de Vigencia": 13.033333333333333,
+        "Meses de Vigencia": 12.533333333333333,
         "Inicio Contrato": 44711,
         "Fin Contrato": 45930,
         "Moneda": "USD",
         "Precio Neto": 80471.96,
         "Saldo inicial": 80471.96,
-        "Consumo": 32829.100000000006,
-        "Saldo Disponible": 47642.86,
-        "Saldo Disponible %": 0.5920429923665336,
-        "Hoy": 45539
+        "Consumo": 37519.00000000001,
+        "Saldo Disponible": 42952.96,
+        "Saldo Disponible %": 0.533763064799217,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025698,
@@ -2597,16 +3404,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Saldo arriendo en Carlos Tejedor",
         "Proveedor": "1010518    TELEFONICA MOVILES ARGEN",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 44641,
         "Fin Contrato": 45838,
         "Moneda": "USD",
         "Precio Neto": 63480,
         "Saldo inicial": 63480,
-        "Consumo": 25200,
-        "Saldo Disponible": 38280,
-        "Saldo Disponible %": 0.6030245746691871,
-        "Hoy": 45539
+        "Consumo": 28800,
+        "Saldo Disponible": 34680,
+        "Saldo Disponible %": 0.5463137996219282,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025672,
@@ -2615,7 +3422,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Neuquén - Wilde",
         "Proveedor": "1003457    SILICA NETWORKS ARGENTIN",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -2624,7 +3431,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 255000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025663,
@@ -2633,7 +3440,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias",
         "Proveedor": "1012580    XV-TECH SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.4,
+        "Meses de Vigencia": 8.9,
         "Inicio Contrato": 45457,
         "Fin Contrato": 45821,
         "Moneda": "USD",
@@ -2642,7 +3449,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 59814.95,
         "Saldo Disponible": 16593.05,
         "Saldo Disponible %": 0.21716377866192021,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025656,
@@ -2651,7 +3458,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Fase 1 Upgrade de la version 7.6 a 8.6",
         "Proveedor": "1002403    NEXSYS ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -2660,7 +3467,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 27809760,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025632,
@@ -2669,16 +3476,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1034690    LIZARRAGA CAROLINA ESTMI",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45447,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 25000000,
-        "Consumo": 16807032.77,
-        "Saldo Disponible": 8192967.23,
-        "Saldo Disponible %": 0.3277186892,
-        "Hoy": 45539
+        "Consumo": 17797404.35,
+        "Saldo Disponible": 7202595.65,
+        "Saldo Disponible %": 0.288103826,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025631,
@@ -2687,7 +3494,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1016859    TAILORED SERVICES PROYEC",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45447,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -2696,7 +3503,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 15987489.8,
         "Saldo Disponible": 19012510.2,
         "Saldo Disponible %": 0.5432145771428571,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025630,
@@ -2705,16 +3512,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1010502    DISTRIBUIDORA ELECTROTOT",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45447,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 45000000,
-        "Consumo": 7312018.32,
-        "Saldo Disponible": 37687981.68,
-        "Saldo Disponible %": 0.8375107039999999,
-        "Hoy": 45539
+        "Consumo": 11522639.57,
+        "Saldo Disponible": 33477360.43,
+        "Saldo Disponible %": 0.7439413428888889,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025628,
@@ -2723,7 +3530,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1016936    PITTELLA E HIJOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45447,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -2732,7 +3539,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 49820320.65,
         "Saldo Disponible": 179679.35,
         "Saldo Disponible %": 0.003593587,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025624,
@@ -2741,7 +3548,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Obra Rosario hacia Casilda (Sur Oeste)",
         "Proveedor": "1009484    PS DATA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -2750,7 +3557,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 235740015,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025619,
@@ -2759,7 +3566,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INGENIERÍA DETALLE PROYECTO 2N sitio San",
         "Proveedor": "1015213    SERVIPRO SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45446,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -2768,35 +3575,16 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 65000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600025612,
-        "Pos": 10,
-        "Fecha": 45446,
-        "Material/Servicio": 140200328,
-        "Descripción": "E6000 KIT CHASIS GEN2 S/RSM2 #796834",
-        "Proveedor": "2000451    COMMSCOPE TECHNOLOGIES L",
-        "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
-        "Inicio Contrato": 45446,
-        "Fin Contrato": 45657,
-        "Moneda": "USD",
-        "Precio Neto": 22400,
-        "Saldo inicial": 582400,
-        "Consumo": 582400,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025598,
         "Pos": 10,
         "Fecha": 45443,
         "Descripción": "FG-400F",
-        "Proveedor": "1002699    DACAS S.A.",
+        "Proveedor": "1002699    DACAS S. R. L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45443,
         "Fin Contrato": 45808,
         "Moneda": "USD",
@@ -2805,7 +3593,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 167959.4,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025585,
@@ -2814,16 +3602,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RFP Red de Sincronismo - Relojes - Plan",
         "Proveedor": "2000000    TECHNOLOGY BUREAU USA CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 35.36666666666667,
+        "Meses de Vigencia": 34.86666666666667,
         "Inicio Contrato": 45506,
         "Fin Contrato": 46600,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 106012.56,
-        "Consumo": 0,
-        "Saldo Disponible": 106012.56,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 53147.21,
+        "Saldo Disponible": 52865.35,
+        "Saldo Disponible %": 0.49867062921600985,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025582,
@@ -2832,7 +3620,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RFP Red de Sincronismo - Relojes - Plan",
         "Proveedor": "2000523    SUONCET LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 33.233333333333334,
+        "Meses de Vigencia": 32.733333333333334,
         "Inicio Contrato": 45442,
         "Fin Contrato": 46536,
         "Moneda": "USD",
@@ -2841,7 +3629,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 1,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025580,
@@ -2850,7 +3638,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Instalación VRV Carrier",
         "Proveedor": "1007286    INTHER SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
@@ -2859,7 +3647,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 100000000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025579,
@@ -2868,7 +3656,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Inst. VRV Carrier",
         "Proveedor": "1007286    INTHER SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "USD",
@@ -2877,7 +3665,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 50000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025537,
@@ -2886,7 +3674,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Servers Servicio Standard",
         "Proveedor": "1003075    DELL AMERICA LATINA CORP",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -2895,7 +3683,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 302385.23,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025536,
@@ -2904,16 +3692,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte anual Proteccion DLP Forcepoint",
         "Proveedor": "1002228    NEOSECURE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 39240,
         "Saldo inicial": 39240,
-        "Consumo": 22890,
-        "Saldo Disponible": 16350,
-        "Saldo Disponible %": 0.4166666666666667,
-        "Hoy": 45539
+        "Consumo": 26160,
+        "Saldo Disponible": 13080,
+        "Saldo Disponible %": 0.3333333333333333,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025535,
@@ -2922,16 +3710,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Local Anual F5",
         "Proveedor": "1002228    NEOSECURE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 90897.96,
         "Saldo inicial": 90897.96,
-        "Consumo": 60598.64000000001,
-        "Saldo Disponible": 30299.32,
-        "Saldo Disponible %": 0.3333333333333333,
-        "Hoy": 45539
+        "Consumo": 68173.47,
+        "Saldo Disponible": 22724.49,
+        "Saldo Disponible %": 0.25,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025527,
@@ -2940,16 +3728,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Arriendo FO Pto.Iguazú a C.del Este",
         "Proveedor": "1003457    SILICA NETWORKS ARGENTIN",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.9,
+        "Meses de Vigencia": 2.4,
         "Inicio Contrato": 45261,
         "Fin Contrato": 45626,
         "Moneda": "USD",
         "Precio Neto": 99600,
         "Saldo inicial": 99600,
-        "Consumo": 74700,
-        "Saldo Disponible": 24900,
-        "Saldo Disponible %": 0.25,
-        "Hoy": 45539
+        "Consumo": 83000,
+        "Saldo Disponible": 16600,
+        "Saldo Disponible %": 0.16666666666666666,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025506,
@@ -2959,7 +3747,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SIST.D/REFRIG.53KWF VERTIV CRV CRC060RC",
         "Proveedor": "2030118    DACAS CORP",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45439,
         "Fin Contrato": 45777,
         "Moneda": "USD",
@@ -2968,7 +3756,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 121824,
         "Saldo Disponible": 106596,
         "Saldo Disponible %": 0.4666666666666667,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025504,
@@ -2977,7 +3765,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Retrazado 20km - Villa Regina - Mainque",
         "Proveedor": "1034783    COMUNICACIONES DEL SUR S",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -2986,7 +3774,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 291620007,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025503,
@@ -2995,16 +3783,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Salida del IRU DATCO Mendoza - Cordoba -",
         "Proveedor": "1008802    TELQUID S.R.L",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 269451000,
         "Saldo inicial": 269451000,
-        "Consumo": 0,
-        "Saldo Disponible": 269451000,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 2911660.129999995,
+        "Saldo Disponible": 266539339.87,
+        "Saldo Disponible %": 0.9891941015991776,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025502,
@@ -3013,16 +3801,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Retrazado - Muñecas - Rio Hondo (MUS-RHO",
         "Proveedor": "1009305    DRD CONSTRUCCIONES S.R.L",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 52819305,
         "Saldo inicial": 52819305,
-        "Consumo": 0,
-        "Saldo Disponible": 52819305,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 35704950.9,
+        "Saldo Disponible": 17114354.1,
+        "Saldo Disponible %": 0.32401702559319934,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025486,
@@ -3031,7 +3819,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Telgat",
         "Proveedor": "1010645    PLANEX S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -3040,7 +3828,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 39124150,
         "Saldo Disponible": 13561470,
         "Saldo Disponible %": 0.25740363309760805,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025481,
@@ -3049,7 +3837,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias de Audio AAC",
         "Proveedor": "2000604    Harmonic International G",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45436,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -3058,7 +3846,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2675,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025477,
@@ -3068,7 +3856,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONECT.4310 M.RECT/CAB 1/2 RFS LCF12-50J",
         "Proveedor": "2026057    BI CONNECTIONS LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45436,
         "Fin Contrato": 45808,
         "Moneda": "USD",
@@ -3077,7 +3865,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9060,
         "Saldo Disponible": 12,
         "Saldo Disponible %": 0.0013227513227513227,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025474,
@@ -3086,7 +3874,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MANTTO PREV+ATURG IR+FC+CH EDIF CORP",
         "Proveedor": "1014955    CRITICAL SYSTEMS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45436,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -3095,7 +3883,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 11660,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025472,
@@ -3105,7 +3893,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CJA.DISTRIB.16FO P/PST.RBS C/CONEC.LC/PC",
         "Proveedor": "1004982    POWERCOM S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45436,
         "Fin Contrato": 45808,
         "Moneda": "USD",
@@ -3114,7 +3902,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 26708,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025470,
@@ -3123,7 +3911,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de implementacion",
         "Proveedor": "2026375    COGNYTE BRASIL SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 33.03333333333333,
+        "Meses de Vigencia": 32.53333333333333,
         "Inicio Contrato": 45436,
         "Fin Contrato": 46530,
         "Moneda": "USD",
@@ -3132,7 +3920,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 63000,
         "Saldo Disponible": 71400,
         "Saldo Disponible %": 0.53125,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025469,
@@ -3141,7 +3929,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Activacion de Licencias Etapa 1",
         "Proveedor": "2026375    COGNYTE BRASIL SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 33.03333333333333,
+        "Meses de Vigencia": 32.53333333333333,
         "Inicio Contrato": 45436,
         "Fin Contrato": 46530,
         "Moneda": "USD",
@@ -3150,7 +3938,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 732000,
         "Saldo Disponible": 678600,
         "Saldo Disponible %": 0.4810718843045513,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025459,
@@ -3159,7 +3947,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Plat. Telefonía Pública",
         "Proveedor": "1005172    LPC CONDOR TECHNOLOGIES",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -3168,7 +3956,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 84999999.99,
         "Saldo Disponible": 0.01,
         "Saldo Disponible %": 1.176470588235294e-10,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025448,
@@ -3178,7 +3966,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONECT.OPT.MEC.SC/APC P/CBL.DROP",
         "Proveedor": "2000000    TECHNOLOGY BUREAU USA CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 19.1,
+        "Meses de Vigencia": 18.6,
         "Inicio Contrato": 45446,
         "Fin Contrato": 46112,
         "Moneda": "USD",
@@ -3187,7 +3975,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3100,
         "Saldo Disponible": 33460.16,
         "Saldo Disponible %": 0.9152082485415819,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025443,
@@ -3196,16 +3984,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Plataforma SOAR Abr y May-24",
         "Proveedor": "1004318    XELERE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45435,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
         "Precio Neto": 19399680,
         "Saldo inicial": 176951465.18,
-        "Consumo": 42679296,
-        "Saldo Disponible": 134272169.18,
-        "Saldo Disponible %": 0.7588078970886993,
-        "Hoy": 45539
+        "Consumo": 56647065.60000001,
+        "Saldo Disponible": 120304399.58,
+        "Saldo Disponible %": 0.6798722997722736,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025421,
@@ -3215,7 +4003,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BAT.LIT.48V 100A SACRED SUN #SCIFP48100A",
         "Proveedor": "2001259    Shandong Sacred Sun Powe",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45434,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -3224,7 +4012,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 85374,
         "Saldo Disponible": 910656,
         "Saldo Disponible %": 0.9142857142857143,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025419,
@@ -3234,7 +4022,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DROP 1FO G657A PL.D/BJA.FRICC.P/FTTH",
         "Proveedor": "2026228    HENGTONG OPTIC-ELECTRIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.366666666666667,
+        "Meses de Vigencia": 9.866666666666667,
         "Inicio Contrato": 45434,
         "Fin Contrato": 45850,
         "Moneda": "USD",
@@ -3243,7 +4031,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 61205,
         "Saldo Disponible": 57965,
         "Saldo Disponible %": 0.4864059746580515,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025398,
@@ -3252,16 +4040,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Abono Jr 2 Jun24",
         "Proveedor": "1010651    T.D.I. S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 559981044.97,
-        "Consumo": 144023185.15000004,
-        "Saldo Disponible": 415957859.82,
-        "Saldo Disponible %": 0.7428070352672101,
-        "Hoy": 45539
+        "Consumo": 144818791.32000005,
+        "Saldo Disponible": 415162253.65,
+        "Saldo Disponible %": 0.7413862618729202,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025383,
@@ -3270,7 +4058,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renovación vCores Mulesfot",
         "Proveedor": "2000492    SALESFORCE.COM INC (AR)",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45777,
         "Moneda": "USD",
@@ -3279,7 +4067,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1641430.56,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025369,
@@ -3288,7 +4076,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Thawte Web Server OV Single Domain",
         "Proveedor": "1002321    CERTISUR  S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45777,
         "Moneda": "USD",
@@ -3297,7 +4085,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 12000,
         "Saldo Disponible": 87880,
         "Saldo Disponible %": 0.8798558269923908,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025368,
@@ -3306,7 +4094,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Asistencia Técnica IxNetwork-IxLoad",
         "Proveedor": "1004167    AQTK SOCIEDAD ANONIMA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -3315,7 +4103,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 16985,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025359,
@@ -3324,7 +4112,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Project Manager, Sr Diego Pallise",
         "Proveedor": "1017890    ENTERPRISE SERVICES ARGE",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
@@ -3333,7 +4121,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 91008758.4,
         "Saldo Disponible": 25774512,
         "Saldo Disponible %": 0.22070380382154461,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025310,
@@ -3342,7 +4130,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte CatchUp TV 2024",
         "Proveedor": "1012203    3WAY SOLUTIONS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45777,
         "Moneda": "ARS",
@@ -3351,7 +4139,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 8940009.6,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025287,
@@ -3360,16 +4148,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Distribuidor de Fibra Optica  y LS Telec",
         "Proveedor": "1004158    EMPRESA ARGENTINA DE SOL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 23820,
         "Saldo inicial": 79680,
-        "Consumo": 53512.729999999996,
-        "Saldo Disponible": 26167.27,
-        "Saldo Disponible %": 0.32840449297188756,
-        "Hoy": 45539
+        "Consumo": 60015.729999999996,
+        "Saldo Disponible": 19664.27,
+        "Saldo Disponible %": 0.2467905371485944,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025278,
@@ -3379,7 +4167,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "COMBO NIMBRA 640 FUENTES 220V",
         "Proveedor": "2023594    TALTECH INT S.A (T I S A",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45777,
         "Moneda": "USD",
@@ -3388,7 +4176,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 173810,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025270,
@@ -3397,7 +4185,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Limpieza Tanques de Combustib",
         "Proveedor": "1036305    MT ENERGIA Y GENERACION",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45434,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -3406,7 +4194,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 4480.5,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025269,
@@ -3415,7 +4203,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MO Limpieza Tanque Combustible",
         "Proveedor": "1036305    MT ENERGIA Y GENERACION",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45434,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -3424,7 +4212,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 852192,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025263,
@@ -3434,7 +4222,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "F.O.CBL.OPT.D/6 PELOS MONMOD S/ARM.8A9,5",
         "Proveedor": "2000000    TECHNOLOGY BUREAU USA CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.433333333333334,
+        "Meses de Vigencia": 6.933333333333334,
         "Inicio Contrato": 45426,
         "Fin Contrato": 45762,
         "Moneda": "USD",
@@ -3443,7 +4231,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 495000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025255,
@@ -3452,16 +4240,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ADMINISTRADOR SR Plat Int",
         "Proveedor": "1005025    EPIDATA  SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45777,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 1506684809.63,
-        "Consumo": 463297373.81000006,
-        "Saldo Disponible": 1043387435.82,
-        "Saldo Disponible %": 0.6925054458312532,
-        "Hoy": 45539
+        "Consumo": 572945356.2100002,
+        "Saldo Disponible": 933739453.42,
+        "Saldo Disponible %": 0.6197311126069562,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025248,
@@ -3471,7 +4259,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "FO.CBL.24 PELOS (6XBUFFER) G652D ADSS",
         "Proveedor": "2000000    TECHNOLOGY BUREAU USA CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45425,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -3480,7 +4268,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 76424,
         "Saldo Disponible": 184536,
         "Saldo Disponible %": 0.7071428571428572,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025247,
@@ -3489,16 +4277,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m (M.O)",
         "Proveedor": "1026380    DACHCOM S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 105666865.93,
-        "Consumo": 95105162.84,
-        "Saldo Disponible": 10561703.09,
-        "Saldo Disponible %": 0.09995283759997857,
-        "Hoy": 45539
+        "Consumo": 101685713.24000001,
+        "Saldo Disponible": 3981152.69,
+        "Saldo Disponible %": 0.03767645283089357,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025244,
@@ -3507,7 +4295,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m (M.O)",
         "Proveedor": "1003851    RUALIMA S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -3516,7 +4304,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 67058072.79,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025241,
@@ -3525,7 +4313,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Gestores 1350 OMS SDH",
         "Proveedor": "1004162    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45383,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -3534,7 +4322,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 79323.96,
         "Saldo Disponible": 0.04,
         "Saldo Disponible %": 5.042610054964449e-7,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025239,
@@ -3543,7 +4331,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m (M.O)",
         "Proveedor": "1026160    SUMAR SERVICIOS INDUSTRI",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -3552,7 +4340,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 86982839.37,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025238,
@@ -3561,16 +4349,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m (M.O)",
         "Proveedor": "1013389    DURANTE EDGARDO OMAR",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 117724254.44,
-        "Consumo": 17217255.959999993,
-        "Saldo Disponible": 100506998.48,
-        "Saldo Disponible %": 0.8537492886075143,
-        "Hoy": 45539
+        "Consumo": 24514974.819999993,
+        "Saldo Disponible": 93209279.62,
+        "Saldo Disponible %": 0.7917593537830012,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025237,
@@ -3579,16 +4367,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m (M.O)",
         "Proveedor": "1002862    EMEYT SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 122939362.13,
-        "Consumo": 17104574.689999998,
-        "Saldo Disponible": 105834787.44,
-        "Saldo Disponible %": 0.8608698272574973,
-        "Hoy": 45539
+        "Consumo": 18052953.36999999,
+        "Saldo Disponible": 104886408.76,
+        "Saldo Disponible %": 0.8531556284560008,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025231,
@@ -3597,7 +4385,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ADECUACION DE PILAR DE ENERGIA",
         "Proveedor": "1033813    LEADER SITE S. A. S.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45421,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -3606,7 +4394,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3329000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025230,
@@ -3615,7 +4403,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Gestiones Municipales para Obras Civiles",
         "Proveedor": "1026279    VISA GUILLERMO ESTEBAN",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45421,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -3624,7 +4412,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1382774,
         "Saldo Disponible": 2617226,
         "Saldo Disponible %": 0.6543065,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025228,
@@ -3633,7 +4421,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencia Xpertrak",
         "Proveedor": "1010489    TECNOUS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.2,
+        "Meses de Vigencia": 7.7,
         "Inicio Contrato": 45421,
         "Fin Contrato": 45785,
         "Moneda": "USD",
@@ -3642,7 +4430,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 80214.38,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025207,
@@ -3652,7 +4440,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CDDO.40MM P/GAB.UNICA COMBINAC.SEKUR",
         "Proveedor": "1011848    BULA, CARLOS ENRIQUE",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.2,
+        "Meses de Vigencia": 7.7,
         "Inicio Contrato": 45420,
         "Fin Contrato": 45785,
         "Moneda": "USD",
@@ -3661,7 +4449,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 19101,
         "Saldo Disponible": 106810.5,
         "Saldo Disponible %": 0.8482982094566421,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025195,
@@ -3670,16 +4458,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m(Materiales)",
         "Proveedor": "1002862    EMEYT SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 104009.55,
-        "Consumo": 12456.380000000005,
-        "Saldo Disponible": 91553.17,
-        "Saldo Disponible %": 0.8802381127502233,
-        "Hoy": 45539
+        "Consumo": 13575.020000000004,
+        "Saldo Disponible": 90434.53,
+        "Saldo Disponible %": 0.8694829465178918,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025192,
@@ -3688,7 +4476,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "STB Arris Comscope",
         "Proveedor": "2028030    ARRIS GLOBAL LTD",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45383,
         "Fin Contrato": 45688,
         "Moneda": "USD",
@@ -3697,7 +4485,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 670500,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025190,
@@ -3706,7 +4494,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Acuerdo FOO BBI Año 2024",
         "Proveedor": "1001929    CIRION TECHNOLOGIES ARGE",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -3715,7 +4503,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1298292.98,
         "Saldo Disponible": 649146.7,
         "Saldo Disponible %": 0.33333340522259464,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025121,
@@ -3724,16 +4512,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Espacio Transmision M. Menuco Año 2024",
         "Proveedor": "1021792    COOPE PROV DE SERV TELEF",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 12000,
         "Saldo inicial": 12000,
-        "Consumo": 8000,
-        "Saldo Disponible": 4000,
-        "Saldo Disponible %": 0.3333333333333333,
-        "Hoy": 45539
+        "Consumo": 9000,
+        "Saldo Disponible": 3000,
+        "Saldo Disponible %": 0.25,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025118,
@@ -3742,7 +4530,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mtto Evolutivo SAGEMCOM",
         "Proveedor": "2022147    SAGEMCOM BROADBAND SAS",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45440,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -3751,7 +4539,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 84750,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025097,
@@ -3760,7 +4548,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Obra TermoMecanica",
         "Proveedor": "1008744    SERVICIOS DE CLIMATIZACI",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -3769,7 +4557,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 116389922.03999999,
         "Saldo Disponible": 861440.12,
         "Saldo Disponible %": 0.007346951917065899,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025094,
@@ -3778,7 +4566,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Obra TermoMecanica",
         "Proveedor": "1009021    SERELEC ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -3787,7 +4575,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 74707829,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025089,
@@ -3796,7 +4584,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Obra TermoMecanica",
         "Proveedor": "1007598    CLIMACON SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -3805,7 +4593,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2952286.469999999,
         "Saldo Disponible": 70085772.35,
         "Saldo Disponible %": 0.9595787933346391,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025079,
@@ -3814,16 +4602,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Obra TermoMecanica",
         "Proveedor": "1009329    INGETERMO SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 72369052.73,
-        "Consumo": 24296544.35,
-        "Saldo Disponible": 48072508.38,
-        "Saldo Disponible %": 0.664268863091971,
-        "Hoy": 45539
+        "Consumo": 24690714.150000006,
+        "Saldo Disponible": 47678338.58,
+        "Saldo Disponible %": 0.6588222006702504,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025078,
@@ -3832,7 +4620,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Obra TermoMecanica",
         "Proveedor": "1016999    Q2 Group SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -3841,7 +4629,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 19318963.67,
         "Saldo Disponible": 46757679.54,
         "Saldo Disponible %": 0.7076279494313615,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025072,
@@ -3850,7 +4638,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicion de medicion en campo Drivetest",
         "Proveedor": "1000108    BENCHTEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.7666666666666666,
+        "Meses de Vigencia": 1.2666666666666666,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45592,
         "Moneda": "ARS",
@@ -3859,7 +4647,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7343961.65,
         "Saldo Disponible": 6832787.65,
         "Saldo Disponible %": 0.4819713959391241,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025063,
@@ -3869,7 +4657,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PRECINTO METALICO C/FUNDA PVC L=450MM",
         "Proveedor": "1007037    PRECINCOR S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45414,
         "Fin Contrato": 45777,
         "Moneda": "USD",
@@ -3878,25 +4666,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 11375,
         "Saldo Disponible": 25,
         "Saldo Disponible %": 0.0021929824561403508,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600025060,
-        "Pos": 10,
-        "Fecha": 45414,
-        "Descripción": "Diseño Web Site Sit 2024",
-        "Proveedor": "1034879    SOMOS NINJAS SAS",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 45414,
-        "Fin Contrato": 45535,
-        "Moneda": "ARS",
-        "Precio Neto": 520500,
-        "Saldo inicial": 520500,
-        "Consumo": 520500,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025054,
@@ -3905,7 +4675,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "DX MO PRUEBAS FUNCIONALES (PEM)",
         "Proveedor": "1036338    NTWPR SERVICES SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45414,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -3914,7 +4684,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1711,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025049,
@@ -3923,7 +4693,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Obra TermoMecanica",
         "Proveedor": "1014955    CRITICAL SYSTEMS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -3932,7 +4702,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 30354857.83,
         "Saldo Disponible": 33031787.85,
         "Saldo Disponible %": 0.5211158832533447,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025043,
@@ -3941,7 +4711,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Obra TermoMecanica",
         "Proveedor": "1007286    INTHER SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -3950,7 +4720,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 15998930.009999998,
         "Saldo Disponible": 54001069.99,
         "Saldo Disponible %": 0.7714438570000001,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025035,
@@ -3960,7 +4730,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BAT. PREMIUM (ALTA DUR.) P/FTE.STAND-BY",
         "Proveedor": "2001259    Shandong Sacred Sun Powe",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45777,
         "Moneda": "USD",
@@ -3969,7 +4739,26 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 248040,
         "Saldo Disponible": 248040,
         "Saldo Disponible %": 0.5,
-        "Hoy": 45539
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600025033,
+        "Pos": 10,
+        "Fecha": 45413,
+        "Material/Servicio": 320500139,
+        "Descripción": "BAT. PREMIUM (ALTA DUR.) P/FTE.STAND-BY",
+        "Proveedor": "2030674    DAYCOR SA",
+        "Status": "Vigente",
+        "Meses de Vigencia": 7.433333333333334,
+        "Inicio Contrato": 45413,
+        "Fin Contrato": 45777,
+        "Moneda": "USD",
+        "Precio Neto": 127,
+        "Saldo inicial": 238760,
+        "Consumo": 0,
+        "Saldo Disponible": 238760,
+        "Saldo Disponible %": 1,
+        "Hoy": 45554
       },
       {
         "NPA": 7600025021,
@@ -3978,7 +4767,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ARMADO BANDEJA DE EDIF",
         "Proveedor": "1015556    NEVICORP SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45415,
         "Fin Contrato": 45777,
         "Moneda": "ARS",
@@ -3987,7 +4776,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 363216,
         "Saldo Disponible": 2285903,
         "Saldo Disponible %": 0.8628917764736126,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025019,
@@ -3996,7 +4785,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Obra TermoMecanica",
         "Proveedor": "1007598    CLIMACON SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -4005,7 +4794,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2466.579999999998,
         "Saldo Disponible": 29690.74,
         "Saldo Disponible %": 0.9232964687355788,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025018,
@@ -4014,7 +4803,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Obra TermoMecanica",
         "Proveedor": "1007286    INTHER SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -4023,7 +4812,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 11925.71,
         "Saldo Disponible": 14939.55,
         "Saldo Disponible %": 0.5560917705616845,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025015,
@@ -4032,7 +4821,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte 5x8 Solución EchoVault 2024",
         "Proveedor": "1010976    TMN CS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4041,7 +4830,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 105100,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025010,
@@ -4050,7 +4839,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mant. Sitios 2024",
         "Proveedor": "1033813    LEADER SITE S. A. S.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45412,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -4059,7 +4848,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 1212820.5,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600025001,
@@ -4069,7 +4858,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.D/6FO G.652.D DIELECTRICO ADSS",
         "Proveedor": "2026228    HENGTONG OPTIC-ELECTRIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45411,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -4078,7 +4867,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 40936,
         "Saldo Disponible": 118895,
         "Saldo Disponible %": 0.743879472693032,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024989,
@@ -4087,7 +4876,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte y Mantenimiento Equipos EoS",
         "Proveedor": "1010630    DEC WARE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 45352,
         "Fin Contrato": 45716,
         "Moneda": "ARS",
@@ -4096,7 +4885,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3363398.76,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024988,
@@ -4105,7 +4894,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte y Mantenimiento Equipos EoS",
         "Proveedor": "1010630    DEC WARE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 45352,
         "Fin Contrato": 45716,
         "Moneda": "USD",
@@ -4114,7 +4903,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 12840,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024984,
@@ -4123,7 +4912,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "“PROV/INST SIST/SOLAR”",
         "Proveedor": "1036703    Electro Universo Plin Me",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45408,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -4132,7 +4921,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 414848,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024964,
@@ -4141,7 +4930,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Serv.habilitación interfaces Plataf.WAG",
         "Proveedor": "2000716    Casa Communications Limi",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45407,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4150,7 +4939,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 12000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024960,
@@ -4159,7 +4948,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicio de Misión Crítica Oracle BD SOL",
         "Proveedor": "1010607    ORACLE ARGENTINA S.R.L",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.633333333333334,
+        "Meses de Vigencia": 7.133333333333334,
         "Inicio Contrato": 45404,
         "Fin Contrato": 45768,
         "Moneda": "USD",
@@ -4168,7 +4957,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 60996.49,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024959,
@@ -4177,7 +4966,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Expertos Oracle ACS - Mision C",
         "Proveedor": "1010607    ORACLE ARGENTINA S.R.L",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.1,
+        "Meses de Vigencia": 7.6,
         "Inicio Contrato": 45418,
         "Fin Contrato": 45782,
         "Moneda": "USD",
@@ -4186,7 +4975,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 312979.75,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024951,
@@ -4196,16 +4985,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL..500 FOAM C/PORTANTE",
         "Proveedor": "2000451    COMMSCOPE TECHNOLOGIES L",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.766666666666667,
+        "Meses de Vigencia": 7.266666666666667,
         "Inicio Contrato": 45407,
         "Fin Contrato": 45772,
         "Moneda": "USD",
         "Precio Neto": 16.29,
         "Saldo inicial": 259825.5,
-        "Consumo": 131134.5,
-        "Saldo Disponible": 128691,
-        "Saldo Disponible %": 0.4952978056426332,
-        "Hoy": 45539
+        "Consumo": 128754.53,
+        "Saldo Disponible": 131070.97,
+        "Saldo Disponible %": 0.5044576840995206,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024934,
@@ -4214,7 +5003,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Regeneración de FO - AMX",
         "Proveedor": "1010520    AMX ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45406,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4223,7 +5012,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7230,
         "Saldo Disponible": 370,
         "Saldo Disponible %": 0.04868421052631579,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024911,
@@ -4232,7 +5021,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte anual Planet 2024",
         "Proveedor": "1010489    TECNOUS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45383,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -4241,7 +5030,25 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 188953.29,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600024898,
+        "Pos": 10,
+        "Fecha": 45406,
+        "Descripción": "(OBRAS) SERV. CONTRATISTAS P.E. OBRAS",
+        "Proveedor": "1016141    ABSING S.A",
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 45406,
+        "Fin Contrato": 45657,
+        "Moneda": "ARS",
+        "Precio Neto": 189999998,
+        "Saldo inicial": 190000000,
+        "Consumo": 146224068.3,
+        "Saldo Disponible": 43775931.7,
+        "Saldo Disponible %": 0.2303996405263158,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024885,
@@ -4250,16 +5057,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "DAS Htal Garrahan Mar 24-Feb 25",
         "Proveedor": "1006852    GLOBO GROUP S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 45352,
         "Fin Contrato": 45716,
         "Moneda": "USD",
         "Precio Neto": 13209.72,
         "Saldo inicial": 13209.72,
-        "Consumo": 6604.86,
-        "Saldo Disponible": 6604.86,
-        "Saldo Disponible %": 0.5,
-        "Hoy": 45539
+        "Consumo": 7705.669999999999,
+        "Saldo Disponible": 5504.05,
+        "Saldo Disponible %": 0.4166666666666667,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024869,
@@ -4268,7 +5075,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renovación anual Licencias Legato",
         "Proveedor": "1003075    DELL AMERICA LATINA CORP",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45777,
         "Moneda": "USD",
@@ -4277,7 +5084,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 78000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024840,
@@ -4286,7 +5093,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte ADM SOLARIS SR",
         "Proveedor": "1002870    UNIQS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.933333333333334,
+        "Meses de Vigencia": 7.433333333333334,
         "Inicio Contrato": 45413,
         "Fin Contrato": 45777,
         "Moneda": "ARS",
@@ -4295,7 +5102,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 111975930.33,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024822,
@@ -4304,7 +5111,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte CGNAT Enero 2024",
         "Proveedor": "1003808    LOGICALIS ARGENTINA S. A",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45292,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -4313,7 +5120,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 243558.49,
         "Saldo Disponible": 3201.51,
         "Saldo Disponible %": 0.012974185443345762,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024797,
@@ -4322,7 +5129,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MANTENIMIENTO INTEGRAL DE EQUIPOS",
         "Proveedor": "1012783    INGENIERO CAMBIASSO TRAN",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45399,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4331,7 +5138,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 8650,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024769,
@@ -4341,16 +5148,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MODUL.OPT.12FO LC/APC-MTP #EMOD-CP12-DC.",
         "Proveedor": "2000481    CORNING OPTICAL COMMUNIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45527,
         "Fin Contrato": 46022,
         "Moneda": "USD",
         "Precio Neto": 136.75,
         "Saldo inicial": 8472199.25,
-        "Consumo": 153279,
-        "Saldo Disponible": 8318920.25,
-        "Saldo Disponible %": 0.9819080034030125,
-        "Hoy": 45539
+        "Consumo": 334758,
+        "Saldo Disponible": 8137441.25,
+        "Saldo Disponible %": 0.960487473190624,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024764,
@@ -4359,7 +5166,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Asistencia Técnica RadioEnlaces CERAGON",
         "Proveedor": "1006976    CERAGON ARGENTINA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4368,7 +5175,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 100200,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024728,
@@ -4377,7 +5184,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Asist. Técnica CISCO Transporte IP",
         "Proveedor": "1003808    LOGICALIS ARGENTINA S. A",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4386,7 +5193,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2885800,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024718,
@@ -4395,7 +5202,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INROW.DX MO PRUEBAS FUNCIONALES (PEM)",
         "Proveedor": "1036338    NTWPR SERVICES SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45395,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -4404,7 +5211,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9077.1,
         "Saldo Disponible": 342.9,
         "Saldo Disponible %": 0.03640127388535032,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024714,
@@ -4413,7 +5220,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicio de Outsourcing IP",
         "Proveedor": "1003808    LOGICALIS ARGENTINA S. A",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45383,
         "Fin Contrato": 45747,
         "Moneda": "ARS",
@@ -4422,7 +5229,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 175312944,
         "Saldo Disponible": 118657338,
         "Saldo Disponible %": 0.40363718806107074,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024713,
@@ -4431,7 +5238,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de Outsourcing Acceso",
         "Proveedor": "1023159    BGH TECH PARTNER S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45383,
         "Fin Contrato": 45747,
         "Moneda": "ARS",
@@ -4440,7 +5247,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 16062144,
         "Saldo Disponible": 88900723,
         "Saldo Disponible %": 0.8469730823949387,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024712,
@@ -4449,7 +5256,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de Outsourcing Acceso",
         "Proveedor": "1003808    LOGICALIS ARGENTINA S. A",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45383,
         "Fin Contrato": 45747,
         "Moneda": "ARS",
@@ -4458,7 +5265,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 15079536,
         "Saldo Disponible": 86063839,
         "Saldo Disponible %": 0.8509093057256593,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024696,
@@ -4467,7 +5274,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mantto D./Chillers",
         "Proveedor": "1012697    CA Group S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.566666666666667,
+        "Meses de Vigencia": 2.066666666666667,
         "Inicio Contrato": 45383,
         "Fin Contrato": 45616,
         "Moneda": "ARS",
@@ -4476,7 +5283,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1744000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024617,
@@ -4485,7 +5292,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SonarQube Developer Edition 5MM LOC",
         "Proveedor": "1036395    ZIVRA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.966666666666667,
+        "Meses de Vigencia": 6.466666666666667,
         "Inicio Contrato": 45384,
         "Fin Contrato": 45748,
         "Moneda": "ARS",
@@ -4494,7 +5301,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 24512700,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024462,
@@ -4504,7 +5311,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CINT.LAMINAD.P/BROTHER 7600 MOD.TZE-221",
         "Proveedor": "1012201    CABLING Y NETWORKING DE",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45393,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -4513,7 +5320,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 12836.449999999997,
         "Saldo Disponible": 34388.5,
         "Saldo Disponible %": 0.7281849954314404,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024461,
@@ -4523,34 +5330,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BAT.LIT.48V200A BLUENERGY BATBLUTEL48200",
         "Proveedor": "2000675    Bluenergy LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45393,
         "Fin Contrato": 45747,
         "Moneda": "USD",
         "Precio Neto": 2542,
         "Saldo inicial": 291580,
-        "Consumo": 160369,
-        "Saldo Disponible": 131211,
-        "Saldo Disponible %": 0.45,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600024415,
-        "Pos": 10,
-        "Fecha": 45391,
-        "Descripción": "Cross Connect COO Abril, Mayo y Junio 24",
-        "Proveedor": "1032390    KYNDRYL ARGENTINA SRL",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 45391,
-        "Fin Contrato": 45535,
-        "Moneda": "USD",
-        "Precio Neto": 88350,
-        "Saldo inicial": 164850,
-        "Consumo": 164850,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Consumo": 185789,
+        "Saldo Disponible": 105791,
+        "Saldo Disponible %": 0.3628198093147678,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024363,
@@ -4560,7 +5349,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "FO.CBL.24 PELOS (6XBUFFER) G652D ADSS",
         "Proveedor": "2026228    HENGTONG OPTIC-ELECTRIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45390,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -4569,7 +5358,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 35216,
         "Saldo Disponible": 28400,
         "Saldo Disponible %": 0.44642857142857145,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024337,
@@ -4578,7 +5367,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SW Subscrition gestor OTRD ONMSi",
         "Proveedor": "1010489    TECNOUS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4587,7 +5376,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 185970,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024334,
@@ -4597,7 +5386,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.D/6FO G.652.D DIELECTRICO ADSS",
         "Proveedor": "2000000    TECHNOLOGY BUREAU USA CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45387,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -4606,7 +5395,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 74600,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024297,
@@ -4616,7 +5405,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CAMR.PREMOL.D/TRES TAPAS",
         "Proveedor": "1004646    DIACO MATERIALES SOC DE",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45386,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -4625,7 +5414,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 37365,
         "Saldo Disponible": 1225,
         "Saldo Disponible %": 0.03174397512308888,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024295,
@@ -4634,7 +5423,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "License DCAM 2 P/N 1000498",
         "Proveedor": "2030664    CommScope UK Limited",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45386,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4643,7 +5432,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 6643586,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024253,
@@ -4653,16 +5442,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SPA.DOB.D/SUCCIÓN MAN.",
         "Proveedor": "1002154    FERRIMAQ S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45386,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 22.53,
         "Saldo inicial": 113572.15,
-        "Consumo": 7681.649999999994,
-        "Saldo Disponible": 105890.5,
-        "Saldo Disponible %": 0.9323632598308653,
-        "Hoy": 45539
+        "Consumo": 12765.649999999994,
+        "Saldo Disponible": 100806.5,
+        "Saldo Disponible %": 0.8875987643097362,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024251,
@@ -4672,16 +5461,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ARCO D/SRRA.CHICO",
         "Proveedor": "1010649    BROGI PEDRO AUGUSTO",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45386,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 9.9,
         "Saldo inicial": 263081.5,
-        "Consumo": 2775,
-        "Saldo Disponible": 260306.5,
-        "Saldo Disponible %": 0.9894519378975717,
-        "Hoy": 45539
+        "Consumo": 27915,
+        "Saldo Disponible": 235166.5,
+        "Saldo Disponible %": 0.8938921969047614,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024240,
@@ -4691,7 +5480,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "E6000 CER KIT CHAS.GEN 2 DUPLEX #1000536",
         "Proveedor": "2000451    COMMSCOPE TECHNOLOGIES L",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45384,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4700,7 +5489,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 582400,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024225,
@@ -4710,7 +5499,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RE ODU 8GHZ,SEP 311A  CH 5-8 TH K08598H0",
         "Proveedor": "2000434    CERAGON NETWORKS LTD",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45378,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4719,7 +5508,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 18014.26,
         "Saldo Disponible": 0.74,
         "Saldo Disponible %": 0.00004107688037746322,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024220,
@@ -4729,7 +5518,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AMPLIF.P/EDIF.85/102MHZ 1.2GHZ ALIM.48V",
         "Proveedor": "2000675    Bluenergy LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 13.933333333333334,
+        "Meses de Vigencia": 13.433333333333334,
         "Inicio Contrato": 45378,
         "Fin Contrato": 45957,
         "Moneda": "USD",
@@ -4738,7 +5527,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 1085700,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024209,
@@ -4747,7 +5536,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AT 7x24 Centrales NEAX 2024",
         "Proveedor": "1003801    NEC ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4756,7 +5545,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 181416,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024206,
@@ -4765,7 +5554,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Smartcare Use Cases License 5G",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.43333333333333,
+        "Meses de Vigencia": 39.93333333333333,
         "Inicio Contrato": 45378,
         "Fin Contrato": 46752,
         "Moneda": "USD",
@@ -4774,7 +5563,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 503728.0499999998,
         "Saldo Disponible": 2527769.95,
         "Saldo Disponible %": 0.833835268900062,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024190,
@@ -4783,7 +5572,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IRU Mendoza-Corralito 2023 y 2024",
         "Proveedor": "1003788    DATCO S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44927,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4792,7 +5581,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 279000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024165,
@@ -4801,7 +5590,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Abono mensual 2 XC FO en DC CIRION",
         "Proveedor": "1001929    CIRION TECHNOLOGIES ARGE",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45373,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -4810,7 +5599,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 6919.360000000001,
         "Saldo Disponible": 19080.64,
         "Saldo Disponible %": 0.7338707692307692,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024164,
@@ -4820,7 +5609,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CAPUCH.D/POLIET.P/COB.D/PALL.180X180 MM",
         "Proveedor": "1005875    EMPACK INC SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45376,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4829,7 +5618,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 15860,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024162,
@@ -4838,16 +5627,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CTO Enlace de Acceso Movil para Moviles",
         "Proveedor": "1010518    TELEFONICA MOVILES ARGEN",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 277373.4,
         "Saldo inicial": 1210692.76,
-        "Consumo": 702576.04,
-        "Saldo Disponible": 508116.72,
-        "Saldo Disponible %": 0.41969088838030216,
-        "Hoy": 45539
+        "Consumo": 802653.25,
+        "Saldo Disponible": 408039.51,
+        "Saldo Disponible %": 0.33702977624149666,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024159,
@@ -4856,16 +5645,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Agile Líder (de Célula) Ab a May 24",
         "Proveedor": "1003275    PRAGMATICA TECHNOLOGIES",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45352,
         "Fin Contrato": 45747,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 558866072.9,
-        "Consumo": 260471544.89999998,
-        "Saldo Disponible": 298394528,
-        "Saldo Disponible %": 0.5339285071494989,
-        "Hoy": 45539
+        "Consumo": 309670544.9,
+        "Saldo Disponible": 249195528,
+        "Saldo Disponible %": 0.4458948933988868,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024150,
@@ -4875,7 +5664,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DROP 1FO G657A PL.D/BJA.FRICC.P/FTTH",
         "Proveedor": "2026228    HENGTONG OPTIC-ELECTRIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 19.1,
+        "Meses de Vigencia": 18.6,
         "Inicio Contrato": 45376,
         "Fin Contrato": 46112,
         "Moneda": "USD",
@@ -4884,7 +5673,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7200,
         "Saldo Disponible": 122724,
         "Saldo Disponible %": 0.9445829869770019,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024135,
@@ -4894,16 +5683,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCH F-UTP CAT.6 0.9M.3FT NEG#1933880-3",
         "Proveedor": "2000451    COMMSCOPE TECHNOLOGIES L",
         "Status": "Vigente",
-        "Meses de Vigencia": 18.766666666666666,
+        "Meses de Vigencia": 18.266666666666666,
         "Inicio Contrato": 45373,
         "Fin Contrato": 46102,
         "Moneda": "USD",
         "Precio Neto": 12.96,
         "Saldo inicial": 632009.65,
-        "Consumo": 37522.109999999986,
-        "Saldo Disponible": 594487.54,
-        "Saldo Disponible %": 0.9406304792972703,
-        "Hoy": 45539
+        "Consumo": 58201.109999999986,
+        "Saldo Disponible": 573808.54,
+        "Saldo Disponible %": 0.9079110421810807,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024132,
@@ -4912,7 +5701,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Transmisión Backbone 2024",
         "Proveedor": "1004181    COOP.TELEF.Y O.SERV.TURI",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4921,7 +5710,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 178800,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024123,
@@ -4931,7 +5720,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AMPLIF.P/EDIF.85/102MHZ 1.2GHZ ALIM.48V",
         "Proveedor": "2000594    TECHNETIX INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 13.933333333333334,
+        "Meses de Vigencia": 13.433333333333334,
         "Inicio Contrato": 45378,
         "Fin Contrato": 45957,
         "Moneda": "USD",
@@ -4940,7 +5729,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 2184000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024062,
@@ -4949,7 +5738,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IDM - Servicio Soporte Local 7x24",
         "Proveedor": "1010737    NOVELL DE ARGENTINA S.A",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45372,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -4958,7 +5747,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 15046920,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024040,
@@ -4967,7 +5756,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ArcSight SIEM+TASADOR+CRM+Security -2024",
         "Proveedor": "1002228    NEOSECURE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -4976,7 +5765,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 202730,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024039,
@@ -4985,16 +5774,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sop Local ArcSight+CRM+Tas - Ene-Feb '24",
         "Proveedor": "1002228    NEOSECURE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45688,
         "Moneda": "ARS",
         "Precio Neto": 5936705.74,
         "Saldo inicial": 56058935,
-        "Consumo": 26653434.08,
-        "Saldo Disponible": 29405500.92,
-        "Saldo Disponible %": 0.5245461926809705,
-        "Hoy": 45539
+        "Consumo": 31697259.28,
+        "Saldo Disponible": 24361675.72,
+        "Saldo Disponible %": 0.43457257473763994,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024012,
@@ -5003,16 +5792,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SSPP Desarrollo Integraciones B2B",
         "Proveedor": "1004791    POWERDATA IBERICA ARGENT",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 317792147.33,
-        "Consumo": 305642778.12,
-        "Saldo Disponible": 12149369.21,
-        "Saldo Disponible %": 0.038230551988384785,
-        "Hoy": 45539
+        "Consumo": 306952417.62,
+        "Saldo Disponible": 10839729.71,
+        "Saldo Disponible %": 0.03410949515610236,
+        "Hoy": 45554
       },
       {
         "NPA": 7600024009,
@@ -5021,7 +5810,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mnto.Prev.FC Liebert Data Hornos",
         "Proveedor": "1036338    NTWPR SERVICES SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.5333333333333334,
+        "Meses de Vigencia": 1.0333333333333334,
         "Inicio Contrato": 45383,
         "Fin Contrato": 45585,
         "Moneda": "ARS",
@@ -5030,7 +5819,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 21752304,
         "Saldo Disponible": 353696,
         "Saldo Disponible %": 0.016,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024008,
@@ -5039,7 +5828,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AT UT100 7x24",
         "Proveedor": "1033107    DRIVECOM S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45323,
         "Fin Contrato": 45688,
         "Moneda": "USD",
@@ -5048,7 +5837,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 432317.46,
         "Saldo Disponible": 4416.68,
         "Saldo Disponible %": 0.010112971704021124,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600024005,
@@ -5057,7 +5846,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Bitbucket 2024",
         "Proveedor": "1036395    ZIVRA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.466666666666667,
+        "Meses de Vigencia": 4.966666666666667,
         "Inicio Contrato": 45338,
         "Fin Contrato": 45703,
         "Moneda": "ARS",
@@ -5066,7 +5855,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 58818300,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023984,
@@ -5075,7 +5864,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renovación soporte Lic Identity Manager",
         "Proveedor": "1010737    NOVELL DE ARGENTINA S.A",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45200,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -5084,7 +5873,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 40280,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023983,
@@ -5093,7 +5882,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renovacion IDM Mantenimiento",
         "Proveedor": "1010737    NOVELL DE ARGENTINA S.A",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45231,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -5102,7 +5891,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 76291.16,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023961,
@@ -5111,7 +5900,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Crecimiento plataforma NTR 2024/2026 (ro",
         "Proveedor": "1010555    ADECEF S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 18.5,
+        "Meses de Vigencia": 18,
         "Inicio Contrato": 45365,
         "Fin Contrato": 46094,
         "Moneda": "USD",
@@ -5120,7 +5909,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 120000,
         "Saldo Disponible": 20000,
         "Saldo Disponible %": 0.14285714285714285,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023936,
@@ -5129,16 +5918,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reporte 1 - Ene-2024",
         "Proveedor": "1007509    IMR & ASOCIADOS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45688,
         "Moneda": "ARS",
         "Precio Neto": 8437008.9,
         "Saldo inicial": 179999447.2,
-        "Consumo": 83842622.49999999,
-        "Saldo Disponible": 96156824.7,
-        "Saldo Disponible %": 0.5342062222733316,
-        "Hoy": 45539
+        "Consumo": 100877434.66999999,
+        "Saldo Disponible": 79122012.53,
+        "Saldo Disponible %": 0.43956808624021154,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023934,
@@ -5148,7 +5937,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DROP SEMCONEC.SC-APC P/EDIF.FTTH 40M",
         "Proveedor": "2000442    FTTMAS LIMITED",
         "Status": "Vigente",
-        "Meses de Vigencia": 19.1,
+        "Meses de Vigencia": 18.6,
         "Inicio Contrato": 45364,
         "Fin Contrato": 46112,
         "Moneda": "USD",
@@ -5157,7 +5946,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3510802,
         "Saldo Disponible": 493000,
         "Saldo Disponible %": 0.1231329621195054,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023929,
@@ -5166,7 +5955,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AT USSD Converter",
         "Proveedor": "1003791    ELINPAR S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -5175,7 +5964,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 27278370.32,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023914,
@@ -5184,7 +5973,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Membresía Broadband Forum 2024",
         "Proveedor": "2001228    THE BROADBAND FORUM",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45363,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -5193,7 +5982,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 19950,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023893,
@@ -5202,7 +5991,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Cargo operacion Wicap 2023",
         "Proveedor": "1006193    COMUNICACIONES Y CONSUMO",
         "Status": "Vigente",
-        "Meses de Vigencia": 2198.366666666667,
+        "Meses de Vigencia": 2197.866666666667,
         "Inicio Contrato": 45362,
         "Fin Contrato": 111490,
         "Moneda": "ARS",
@@ -5211,7 +6000,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 143710323.03,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023888,
@@ -5220,7 +6009,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Capacidad Satelital eventos varios",
         "Proveedor": "1004158    EMPRESA ARGENTINA DE SOL",
         "Status": "Vigente",
-        "Meses de Vigencia": 2198.366666666667,
+        "Meses de Vigencia": 2197.866666666667,
         "Inicio Contrato": 45362,
         "Fin Contrato": 111490,
         "Moneda": "USD",
@@ -5229,7 +6018,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 20000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023887,
@@ -5239,16 +6028,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MOT.VENT,7.5HP.190/416 VERTIV#132868P6",
         "Proveedor": "1036338    NTWPR SERVICES SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45444,
         "Fin Contrato": 45808,
         "Moneda": "USD",
         "Precio Neto": 4572.57,
         "Saldo inicial": 90000,
-        "Consumo": 59181.42,
-        "Saldo Disponible": 30818.58,
-        "Saldo Disponible %": 0.34242866666666666,
-        "Hoy": 45539
+        "Consumo": 63930.46,
+        "Saldo Disponible": 26069.54,
+        "Saldo Disponible %": 0.28966155555555556,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023879,
@@ -5257,7 +6046,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "OBRAS ELECTRIFICACION SITIOS",
         "Proveedor": "5000024    ORDEN INTERNA  COOPERATI",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45359,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -5266,7 +6055,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 220592672.76,
         "Saldo Disponible": 29407327.24,
         "Saldo Disponible %": 0.11762930896,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023781,
@@ -5275,7 +6064,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1013755    TECHFAR-TEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45358,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -5284,7 +6073,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2950439.28,
         "Saldo Disponible": 49560.72,
         "Saldo Disponible %": 0.016520240000000002,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023780,
@@ -5293,16 +6082,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1016685    Wilion Conte &  Asociado",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45358,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 45000000,
-        "Consumo": 30487165.740000002,
-        "Saldo Disponible": 14512834.26,
-        "Saldo Disponible %": 0.322507428,
-        "Hoy": 45539
+        "Consumo": 37676994.41,
+        "Saldo Disponible": 7323005.59,
+        "Saldo Disponible %": 0.16273345755555554,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023765,
@@ -5311,7 +6100,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renovación Articulate (DAguilar)",
         "Proveedor": "1012631    TRASI FAVIO JORGE",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.966666666666667,
+        "Meses de Vigencia": 5.466666666666667,
         "Inicio Contrato": 45353,
         "Fin Contrato": 45718,
         "Moneda": "ARS",
@@ -5320,7 +6109,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1290750,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023742,
@@ -5330,7 +6119,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONVERS.D/VDEO.32CH DEXING #DSM2500C",
         "Proveedor": "1006410    BVS TV SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45357,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -5339,7 +6128,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 73725,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023741,
@@ -5348,16 +6137,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Profesionales de Consultoría",
         "Proveedor": "1003981    RESEARCH AND THINKING S.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45357,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 50000000,
         "Saldo inicial": 50000000,
-        "Consumo": 1825410,
-        "Saldo Disponible": 48174590,
-        "Saldo Disponible %": 0.9634918,
-        "Hoy": 45539
+        "Consumo": 3749378,
+        "Saldo Disponible": 46250622,
+        "Saldo Disponible %": 0.92501244,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023733,
@@ -5366,7 +6155,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Adquisicion y soporte Licencias VMWARE",
         "Proveedor": "1002048    HP FINANCIAL SERVICES AR",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -5375,16 +6164,16 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1369260,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023681,
         "Pos": 10,
         "Fecha": 45352,
         "Descripción": "Licencias F5",
-        "Proveedor": "1002699    DACAS S.A.",
+        "Proveedor": "1002699    DACAS S. R. L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45352,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -5393,7 +6182,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1703485.03,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023680,
@@ -5402,7 +6191,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte colector de tasación CMS",
         "Proveedor": "1010645    PLANEX S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -5411,7 +6200,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 23285,
         "Saldo Disponible": 3495,
         "Saldo Disponible %": 0.13050784167289023,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023649,
@@ -5420,7 +6209,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Detector de gases",
         "Proveedor": "1012183    PRENTEX S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.933333333333334,
+        "Meses de Vigencia": 8.433333333333334,
         "Inicio Contrato": 45398,
         "Fin Contrato": 45807,
         "Moneda": "USD",
@@ -5429,7 +6218,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 15500,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023634,
@@ -5438,7 +6227,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios profesionales de consultoria",
         "Proveedor": "1003981    RESEARCH AND THINKING S.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45345,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -5447,7 +6236,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 35096785,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023619,
@@ -5456,7 +6245,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AT Plataforma Gateway de Mensajería SMPP",
         "Proveedor": "1010365    IQUALL S. A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 21.133333333333333,
+        "Meses de Vigencia": 20.633333333333333,
         "Inicio Contrato": 45352,
         "Fin Contrato": 46173,
         "Moneda": "USD",
@@ -5465,7 +6254,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 119999.88,
         "Saldo Disponible": 0.12,
         "Saldo Disponible %": 0.000001,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023597,
@@ -5474,7 +6263,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS RED MOVIL",
         "Proveedor": "1004867    SERVICIO SATELITAL S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -5483,7 +6272,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 560886235,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023574,
@@ -5492,7 +6281,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SSPP Enero y Febreo - 2024",
         "Proveedor": "1002228    NEOSECURE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45688,
         "Moneda": "ARS",
@@ -5501,7 +6290,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 101583045.02000001,
         "Saldo Disponible": 145328211.47,
         "Saldo Disponible %": 0.5885847957518529,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023557,
@@ -5511,7 +6300,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AEROSELL.D/GOM.D/1/2 P/CONECT. F C/UV",
         "Proveedor": "1011987    MAGNANO OSVALDO",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.733333333333333,
+        "Meses de Vigencia": 5.233333333333333,
         "Inicio Contrato": 45345,
         "Fin Contrato": 45711,
         "Moneda": "USD",
@@ -5520,7 +6309,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 8100,
         "Saldo Disponible": 18900,
         "Saldo Disponible %": 0.7,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023543,
@@ -5529,7 +6318,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1016936    PITTELLA E HIJOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45344,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -5538,7 +6327,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 49982601.14,
         "Saldo Disponible": 17398.86,
         "Saldo Disponible %": 0.00034797720000000003,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023542,
@@ -5547,16 +6336,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1015969    ANNESE VICTOR ANGEL",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45344,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 60000000,
-        "Consumo": 52009982.86,
-        "Saldo Disponible": 7990017.14,
-        "Saldo Disponible %": 0.13316695233333334,
-        "Hoy": 45539
+        "Consumo": 54256925.34,
+        "Saldo Disponible": 5743074.66,
+        "Saldo Disponible %": 0.095717911,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023540,
@@ -5565,16 +6354,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1003302    COMSYS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45344,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 30000000,
-        "Consumo": 18023301.310000002,
-        "Saldo Disponible": 11976698.69,
-        "Saldo Disponible %": 0.39922328966666665,
-        "Hoy": 45539
+        "Consumo": 20771796.59,
+        "Saldo Disponible": 9228203.41,
+        "Saldo Disponible %": 0.30760678033333333,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023539,
@@ -5583,7 +6372,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "S.Test Intellig. Cons. I.  Data Subscr.",
         "Proveedor": "2025971    OOKLA, LLC.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.566666666666666,
+        "Meses de Vigencia": 7.066666666666666,
         "Inicio Contrato": 45344,
         "Fin Contrato": 45766,
         "Moneda": "USD",
@@ -5592,7 +6381,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 120500,
         "Saldo Disponible": 106250,
         "Saldo Disponible %": 0.4685777287761852,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023517,
@@ -5602,16 +6391,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SRVD.OSA 5412  RB  #1078904668-91",
         "Proveedor": "2000000    TECHNOLOGY BUREAU USA CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 35.36666666666667,
+        "Meses de Vigencia": 34.86666666666667,
         "Inicio Contrato": 45506,
         "Fin Contrato": 46600,
         "Moneda": "USD",
-        "Precio Neto": 4385.3,
+        "Precio Neto": 4319.52,
         "Saldo inicial": 419324,
         "Consumo": 108533.59999999998,
         "Saldo Disponible": 310790.4,
         "Saldo Disponible %": 0.7411700737377304,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023514,
@@ -5621,7 +6410,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TP4100 RB 10G LIC 512PRT#4105-10-512-125",
         "Proveedor": "2000523    SUONCET LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 35.36666666666667,
+        "Meses de Vigencia": 34.86666666666667,
         "Inicio Contrato": 45506,
         "Fin Contrato": 46600,
         "Moneda": "USD",
@@ -5630,7 +6419,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 206180,
         "Saldo Disponible": 344520,
         "Saldo Disponible %": 0.6256037770110768,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023511,
@@ -5639,7 +6428,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "REPAR INST Y PLATAF COMSONICS Y GENACIS",
         "Proveedor": "1006852    GLOBO GROUP S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 45352,
         "Fin Contrato": 45716,
         "Moneda": "USD",
@@ -5648,7 +6437,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 47065.06,
         "Saldo Disponible": 73414.94,
         "Saldo Disponible %": 0.6093537516600266,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023480,
@@ -5657,7 +6446,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Actualizacion HW SBC 6300 Munro",
         "Proveedor": "1003400    DATASTAR ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.466666666666667,
+        "Meses de Vigencia": 4.966666666666667,
         "Inicio Contrato": 45338,
         "Fin Contrato": 45703,
         "Moneda": "USD",
@@ -5666,7 +6455,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 75000,
         "Saldo Disponible": 20000,
         "Saldo Disponible %": 0.21052631578947367,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023475,
@@ -5675,7 +6464,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IRU 2020 OyM 1° entrega",
         "Proveedor": "1010520    AMX ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.1,
+        "Meses de Vigencia": 8.6,
         "Inicio Contrato": 45338,
         "Fin Contrato": 45812,
         "Moneda": "USD",
@@ -5684,7 +6473,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 16650,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023474,
@@ -5693,16 +6482,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Coubicacion sitio Alicura 2024",
         "Proveedor": "1010520    AMX ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.1,
+        "Meses de Vigencia": 8.6,
         "Inicio Contrato": 45338,
         "Fin Contrato": 45812,
         "Moneda": "USD",
         "Precio Neto": 5400,
         "Saldo inicial": 5400,
-        "Consumo": 3600,
-        "Saldo Disponible": 1800,
-        "Saldo Disponible %": 0.3333333333333333,
-        "Hoy": 45539
+        "Consumo": 4050,
+        "Saldo Disponible": 1350,
+        "Saldo Disponible %": 0.25,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023462,
@@ -5711,16 +6500,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m(Materiales)",
         "Proveedor": "1026380    DACHCOM S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45337,
         "Fin Contrato": 45565,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 170000,
-        "Consumo": 106664.45,
-        "Saldo Disponible": 63335.55,
-        "Saldo Disponible %": 0.37256205882352944,
-        "Hoy": 45539
+        "Consumo": 111608.45,
+        "Saldo Disponible": 58391.55,
+        "Saldo Disponible %": 0.34347970588235294,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023442,
@@ -5729,16 +6518,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Operador Jr",
         "Proveedor": "1005322    ASAP CONSULTING S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 181075697.69,
-        "Consumo": 59973542,
-        "Saldo Disponible": 121102155.69,
-        "Saldo Disponible %": 0.668792981249896,
-        "Hoy": 45539
+        "Consumo": 80530705.28,
+        "Saldo Disponible": 100544992.41,
+        "Saldo Disponible %": 0.5552649731171112,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023439,
@@ -5747,16 +6536,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicio Unified Support 400hs 1er bim",
         "Proveedor": "1003788    DATCO S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.1,
+        "Meses de Vigencia": 3.6,
         "Inicio Contrato": 45296,
         "Fin Contrato": 45662,
         "Moneda": "ARS",
         "Precio Neto": 2234097.14,
         "Saldo inicial": 23395078,
-        "Consumo": 19797491.09,
-        "Saldo Disponible": 3597586.91,
-        "Saldo Disponible %": 0.15377537574356454,
-        "Hoy": 45539
+        "Consumo": 23395077.97,
+        "Saldo Disponible": 0.03,
+        "Saldo Disponible %": 1.2823210078632778e-9,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023434,
@@ -5766,16 +6555,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCH CAT6A 10GX UTP CMR 1.2M#AX109601",
         "Proveedor": "2025795    BELDEN INC.",
         "Status": "Vigente",
-        "Meses de Vigencia": 17.566666666666666,
+        "Meses de Vigencia": 17.066666666666666,
         "Inicio Contrato": 45336,
         "Fin Contrato": 46066,
         "Moneda": "USD",
         "Precio Neto": 10.54,
         "Saldo inicial": 710001.22,
-        "Consumo": 553364.19,
-        "Saldo Disponible": 156637.03,
-        "Saldo Disponible %": 0.22061515612606977,
-        "Hoy": 45539
+        "Consumo": 554571.63,
+        "Saldo Disponible": 155429.59,
+        "Saldo Disponible %": 0.2189145393299465,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023433,
@@ -5785,7 +6574,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "FILT.ELIM.BDA.D/RTORN.5-102MHZ BDA.NARJA",
         "Proveedor": "2000592    ADVANCED MEDIA TECHNOLOG",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.4,
+        "Meses de Vigencia": 4.9,
         "Inicio Contrato": 45336,
         "Fin Contrato": 45701,
         "Moneda": "USD",
@@ -5794,7 +6583,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 344655,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023342,
@@ -5803,7 +6592,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte MAM",
         "Proveedor": "2029048    Video Stream Networks S.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.433333333333334,
+        "Meses de Vigencia": 3.933333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45672,
         "Moneda": "USD",
@@ -5812,7 +6601,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 31374.72,
         "Saldo Disponible": 0.28,
         "Saldo Disponible %": 0.000008924302788844622,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023340,
@@ -5821,16 +6610,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "LICENCIAS DE SOFTWARE",
         "Proveedor": "2000616    VERIMATRIX INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.233333333333333,
+        "Meses de Vigencia": 4.733333333333333,
         "Inicio Contrato": 45331,
         "Fin Contrato": 45696,
         "Moneda": "USD",
         "Precio Neto": 8749.92,
         "Saldo inicial": 58550,
-        "Consumo": 51258.32,
-        "Saldo Disponible": 7291.68,
-        "Saldo Disponible %": 0.12453766011955594,
-        "Hoy": 45539
+        "Consumo": 58549.92,
+        "Saldo Disponible": 0.08,
+        "Saldo Disponible %": 0.0000013663535439795048,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023330,
@@ -5839,16 +6628,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SSPP Enero y Febreo - 2024",
         "Proveedor": "1017359    ASYTEC SISTEMAS S R L",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45688,
         "Moneda": "ARS",
         "Precio Neto": 21487229.52,
         "Saldo inicial": 232046570.24,
-        "Consumo": 100204391.9,
-        "Saldo Disponible": 131842178.34,
-        "Saldo Disponible %": 0.5681712003053478,
-        "Hoy": 45539
+        "Consumo": 121414175.67000002,
+        "Saldo Disponible": 110632394.57,
+        "Saldo Disponible %": 0.47676806623590967,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023306,
@@ -5857,16 +6646,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Storage en Nube Pública",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.433333333333334,
+        "Meses de Vigencia": 3.933333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45672,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 27000,
-        "Consumo": 8243.439999999999,
-        "Saldo Disponible": 18756.56,
-        "Saldo Disponible %": 0.6946874074074074,
-        "Hoy": 45539
+        "Consumo": 9339.95,
+        "Saldo Disponible": 17660.05,
+        "Saldo Disponible %": 0.6540759259259259,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023302,
@@ -5876,16 +6665,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONF.MAT.INST.F.4RACKS+2P Z1",
         "Proveedor": "1016936    PITTELLA E HIJOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.8666666666666667,
+        "Meses de Vigencia": 1.3666666666666667,
         "Inicio Contrato": 45330,
         "Fin Contrato": 45595,
         "Moneda": "USD",
         "Precio Neto": 1360.93,
         "Saldo inicial": 180000,
-        "Consumo": 50763.28,
-        "Saldo Disponible": 129236.72,
-        "Saldo Disponible %": 0.7179817777777778,
-        "Hoy": 45539
+        "Consumo": 50589.53999999999,
+        "Saldo Disponible": 129410.46,
+        "Saldo Disponible %": 0.718947,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023287,
@@ -5894,16 +6683,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Minerva Events Processing Hosting",
         "Proveedor": "2000640    Minerva Networks Italia",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.766666666666666,
+        "Meses de Vigencia": 40.266666666666666,
         "Inicio Contrato": 45292,
         "Fin Contrato": 46762,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 2750000,
-        "Consumo": 938166.6200000001,
-        "Saldo Disponible": 1811833.38,
-        "Saldo Disponible %": 0.6588485018181818,
-        "Hoy": 45539
+        "Consumo": 1000833.28,
+        "Saldo Disponible": 1749166.72,
+        "Saldo Disponible %": 0.6360606254545454,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023285,
@@ -5912,7 +6701,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Plataforma Minerva",
         "Proveedor": "2000640    Minerva Networks Italia",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.766666666666666,
+        "Meses de Vigencia": 40.266666666666666,
         "Inicio Contrato": 45292,
         "Fin Contrato": 46762,
         "Moneda": "USD",
@@ -5921,7 +6710,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4999999.92,
         "Saldo Disponible": 16500000.08,
         "Saldo Disponible %": 0.7674418641860465,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023283,
@@ -5930,7 +6719,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MO p Instalacion STD Confinamiento",
         "Proveedor": "1016936    PITTELLA E HIJOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.8666666666666667,
+        "Meses de Vigencia": 1.3666666666666667,
         "Inicio Contrato": 45329,
         "Fin Contrato": 45595,
         "Moneda": "ARS",
@@ -5939,7 +6728,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 10421411,
         "Saldo Disponible": 59578589,
         "Saldo Disponible %": 0.8511227,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023277,
@@ -5948,16 +6737,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Full Ip AMX Piedra del Águila 2024",
         "Proveedor": "1010520    AMX ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 56160,
         "Saldo inicial": 103680,
-        "Consumo": 69120,
-        "Saldo Disponible": 34560,
-        "Saldo Disponible %": 0.3333333333333333,
-        "Hoy": 45539
+        "Consumo": 77760,
+        "Saldo Disponible": 25920,
+        "Saldo Disponible %": 0.25,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023267,
@@ -5966,7 +6755,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte NIMBRA CTO",
         "Proveedor": "1008226    CONVERTECH S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -5975,7 +6764,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 141350,
         "Saldo Disponible": 76650,
         "Saldo Disponible %": 0.35160550458715595,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023266,
@@ -5984,7 +6773,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Local NIMBRA CTO",
         "Proveedor": "1008226    CONVERTECH S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -5993,7 +6782,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9150000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023259,
@@ -6002,7 +6791,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Signature Database Licencias",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45328,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -6011,7 +6800,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 352049.92,
         "Saldo Disponible": 0.08,
         "Saldo Disponible %": 2.2724044879988638e-7,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023256,
@@ -6020,7 +6809,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de implementacion",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 52.63333333333333,
+        "Meses de Vigencia": 52.13333333333333,
         "Inicio Contrato": 45323,
         "Fin Contrato": 47118,
         "Moneda": "USD",
@@ -6029,7 +6818,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 502852.06999999995,
         "Saldo Disponible": 797625.64,
         "Saldo Disponible %": 0.6133328036818102,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023255,
@@ -6038,7 +6827,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Fabric Etapas 1 a 4",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 52.63333333333333,
+        "Meses de Vigencia": 52.13333333333333,
         "Inicio Contrato": 45323,
         "Fin Contrato": 47118,
         "Moneda": "USD",
@@ -6047,7 +6836,25 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 50349.45999999999,
         "Saldo Disponible": 47474.33,
         "Saldo Disponible %": 0.4853045460618527,
-        "Hoy": 45539
+        "Hoy": 45554
+      },
+      {
+        "NPA": 7600023230,
+        "Pos": 10,
+        "Fecha": 45323,
+        "Descripción": "Cargas generales",
+        "Proveedor": "1010743    QUIROS ESTEBAN MARTIN ER",
+        "Status": "Vigente",
+        "Meses de Vigencia": 8.966666666666667,
+        "Inicio Contrato": 45323,
+        "Fin Contrato": 45823,
+        "Moneda": "ARS",
+        "Precio Neto": 0,
+        "Saldo inicial": 379552184.9,
+        "Consumo": 186364234.51,
+        "Saldo Disponible": 193187950.39,
+        "Saldo Disponible %": 0.5089891669070458,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023206,
@@ -6056,7 +6863,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Anual SAN Brocade",
         "Proveedor": "1010621    HITACHI VANTARA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6065,7 +6872,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 280000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023179,
@@ -6074,7 +6881,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencia Netchart  2G/3G/4G + Soporte 24",
         "Proveedor": "2000513    BWTECH INTERNATIONAL LIM",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45322,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6083,7 +6890,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 92800,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023173,
@@ -6092,7 +6899,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Netskope",
         "Proveedor": "2025355    GOOGLE LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.866666666666666,
+        "Meses de Vigencia": 5.366666666666666,
         "Inicio Contrato": 45322,
         "Fin Contrato": 45715,
         "Moneda": "USD",
@@ -6101,7 +6908,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 643200,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023138,
@@ -6110,16 +6917,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reintegro Tasas Municipales WICAPS",
         "Proveedor": "5000344    TORRERAS - TASAS MUNICIP",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45321,
         "Fin Contrato": 45747,
         "Moneda": "ARS",
         "Precio Neto": 1,
         "Saldo inicial": 128365000,
-        "Consumo": 30640344,
-        "Saldo Disponible": 97724656,
-        "Saldo Disponible %": 0.7613029719939236,
-        "Hoy": 45539
+        "Consumo": 112608930.78999999,
+        "Saldo Disponible": 15756069.21,
+        "Saldo Disponible %": 0.12274427772367857,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023129,
@@ -6128,16 +6935,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mano de Obra Conectividad Grandes Sitios",
         "Proveedor": "1015084    PRONETBA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 40000000,
-        "Consumo": 2745881,
-        "Saldo Disponible": 37254119,
-        "Saldo Disponible %": 0.931352975,
-        "Hoy": 45539
+        "Consumo": 4339148,
+        "Saldo Disponible": 35660852,
+        "Saldo Disponible %": 0.8915213,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023128,
@@ -6146,16 +6953,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mano de Obra Conectividad Grandes Sitios",
         "Proveedor": "1014426    3GLA NETWORKS SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 60000000,
-        "Consumo": 33252735.4,
-        "Saldo Disponible": 26747264.6,
-        "Saldo Disponible %": 0.4457877433333334,
-        "Hoy": 45539
+        "Consumo": 47666532.4,
+        "Saldo Disponible": 12333467.6,
+        "Saldo Disponible %": 0.20555779333333332,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023121,
@@ -6164,7 +6971,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Serv. TAM Abono Mensual",
         "Proveedor": "2000616    VERIMATRIX INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.4,
+        "Meses de Vigencia": 3.9,
         "Inicio Contrato": 45306,
         "Fin Contrato": 45671,
         "Moneda": "USD",
@@ -6173,7 +6980,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 45000,
         "Saldo Disponible": 45000,
         "Saldo Disponible %": 0.5,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023120,
@@ -6182,16 +6989,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reintegros de tasas de inspección",
         "Proveedor": "5000344    TORRERAS - TASAS MUNICIP",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45321,
         "Fin Contrato": 45747,
         "Moneda": "ARS",
         "Precio Neto": 1.83,
         "Saldo inicial": 189800000,
-        "Consumo": 117034736.65,
-        "Saldo Disponible": 72765263.35,
-        "Saldo Disponible %": 0.38337862671232875,
-        "Hoy": 45539
+        "Consumo": 155552937.24,
+        "Saldo Disponible": 34247062.76,
+        "Saldo Disponible %": 0.18043763308746047,
+        "Hoy": 45554
       },
       {
         "NPA": 7600023107,
@@ -6201,7 +7008,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PLA.8 ENT.CONFIG.Y 8 SAL.RELE 12/24VCC",
         "Proveedor": "1006852    GLOBO GROUP S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45320,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6210,26 +7017,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 6423,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600023106,
-        "Pos": 10,
-        "Fecha": 45321,
-        "Material/Servicio": 140200326,
-        "Descripción": "E6000 KIT UPGRADE FAN TRAY II #1000578",
-        "Proveedor": "2000451    COMMSCOPE TECHNOLOGIES L",
-        "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
-        "Inicio Contrato": 45321,
-        "Fin Contrato": 45657,
-        "Moneda": "USD",
-        "Precio Neto": 3200,
-        "Saldo inicial": 6969677,
-        "Consumo": 6803276,
-        "Saldo Disponible": 166401,
-        "Saldo Disponible %": 0.023874994494005965,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023092,
@@ -6239,7 +7027,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DISTRIB.50M ONE CLICK #A07029008001",
         "Proveedor": "2029857    Artic Fiber Optic LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45320,
         "Fin Contrato": 45688,
         "Moneda": "USD",
@@ -6248,7 +7036,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 119940.71,
         "Saldo Disponible": 0.29,
         "Saldo Disponible %": 0.0000024178554455940837,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023053,
@@ -6257,7 +7045,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias de SWTransporte IP Cisco",
         "Proveedor": "2000480    CISCO SYSTEMS, INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 52.63333333333333,
+        "Meses de Vigencia": 52.13333333333333,
         "Inicio Contrato": 45317,
         "Fin Contrato": 47118,
         "Moneda": "USD",
@@ -6266,7 +7054,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 644587.93,
         "Saldo Disponible": 0.07,
         "Saldo Disponible %": 1.0859649884887712e-7,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023039,
@@ -6275,7 +7063,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Grafana Subscription 60 Users",
         "Proveedor": "1034627    NIXE S R L",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45323,
         "Fin Contrato": 45688,
         "Moneda": "USD",
@@ -6284,7 +7072,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 104547,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600023033,
@@ -6293,7 +7081,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Suscripc Adobe - Gestión Operac y Entren",
         "Proveedor": "1026688    OFIR TECNOLOGIA GRAFICA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45200,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -6302,7 +7090,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 162822.37,
         "Saldo Disponible": 2.96,
         "Saldo Disponible %": 0.00001817898971861442,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022958,
@@ -6311,7 +7099,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Path trak/XpertTrak para el 2024",
         "Proveedor": "1010489    TECNOUS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6320,7 +7108,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 259071,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022896,
@@ -6329,7 +7117,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Regeneración Esp Traza B.Blanca-ComRiv",
         "Proveedor": "1006694    TELCOSUR SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45310,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6338,7 +7126,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 6000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022889,
@@ -6347,7 +7135,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mantenimiento - AD Manager",
         "Proveedor": "1032384    ZMA-IT S.A.S.",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45292,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -6356,7 +7144,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 69190.48,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022885,
@@ -6365,7 +7153,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "OBRAS ELECTRIFICACION SITIOS",
         "Proveedor": "5000024    ORDEN INTERNA  COOPERATI",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45310,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -6374,7 +7162,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 38322190.27,
         "Saldo Disponible": 1677809.73,
         "Saldo Disponible %": 0.04194524325,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022866,
@@ -6383,7 +7171,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renovacion Licencia Conmsonic 2024",
         "Proveedor": "2000592    ADVANCED MEDIA TECHNOLOG",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45292,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -6392,7 +7180,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 36617.24,
         "Saldo Disponible": 36617.24,
         "Saldo Disponible %": 0.5,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022859,
@@ -6401,7 +7189,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Prof. Migracion de Origin",
         "Proveedor": "2000693    ATEME",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45309,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6410,7 +7198,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 50620,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022810,
@@ -6419,7 +7207,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AT Plataforma de Mensajería Móvil (NMM)",
         "Proveedor": "2025628    ESW TECHNOLOGIES FZ-LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6428,7 +7216,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 144000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022709,
@@ -6437,16 +7225,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Parque UM CEB Año 2024 CTO",
         "Proveedor": "1011775    COOP. DE ELECTRICIDAD BA",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45747,
         "Moneda": "USD",
         "Precio Neto": 67200,
         "Saldo inicial": 67200,
-        "Consumo": 44800,
-        "Saldo Disponible": 22400,
-        "Saldo Disponible %": 0.3333333333333333,
-        "Hoy": 45539
+        "Consumo": 50400,
+        "Saldo Disponible": 16800,
+        "Saldo Disponible %": 0.25,
+        "Hoy": 45554
       },
       {
         "NPA": 7600022708,
@@ -6455,7 +7243,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Senior Technical Consultant",
         "Proveedor": "2000492    SALESFORCE.COM INC (AR)",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.8,
+        "Meses de Vigencia": 2.3,
         "Inicio Contrato": 45258,
         "Fin Contrato": 45623,
         "Moneda": "USD",
@@ -6464,7 +7252,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 98987.84,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022675,
@@ -6473,16 +7261,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Fuera de STD",
         "Proveedor": "1010504    GUZMAN - NACICH  S.A.I.C",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45303,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 229243,
-        "Consumo": 157313.38,
-        "Saldo Disponible": 71929.62,
-        "Saldo Disponible %": 0.31377019145622764,
-        "Hoy": 45539
+        "Consumo": 169444.18,
+        "Saldo Disponible": 59798.82,
+        "Saldo Disponible %": 0.2608534175525534,
+        "Hoy": 45554
       },
       {
         "NPA": 7600022641,
@@ -6491,16 +7279,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Recurso SSr Ene24",
         "Proveedor": "1003340    MEGA TECH S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 1263052.52,
         "Saldo inicial": 342301882.51,
-        "Consumo": 146126508.81,
-        "Saldo Disponible": 196175373.7,
-        "Saldo Disponible %": 0.5731063243400916,
-        "Hoy": 45539
+        "Consumo": 178142271.82,
+        "Saldo Disponible": 164159610.69,
+        "Saldo Disponible %": 0.4795755415841286,
+        "Hoy": 45554
       },
       {
         "NPA": 7600022624,
@@ -6509,16 +7297,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mesa de Ayuda Ene 24",
         "Proveedor": "1003340    MEGA TECH S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 42257572,
         "Saldo inicial": 1103184111.26,
-        "Consumo": 416500454.78999996,
-        "Saldo Disponible": 686683656.47,
-        "Saldo Disponible %": 0.6224560791450353,
-        "Hoy": 45539
+        "Consumo": 545016120.45,
+        "Saldo Disponible": 558167990.81,
+        "Saldo Disponible %": 0.5059608682837983,
+        "Hoy": 45554
       },
       {
         "NPA": 7600022583,
@@ -6527,7 +7315,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reemplazo Tendido F.O. Cruce Rio Parana",
         "Proveedor": "1006197    DYNAMIC MARINE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6536,7 +7324,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 36000,
         "Saldo Disponible": 214000,
         "Saldo Disponible %": 0.856,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022565,
@@ -6545,7 +7333,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Cross Connect COO Nov 23 - Ene 24",
         "Proveedor": "1032390    KYNDRYL ARGENTINA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45301,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -6554,7 +7342,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 164850,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022550,
@@ -6563,7 +7351,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IRU 2016 (ex CV) 24/06/2023 a 23/06/2024",
         "Proveedor": "1010520    AMX ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.1,
+        "Meses de Vigencia": 8.6,
         "Inicio Contrato": 45300,
         "Fin Contrato": 45812,
         "Moneda": "USD",
@@ -6572,7 +7360,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 21616,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022544,
@@ -6581,7 +7369,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IRU 2013 OyM Oct 2023 a Sep 2024",
         "Proveedor": "1010520    AMX ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.1,
+        "Meses de Vigencia": 8.6,
         "Inicio Contrato": 45300,
         "Fin Contrato": 45812,
         "Moneda": "USD",
@@ -6590,7 +7378,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 90630,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022543,
@@ -6599,7 +7387,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Acuerdo 2011 OyM Año 2024",
         "Proveedor": "1010520    AMX ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.1,
+        "Meses de Vigencia": 8.6,
         "Inicio Contrato": 45300,
         "Fin Contrato": 45812,
         "Moneda": "USD",
@@ -6608,7 +7396,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 82234.5,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022501,
@@ -6617,7 +7405,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Canon 2024 AUBASA La Plata-Las Toninas",
         "Proveedor": "1010229    AUTOPISTAS DE BUENOS AIR",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6626,7 +7414,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 222000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022452,
@@ -6635,7 +7423,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ENT-32CPU-NODE-PLT Flow",
         "Proveedor": "1023159    BGH TECH PARTNER S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6644,7 +7432,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 189406.48,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022451,
@@ -6653,7 +7441,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias - Proteccion anti malvware - E",
         "Proveedor": "1007257    RAN INGENIERIA DE SISTEM",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.8333333333333335,
+        "Meses de Vigencia": 3.3333333333333335,
         "Inicio Contrato": 45289,
         "Fin Contrato": 45654,
         "Moneda": "USD",
@@ -6662,7 +7450,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 154660,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022440,
@@ -6671,7 +7459,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias - Proteccion anti malvware - E",
         "Proveedor": "1002403    NEXSYS ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.566666666666667,
+        "Meses de Vigencia": 3.066666666666667,
         "Inicio Contrato": 45281,
         "Fin Contrato": 45646,
         "Moneda": "ARS",
@@ -6680,7 +7468,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 143000000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022438,
@@ -6689,7 +7477,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Traslado y guarda de cintas",
         "Proveedor": "1010720    IRON MOUNTAIN ARG. S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45289,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -6698,7 +7486,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 8989711.7,
         "Saldo Disponible": 1017837.3,
         "Saldo Disponible %": 0.10170695142237125,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022419,
@@ -6707,7 +7495,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AATT & SPM_RTN 980L",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 52.63333333333333,
+        "Meses de Vigencia": 52.13333333333333,
         "Inicio Contrato": 45291,
         "Fin Contrato": 47118,
         "Moneda": "USD",
@@ -6716,7 +7504,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 536923.8999999999,
         "Saldo Disponible": 2193152.1,
         "Saldo Disponible %": 0.8033300538153517,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022417,
@@ -6725,7 +7513,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Obra TermoMecanica",
         "Proveedor": "1008744    SERVICIOS DE CLIMATIZACI",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45301,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -6734,7 +7522,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 167402.83,
         "Saldo Disponible": 12597.17,
         "Saldo Disponible %": 0.06998427777777778,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022407,
@@ -6743,7 +7531,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Plataforma NetChart",
         "Proveedor": "2000513    BWTECH INTERNATIONAL LIM",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6752,7 +7540,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 23199.96,
         "Saldo Disponible": 0.04,
         "Saldo Disponible %": 0.0000017241379310344827,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022404,
@@ -6761,7 +7549,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Turbonomic y Decision Manager",
         "Proveedor": "1003798    IBM ARGENTINA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.9,
+        "Meses de Vigencia": 3.4,
         "Inicio Contrato": 45291,
         "Fin Contrato": 45656,
         "Moneda": "USD",
@@ -6770,7 +7558,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 299339.41,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022401,
@@ -6779,7 +7567,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renovación soporte Licencias IBWAVE",
         "Proveedor": "2000460    IBWAVE SOLUTIONS INC.",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45292,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -6788,7 +7576,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 30224.76,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022377,
@@ -6797,7 +7585,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AT Red Móvil",
         "Proveedor": "1004162    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45288,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6806,7 +7594,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1000522.73,
         "Saldo Disponible": 0.27,
         "Saldo Disponible %": 2.6985886381422515e-7,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022358,
@@ -6815,7 +7603,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renovacion Proxy WEB Gateway",
         "Proveedor": "1007257    RAN INGENIERIA DE SISTEM",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.566666666666667,
+        "Meses de Vigencia": 3.066666666666667,
         "Inicio Contrato": 45281,
         "Fin Contrato": 45646,
         "Moneda": "USD",
@@ -6824,7 +7612,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 27487.4,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022353,
@@ -6833,7 +7621,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte y Mantenimiento Storage Hitac",
         "Proveedor": "1010621    HITACHI VANTARA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6842,7 +7630,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 448000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022352,
@@ -6851,7 +7639,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias de Herramienta NetBackup (V",
         "Proveedor": "1010621    HITACHI VANTARA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6860,7 +7648,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 130000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022333,
@@ -6869,7 +7657,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Evoluc Ecosistema Observabilidad",
         "Proveedor": "1001930    PERT CONSULTORES S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.866666666666666,
+        "Meses de Vigencia": 4.366666666666666,
         "Inicio Contrato": 45320,
         "Fin Contrato": 45685,
         "Moneda": "ARS",
@@ -6878,7 +7666,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 39933500,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022326,
@@ -6888,7 +7676,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servidores HP Configuracion Generic BM",
         "Proveedor": "1003795    HEWLETT PACKARD ARG. S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45286,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6897,7 +7685,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1495702.86,
         "Saldo Disponible": 1495702.86,
         "Saldo Disponible %": 0.5,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022324,
@@ -6906,7 +7694,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Membresía TM Forum 2024",
         "Proveedor": "2000311    TM FORUM",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.9,
+        "Meses de Vigencia": 2.4,
         "Inicio Contrato": 45261,
         "Fin Contrato": 45626,
         "Moneda": "USD",
@@ -6915,7 +7703,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 57500,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022323,
@@ -6925,7 +7713,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "UNI.EXT.RDO.ENLCE.ODU UBT-T #3DB29208AA",
         "Proveedor": "2000216    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45286,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6934,7 +7722,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 225801.38,
         "Saldo Disponible": 113.62,
         "Saldo Disponible %": 0.0005029325188677157,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022281,
@@ -6943,25 +7731,25 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "O&M 2024 FO San Rafael-Mendoza IRU 2017",
         "Proveedor": "1003457    SILICA NETWORKS ARGENTIN",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 10845,
         "Saldo inicial": 43365,
-        "Consumo": 32445,
-        "Saldo Disponible": 10920,
-        "Saldo Disponible %": 0.25181598062953997,
-        "Hoy": 45539
+        "Consumo": 35145,
+        "Saldo Disponible": 8220,
+        "Saldo Disponible %": 0.1895537876167416,
+        "Hoy": 45554
       },
       {
         "NPA": 7600022268,
         "Pos": 10,
         "Fecha": 45282,
         "Descripción": "RENOV FW - Fortinet COTERM 4668521-1",
-        "Proveedor": "1002699    DACAS S.A.",
+        "Proveedor": "1002699    DACAS S. R. L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45288,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -6970,25 +7758,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 999189.64,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600022254,
-        "Pos": 10,
-        "Fecha": 45282,
-        "Descripción": "Obras complementarias LITO",
-        "Proveedor": "1032274    VILLALBA JAVIER SEBASTIA",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45282,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 72000000,
-        "Consumo": 68321791.01,
-        "Saldo Disponible": 3678208.99,
-        "Saldo Disponible %": 0.05108623597222223,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022236,
@@ -6997,7 +7767,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Unleash Personal Pay",
         "Proveedor": "2029612    Bricks Software AS",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.9,
+        "Meses de Vigencia": 3.4,
         "Inicio Contrato": 45291,
         "Fin Contrato": 45656,
         "Moneda": "USD",
@@ -7006,7 +7776,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 24000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022232,
@@ -7015,7 +7785,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Obra TermoMecanica",
         "Proveedor": "1016999    Q2 Group SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -7024,7 +7794,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 195076.18,
         "Saldo Disponible": 39923.82,
         "Saldo Disponible %": 0.16988859574468085,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022229,
@@ -7033,7 +7803,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Implementación DWDM",
         "Proveedor": "1004162    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45281,
         "Fin Contrato": 46022,
         "Moneda": "ARS",
@@ -7042,7 +7812,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 90850402.93,
         "Saldo Disponible": 206518597.07,
         "Saldo Disponible %": 0.694485965483961,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022217,
@@ -7051,7 +7821,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Migración Mainframe 2024",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.43333333333333,
+        "Meses de Vigencia": 39.93333333333333,
         "Inicio Contrato": 45281,
         "Fin Contrato": 46752,
         "Moneda": "USD",
@@ -7060,7 +7830,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 676563.17,
         "Saldo Disponible": 1.2,
         "Saldo Disponible %": 0.0000017736671530603954,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022134,
@@ -7069,7 +7839,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Core B2B Licencias",
         "Proveedor": "2000216    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 64.8,
+        "Meses de Vigencia": 64.3,
         "Inicio Contrato": 45286,
         "Fin Contrato": 47483,
         "Moneda": "USD",
@@ -7078,7 +7848,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4287579.96,
         "Saldo Disponible": 2642049.04,
         "Saldo Disponible %": 0.38126846906234085,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022111,
@@ -7088,7 +7858,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "STORAGE #OCEANSTOR DORADO 8000 V6",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.43333333333333,
+        "Meses de Vigencia": 39.93333333333333,
         "Inicio Contrato": 45280,
         "Fin Contrato": 46752,
         "Moneda": "USD",
@@ -7097,7 +7867,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 292150.89,
         "Saldo Disponible": 4.11,
         "Saldo Disponible %": 0.000014067874929403913,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022068,
@@ -7107,7 +7877,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.HDMI 2.0BW 18GBIT/S 60FPS HIGH SPEED",
         "Proveedor": "2000612    ANIXTER INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45279,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -7116,7 +7886,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 125400.8,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022058,
@@ -7125,16 +7895,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Transito IP Capacidad 2024",
         "Proveedor": "1002885    TI SPARKLE ARGENTINA S.A",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45292,
         "Fin Contrato": 46022,
         "Moneda": "USD",
         "Precio Neto": 2200000,
         "Saldo inicial": 4140000,
-        "Consumo": 0,
-        "Saldo Disponible": 4140000,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 1649997,
+        "Saldo Disponible": 2490003,
+        "Saldo Disponible %": 0.60145,
+        "Hoy": 45554
       },
       {
         "NPA": 7600022056,
@@ -7143,16 +7913,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Transito IP Capacidad 2024",
         "Proveedor": "1001929    CIRION TECHNOLOGIES ARGE",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45292,
         "Fin Contrato": 46022,
         "Moneda": "USD",
         "Precio Neto": 2047083,
         "Saldo inicial": 4290999,
-        "Consumo": 1363672,
-        "Saldo Disponible": 2927327,
-        "Saldo Disponible %": 0.6822017436965145,
-        "Hoy": 45539
+        "Consumo": 1534131,
+        "Saldo Disponible": 2756868,
+        "Saldo Disponible %": 0.6424769616585788,
+        "Hoy": 45554
       },
       {
         "NPA": 7600022045,
@@ -7161,7 +7931,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reintegro de Tasas de Inspección",
         "Proveedor": "5000344    TORRERAS - TASAS MUNICIP",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45278,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -7170,7 +7940,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 37167161.67,
         "Saldo Disponible": 432838.33,
         "Saldo Disponible %": 0.011511657712765957,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600022023,
@@ -7179,16 +7949,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Red IP Licencias",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 52.63333333333333,
+        "Meses de Vigencia": 52.13333333333333,
         "Inicio Contrato": 45278,
         "Fin Contrato": 47118,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 5506899,
-        "Consumo": 338339.48000000045,
-        "Saldo Disponible": 5168559.52,
-        "Saldo Disponible %": 0.9385607980099144,
-        "Hoy": 45539
+        "Consumo": 343148.5599999996,
+        "Saldo Disponible": 5163750.44,
+        "Saldo Disponible %": 0.9376875152422444,
+        "Hoy": 45554
       },
       {
         "NPA": 7600022006,
@@ -7197,7 +7967,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIO D LICENCIA IOLM PARA INST EXFO",
         "Proveedor": "2000367    GLOBAL TECHNOLOGY SERVIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45275,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -7206,7 +7976,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 160200,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021934,
@@ -7215,7 +7985,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte  y mantenimient Servidores",
         "Proveedor": "1010630    DEC WARE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45200,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -7224,7 +7994,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 42134.88,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021932,
@@ -7233,7 +8003,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte  y mantenimient Servidores",
         "Proveedor": "1010630    DEC WARE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45200,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -7242,7 +8012,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2320866.28,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021919,
@@ -7251,7 +8021,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Outplacement A0012001",
         "Proveedor": "1015834    GI GROUP SEARCH & SELECT",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45271,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -7260,7 +8030,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3600000,
         "Saldo Disponible": 1400000,
         "Saldo Disponible %": 0.28,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021766,
@@ -7269,7 +8039,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Lic.Software y Gestor RE-SH",
         "Proveedor": "2000533    NOKIA SPAIN SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45271,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -7278,7 +8048,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0.22,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021753,
@@ -7287,16 +8057,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de TI (PCEF) RE-SH",
         "Proveedor": "1004162    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45271,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 184360,
-        "Consumo": 118145.18,
-        "Saldo Disponible": 66214.82,
-        "Saldo Disponible %": 0.3591604469516164,
-        "Hoy": 45539
+        "Consumo": 147725.74,
+        "Saldo Disponible": 36634.26,
+        "Saldo Disponible %": 0.1987104577999566,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021740,
@@ -7305,7 +8075,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reparación Menor",
         "Proveedor": "1035373    Adriano Alfredo Bello",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45268,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -7314,7 +8084,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1000,
         "Saldo Disponible": 3080,
         "Saldo Disponible %": 0.7549019607843137,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021739,
@@ -7323,7 +8093,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reparación Menor",
         "Proveedor": "1002197    TENOMA S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45268,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -7332,7 +8102,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4078,
         "Saldo Disponible": 2,
         "Saldo Disponible %": 0.0004901960784313725,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021702,
@@ -7341,16 +8111,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Capacidad Satelital año 2024",
         "Proveedor": "2000152    INTELSAT GLOBAL SALES AN",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45271,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 659280,
         "Saldo inicial": 659280,
-        "Consumo": 384580,
-        "Saldo Disponible": 274700,
-        "Saldo Disponible %": 0.4166666666666667,
-        "Hoy": 45539
+        "Consumo": 439520,
+        "Saldo Disponible": 219760,
+        "Saldo Disponible %": 0.3333333333333333,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021696,
@@ -7359,7 +8129,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Radios SIAE IP y SDH",
         "Proveedor": "1005294    SIAE MICROELETTRONICA  S",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -7368,7 +8138,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9949819.86,
         "Saldo Disponible": 3316607.14,
         "Saldo Disponible %": 0.25000002939751603,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021680,
@@ -7377,16 +8147,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Acceso Móvil 5G",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.43333333333333,
+        "Meses de Vigencia": 39.93333333333333,
         "Inicio Contrato": 45265,
         "Fin Contrato": 46752,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 22177436,
-        "Consumo": 6302917.130000001,
-        "Saldo Disponible": 15874518.87,
-        "Saldo Disponible %": 0.7157959499916943,
-        "Hoy": 45539
+        "Consumo": 6302917.359999999,
+        "Saldo Disponible": 15874518.64,
+        "Saldo Disponible %": 0.715795939620793,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021642,
@@ -7395,7 +8165,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Proyecto balanceos Estomba, Pacheco, Hor",
         "Proveedor": "1031738    ARQUIAIT SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45264,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -7404,7 +8174,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 57970,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021641,
@@ -7413,7 +8183,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Consultor Planeamiento 2024 (días labor)",
         "Proveedor": "2000394    QUALCOMM GLOBAL SERVICES",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.6,
+        "Meses de Vigencia": 16.1,
         "Inicio Contrato": 45264,
         "Fin Contrato": 46037,
         "Moneda": "USD",
@@ -7422,7 +8192,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 500000,
         "Saldo Disponible": 500000,
         "Saldo Disponible %": 0.5,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021618,
@@ -7432,7 +8202,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCHCORD SCAPC/LCAPC SM 1,6MM 5M",
         "Proveedor": "1010599    FURUKAWA ELECTRIC LATAM",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.9,
+        "Meses de Vigencia": 2.4,
         "Inicio Contrato": 45260,
         "Fin Contrato": 45626,
         "Moneda": "USD",
@@ -7441,7 +8211,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 9710.7,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021612,
@@ -7451,7 +8221,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCHCORD SCAPC/LCAPC SM 1,6MM 5M",
         "Proveedor": "1004774    KOC LATINOAMERICA S. A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.9,
+        "Meses de Vigencia": 2.4,
         "Inicio Contrato": 45260,
         "Fin Contrato": 45626,
         "Moneda": "USD",
@@ -7460,7 +8230,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 19900.000000000015,
         "Saldo Disponible": 119905.7,
         "Saldo Disponible %": 0.8576595947089424,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021586,
@@ -7469,7 +8239,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "OyM SWAP FO 2015 Año 2024 segun detalle",
         "Proveedor": "1011501    TELEFONICA DE ARGENTINA",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.9,
+        "Meses de Vigencia": 8.4,
         "Inicio Contrato": 45259,
         "Fin Contrato": 45806,
         "Moneda": "USD",
@@ -7478,7 +8248,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 64800,
         "Saldo Disponible": 50085,
         "Saldo Disponible %": 0.43595769682726204,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021585,
@@ -7488,7 +8258,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MODUL.SFP CISCO GLC-BX-D 1000BASE-BX10",
         "Proveedor": "2000480    CISCO SYSTEMS, INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.6666666666666665,
+        "Meses de Vigencia": 2.1666666666666665,
         "Inicio Contrato": 45254,
         "Fin Contrato": 45619,
         "Moneda": "USD",
@@ -7497,7 +8267,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 21059.6,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021568,
@@ -7506,7 +8276,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1034690    LIZARRAGA CAROLINA ESTMI",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45258,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -7515,7 +8285,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 19995172.7,
         "Saldo Disponible": 4827.3,
         "Saldo Disponible %": 0.000241365,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021537,
@@ -7524,7 +8294,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "M-LC-169155 - Guardicore Centra Manageme",
         "Proveedor": "1034107    AVANTI TECHNOLOGY SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.133333333333333,
+        "Meses de Vigencia": 15.633333333333333,
         "Inicio Contrato": 45257,
         "Fin Contrato": 46023,
         "Moneda": "USD",
@@ -7533,7 +8303,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 399832,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021521,
@@ -7542,16 +8312,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Armadao de cable FO proyecto FTTH",
         "Proveedor": "1002740    QUANTUM TECNOLOGIA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.9,
+        "Meses de Vigencia": 2.4,
         "Inicio Contrato": 45257,
         "Fin Contrato": 45626,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 100128000,
-        "Consumo": 25265024.150000006,
-        "Saldo Disponible": 74862975.85,
-        "Saldo Disponible %": 0.7476727373961329,
-        "Hoy": 45539
+        "Consumo": 43402189.91,
+        "Saldo Disponible": 56725810.09,
+        "Saldo Disponible %": 0.5665329387384148,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021519,
@@ -7560,16 +8330,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Armadao de cable FO proyecto FTTH",
         "Proveedor": "1004982    POWERCOM S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.9,
+        "Meses de Vigencia": 2.4,
         "Inicio Contrato": 45257,
         "Fin Contrato": 45626,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 114432000,
-        "Consumo": 33615797.760000005,
-        "Saldo Disponible": 80816202.24,
-        "Saldo Disponible %": 0.7062377852348993,
-        "Hoy": 45539
+        "Consumo": 50568592.32,
+        "Saldo Disponible": 63863407.68,
+        "Saldo Disponible %": 0.558090461409396,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021500,
@@ -7579,7 +8349,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONEC.D/EMPALM.500 FOAM",
         "Proveedor": "2000517    POWER & TELEPHONE SUPPLY",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.7,
+        "Meses de Vigencia": 2.2,
         "Inicio Contrato": 45254,
         "Fin Contrato": 45620,
         "Moneda": "USD",
@@ -7588,7 +8358,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 13358,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021499,
@@ -7598,7 +8368,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONEC.D/EMPALM.500 FOAM",
         "Proveedor": "2026057    BI CONNECTIONS LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.7,
+        "Meses de Vigencia": 2.2,
         "Inicio Contrato": 45254,
         "Fin Contrato": 45620,
         "Moneda": "USD",
@@ -7607,7 +8377,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 14570,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021498,
@@ -7617,7 +8387,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONEC.D/EMPALM.500 FOAM",
         "Proveedor": "1012522    WIRE TECH S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.6,
+        "Meses de Vigencia": 2.1,
         "Inicio Contrato": 45254,
         "Fin Contrato": 45617,
         "Moneda": "USD",
@@ -7626,7 +8396,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 161680,
         "Saldo Disponible": 275,
         "Saldo Disponible %": 0.0016980025315674106,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021496,
@@ -7635,7 +8405,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1014426    3GLA NETWORKS SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45253,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -7644,7 +8414,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1029996.3699999992,
         "Saldo Disponible": 15570003.63,
         "Saldo Disponible %": 0.9379520259036145,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021487,
@@ -7653,7 +8423,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "330710007 MEDIDOR DE CAMPO ELECTROMAGNET",
         "Proveedor": "1018744    RF Technologies",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45258,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -7662,7 +8432,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 46000,
         "Saldo Disponible": 7700,
         "Saldo Disponible %": 0.14338919925512103,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021475,
@@ -7672,7 +8442,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.COAX.SUB MINIATURE VID.3G-HD VARIOS",
         "Proveedor": "2025795    BELDEN INC.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.6333333333333333,
+        "Meses de Vigencia": 2.1333333333333333,
         "Inicio Contrato": 45252,
         "Fin Contrato": 45618,
         "Moneda": "USD",
@@ -7681,7 +8451,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 178000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021462,
@@ -7690,7 +8460,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Migración DAJUDECO a IP - Huawei",
         "Proveedor": "1005172    LPC CONDOR TECHNOLOGIES",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9333333333333333,
+        "Meses de Vigencia": 1.4333333333333333,
         "Inicio Contrato": 45232,
         "Fin Contrato": 45597,
         "Moneda": "USD",
@@ -7699,7 +8469,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 51800,
         "Saldo Disponible": 48200,
         "Saldo Disponible %": 0.482,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021444,
@@ -7708,7 +8478,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte UTOPIX AVOCENT Cyclacdes",
         "Proveedor": "1012727    UTOPIX NETWORKS SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45231,
         "Fin Contrato": 45596,
         "Moneda": "ARS",
@@ -7717,7 +8487,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4931982,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021442,
@@ -7727,7 +8497,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "UPS STRING.2BAT.LEGRAND #BS240X01018",
         "Proveedor": "1012994    POWERGE SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45253,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -7736,7 +8506,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 74600,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021400,
@@ -7745,7 +8515,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MUDANZA",
         "Proveedor": "1003003    TRANSCICLON S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45231,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -7754,7 +8524,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 966715.87,
         "Saldo Disponible": 1033284.13,
         "Saldo Disponible %": 0.516642065,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021396,
@@ -7763,16 +8533,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Operaciones Ciberseguridad INT",
         "Proveedor": "1005768    CATALINAS CENTER S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45200,
         "Fin Contrato": 45596,
         "Moneda": "ARS",
         "Precio Neto": 34153296,
         "Saldo inicial": 285729643,
-        "Consumo": 214764565.14,
-        "Saldo Disponible": 70965077.86,
-        "Saldo Disponible %": 0.2483644227980924,
-        "Hoy": 45539
+        "Consumo": 250247103.42000002,
+        "Saldo Disponible": 35482539.58,
+        "Saldo Disponible %": 0.12418221367392392,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021326,
@@ -7782,7 +8552,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INSTRUMENTAL FIJO RED DATOS",
         "Proveedor": "2000593    CABLETECH CABOS LTDA",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.3666666666666667,
+        "Meses de Vigencia": 1.8666666666666667,
         "Inicio Contrato": 45245,
         "Fin Contrato": 45610,
         "Moneda": "USD",
@@ -7791,7 +8561,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 72341.71,
         "Saldo Disponible": 72341.71,
         "Saldo Disponible %": 0.5,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021208,
@@ -7800,7 +8570,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Terminal Server para EA",
         "Proveedor": "2000259    MICROSOFT CORPORATION",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45243,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -7809,7 +8579,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1749.6,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021199,
@@ -7818,7 +8588,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Obra TermoMecanica",
         "Proveedor": "1009021    SERELEC ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45231,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -7827,7 +8597,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 151312,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021196,
@@ -7836,16 +8606,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Obra TermoMecanica",
         "Proveedor": "1009329    INGETERMO SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45231,
         "Fin Contrato": 45565,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 283973.18,
-        "Consumo": 66249.4,
-        "Saldo Disponible": 217723.78,
-        "Saldo Disponible %": 0.7667054332384488,
-        "Hoy": 45539
+        "Consumo": 75021.57999999999,
+        "Saldo Disponible": 208951.6,
+        "Saldo Disponible %": 0.735814558262157,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021193,
@@ -7854,16 +8624,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Obra TermoMecanica",
         "Proveedor": "1014955    CRITICAL SYSTEMS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45231,
         "Fin Contrato": 45565,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 301549,
-        "Consumo": 93941.31,
-        "Saldo Disponible": 207607.69,
-        "Saldo Disponible %": 0.6884708289531718,
-        "Hoy": 45539
+        "Consumo": 104700.31,
+        "Saldo Disponible": 196848.69,
+        "Saldo Disponible %": 0.6527917187588087,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021173,
@@ -7873,7 +8643,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ACOPDR.DOMICIL.09DB 1,2GHz SALIDA TIPO H",
         "Proveedor": "2000594    TECHNETIX INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.2333333333333334,
+        "Meses de Vigencia": 1.7333333333333334,
         "Inicio Contrato": 45240,
         "Fin Contrato": 45606,
         "Moneda": "USD",
@@ -7882,7 +8652,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 19402,
         "Saldo Disponible": 14685,
         "Saldo Disponible %": 0.4308093994778068,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021171,
@@ -7891,16 +8661,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales Instal. Remotas Satelitales",
         "Proveedor": "1010645    PLANEX S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45261,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 20000,
-        "Consumo": 9770.37,
-        "Saldo Disponible": 10229.63,
-        "Saldo Disponible %": 0.5114814999999999,
-        "Hoy": 45539
+        "Consumo": 10262.1,
+        "Saldo Disponible": 9737.9,
+        "Saldo Disponible %": 0.48689499999999997,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021154,
@@ -7909,7 +8679,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Unidades de Entrenamiento Red Hat 2024",
         "Proveedor": "1002403    NEXSYS ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45231,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -7918,7 +8688,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 861402725,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021122,
@@ -7927,7 +8697,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1015969    ANNESE VICTOR ANGEL",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45238,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -7936,7 +8706,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 28295110.58,
         "Saldo Disponible": 1704889.42,
         "Saldo Disponible %": 0.05682964733333333,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021116,
@@ -7945,16 +8715,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Transp 400 Mbps IP (Mza) Dic-23 a Nov-24",
         "Proveedor": "1003457    SILICA NETWORKS ARGENTIN",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.9,
+        "Meses de Vigencia": 2.4,
         "Inicio Contrato": 45238,
         "Fin Contrato": 45626,
         "Moneda": "USD",
         "Precio Neto": 93744,
         "Saldo inicial": 93744,
-        "Consumo": 70308,
-        "Saldo Disponible": 23436,
-        "Saldo Disponible %": 0.25,
-        "Hoy": 45539
+        "Consumo": 78120,
+        "Saldo Disponible": 15624,
+        "Saldo Disponible %": 0.16666666666666666,
+        "Hoy": 45554
       },
       {
         "NPA": 7600021112,
@@ -7963,7 +8733,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Cartografia 3D1m - Fase 0,1",
         "Proveedor": "2030400    LUXCARTA INTERNATIONAL",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45258,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -7972,7 +8742,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1095000,
         "Saldo Disponible": 150000,
         "Saldo Disponible %": 0.12048192771084337,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021087,
@@ -7982,7 +8752,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.UTP CATEG.5E P/EXT.C/VNA.EXT.BLANCO",
         "Proveedor": "2022667    LANDMARK TECHNOLOGY INTE",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45236,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -7991,7 +8761,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 113372.16,
         "Saldo Disponible": 75581.44,
         "Saldo Disponible %": 0.4,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021049,
@@ -8001,7 +8771,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONECT.OPT.MEC.SC/APC P/CBL.DROP",
         "Proveedor": "2000442    FTTMAS LIMITED",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45233,
         "Fin Contrato": 45657,
         "Moneda": "CNY",
@@ -8010,7 +8780,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1257800,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021046,
@@ -8019,7 +8789,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1015084    PRONETBA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45233,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -8028,7 +8798,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 5687740.11,
         "Saldo Disponible": 312259.89,
         "Saldo Disponible %": 0.052043315,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600021036,
@@ -8037,7 +8807,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de IPG SERVER UPGRADE",
         "Proveedor": "2000599    APTIV DIGITAL, INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45232,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -8046,7 +8816,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 15582.28,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020972,
@@ -8055,7 +8825,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Capac. Satelital 01/11/2023 a 31/10/2024",
         "Proveedor": "1004158    EMPRESA ARGENTINA DE SOL",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45231,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -8064,7 +8834,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 668250,
         "Saldo Disponible": 133650,
         "Saldo Disponible %": 0.16666666666666666,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020959,
@@ -8073,7 +8843,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Interconexion CABASE Ajuste 2023",
         "Proveedor": "1012212    CAMARA ARGENTINA DE INTE",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45229,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -8082,7 +8852,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 21094811,
         "Saldo Disponible": 225189,
         "Saldo Disponible %": 0.01056233583489681,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020958,
@@ -8091,7 +8861,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de instalación DWDM",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45229,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -8100,7 +8870,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 585955.74,
         "Saldo Disponible": 614044.26,
         "Saldo Disponible %": 0.51170355,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020952,
@@ -8109,7 +8879,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Materiales de instalación DWDM Huawei",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.9,
+        "Meses de Vigencia": 8.4,
         "Inicio Contrato": 45229,
         "Fin Contrato": 45806,
         "Moneda": "USD",
@@ -8118,25 +8888,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 48888.100000000006,
         "Saldo Disponible": 101111.9,
         "Saldo Disponible %": 0.6740793333333333,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600020947,
-        "Pos": 10,
-        "Fecha": 45226,
-        "Descripción": "Repuestos GE - DC Pacheco",
-        "Proveedor": "1014820    ENYGEN SRL",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 45231,
-        "Fin Contrato": 45535,
-        "Moneda": "USD",
-        "Precio Neto": 0,
-        "Saldo inicial": 107068,
-        "Consumo": 107068,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020943,
@@ -8145,7 +8897,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Implementación Capa IP (RL) _ Transporte",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45226,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -8154,7 +8906,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 54012.850000000006,
         "Saldo Disponible": 165987.15,
         "Saldo Disponible %": 0.7544870454545455,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020941,
@@ -8163,16 +8915,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Staff Consultant",
         "Proveedor": "1029210    AMAZON WEB SERVICES ARGE",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.4,
+        "Meses de Vigencia": 5.9,
         "Inicio Contrato": 45232,
         "Fin Contrato": 45731,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 105476720,
-        "Consumo": 0,
-        "Saldo Disponible": 105476720,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 95005000,
+        "Saldo Disponible": 10471720,
+        "Saldo Disponible %": 0.09927991693332898,
+        "Hoy": 45554
       },
       {
         "NPA": 7600020940,
@@ -8182,16 +8934,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CTEL.D/IDENTIF.D/CBL.TRONC.FO 300X200MM",
         "Proveedor": "1012769    Bical SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45226,
         "Fin Contrato": 45565,
         "Moneda": "USD",
         "Precio Neto": 3.84,
         "Saldo inicial": 53200,
-        "Consumo": 24499.2,
-        "Saldo Disponible": 28700.8,
-        "Saldo Disponible %": 0.5394887218045112,
-        "Hoy": 45539
+        "Consumo": 28339.2,
+        "Saldo Disponible": 24860.8,
+        "Saldo Disponible %": 0.46730827067669173,
+        "Hoy": 45554
       },
       {
         "NPA": 7600020885,
@@ -8200,7 +8952,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencia Anual Certa 5.x y posteriores",
         "Proveedor": "2030658    APECAS SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45231,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -8209,7 +8961,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 90000,
         "Saldo Disponible": 180000,
         "Saldo Disponible %": 0.6666666666666666,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020884,
@@ -8218,7 +8970,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SOPORTE Y MANTENIMIENTO CERTA 2024/6",
         "Proveedor": "1035086    Inimatica SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45231,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -8227,7 +8979,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 297790,
         "Saldo Disponible": 595580,
         "Saldo Disponible %": 0.6666666666666666,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020865,
@@ -8237,7 +8989,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCH CORD E2000/E2000 D/6 m FER. CER",
         "Proveedor": "1012763    ADECOMM S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 13.833333333333334,
+        "Meses de Vigencia": 13.333333333333334,
         "Inicio Contrato": 45224,
         "Fin Contrato": 45954,
         "Moneda": "USD",
@@ -8246,7 +8998,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7152,
         "Saldo Disponible": 32857.67,
         "Saldo Disponible %": 0.821243214452906,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020861,
@@ -8256,7 +9008,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCH CORD E2000/E2000 D/6 m FER. CER",
         "Proveedor": "1004774    KOC LATINOAMERICA S. A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 13.833333333333334,
+        "Meses de Vigencia": 13.333333333333334,
         "Inicio Contrato": 45224,
         "Fin Contrato": 45954,
         "Moneda": "USD",
@@ -8265,7 +9017,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 24415.75,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020788,
@@ -8274,7 +9026,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Cisco",
         "Proveedor": "2000300    LOGICALIS SOUTH AMERICA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45218,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -8283,7 +9035,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 98695.29,
         "Saldo Disponible": 28875.08,
         "Saldo Disponible %": 0.22634629028668649,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020779,
@@ -8292,7 +9044,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Profersionales Storage",
         "Proveedor": "1010621    HITACHI VANTARA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45218,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -8301,7 +9053,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 535294.44,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020770,
@@ -8310,7 +9062,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Cisco Wifi",
         "Proveedor": "2000300    LOGICALIS SOUTH AMERICA",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.4,
+        "Meses de Vigencia": 0.9,
         "Inicio Contrato": 45217,
         "Fin Contrato": 45581,
         "Moneda": "USD",
@@ -8319,7 +9071,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 152996.6,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020769,
@@ -8329,7 +9081,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AP CATALYST WIFI C/ANTEN.INT #C9120AXI-A",
         "Proveedor": "2000300    LOGICALIS SOUTH AMERICA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45216,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -8338,7 +9090,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 90396.8,
         "Saldo Disponible": 1660.4,
         "Saldo Disponible %": 0.01803661201948354,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020767,
@@ -8348,7 +9100,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "DISPOSITIVOS DE ALMACENAMIENTO",
         "Proveedor": "2030778    Hitachi Vantara LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45217,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -8357,7 +9109,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 914705.56,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020716,
@@ -8367,7 +9119,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CUBR.RIEN.DE PVC",
         "Proveedor": "1005134    STRADA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 13.4,
+        "Meses de Vigencia": 12.9,
         "Inicio Contrato": 45211,
         "Fin Contrato": 45941,
         "Moneda": "USD",
@@ -8376,7 +9128,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 102977,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020699,
@@ -8386,7 +9138,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONEC.F D/COMP. P/CBL. RG-6 UNIV.",
         "Proveedor": "2000580    Holland Electronics LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45211,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -8395,7 +9147,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 260255,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020697,
@@ -8405,7 +9157,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONEC.F D/COMP. P/CBL. RG-6 UNIV.",
         "Proveedor": "2024644    LAF ASIA TRADING LTD",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45211,
         "Fin Contrato": 45657,
         "Moneda": "CNY",
@@ -8414,7 +9166,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 3151500,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020696,
@@ -8424,7 +9176,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONEC.F D/COMP. P/CBL. RG-6 UNIV.",
         "Proveedor": "2022667    LANDMARK TECHNOLOGY INTE",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45211,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -8433,7 +9185,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 10250,
         "Saldo Disponible": 594500,
         "Saldo Disponible %": 0.9830508474576272,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020695,
@@ -8443,16 +9195,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PRCTO.IDENTIF.GRIS SERVICIOS FIBERCORP",
         "Proveedor": "1007037    PRECINCOR S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.2666666666666666,
+        "Meses de Vigencia": 0.7666666666666667,
         "Inicio Contrato": 45211,
         "Fin Contrato": 45577,
         "Moneda": "USD",
         "Precio Neto": 6.65,
         "Saldo inicial": 161475.2,
-        "Consumo": 22041,
-        "Saldo Disponible": 139434.2,
-        "Saldo Disponible %": 0.8635022591704484,
-        "Hoy": 45539
+        "Consumo": 27394,
+        "Saldo Disponible": 134081.2,
+        "Saldo Disponible %": 0.8303516577158598,
+        "Hoy": 45554
       },
       {
         "NPA": 7600020694,
@@ -8462,16 +9214,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PRCTO.PLAST.NGO L.250mm A.4,8mm .P/CBZAL",
         "Proveedor": "1013357    FERRARI HUGO OSVALDO",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.2666666666666666,
+        "Meses de Vigencia": 0.7666666666666667,
         "Inicio Contrato": 45211,
         "Fin Contrato": 45577,
         "Moneda": "USD",
         "Precio Neto": 2.96,
         "Saldo inicial": 285847.28,
-        "Consumo": 275646,
-        "Saldo Disponible": 10201.28,
-        "Saldo Disponible %": 0.035687868011198144,
-        "Hoy": 45539
+        "Consumo": 282378,
+        "Saldo Disponible": 3469.28,
+        "Saldo Disponible %": 0.012136830548116461,
+        "Hoy": 45554
       },
       {
         "NPA": 7600020693,
@@ -8481,16 +9233,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PRCTO.PLAST.NGO L.250mm A.4,8mm .P/CBZAL",
         "Proveedor": "1012692    D URBANO MIGUEL ANGEL",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.2666666666666666,
+        "Meses de Vigencia": 0.7666666666666667,
         "Inicio Contrato": 45211,
         "Fin Contrato": 45577,
         "Moneda": "USD",
         "Precio Neto": 2.9,
         "Saldo inicial": 276125,
-        "Consumo": 149400,
-        "Saldo Disponible": 126725,
-        "Saldo Disponible %": 0.45894069714803076,
-        "Hoy": 45539
+        "Consumo": 155700,
+        "Saldo Disponible": 120425,
+        "Saldo Disponible %": 0.4361249434133092,
+        "Hoy": 45554
       },
       {
         "NPA": 7600020691,
@@ -8500,7 +9252,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ANALIZ.VERIF.D/ACTIV.P/SÑL.XGS-PON",
         "Proveedor": "1010643    NEOTRONIX S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.2,
+        "Meses de Vigencia": 0.7,
         "Inicio Contrato": 45210,
         "Fin Contrato": 45575,
         "Moneda": "USD",
@@ -8509,7 +9261,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2950,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020671,
@@ -8518,7 +9270,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "OBRAS ELECTRIFICACION SITIOS",
         "Proveedor": "5000024    ORDEN INTERNA  COOPERATI",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45209,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -8527,7 +9279,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 89959550.03999999,
         "Saldo Disponible": 30040449.96,
         "Saldo Disponible %": 0.250337083,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020655,
@@ -8537,7 +9289,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "DETECTORES DE GASES TOXICOS",
         "Proveedor": "1001914    COMPAÑIA MSA ARGENTINA S",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45209,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -8546,7 +9298,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 997.5,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020623,
@@ -8555,7 +9307,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mantenimiento de interruptores",
         "Proveedor": "1011821    SURA ELECTRIC SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45208,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -8564,7 +9316,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 18557,
         "Saldo Disponible": 19039,
         "Saldo Disponible %": 0.5064102564102564,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020587,
@@ -8573,7 +9325,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Upgrade SMS 2023",
         "Proveedor": "2025628    ESW TECHNOLOGIES FZ-LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.9666666666666667,
+        "Meses de Vigencia": 0.4666666666666667,
         "Inicio Contrato": 45203,
         "Fin Contrato": 45568,
         "Moneda": "USD",
@@ -8582,7 +9334,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 54560,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020574,
@@ -8591,7 +9343,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IP Transit 1 Gbps + Cruzada FO NAP Miam",
         "Proveedor": "2000509    GTT AMERICAS, LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45202,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -8600,7 +9352,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 5166,
         "Saldo Disponible": 1722,
         "Saldo Disponible %": 0.25,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020557,
@@ -8610,16 +9362,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BDJA. FIBERCORP 1UR 19\" FO/ATC",
         "Proveedor": "1015242    TMI METALURGICA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.9,
+        "Meses de Vigencia": 12.4,
         "Inicio Contrato": 45198,
         "Fin Contrato": 45926,
         "Moneda": "USD",
         "Precio Neto": 68.45,
         "Saldo inicial": 2088917.74,
-        "Consumo": 315505.04000000004,
-        "Saldo Disponible": 1773412.7,
-        "Saldo Disponible %": 0.8489624392772881,
-        "Hoy": 45539
+        "Consumo": 417167.72,
+        "Saldo Disponible": 1671750.02,
+        "Saldo Disponible %": 0.8002948072048065,
+        "Hoy": 45554
       },
       {
         "NPA": 7600020556,
@@ -8629,7 +9381,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BDJA. FIBERCORP 1UR 19\" FO/ATC",
         "Proveedor": "1001979    QUALITY TECH S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.9,
+        "Meses de Vigencia": 12.4,
         "Inicio Contrato": 45198,
         "Fin Contrato": 45926,
         "Moneda": "USD",
@@ -8638,7 +9390,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 140715,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020540,
@@ -8647,7 +9399,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soft Agreement 0M hasta 6M Semestre",
         "Proveedor": "1006449    INTRAWAY CORPORATION S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 22.133333333333333,
+        "Meses de Vigencia": 21.633333333333333,
         "Inicio Contrato": 45108,
         "Fin Contrato": 46203,
         "Moneda": "USD",
@@ -8656,7 +9408,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2528712.56,
         "Saldo Disponible": 971287.44,
         "Saldo Disponible %": 0.27751069714285714,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020535,
@@ -8665,7 +9417,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Centrify for Servers Enterprise Edition",
         "Proveedor": "1035587    CUSTOM IT SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8,
+        "Meses de Vigencia": 0.3,
         "Inicio Contrato": 45198,
         "Fin Contrato": 45563,
         "Moneda": "USD",
@@ -8674,7 +9426,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 165850,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020497,
@@ -8683,16 +9435,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Implementación DWDM",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.9,
+        "Meses de Vigencia": 8.4,
         "Inicio Contrato": 45252,
         "Fin Contrato": 45806,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 1400000,
-        "Consumo": 452709.56999999995,
-        "Saldo Disponible": 947290.43,
-        "Saldo Disponible %": 0.6766360214285715,
-        "Hoy": 45539
+        "Consumo": 467717.56999999995,
+        "Saldo Disponible": 932282.43,
+        "Saldo Disponible %": 0.6659160214285714,
+        "Hoy": 45554
       },
       {
         "NPA": 7600020496,
@@ -8701,7 +9453,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias",
         "Proveedor": "2030983    Gurobi Optimization LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.9,
+        "Meses de Vigencia": 12.4,
         "Inicio Contrato": 45196,
         "Fin Contrato": 45926,
         "Moneda": "USD",
@@ -8710,7 +9462,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 24960,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020493,
@@ -8720,7 +9472,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MOD DCX OS2 6P MPO12/LCUPC ALT #AX109922",
         "Proveedor": "2025795    BELDEN INC.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.7333333333333333,
+        "Meses de Vigencia": 0.23333333333333334,
         "Inicio Contrato": 45196,
         "Fin Contrato": 45561,
         "Moneda": "USD",
@@ -8729,7 +9481,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 30579.590000000004,
         "Saldo Disponible": 54999.24,
         "Saldo Disponible %": 0.6426734275287475,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020479,
@@ -8738,7 +9490,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1016936    PITTELLA E HIJOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45238,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -8747,7 +9499,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 24951951.5,
         "Saldo Disponible": 48048.5,
         "Saldo Disponible %": 0.00192194,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020408,
@@ -8757,16 +9509,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SOP.MENS.SR-330. SAMET",
         "Proveedor": "1003068    TRANSELEC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.933333333333334,
+        "Meses de Vigencia": 8.433333333333334,
         "Inicio Contrato": 45191,
         "Fin Contrato": 45807,
         "Moneda": "USD",
         "Precio Neto": 10.23,
         "Saldo inicial": 182958.37,
-        "Consumo": 1010,
-        "Saldo Disponible": 181948.37,
-        "Saldo Disponible %": 0.994479618505565,
-        "Hoy": 45539
+        "Consumo": 1186,
+        "Saldo Disponible": 181772.37,
+        "Saldo Disponible %": 0.9935176510372278,
+        "Hoy": 45554
       },
       {
         "NPA": 7600020407,
@@ -8776,7 +9528,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CINTA D/ VELCRO P/SUJ.D/CABL.20MM. X 11M",
         "Proveedor": "1011987    MAGNANO OSVALDO",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.933333333333334,
+        "Meses de Vigencia": 8.433333333333334,
         "Inicio Contrato": 45191,
         "Fin Contrato": 45807,
         "Moneda": "USD",
@@ -8785,7 +9537,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 30676,
         "Saldo Disponible": 36380.5,
         "Saldo Disponible %": 0.5425350264329334,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020363,
@@ -8795,7 +9547,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "GMPA.PLAST.P/CBL DROP 5MM/UTP NGA.C/CVO.",
         "Proveedor": "1012692    D URBANO MIGUEL ANGEL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.5333333333333333,
+        "Meses de Vigencia": 0.03333333333333333,
         "Inicio Contrato": 45189,
         "Fin Contrato": 45555,
         "Moneda": "USD",
@@ -8804,7 +9556,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7875,
         "Saldo Disponible": 25875,
         "Saldo Disponible %": 0.7666666666666667,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020362,
@@ -8813,7 +9565,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios para Procesamiento y operacion",
         "Proveedor": "1006410    BVS TV SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45189,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -8822,7 +9574,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 6308400,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020359,
@@ -8831,16 +9583,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Arriendo Capacidad 3 y 4 Gbs La Quiaca",
         "Proveedor": "1004158    EMPRESA ARGENTINA DE SOL",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45189,
         "Fin Contrato": 46387,
         "Moneda": "USD",
         "Precio Neto": 120000,
         "Saldo inicial": 120000,
-        "Consumo": 18000,
-        "Saldo Disponible": 102000,
-        "Saldo Disponible %": 0.85,
-        "Hoy": 45539
+        "Consumo": 21000,
+        "Saldo Disponible": 99000,
+        "Saldo Disponible %": 0.825,
+        "Hoy": 45554
       },
       {
         "NPA": 7600020358,
@@ -8849,7 +9601,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS PROFESIONALES",
         "Proveedor": "1003808    LOGICALIS ARGENTINA S. A",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45200,
         "Fin Contrato": 45688,
         "Moneda": "ARS",
@@ -8858,7 +9610,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 59448424.64,
         "Saldo Disponible": 0.36,
         "Saldo Disponible %": 6.0556692628946855e-9,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020177,
@@ -8867,7 +9619,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicio de Transporte Bosque Alegre",
         "Proveedor": "1033485    Transportes Cordoba SAS",
         "Status": "Vigente",
-        "Meses de Vigencia": 9,
+        "Meses de Vigencia": 8.5,
         "Inicio Contrato": 45170,
         "Fin Contrato": 45809,
         "Moneda": "ARS",
@@ -8876,25 +9628,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 8870048.600000001,
         "Saldo Disponible": 580476.45,
         "Saldo Disponible %": 0.06142266666972116,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600020170,
-        "Pos": 10,
-        "Fecha": 45182,
-        "Descripción": "Licencias para la herramienta GitProtect",
-        "Proveedor": "2030899    Xopero Software",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.26666666666666666,
-        "Inicio Contrato": 45182,
-        "Fin Contrato": 45547,
-        "Moneda": "USD",
-        "Precio Neto": 14000,
-        "Saldo inicial": 14000,
-        "Consumo": 14000,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020096,
@@ -8904,7 +9638,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MICROCABLE 24 FO CORRUGADO  DIELÉCTRICO",
         "Proveedor": "2000376    NEW FONT S.p.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 12.033333333333333,
+        "Meses de Vigencia": 11.533333333333333,
         "Inicio Contrato": 45180,
         "Fin Contrato": 45900,
         "Moneda": "USD",
@@ -8913,64 +9647,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 55860,
         "Saldo Disponible": 135240,
         "Saldo Disponible %": 0.7076923076923077,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600020091,
-        "Pos": 10,
-        "Fecha": 45180,
-        "Material/Servicio": 80200002,
-        "Descripción": "BARR.5/8 ROSC.L.30 FGS-HTHR-5/8-30",
-        "Proveedor": "1015242    TMI METALURGICA SRL",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.23333333333333334,
-        "Inicio Contrato": 45180,
-        "Fin Contrato": 45546,
-        "Moneda": "USD",
-        "Precio Neto": 5.63,
-        "Saldo inicial": 245444.4,
-        "Consumo": 0,
-        "Saldo Disponible": 245444.4,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600020090,
-        "Pos": 10,
-        "Fecha": 45180,
-        "Material/Servicio": 210500045,
-        "Descripción": "BUL.3/8\"\" X 1 1/2\"\"CZA.HEX.P/CBL",
-        "Proveedor": "1004544    INDUSTRIAS KC S.R.L.",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.23333333333333334,
-        "Inicio Contrato": 45180,
-        "Fin Contrato": 45546,
-        "Moneda": "USD",
-        "Precio Neto": 0.18,
-        "Saldo inicial": 450,
-        "Consumo": 0,
-        "Saldo Disponible": 450,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600020089,
-        "Pos": 10,
-        "Fecha": 45180,
-        "Material/Servicio": 281110003,
-        "Descripción": "VARILLA PASA CRUZADAS P/REPART.GENERAL",
-        "Proveedor": "1011975    FAMEL S.R.L.",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.23333333333333334,
-        "Inicio Contrato": 45180,
-        "Fin Contrato": 45546,
-        "Moneda": "USD",
-        "Precio Neto": 7.1,
-        "Saldo inicial": 77988.85,
-        "Consumo": 4053.5,
-        "Saldo Disponible": 73935.35,
-        "Saldo Disponible %": 0.9480246214683253,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020061,
@@ -8979,7 +9656,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS CONTRATISTAS P.I.",
         "Proveedor": "1015084    PRONETBA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45176,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -8988,7 +9665,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4227570.84,
         "Saldo Disponible": 772429.16,
         "Saldo Disponible %": 0.15448583200000002,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020060,
@@ -8997,7 +9674,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS CONTRATISTAS P.I.",
         "Proveedor": "1010502    DISTRIBUIDORA ELECTROTOT",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45176,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -9006,7 +9683,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9998864.63,
         "Saldo Disponible": 1135.37,
         "Saldo Disponible %": 0.000113537,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020059,
@@ -9015,7 +9692,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS CONTRATISTAS P.I.",
         "Proveedor": "1007735    300NET S.R.L",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45176,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -9024,7 +9701,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 3000000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020058,
@@ -9033,7 +9710,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS CONTRATISTAS P.I.",
         "Proveedor": "1028692    HAGAMA S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45176,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -9042,7 +9719,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2661311.19,
         "Saldo Disponible": 338688.81,
         "Saldo Disponible %": 0.11289626999999999,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020057,
@@ -9051,7 +9728,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS CONTRATISTAS P.I.",
         "Proveedor": "1016685    Wilion Conte &  Asociado",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45176,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -9060,7 +9737,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 14971445.64,
         "Saldo Disponible": 28554.36,
         "Saldo Disponible %": 0.001903624,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020056,
@@ -9069,7 +9746,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS CONTRATISTAS P.I.",
         "Proveedor": "1034690    LIZARRAGA CAROLINA ESTMI",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45176,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -9078,7 +9755,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9964469.97,
         "Saldo Disponible": 35530.03,
         "Saldo Disponible %": 0.003553003,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020053,
@@ -9088,7 +9765,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "LLAV.D/APTRA.P/CAMR.RP",
         "Proveedor": "1015242    TMI METALURGICA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45176,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -9097,7 +9774,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 13218,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020052,
@@ -9107,7 +9784,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TPA.HO.SEMI.MELON.P/CAMR.PLAST.600x600MM",
         "Proveedor": "1011975    FAMEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45176,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -9116,7 +9793,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3862.04,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020051,
@@ -9125,7 +9802,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SELA SAS Cloud privada",
         "Proveedor": "1002027    SAS INSTITUTE ARGENTINA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45200,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -9134,7 +9811,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 971287,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600020039,
@@ -9143,7 +9820,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Plataforma de Homologacion CPES - Herram",
         "Proveedor": "1016661    Stechs S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45175,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9152,63 +9829,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 143225,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600020029,
-        "Pos": 10,
-        "Fecha": 45175,
-        "Material/Servicio": 140200035,
-        "Descripción": "FILT.D/AIRE CISCO CBR-SUP-FILTER",
-        "Proveedor": "2000300    LOGICALIS SOUTH AMERICA",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.03333333333333333,
-        "Inicio Contrato": 45175,
-        "Fin Contrato": 45540,
-        "Moneda": "USD",
-        "Precio Neto": 36,
-        "Saldo inicial": 69480,
-        "Consumo": 69480,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600020023,
-        "Pos": 10,
-        "Fecha": 45175,
-        "Material/Servicio": 390414370,
-        "Descripción": "FORTIGATE VM VIRTUAL APPLIANCE #FG-VM02V",
-        "Proveedor": "1002699    DACAS S.A.",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.2,
-        "Inicio Contrato": 45180,
-        "Fin Contrato": 45545,
-        "Moneda": "USD",
-        "Precio Neto": 3659.62,
-        "Saldo inicial": 35752.32,
-        "Consumo": 35752.32,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600020022,
-        "Pos": 10,
-        "Fecha": 45175,
-        "Descripción": "Repuestos para Chillers",
-        "Proveedor": "1014955    CRITICAL SYSTEMS SRL",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 45175,
-        "Fin Contrato": 45535,
-        "Moneda": "USD",
-        "Precio Neto": 25981.86,
-        "Saldo inicial": 25981.86,
-        "Consumo": 25981.86,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019999,
@@ -9218,7 +9839,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "KIT SIM CARD NDAC 100 UNID.#HWNDUSEN1015",
         "Proveedor": "2000216    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45174,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9227,7 +9848,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 21734.32,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019998,
@@ -9236,7 +9857,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Small Cap. bundle pW Core 4G/month",
         "Proveedor": "2000216    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45174,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9245,7 +9866,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0.6,
         "Saldo Disponible": 0.4,
         "Saldo Disponible %": 0.4,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019936,
@@ -9255,7 +9876,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RTDORA./CBL.BRADY C/CART.D/3-8\"",
         "Proveedor": "1012201    CABLING Y NETWORKING DE",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45169,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9264,44 +9885,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 35664.3,
         "Saldo Disponible": 31809.2,
         "Saldo Disponible %": 0.4714324883102255,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019931,
-        "Pos": 10,
-        "Fecha": 45169,
-        "Material/Servicio": 140110656,
-        "Descripción": "DENWA EQUIPO GATEWAY MEDIANT 500",
-        "Proveedor": "1008926    GLOBAL THINK TECHNOLOGY",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 45170,
-        "Fin Contrato": 45535,
-        "Moneda": "USD",
-        "Precio Neto": 1618.36,
-        "Saldo inicial": 56642.6,
-        "Consumo": 56642.6,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019891,
-        "Pos": 10,
-        "Fecha": 45168,
-        "Descripción": "Ampliacion Licencias HNAS 4080",
-        "Proveedor": "1010621    HITACHI VANTARA S.A.",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.2,
-        "Inicio Contrato": 45168,
-        "Fin Contrato": 45533,
-        "Moneda": "USD",
-        "Precio Neto": 160000,
-        "Saldo inicial": 160000,
-        "Consumo": 160000,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019881,
@@ -9310,7 +9894,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte HW y SW | STP + PTS + Gestor",
         "Proveedor": "1010607    ORACLE ARGENTINA S.R.L",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45292,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -9319,43 +9903,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 119120183.98,
         "Saldo Disponible": 0.16,
         "Saldo Disponible %": 1.3431812681883921e-9,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019852,
-        "Pos": 10,
-        "Fecha": 45166,
-        "Descripción": "Lote de Repuestos",
-        "Proveedor": "1010577    SCHNEIDER ELECTRIC ARGEN",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.1,
-        "Inicio Contrato": 45170,
-        "Fin Contrato": 45536,
-        "Moneda": "USD",
-        "Precio Neto": 21225.3,
-        "Saldo inicial": 21225.33,
-        "Consumo": 0,
-        "Saldo Disponible": 21225.33,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019851,
-        "Pos": 10,
-        "Fecha": 45166,
-        "Descripción": "MANTTO D./UPS - SISTEMA A",
-        "Proveedor": "1010577    SCHNEIDER ELECTRIC ARGEN",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.1,
-        "Inicio Contrato": 45170,
-        "Fin Contrato": 45536,
-        "Moneda": "ARS",
-        "Precio Neto": 3883096,
-        "Saldo inicial": 11649291,
-        "Consumo": 8736966,
-        "Saldo Disponible": 2912325,
-        "Saldo Disponible %": 0.2500001931448017,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019850,
@@ -9364,7 +9912,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "LIG Migrac TDM a IP Licencias",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45166,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -9373,7 +9921,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 820946.73,
         "Saldo Disponible": 51991.27,
         "Saldo Disponible %": 0.05955894920372352,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019832,
@@ -9382,7 +9930,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renovacion Membresia LACNIC Dic 23-Nov24",
         "Proveedor": "2000133    LACNIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.9,
+        "Meses de Vigencia": 2.4,
         "Inicio Contrato": 45166,
         "Fin Contrato": 45626,
         "Moneda": "USD",
@@ -9391,7 +9939,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 329820,
         "Saldo Disponible": 15180,
         "Saldo Disponible %": 0.044,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019807,
@@ -9400,7 +9948,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios instalacion sondas smartcare p",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45163,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9409,7 +9957,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 45780.03,
         "Saldo Disponible": 0.97,
         "Saldo Disponible %": 0.00002118782901203556,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019795,
@@ -9418,7 +9966,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Solución Móvil Estadio River Plate. Lic",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45162,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -9427,7 +9975,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3073.390000000014,
         "Saldo Disponible": 528256.61,
         "Saldo Disponible %": 0.9942156663467148,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019781,
@@ -9436,7 +9984,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reparación Menor",
         "Proveedor": "1035373    Adriano Alfredo Bello",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45161,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9445,7 +9993,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3840,
         "Saldo Disponible": 230,
         "Saldo Disponible %": 0.056511056511056514,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019675,
@@ -9454,7 +10002,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reparación Menor",
         "Proveedor": "1002197    TENOMA S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45161,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9463,7 +10011,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4065.6,
         "Saldo Disponible": 4.4,
         "Saldo Disponible %": 0.001081081081081081,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019644,
@@ -9472,7 +10020,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Analista SR CiberSeg - Proyecto WIN B2B",
         "Proveedor": "1004318    XELERE S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45170,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -9481,62 +10029,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 37832540.67,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019603,
-        "Pos": 10,
-        "Fecha": 45153,
-        "Material/Servicio": 320300086,
-        "Descripción": "APM 150K C/30KW EMERSON #NXRE0305525",
-        "Proveedor": "2030118    DACAS CORP",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.1,
-        "Inicio Contrato": 45154,
-        "Fin Contrato": 45536,
-        "Moneda": "USD",
-        "Precio Neto": 10285,
-        "Saldo inicial": 40000,
-        "Consumo": 0,
-        "Saldo Disponible": 40000,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019600,
-        "Pos": 10,
-        "Fecha": 45153,
-        "Descripción": "Staff Consultant",
-        "Proveedor": "1029210    AMAZON WEB SERVICES ARGE",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.36666666666666664,
-        "Inicio Contrato": 45160,
-        "Fin Contrato": 45550,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 86023568,
-        "Consumo": 86018158.63,
-        "Saldo Disponible": 5409.37,
-        "Saldo Disponible %": 0.00006288241845537027,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019599,
-        "Pos": 10,
-        "Fecha": 45153,
-        "Descripción": "SSPP AWS Cloud de Minerva 11",
-        "Proveedor": "1029210    AMAZON WEB SERVICES ARGE",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.36666666666666664,
-        "Inicio Contrato": 45160,
-        "Fin Contrato": 45550,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 71936520,
-        "Consumo": 50795812.08,
-        "Saldo Disponible": 21140707.92,
-        "Saldo Disponible %": 0.2938800475752789,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019554,
@@ -9545,7 +10038,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m(Materiales)",
         "Proveedor": "1003851    RUALIMA S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 45149,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -9554,7 +10047,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 12050.199999999953,
         "Saldo Disponible": 705033.24,
         "Saldo Disponible %": 0.983195539977886,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019514,
@@ -9563,7 +10056,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Storage Hitachi",
         "Proveedor": "1010621    HITACHI VANTARA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45147,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9572,7 +10065,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 198232.63,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019508,
@@ -9581,7 +10074,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Storage Huawei Dorado 8000 V6",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45147,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9590,7 +10083,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 128484.71,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019498,
@@ -9599,7 +10092,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AMBA",
         "Proveedor": "1001924    SAICON S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45146,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -9608,7 +10101,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 22581904.43,
         "Saldo Disponible": 7418095.57,
         "Saldo Disponible %": 0.24726985233333335,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019452,
@@ -9617,7 +10110,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Canon Túnel Uranga Begnis 5 años",
         "Proveedor": "1003745    TUNEL SUBFLUVIAL \"R. URA",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.43333333333333,
+        "Meses de Vigencia": 39.93333333333333,
         "Inicio Contrato": 44927,
         "Fin Contrato": 46752,
         "Moneda": "ARS",
@@ -9626,7 +10119,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 108367802.73,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019423,
@@ -9636,7 +10129,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCH OM4 LC UPC 6M #UDXLULUK2-MXM006",
         "Proveedor": "1010914    COMMSCOPE CONNECTIVITY",
         "Status": "Vigente",
-        "Meses de Vigencia": 11.033333333333333,
+        "Meses de Vigencia": 10.533333333333333,
         "Inicio Contrato": 45141,
         "Fin Contrato": 45870,
         "Moneda": "USD",
@@ -9645,26 +10138,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 78608.58,
         "Saldo Disponible": 2301.94,
         "Saldo Disponible %": 0.02845044130231767,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019284,
-        "Pos": 10,
-        "Fecha": 45128,
-        "Material/Servicio": 300610004,
-        "Descripción": "CBL.D/CU.MULTFIL.SECC.6MM²/VDE.Y AMAR.",
-        "Proveedor": "1014885    ELECTRICIDAD HAEDO SACIF",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 45128,
-        "Fin Contrato": 45535,
-        "Moneda": "USD",
-        "Precio Neto": 2.52,
-        "Saldo inicial": 25200,
-        "Consumo": 0,
-        "Saldo Disponible": 25200,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019258,
@@ -9674,7 +10148,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CUPLA D/UNION P/BANDJ SAMET CUP-01-Z",
         "Proveedor": "1014885    ELECTRICIDAD HAEDO SACIF",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.633333333333333,
+        "Meses de Vigencia": 10.133333333333333,
         "Inicio Contrato": 45127,
         "Fin Contrato": 45858,
         "Moneda": "USD",
@@ -9683,7 +10157,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2176,
         "Saldo Disponible": 33360.18,
         "Saldo Disponible %": 0.93876663164133,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019257,
@@ -9693,16 +10167,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CURV.RIG.MET.90 7/8 EXT.DAISA KSC090078L",
         "Proveedor": "1003068    TRANSELEC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.633333333333333,
+        "Meses de Vigencia": 10.133333333333333,
         "Inicio Contrato": 45127,
         "Fin Contrato": 45858,
         "Moneda": "USD",
         "Precio Neto": 1.91,
         "Saldo inicial": 89410.5,
-        "Consumo": 12363.600000000006,
-        "Saldo Disponible": 77046.9,
-        "Saldo Disponible %": 0.8617209388159108,
-        "Hoy": 45539
+        "Consumo": 12515.600000000006,
+        "Saldo Disponible": 76894.9,
+        "Saldo Disponible %": 0.860020914769518,
+        "Hoy": 45554
       },
       {
         "NPA": 7600019255,
@@ -9712,7 +10186,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "FUS. NH 100A TAMAÑO 01",
         "Proveedor": "1009472    ELECTROMILENIO S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.633333333333333,
+        "Meses de Vigencia": 10.133333333333333,
         "Inicio Contrato": 45127,
         "Fin Contrato": 45858,
         "Moneda": "USD",
@@ -9721,7 +10195,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 49973.67,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019236,
@@ -9730,7 +10204,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mediciones indoor",
         "Proveedor": "1000108    BENCHTEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45127,
         "Fin Contrato": 45869,
         "Moneda": "USD",
@@ -9739,7 +10213,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3485.5200000000004,
         "Saldo Disponible": 16514.48,
         "Saldo Disponible %": 0.825724,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019223,
@@ -9749,7 +10223,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BASTIDOR FO P/CABEZAS 19\" ( 220x60x30CM)",
         "Proveedor": "1001979    QUALITY TECH S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45126,
         "Fin Contrato": 45869,
         "Moneda": "USD",
@@ -9758,7 +10232,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 89880,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019222,
@@ -9768,7 +10242,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BASTIDOR FO P/CABEZAS 19\" ( 220x60x30CM)",
         "Proveedor": "2029857    Artic Fiber Optic LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45126,
         "Fin Contrato": 45869,
         "Moneda": "USD",
@@ -9777,7 +10251,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 23392,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019216,
@@ -9786,7 +10260,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias F5",
         "Proveedor": "2030624    INGRAM MICRO INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45125,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -9795,7 +10269,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1075886,
         "Saldo Disponible": 2382616,
         "Saldo Disponible %": 0.6889156056581722,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019215,
@@ -9805,7 +10279,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MOD.VIPRION 4450 #F5-VPR-AWF-B4450N",
         "Proveedor": "2030624    INGRAM MICRO INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 45181,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -9814,7 +10288,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 102695.68,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019212,
@@ -9823,7 +10297,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1014402    STARNET S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45126,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -9832,7 +10306,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 664429.6000000001,
         "Saldo Disponible": 2335570.4,
         "Saldo Disponible %": 0.7785234666666666,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019074,
@@ -9841,7 +10315,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1015969    ANNESE VICTOR ANGEL",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45121,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -9850,61 +10324,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 29966981.84,
         "Saldo Disponible": 33018.16,
         "Saldo Disponible %": 0.0011006053333333335,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019067,
-        "Pos": 10,
-        "Fecha": 45121,
-        "Descripción": "Obras complementarias AMBA",
-        "Proveedor": "1000081    SIDACO TELECOMUNICACIONE",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45078,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 34052358,
-        "Consumo": 26064814.759999998,
-        "Saldo Disponible": 7987543.24,
-        "Saldo Disponible %": 0.23456652370446712,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019066,
-        "Pos": 10,
-        "Fecha": 45121,
-        "Descripción": "Obras complementarias AMBA",
-        "Proveedor": "1016216    JG TELECOMUNICACIONES SR",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45078,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 8513089.5,
-        "Consumo": 6395353.470000001,
-        "Saldo Disponible": 2117736.03,
-        "Saldo Disponible %": 0.24876233592986421,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600019065,
-        "Pos": 10,
-        "Fecha": 45121,
-        "Descripción": "Obras complementarias SUR",
-        "Proveedor": "1000081    SIDACO TELECOMUNICACIONE",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45078,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 7432232.52,
-        "Consumo": 0,
-        "Saldo Disponible": 7432232.52,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600019011,
@@ -9914,7 +10334,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TRAV.600.TBO.ESTRUCT.30x20x1.6MM CINC.",
         "Proveedor": "1007412    MOBLAR SUDAMERICANA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45477,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -9923,79 +10343,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 49377,
         "Saldo Disponible": 266659,
         "Saldo Disponible %": 0.8437614702122543,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600018977,
-        "Pos": 10,
-        "Fecha": 45118,
-        "Descripción": "DESINTERMEDIADORES SUR",
-        "Proveedor": "1000081    SIDACO TELECOMUNICACIONE",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45078,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 15893400.02,
-        "Consumo": 7297309.6899999995,
-        "Saldo Disponible": 8596090.33,
-        "Saldo Disponible %": 0.5408591188281184,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600018975,
-        "Pos": 10,
-        "Fecha": 45118,
-        "Descripción": "DESINTERMEDIADORES SUR",
-        "Proveedor": "1010592    TECHNOLOGY BUREAU S.A.",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45078,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 31786800.05,
-        "Consumo": 30553762.2,
-        "Saldo Disponible": 1233037.85,
-        "Saldo Disponible %": 0.038790876969699885,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600018973,
-        "Pos": 10,
-        "Fecha": 45118,
-        "Descripción": "DESINTERMEDIADORES SUR",
-        "Proveedor": "1016216    JG TELECOMUNICACIONES SR",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45078,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 63573600.1,
-        "Consumo": 23065495.39,
-        "Saldo Disponible": 40508104.71,
-        "Saldo Disponible %": 0.6371843760032712,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600018972,
-        "Pos": 10,
-        "Fecha": 45118,
-        "Descripción": "Acta de planeamiento",
-        "Proveedor": "1004318    XELERE S.A.",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 45108,
-        "Fin Contrato": 45535,
-        "Moneda": "ARS",
-        "Precio Neto": 2800767,
-        "Saldo inicial": 72906401.13,
-        "Consumo": 72906401.13,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018970,
@@ -10005,7 +10353,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DROP 1FO G657A PL.D/BJA.FRICC.P/FTTH",
         "Proveedor": "2000422    WUHAN FIBERHOME INTERNAT",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.366666666666667,
+        "Meses de Vigencia": 9.866666666666667,
         "Inicio Contrato": 45118,
         "Fin Contrato": 45850,
         "Moneda": "CNY",
@@ -10014,43 +10362,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1127800,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600018968,
-        "Pos": 10,
-        "Fecha": 45118,
-        "Descripción": "DESINTERMEDIADORES AMBA",
-        "Proveedor": "1010592    TECHNOLOGY BUREAU S.A.",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45078,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 71086706.04,
-        "Consumo": 56373165.99000001,
-        "Saldo Disponible": 14713540.05,
-        "Saldo Disponible %": 0.20698019179170846,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600018966,
-        "Pos": 10,
-        "Fecha": 45118,
-        "Descripción": "DESINTERMEDIADORES AMBA",
-        "Proveedor": "1016216    JG TELECOMUNICACIONES SR",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45078,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 26189839.07,
-        "Consumo": 19430431.03,
-        "Saldo Disponible": 6759408.04,
-        "Saldo Disponible %": 0.2580927672725864,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018964,
@@ -10060,7 +10372,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DROP 1FO G657A PL.D/BJA.FRICC.P/FTTH",
         "Proveedor": "2029857    Artic Fiber Optic LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.366666666666667,
+        "Meses de Vigencia": 9.866666666666667,
         "Inicio Contrato": 45118,
         "Fin Contrato": 45850,
         "Moneda": "CNY",
@@ -10069,25 +10381,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2150520,
         "Saldo Disponible": 3937880,
         "Saldo Disponible %": 0.6467840483542474,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600018963,
-        "Pos": 10,
-        "Fecha": 45118,
-        "Descripción": "DESINTERMEDIADORES AMBA",
-        "Proveedor": "1000081    SIDACO TELECOMUNICACIONE",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45078,
-        "Fin Contrato": 45534,
-        "Moneda": "ARS",
-        "Precio Neto": 0,
-        "Saldo inicial": 115983573.01,
-        "Consumo": 111439816.34,
-        "Saldo Disponible": 4543756.67,
-        "Saldo Disponible %": 0.03917586389245174,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018934,
@@ -10097,7 +10391,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AIRE.ACOND.SPLIT.BAJA.SILUETA.5TR",
         "Proveedor": "1007196    E D I S E C S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45117,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -10106,7 +10400,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 106950.15,
         "Saldo Disponible": 82989.85,
         "Saldo Disponible %": 0.4369266610508582,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018933,
@@ -10115,16 +10409,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Implementación DWDM",
         "Proveedor": "2000216    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 11.433333333333334,
+        "Meses de Vigencia": 10.933333333333334,
         "Inicio Contrato": 45152,
         "Fin Contrato": 45882,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 966000,
-        "Consumo": 309349.23,
-        "Saldo Disponible": 656650.77,
-        "Saldo Disponible %": 0.6797627018633541,
-        "Hoy": 45539
+        "Consumo": 444859.55,
+        "Saldo Disponible": 521140.45,
+        "Saldo Disponible %": 0.539482867494824,
+        "Hoy": 45554
       },
       {
         "NPA": 7600018870,
@@ -10133,7 +10427,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CUYO Emisión Alta potencia DCI",
         "Proveedor": "1032932    CUYO TOWER S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45127,
         "Fin Contrato": 45869,
         "Moneda": "ARS",
@@ -10142,7 +10436,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 3872340.43,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018869,
@@ -10151,7 +10445,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MEDI Emisión Alta potencia DCI",
         "Proveedor": "1026549    BENEDETTI MAURO",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45127,
         "Fin Contrato": 45869,
         "Moneda": "ARS",
@@ -10160,7 +10454,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 10235410.07,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018868,
@@ -10169,7 +10463,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "LITORAL Alta potencia DCI",
         "Proveedor": "1010693    SERVICIO DE TRANSMISION",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45127,
         "Fin Contrato": 45869,
         "Moneda": "ARS",
@@ -10178,7 +10472,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 3500000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018867,
@@ -10187,7 +10481,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AMBA Emisión Alta potencia DCI",
         "Proveedor": "1030046    EVEC S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45127,
         "Fin Contrato": 45869,
         "Moneda": "ARS",
@@ -10196,7 +10490,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7840405.76,
         "Saldo Disponible": 3972479.52,
         "Saldo Disponible %": 0.33628359421433407,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018866,
@@ -10205,16 +10499,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AMBA Emisión Alta potencia DCI",
         "Proveedor": "1006016    ATLANTICA CONSULTING GRO",
         "Status": "Vigente",
-        "Meses de Vigencia": 11,
+        "Meses de Vigencia": 10.5,
         "Inicio Contrato": 45127,
         "Fin Contrato": 45869,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 5579364.22,
-        "Consumo": 4083776.32,
-        "Saldo Disponible": 1495587.9,
-        "Saldo Disponible %": 0.26805704754653925,
-        "Hoy": 45539
+        "Consumo": 4969257.279999999,
+        "Saldo Disponible": 610106.94,
+        "Saldo Disponible %": 0.10935062059812972,
+        "Hoy": 45554
       },
       {
         "NPA": 7600018817,
@@ -10223,7 +10517,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencia DWDM Nokia Interurbano",
         "Proveedor": "2000216    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.066666666666666,
+        "Meses de Vigencia": 9.566666666666666,
         "Inicio Contrato": 45124,
         "Fin Contrato": 45841,
         "Moneda": "USD",
@@ -10232,7 +10526,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 142435.06,
         "Saldo Disponible": 34564.94,
         "Saldo Disponible %": 0.19528214689265538,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018785,
@@ -10241,16 +10535,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Desarrollo FIXED ACCESS NETWORK SHARING",
         "Proveedor": "1016661    Stechs S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45110,
         "Fin Contrato": 46022,
         "Moneda": "USD",
         "Precio Neto": 1027241.01,
         "Saldo inicial": 991992,
-        "Consumo": 482927.03,
-        "Saldo Disponible": 509064.97,
-        "Saldo Disponible %": 0.51317447116509,
-        "Hoy": 45539
+        "Consumo": 593167.48,
+        "Saldo Disponible": 398824.52,
+        "Saldo Disponible %": 0.4020440890652344,
+        "Hoy": 45554
       },
       {
         "NPA": 7600018784,
@@ -10260,7 +10554,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "HITO D/SEÑAL.P/CAMR.D/PAS.D/FO",
         "Proveedor": "1004646    DIACO MATERIALES SOC DE",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 45107,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -10269,7 +10563,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 57000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018773,
@@ -10278,7 +10572,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicio de Instalación Discovery en GDE",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45170,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -10287,7 +10581,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 120069.34,
         "Saldo Disponible": 0.66,
         "Saldo Disponible %": 0.000005496793537103357,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018708,
@@ -10297,7 +10591,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TABLERO 2880 FUSIONES C/ACC P/POD",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45105,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -10306,7 +10600,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 3462060,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018622,
@@ -10316,16 +10610,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "DIV.2 VIAS DOMICIL. 5-1218 MHZ",
         "Proveedor": "2022667    LANDMARK TECHNOLOGY INTE",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.7,
+        "Meses de Vigencia": 9.2,
         "Inicio Contrato": 45099,
         "Fin Contrato": 45830,
         "Moneda": "CNY",
         "Precio Neto": 5.2,
         "Saldo inicial": 12033860,
-        "Consumo": 2430700,
-        "Saldo Disponible": 9603160,
-        "Saldo Disponible %": 0.7980116105721689,
-        "Hoy": 45539
+        "Consumo": 3818700,
+        "Saldo Disponible": 8215160,
+        "Saldo Disponible %": 0.6826703983592962,
+        "Hoy": 45554
       },
       {
         "NPA": 7600018605,
@@ -10335,7 +10629,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DISTR.200M FTTX 5MM CONECT.REFORZ.",
         "Proveedor": "2029608    New Support Services, In",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45099,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -10344,7 +10638,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 99000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018602,
@@ -10354,7 +10648,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DISTR.200M FTTX 5MM CONECT.REFORZ.",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45099,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -10363,7 +10657,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 1528800,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018601,
@@ -10373,7 +10667,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DISTR.200M FTTX 5MM CONECT.REFORZ.",
         "Proveedor": "2000442    FTTMAS LIMITED",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45099,
         "Fin Contrato": 45657,
         "Moneda": "CNY",
@@ -10382,7 +10676,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 1830060,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018508,
@@ -10391,7 +10685,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de Instalación de Expansiones",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45091,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -10400,7 +10694,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 80440.1,
         "Saldo Disponible": 9.9,
         "Saldo Disponible %": 0.0001230577998756992,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018451,
@@ -10409,7 +10703,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Implementación DWDM",
         "Proveedor": "1004162    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.066666666666666,
+        "Meses de Vigencia": 9.566666666666666,
         "Inicio Contrato": 45111,
         "Fin Contrato": 45841,
         "Moneda": "USD",
@@ -10418,7 +10712,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9660.029999999999,
         "Saldo Disponible": 50339.97,
         "Saldo Disponible %": 0.8389995,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018450,
@@ -10428,7 +10722,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONECT.7/16 M.ANG/CAB.SF1/2 RFS SCF12-50",
         "Proveedor": "2000422    WUHAN FIBERHOME INTERNAT",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 45089,
         "Fin Contrato": 45716,
         "Moneda": "CNY",
@@ -10437,7 +10731,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 1366676,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018430,
@@ -10446,16 +10740,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "5 XC FO y CUV para Segurización Neuquén",
         "Proveedor": "1010672    SENCINET LATAM ARGENTINA",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45086,
         "Fin Contrato": 46022,
         "Moneda": "USD",
         "Precio Neto": 36500,
         "Saldo inicial": 36500,
-        "Consumo": 22200,
-        "Saldo Disponible": 14300,
-        "Saldo Disponible %": 0.3917808219178082,
-        "Hoy": 45539
+        "Consumo": 23700,
+        "Saldo Disponible": 12800,
+        "Saldo Disponible %": 0.3506849315068493,
+        "Hoy": 45554
       },
       {
         "NPA": 7600018421,
@@ -10464,16 +10758,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Señalización Abr 2023 a Mar 2025",
         "Proveedor": "2000332    COMFONE AG",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45017,
         "Fin Contrato": 45747,
         "Moneda": "USD",
         "Precio Neto": 180000,
         "Saldo inicial": 717800.04,
-        "Consumo": 438075.04000000004,
-        "Saldo Disponible": 279725,
-        "Saldo Disponible %": 0.3896976656618743,
-        "Hoy": 45539
+        "Consumo": 468600.04000000004,
+        "Saldo Disponible": 249200,
+        "Saldo Disponible %": 0.3471718948357818,
+        "Hoy": 45554
       },
       {
         "NPA": 7600018420,
@@ -10482,16 +10776,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Señalización Abr 23 a Mar 25",
         "Proveedor": "2000122    BICS SA/NV",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45017,
         "Fin Contrato": 45747,
         "Moneda": "USD",
         "Precio Neto": 120000,
         "Saldo inicial": 157200,
-        "Consumo": 95100,
-        "Saldo Disponible": 62100,
-        "Saldo Disponible %": 0.3950381679389313,
-        "Hoy": 45539
+        "Consumo": 108900,
+        "Saldo Disponible": 48300,
+        "Saldo Disponible %": 0.30725190839694655,
+        "Hoy": 45554
       },
       {
         "NPA": 7600018231,
@@ -10501,7 +10795,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TALAD.ATORND.INALAMBRICO BAT.C/TRQ.REGUL",
         "Proveedor": "1017227    Pieretto Ricardo, Pieret",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45078,
         "Fin Contrato": 45747,
         "Moneda": "USD",
@@ -10510,7 +10804,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 103835.87,
         "Saldo Disponible": 99954.81,
         "Saldo Disponible %": 0.4904778275434382,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018122,
@@ -10519,7 +10813,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS PROFESIONALES",
         "Proveedor": "1012803    BRUSCO TULIO RODOLFO",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45068,
         "Fin Contrato": 45808,
         "Moneda": "ARS",
@@ -10528,7 +10822,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 980100.51,
         "Saldo Disponible": 1019899.49,
         "Saldo Disponible %": 0.509949745,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018070,
@@ -10538,16 +10832,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MONOTUBO 32/36 P/TENDIDO EN DUCTOS",
         "Proveedor": "1005134    STRADA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45064,
         "Fin Contrato": 45808,
         "Moneda": "USD",
         "Precio Neto": 0.8,
         "Saldo inicial": 1582616,
-        "Consumo": 923370,
-        "Saldo Disponible": 659246,
-        "Saldo Disponible %": 0.4165546159017728,
-        "Hoy": 45539
+        "Consumo": 932370,
+        "Saldo Disponible": 650246,
+        "Saldo Disponible %": 0.4108678289616685,
+        "Hoy": 45554
       },
       {
         "NPA": 7600018068,
@@ -10557,7 +10851,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MANGUI.EMPALM.P/SUBDUC.D/40 mm",
         "Proveedor": "1010778    PROPLASTIC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45064,
         "Fin Contrato": 45808,
         "Moneda": "USD",
@@ -10566,7 +10860,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 152640,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018066,
@@ -10576,7 +10870,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "DUCTO CUATRITUBO (PEAD) 34/40MM",
         "Proveedor": "1005014    PLASTIFERRO TUBOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45064,
         "Fin Contrato": 45808,
         "Moneda": "USD",
@@ -10585,7 +10879,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 116700,
         "Saldo Disponible": 653520,
         "Saldo Disponible %": 0.8484848484848485,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018064,
@@ -10595,7 +10889,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TAPON ABIERTO P/TUB 45/50  CAB.D=18a28MM",
         "Proveedor": "1010649    BROGI PEDRO AUGUSTO",
         "Status": "Vigente",
-        "Meses de Vigencia": 8.966666666666667,
+        "Meses de Vigencia": 8.466666666666667,
         "Inicio Contrato": 45064,
         "Fin Contrato": 45808,
         "Moneda": "USD",
@@ -10604,7 +10898,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 47000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600018038,
@@ -10614,7 +10908,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AP FORTINET INDOOR 1GE#FAP-221E-A SERIAL",
         "Proveedor": "2030118    DACAS CORP",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 45063,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -10623,7 +10917,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 28407.75,
         "Saldo Disponible": 2107838.15,
         "Saldo Disponible %": 0.9867020224591185,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017937,
@@ -10632,7 +10926,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1013755    TECHFAR-TEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10641,7 +10935,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2862669.44,
         "Saldo Disponible": 1365830.56,
         "Saldo Disponible %": 0.32300592645146037,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017936,
@@ -10650,7 +10944,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1010502    DISTRIBUIDORA ELECTROTOT",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10659,7 +10953,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4152182.44,
         "Saldo Disponible": 76317.56,
         "Saldo Disponible %": 0.01804837649284616,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017935,
@@ -10668,7 +10962,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1015084    PRONETBA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10677,7 +10971,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 5318633.16,
         "Saldo Disponible": 319366.84,
         "Saldo Disponible %": 0.056645413267116,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017934,
@@ -10686,7 +10980,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1007735    300NET S.R.L",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10695,7 +10989,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4797832.5600000005,
         "Saldo Disponible": 3659167.44,
         "Saldo Disponible %": 0.4326791344448386,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017933,
@@ -10704,7 +10998,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1028692    HAGAMA S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10713,7 +11007,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 5671730.5600000005,
         "Saldo Disponible": 2785269.44,
         "Saldo Disponible %": 0.32934485514958023,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017932,
@@ -10722,7 +11016,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1003302    COMSYS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10731,7 +11025,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 11274818.91,
         "Saldo Disponible": 1181.09,
         "Saldo Disponible %": 0.00010474370344093649,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017931,
@@ -10740,7 +11034,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1014426    3GLA NETWORKS SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10749,7 +11043,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 11273941.75,
         "Saldo Disponible": 2058.25,
         "Saldo Disponible %": 0.00018253369989357929,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017930,
@@ -10758,7 +11052,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1016859    TAILORED SERVICES PROYEC",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10767,7 +11061,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 13986808.72,
         "Saldo Disponible": 108191.28,
         "Saldo Disponible %": 0.007675862362539907,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017929,
@@ -10776,7 +11070,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1034690    LIZARRAGA CAROLINA ESTMI",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10785,7 +11079,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 16891062.64,
         "Saldo Disponible": 22937.36,
         "Saldo Disponible %": 0.0013561168262977415,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017928,
@@ -10794,7 +11088,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1031969    VALCATEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10803,7 +11097,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 19160093.39,
         "Saldo Disponible": 572906.61,
         "Saldo Disponible %": 0.029032919981756448,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017927,
@@ -10812,7 +11106,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1033482    Bitcom Ingenieria SAS",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10821,7 +11115,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 252613.9699999988,
         "Saldo Disponible": 22299386.03,
         "Saldo Disponible %": 0.9887986001241575,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017926,
@@ -10830,16 +11124,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1010693    SERVICIO DE TRANSMISION",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 22552000,
-        "Consumo": 21141192.76,
-        "Saldo Disponible": 1410807.24,
-        "Saldo Disponible %": 0.06255796559063498,
-        "Hoy": 45539
+        "Consumo": 21414709.51,
+        "Saldo Disponible": 1137290.49,
+        "Saldo Disponible %": 0.05042969537069883,
+        "Hoy": 45554
       },
       {
         "NPA": 7600017925,
@@ -10848,7 +11142,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1016685    Wilion Conte &  Asociado",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10857,7 +11151,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 33826810.43,
         "Saldo Disponible": 1189.57,
         "Saldo Disponible %": 0.00003516524772377912,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017924,
@@ -10866,7 +11160,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1016936    PITTELLA E HIJOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10875,7 +11169,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 36647000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017921,
@@ -10884,7 +11178,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Contratistas PI",
         "Proveedor": "1015969    ANNESE VICTOR ANGEL",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.966666666666667,
+        "Meses de Vigencia": 7.466666666666667,
         "Inicio Contrato": 45056,
         "Fin Contrato": 45778,
         "Moneda": "ARS",
@@ -10893,7 +11187,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 25094529.94,
         "Saldo Disponible": 276470.06,
         "Saldo Disponible %": 0.010897089590477317,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017909,
@@ -10902,7 +11196,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias DEKRA TACS4 Performance Tool",
         "Proveedor": "2001352    DEKRA TESTING AND CERTIF",
         "Status": "Vigente",
-        "Meses de Vigencia": 20.566666666666666,
+        "Meses de Vigencia": 20.066666666666666,
         "Inicio Contrato": 45061,
         "Fin Contrato": 46156,
         "Moneda": "USD",
@@ -10911,7 +11205,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 20900,
         "Saldo Disponible": 10450,
         "Saldo Disponible %": 0.3333333333333333,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017889,
@@ -10920,7 +11214,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SW GPON NOKIA",
         "Proveedor": "2000216    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.133333333333333,
+        "Meses de Vigencia": 8.633333333333333,
         "Inicio Contrato": 45082,
         "Fin Contrato": 45813,
         "Moneda": "USD",
@@ -10929,7 +11223,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 220124.53,
         "Saldo Disponible": 77173.47,
         "Saldo Disponible %": 0.2595828764404739,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017887,
@@ -10938,7 +11232,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SW GPON HUAWEI",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.133333333333333,
+        "Meses de Vigencia": 8.633333333333333,
         "Inicio Contrato": 45082,
         "Fin Contrato": 45813,
         "Moneda": "USD",
@@ -10947,7 +11241,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 54691,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017859,
@@ -10957,7 +11251,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "GAB.P/DECODER CC LEI-599 #VS-LEI599-X2",
         "Proveedor": "1012069    VIDEOSWITCH S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45051,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -10966,7 +11260,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 12559,
         "Saldo Disponible": 19641,
         "Saldo Disponible %": 0.6099689440993789,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017852,
@@ -10976,7 +11270,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PST.D/PRFV 7,5M R150 P/INST.URB O INTER",
         "Proveedor": "1007495    PETROPLAST PETROFISA PLA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45051,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -10985,7 +11279,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 920454,
         "Saldo Disponible": 409146,
         "Saldo Disponible %": 0.30772111913357403,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017743,
@@ -10994,7 +11288,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mantenimiento Instrumetal DEKRA",
         "Proveedor": "2001352    DEKRA TESTING AND CERTIF",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44927,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -11003,7 +11297,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 10448,
         "Saldo Disponible": 5224,
         "Saldo Disponible %": 0.3333333333333333,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017727,
@@ -11013,7 +11307,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CABLE BLINDADO DE 2X16+1X2.5M2(MALLADO)",
         "Proveedor": "2023547    AMPHENOL TFC DO BRASIL L",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45124,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -11022,7 +11316,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 152421,
         "Saldo Disponible": 246768,
         "Saldo Disponible %": 0.6181733464599476,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017696,
@@ -11031,7 +11325,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SW agreement Nokia Acceso Móvil",
         "Proveedor": "2000533    NOKIA SPAIN SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45040,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -11040,7 +11334,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4051741,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017579,
@@ -11050,7 +11344,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IDENTIF.D/DROP LTRA.A (ANILLO)",
         "Proveedor": "1000195    BARRAZA PATRICIA ESTER",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45033,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -11059,7 +11353,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 84687.2,
         "Saldo Disponible": 44512.8,
         "Saldo Disponible %": 0.3445263157894737,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017551,
@@ -11069,7 +11363,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TERM.VOLTE-F NO INT S/WIFI C/ACC.SERIAL",
         "Proveedor": "2027327    BLU CASTLE IBERIA S.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.433333333333334,
+        "Meses de Vigencia": 8.933333333333334,
         "Inicio Contrato": 45091,
         "Fin Contrato": 45822,
         "Moneda": "USD",
@@ -11078,7 +11372,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 505501.5,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017512,
@@ -11087,7 +11381,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicio de Transporte Bosque Alegre",
         "Proveedor": "1033485    Transportes Cordoba SAS",
         "Status": "Vigente",
-        "Meses de Vigencia": 9,
+        "Meses de Vigencia": 8.5,
         "Inicio Contrato": 45017,
         "Fin Contrato": 45809,
         "Moneda": "ARS",
@@ -11096,7 +11390,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 8855314.3,
         "Saldo Disponible": 1637035.7,
         "Saldo Disponible %": 0.1560218349559441,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017473,
@@ -11105,7 +11399,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SW Base IMPACT Entitlement Server",
         "Proveedor": "2000533    NOKIA SPAIN SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 40.43333333333333,
+        "Meses de Vigencia": 39.93333333333333,
         "Inicio Contrato": 45027,
         "Fin Contrato": 46752,
         "Moneda": "USD",
@@ -11114,7 +11408,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 25270,
         "Saldo Disponible": 87210,
         "Saldo Disponible %": 0.7753378378378378,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017363,
@@ -11123,7 +11417,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SSPP Upgrade NetAct",
         "Proveedor": "1004162    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45026,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -11132,7 +11426,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 641240.01,
         "Saldo Disponible": 1582385.99,
         "Saldo Disponible %": 0.7116241625165383,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017362,
@@ -11141,7 +11435,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SW agreement Nokia Lito Acceso Móvil",
         "Proveedor": "2000533    NOKIA SPAIN SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45026,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -11150,7 +11444,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 8274820.199999999,
         "Saldo Disponible": 14341857.8,
         "Saldo Disponible %": 0.6341275142176053,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017359,
@@ -11160,16 +11454,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PLACA DE PROCESAMIENTO Y TX ASIB - NOKIA",
         "Proveedor": "2000216    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 45026,
         "Fin Contrato": 46022,
         "Moneda": "USD",
         "Precio Neto": 2400,
         "Saldo inicial": 49775571,
-        "Consumo": 20687159.98,
-        "Saldo Disponible": 29088411.02,
-        "Saldo Disponible %": 0.5843913075351762,
-        "Hoy": 45539
+        "Consumo": 20703340.03,
+        "Saldo Disponible": 29072230.97,
+        "Saldo Disponible %": 0.5840662474771008,
+        "Hoy": 45554
       },
       {
         "NPA": 7600017339,
@@ -11179,7 +11473,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "F.O.CBL.OPT.D/6 PELOS MONMOD S/ARM.8A9,5",
         "Proveedor": "2000609    OPTRAL S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 7.433333333333334,
+        "Meses de Vigencia": 6.933333333333334,
         "Inicio Contrato": 45022,
         "Fin Contrato": 45762,
         "Moneda": "USD",
@@ -11188,7 +11482,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 252000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017331,
@@ -11197,7 +11491,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios de instalación DWDM",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45021,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -11206,25 +11500,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 545701.04,
         "Saldo Disponible": 14298.96,
         "Saldo Disponible %": 0.025533857142857143,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600017282,
-        "Pos": 10,
-        "Fecha": 45019,
-        "Descripción": "REPARACIÓN Y BLASTINADO AMPLIF EDIF",
-        "Proveedor": "1009259    TECCAM SRL",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 45351,
-        "Fin Contrato": 45535,
-        "Moneda": "USD",
-        "Precio Neto": 0,
-        "Saldo inicial": 231176.1,
-        "Consumo": 229923.7,
-        "Saldo Disponible": 1252.4,
-        "Saldo Disponible %": 0.00541751504588926,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017273,
@@ -11233,7 +11509,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "IRU 2020 OyM 4° entrega",
         "Proveedor": "1010520    AMX ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.9666666666666667,
+        "Meses de Vigencia": 0.4666666666666667,
         "Inicio Contrato": 45019,
         "Fin Contrato": 45568,
         "Moneda": "USD",
@@ -11242,7 +11518,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 5670,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017110,
@@ -11252,7 +11528,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MODUL. P/12 O 24 TERM. D/3UR",
         "Proveedor": "1015242    TMI METALURGICA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.766666666666667,
+        "Meses de Vigencia": 6.266666666666667,
         "Inicio Contrato": 45012,
         "Fin Contrato": 45742,
         "Moneda": "USD",
@@ -11261,7 +11537,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2625,
         "Saldo Disponible": 8085,
         "Saldo Disponible %": 0.7549019607843137,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017062,
@@ -11270,7 +11546,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Expansion IP Huawei",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.8,
+        "Meses de Vigencia": 6.3,
         "Inicio Contrato": 45012,
         "Fin Contrato": 45743,
         "Moneda": "USD",
@@ -11279,7 +11555,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 206155.12,
         "Saldo Disponible": 43844.88,
         "Saldo Disponible %": 0.17537951999999998,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600017034,
@@ -11289,7 +11565,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "OpticTransc(SFP+,1310nm,10Gb,LC,SM,10km",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.8,
+        "Meses de Vigencia": 6.3,
         "Inicio Contrato": 45012,
         "Fin Contrato": 45743,
         "Moneda": "USD",
@@ -11298,7 +11574,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2439171.22,
         "Saldo Disponible": 3060828.78,
         "Saldo Disponible %": 0.5565143236363636,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016937,
@@ -11308,7 +11584,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CANAL D/TENS.APC MOD. AP8886 22KW 400VCA",
         "Proveedor": "1006719    CIDI COM SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45001,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -11317,7 +11593,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 308653.36,
         "Saldo Disponible": 796746.64,
         "Saldo Disponible %": 0.7207767685905555,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016879,
@@ -11326,7 +11602,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "EVENTO STREAMING",
         "Proveedor": "1001849    HEADCOMM S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 44958,
         "Fin Contrato": 45688,
         "Moneda": "ARS",
@@ -11335,7 +11611,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 11999204.12,
         "Saldo Disponible": 795.88,
         "Saldo Disponible %": 0.00006632333333333333,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016877,
@@ -11345,7 +11621,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "DIV.OPT.PSIVO. 1:16 CONEC.SC/APC FOPTIK",
         "Proveedor": "2000000    TECHNOLOGY BUREAU USA CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.733333333333333,
+        "Meses de Vigencia": 6.233333333333333,
         "Inicio Contrato": 44999,
         "Fin Contrato": 45741,
         "Moneda": "USD",
@@ -11354,7 +11630,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 4000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016808,
@@ -11364,16 +11640,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TORNILLO P/TARUGO 6MM CABEZA COMBINADA",
         "Proveedor": "1015242    TMI METALURGICA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.233333333333333,
+        "Meses de Vigencia": 5.733333333333333,
         "Inicio Contrato": 44995,
         "Fin Contrato": 45726,
         "Moneda": "USD",
         "Precio Neto": 0.27,
         "Saldo inicial": 277195.16,
-        "Consumo": 7778,
-        "Saldo Disponible": 269417.16,
-        "Saldo Disponible %": 0.9719403470103879,
-        "Hoy": 45539
+        "Consumo": 8042.5,
+        "Saldo Disponible": 269152.66,
+        "Saldo Disponible %": 0.9709861456455444,
+        "Hoy": 45554
       },
       {
         "NPA": 7600016807,
@@ -11383,7 +11659,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BUL.5/16\"\" X 1\"\"CZA.HEX.P/CBL",
         "Proveedor": "1004544    INDUSTRIAS KC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.233333333333333,
+        "Meses de Vigencia": 5.733333333333333,
         "Inicio Contrato": 44995,
         "Fin Contrato": 45726,
         "Moneda": "USD",
@@ -11392,7 +11668,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2790,
         "Saldo Disponible": 29837.4,
         "Saldo Disponible %": 0.9144890490814469,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016806,
@@ -11402,7 +11678,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TIRAF.9 X 75 MMMM",
         "Proveedor": "1034373    Fischer Argentina SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.233333333333333,
+        "Meses de Vigencia": 5.733333333333333,
         "Inicio Contrato": 44995,
         "Fin Contrato": 45726,
         "Moneda": "USD",
@@ -11411,7 +11687,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 188953.99999999997,
         "Saldo Disponible": 190978.6,
         "Saldo Disponible %": 0.5026644199523811,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016805,
@@ -11421,16 +11697,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BZO.D/EXT.GDE.P/RIEN.A PIQUE",
         "Proveedor": "1011975    FAMEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 13.033333333333333,
-        "Inicio Contrato": 45882,
+        "Meses de Vigencia": 12.533333333333333,
+        "Inicio Contrato": 45553,
         "Fin Contrato": 45930,
         "Moneda": "USD",
         "Precio Neto": 134.8,
         "Saldo inicial": 68717.29,
-        "Consumo": 45059.579999999994,
-        "Saldo Disponible": 23657.71,
-        "Saldo Disponible %": 0.3442759456899421,
-        "Hoy": 45539
+        "Consumo": 50954.579999999994,
+        "Saldo Disponible": 17762.71,
+        "Saldo Disponible %": 0.25848967559692765,
+        "Hoy": 45554
       },
       {
         "NPA": 7600016591,
@@ -11440,7 +11716,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SELLO IMPERMEABLIZACION P/CONECT. 7/16",
         "Proveedor": "2026057    BI CONNECTIONS LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 44986,
         "Fin Contrato": 45716,
         "Moneda": "USD",
@@ -11449,7 +11725,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 76860,
         "Saldo Disponible": 40,
         "Saldo Disponible %": 0.0005201560468140442,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016568,
@@ -11459,7 +11735,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONECTOR RELLENO DE 2 VIAS TIPO \"UY\"",
         "Proveedor": "2000482    ELECTROSON TELECOMUNICAC",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.933333333333334,
+        "Meses de Vigencia": 5.433333333333334,
         "Inicio Contrato": 44993,
         "Fin Contrato": 45717,
         "Moneda": "USD",
@@ -11468,7 +11744,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 43500,
         "Saldo Disponible": 4250,
         "Saldo Disponible %": 0.08900523560209424,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016380,
@@ -11478,7 +11754,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CHAPON D/AMRR.",
         "Proveedor": "1015242    TMI METALURGICA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.733333333333333,
+        "Meses de Vigencia": 5.233333333333333,
         "Inicio Contrato": 44980,
         "Fin Contrato": 45711,
         "Moneda": "USD",
@@ -11487,7 +11763,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 24176.199999999953,
         "Saldo Disponible": 589603.8,
         "Saldo Disponible %": 0.960610968099319,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016379,
@@ -11497,7 +11773,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RSRVA.DIELEC.P/FIB.OPT.P/FTTH",
         "Proveedor": "1002017    PREFORM S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.733333333333333,
+        "Meses de Vigencia": 5.233333333333333,
         "Inicio Contrato": 44980,
         "Fin Contrato": 45711,
         "Moneda": "USD",
@@ -11506,7 +11782,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 162500,
         "Saldo Disponible": 5552524,
         "Saldo Disponible %": 0.9715661736503644,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016378,
@@ -11516,7 +11792,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SOPORTE P/144FO AUTOSOP. CUB. SIMPLE",
         "Proveedor": "1004544    INDUSTRIAS KC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.733333333333333,
+        "Meses de Vigencia": 5.233333333333333,
         "Inicio Contrato": 44980,
         "Fin Contrato": 45711,
         "Moneda": "USD",
@@ -11525,7 +11801,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 24800,
         "Saldo Disponible": 641980,
         "Saldo Disponible %": 0.9628063229251027,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016376,
@@ -11535,7 +11811,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "GMPA. U C/4 TCA.D/3/8",
         "Proveedor": "1011975    FAMEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.733333333333333,
+        "Meses de Vigencia": 5.233333333333333,
         "Inicio Contrato": 44980,
         "Fin Contrato": 45711,
         "Moneda": "USD",
@@ -11544,7 +11820,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 27850,
         "Saldo Disponible": 419259,
         "Saldo Disponible %": 0.937710938495982,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016371,
@@ -11554,7 +11830,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.D/SERV.50M 12P(8 SC-APC)PIGTL.91CM",
         "Proveedor": "2029857    Artic Fiber Optic LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 44971,
         "Fin Contrato": 45716,
         "Moneda": "USD",
@@ -11563,7 +11839,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 39475,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016370,
@@ -11572,7 +11848,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "OyM Nqn-Wilde Nqn-Añelo B.Blanca-Wilde",
         "Proveedor": "1003457    SILICA NETWORKS ARGENTIN",
         "Status": "Vigente",
-        "Meses de Vigencia": 162.2,
+        "Meses de Vigencia": 161.7,
         "Inicio Contrato": 44896,
         "Fin Contrato": 50405,
         "Moneda": "USD",
@@ -11581,7 +11857,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 629626,
         "Saldo Disponible": 232569,
         "Saldo Disponible %": 0.26974060392370636,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016351,
@@ -11591,16 +11867,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MALLA DE IZADO DE CABLE 7/8''",
         "Proveedor": "2000469    GISA MOBILE INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 44967,
         "Fin Contrato": 45716,
         "Moneda": "USD",
         "Precio Neto": 5.48,
         "Saldo inicial": 39539,
-        "Consumo": 0,
-        "Saldo Disponible": 39539,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 39376,
+        "Saldo Disponible": 163,
+        "Saldo Disponible %": 0.004122511950226359,
+        "Hoy": 45554
       },
       {
         "NPA": 7600016348,
@@ -11610,7 +11886,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CABLE COAXIL S.FLEX 1/2\"RFS SCF12-50J",
         "Proveedor": "2019780    CORALTIL S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 44967,
         "Fin Contrato": 45716,
         "Moneda": "USD",
@@ -11619,7 +11895,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 37545,
         "Saldo Disponible": 164,
         "Saldo Disponible %": 0.004349094380651833,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016347,
@@ -11629,7 +11905,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONECT.7/16 M.ANG/CAB.SF1/2 RFS SCF12-50",
         "Proveedor": "2026057    BI CONNECTIONS LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 44967,
         "Fin Contrato": 45716,
         "Moneda": "USD",
@@ -11638,7 +11914,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 134997,
         "Saldo Disponible": 5460,
         "Saldo Disponible %": 0.03887310707191525,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016344,
@@ -11648,7 +11924,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONECT.4310M RECT/CAB1/2\"ANDREW FSJ4-50B",
         "Proveedor": "2028894    AMERINODE DEL PERÚ S.A.C",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 44967,
         "Fin Contrato": 45716,
         "Moneda": "USD",
@@ -11657,7 +11933,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 110854,
         "Saldo Disponible": 30349,
         "Saldo Disponible %": 0.21493169408581972,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016302,
@@ -11667,7 +11943,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.D/SERV.50M 12P(8 SC-APC)PIGTL.91CM",
         "Proveedor": "2025972    ROSENBERGER DOMEX TELECO",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
+        "Meses de Vigencia": 5.4,
         "Inicio Contrato": 44965,
         "Fin Contrato": 45716,
         "Moneda": "USD",
@@ -11676,7 +11952,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 32264,
         "Saldo Disponible": 48396,
         "Saldo Disponible %": 0.6,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016295,
@@ -11685,16 +11961,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Ab.Mens 550 u$s Metrotel 01/2023-12/2024",
         "Proveedor": "1010884    C.P.S. COMUNICACIONES S.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44927,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 1069200,
         "Saldo inicial": 1069200,
-        "Consumo": 891000,
-        "Saldo Disponible": 178200,
-        "Saldo Disponible %": 0.16666666666666666,
-        "Hoy": 45539
+        "Consumo": 935550,
+        "Saldo Disponible": 133650,
+        "Saldo Disponible %": 0.125,
+        "Hoy": 45554
       },
       {
         "NPA": 7600016293,
@@ -11703,35 +11979,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Seguriz San Juan-Cba Ene-2023",
         "Proveedor": "1004158    EMPRESA ARGENTINA DE SOL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44927,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 21250,
         "Saldo inicial": 712150,
-        "Consumo": 518950,
-        "Saldo Disponible": 193200,
-        "Saldo Disponible %": 0.2712911605701046,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600016265,
-        "Pos": 10,
-        "Fecha": 44963,
-        "Material/Servicio": 191400130,
-        "Descripción": "CINTA D/PREVENCION PLASTICA P/INST.SUBT.",
-        "Proveedor": "1010559    IMPRESOS DEL DRAGON S.R.",
-        "Status": "Vigente",
-        "Meses de Vigencia": 5.9,
-        "Inicio Contrato": 44963,
-        "Fin Contrato": 45716,
-        "Moneda": "USD",
-        "Precio Neto": 7.32,
-        "Saldo inicial": 48312,
-        "Consumo": 0,
-        "Saldo Disponible": 48312,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Consumo": 546250,
+        "Saldo Disponible": 165900,
+        "Saldo Disponible %": 0.23295654005476374,
+        "Hoy": 45554
       },
       {
         "NPA": 7600016240,
@@ -11741,7 +11998,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCHCORD SC-APC / E2000 D/20mts.",
         "Proveedor": "2025972    ROSENBERGER DOMEX TELECO",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.066666666666666,
+        "Meses de Vigencia": 4.566666666666666,
         "Inicio Contrato": 44960,
         "Fin Contrato": 45691,
         "Moneda": "USD",
@@ -11750,7 +12007,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 56779.92,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016213,
@@ -11759,7 +12016,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Implementación DWDM",
         "Proveedor": "1004162    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 44958,
         "Fin Contrato": 45688,
         "Moneda": "ARS",
@@ -11768,7 +12025,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 46801229.08,
         "Saldo Disponible": 1818770.92,
         "Saldo Disponible %": 0.037407875771287534,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016211,
@@ -11777,7 +12034,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios implementación DWDM",
         "Proveedor": "1004162    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 44958,
         "Fin Contrato": 45688,
         "Moneda": "ARS",
@@ -11786,7 +12043,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 45414470.14,
         "Saldo Disponible": 34585529.86,
         "Saldo Disponible %": 0.43231912325,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016148,
@@ -11795,7 +12052,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Profesionales Extras",
         "Proveedor": "2025268    NICEPEOPLEATWORK SL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44927,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -11804,7 +12061,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 274124.6,
         "Saldo Disponible": 1944.4,
         "Saldo Disponible %": 0.007043166744545748,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016009,
@@ -11814,7 +12071,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ATEN.OPT.FIJ. IN-LINE 4 DB - SCAPC",
         "Proveedor": "1004774    KOC LATINOAMERICA S. A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.6,
+        "Meses de Vigencia": 4.1,
         "Inicio Contrato": 44946,
         "Fin Contrato": 45677,
         "Moneda": "USD",
@@ -11823,7 +12080,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 52530,
         "Saldo Disponible": 165597,
         "Saldo Disponible %": 0.7591769932195465,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600016000,
@@ -11833,7 +12090,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ATEN.OPT.FIJ. IN-LINE 4 DB - SCAPC",
         "Proveedor": "2027519    ARTIC FIBER OPTIC LIMITE",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.6,
+        "Meses de Vigencia": 4.1,
         "Inicio Contrato": 44946,
         "Fin Contrato": 45677,
         "Moneda": "USD",
@@ -11842,7 +12099,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 271,
         "Saldo Disponible": 26768.7,
         "Saldo Disponible %": 0.9899776994567248,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015996,
@@ -11852,7 +12109,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ATEN.OPT.FIJ. IN-LINE 4 DB - SCAPC",
         "Proveedor": "2027358    JERS TECNOLOGIA SPA",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.6,
+        "Meses de Vigencia": 4.1,
         "Inicio Contrato": 44946,
         "Fin Contrato": 45677,
         "Moneda": "USD",
@@ -11861,7 +12118,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 31164.4,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015967,
@@ -11871,7 +12128,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCHCORD LC-LC, SM DOBLE D/10M",
         "Proveedor": "1001979    QUALITY TECH S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.066666666666666,
+        "Meses de Vigencia": 4.566666666666666,
         "Inicio Contrato": 44960,
         "Fin Contrato": 45691,
         "Moneda": "USD",
@@ -11880,7 +12137,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 13870.17,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015961,
@@ -11890,7 +12147,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCHCORD E2000-APC/E2000-APC D/10M",
         "Proveedor": "1004774    KOC LATINOAMERICA S. A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.066666666666666,
+        "Meses de Vigencia": 4.566666666666666,
         "Inicio Contrato": 44960,
         "Fin Contrato": 45691,
         "Moneda": "USD",
@@ -11899,7 +12156,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 173775,
         "Saldo Disponible": 419454.38,
         "Saldo Disponible %": 0.707069464428751,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015939,
@@ -11909,7 +12166,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PATCHC.E2000-APC/E2000-APC 12M FER.SINT.",
         "Proveedor": "1012763    ADECOMM S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 5.066666666666666,
+        "Meses de Vigencia": 4.566666666666666,
         "Inicio Contrato": 44960,
         "Fin Contrato": 45691,
         "Moneda": "USD",
@@ -11918,7 +12175,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 45758.899999999994,
         "Saldo Disponible": 82048.6,
         "Saldo Disponible %": 0.6419701504215324,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015463,
@@ -11928,7 +12185,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "470µF 250V",
         "Proveedor": "1013271    TOTAL ELET S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.066666666666666,
+        "Meses de Vigencia": 3.566666666666667,
         "Inicio Contrato": 44930,
         "Fin Contrato": 45661,
         "Moneda": "USD",
@@ -11937,7 +12194,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 10864.96,
         "Saldo Disponible": 15401.23,
         "Saldo Disponible %": 0.5863518843044995,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015462,
@@ -11947,16 +12204,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CAPCIT.ELECTRLIT.INSER.RAD.1500UFX63V",
         "Proveedor": "1010598    IMPORTADORA ELECTRONICA",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.066666666666666,
+        "Meses de Vigencia": 3.566666666666667,
         "Inicio Contrato": 44930,
         "Fin Contrato": 45661,
         "Moneda": "USD",
         "Precio Neto": 0.3,
         "Saldo inicial": 123733.86,
-        "Consumo": 19684,
-        "Saldo Disponible": 104049.86,
-        "Saldo Disponible %": 0.8409166254087603,
-        "Hoy": 45539
+        "Consumo": 19813.5,
+        "Saldo Disponible": 103920.36,
+        "Saldo Disponible %": 0.8398700242601338,
+        "Hoy": 45554
       },
       {
         "NPA": 7600015373,
@@ -11965,7 +12222,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte MongoDB - Año 2023",
         "Proveedor": "1003798    IBM ARGENTINA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44926,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -11974,7 +12231,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 83998.32,
         "Saldo Disponible": 42000.84,
         "Saldo Disponible %": 0.33334222228148186,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015361,
@@ -11983,7 +12240,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias CPNR DHCP V10",
         "Proveedor": "1003808    LOGICALIS ARGENTINA S. A",
         "Status": "Vigente",
-        "Meses de Vigencia": 16,
+        "Meses de Vigencia": 15.5,
         "Inicio Contrato": 44924,
         "Fin Contrato": 46019,
         "Moneda": "USD",
@@ -11992,7 +12249,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 298328.98,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015350,
@@ -12001,7 +12258,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": ".pgrade a GDE + Expansión HW",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 44924,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -12010,7 +12267,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 534238.67,
         "Saldo Disponible": 140635.33,
         "Saldo Disponible %": 0.2083875360437652,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015291,
@@ -12019,7 +12276,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte BCD Arris E6K",
         "Proveedor": "1015632    ARRIS DE ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44927,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12028,7 +12285,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1440000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015262,
@@ -12037,7 +12294,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Ensamblado de UPS o banco de baterías",
         "Proveedor": "1000088    VERTIV CONO SUR LTDA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44945,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12046,7 +12303,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 10930,
         "Saldo Disponible": 218978,
         "Saldo Disponible %": 0.9524592445673922,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015261,
@@ -12056,7 +12313,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RACK S/INTERRUP #0250KTK16FN01000KDPS01",
         "Proveedor": "2026908    VERTIV CONO SUR LIMITADA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44945,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12065,7 +12322,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 658300,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015260,
@@ -12074,7 +12331,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Ensamblado de UPS o banco de baterías",
         "Proveedor": "1009269    SERVICIOS CRITICOS TESLA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44945,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -12083,7 +12340,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 10312484,
         "Saldo Disponible": 25809828,
         "Saldo Disponible %": 0.7145120722062309,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015259,
@@ -12092,7 +12349,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Curso Operación y Mantenimiento",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44945,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12101,7 +12358,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 17605.870000000003,
         "Saldo Disponible": 56488.21,
         "Saldo Disponible %": 0.7623849300780845,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015258,
@@ -12111,7 +12368,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RACK.UPS HUAWEI#UPS.5000-E-300K-SMT",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44945,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12120,7 +12377,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 1572920,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015212,
@@ -12129,16 +12386,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "REPARAC Y CALIBRAC PLATAFORMA E INSTRUME",
         "Proveedor": "1010489    TECNOUS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.933333333333334,
+        "Meses de Vigencia": 6.433333333333334,
         "Inicio Contrato": 45017,
         "Fin Contrato": 45747,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 281608,
-        "Consumo": 173556,
-        "Saldo Disponible": 108052,
-        "Saldo Disponible %": 0.38369648589528704,
-        "Hoy": 45539
+        "Consumo": 186639,
+        "Saldo Disponible": 94969,
+        "Saldo Disponible %": 0.3372382886849805,
+        "Hoy": 45554
       },
       {
         "NPA": 7600015183,
@@ -12147,7 +12404,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SSPP Implementacion",
         "Proveedor": "1034109    IS SECURITY S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44917,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -12156,7 +12413,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 135350,
         "Saldo Disponible": 58150,
         "Saldo Disponible %": 0.30051679586563307,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015122,
@@ -12165,7 +12422,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MICROSOFT EA AÑO 1",
         "Proveedor": "2000259    MICROSOFT CORPORATION",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44928,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -12174,7 +12431,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9571014.92,
         "Saldo Disponible": 3638936.02,
         "Saldo Disponible %": 0.2754693061713975,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015115,
@@ -12184,7 +12441,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SIST.D/ALMC.OCEANSTOR 5300 V5 7.68TB SSD",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 31.266666666666666,
+        "Meses de Vigencia": 30.766666666666666,
         "Inicio Contrato": 44915,
         "Fin Contrato": 46477,
         "Moneda": "USD",
@@ -12193,7 +12450,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 176138.47,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600015001,
@@ -12202,7 +12459,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencia 3play SYM2 + adecuacion IPS + I",
         "Proveedor": "1006449    INTRAWAY CORPORATION S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44918,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12211,7 +12468,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 682787.52,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014995,
@@ -12220,7 +12477,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SSPP Programa Unificación: Fase I.A - Sy",
         "Proveedor": "1006449    INTRAWAY CORPORATION S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44918,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12229,7 +12486,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 635600,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014988,
@@ -12238,7 +12495,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Sw DWDM",
         "Proveedor": "2000216    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.6,
+        "Meses de Vigencia": 3.1,
         "Inicio Contrato": 44918,
         "Fin Contrato": 45647,
         "Moneda": "USD",
@@ -12247,7 +12504,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 10622.129999999997,
         "Saldo Disponible": 43377.87,
         "Saldo Disponible %": 0.803293888888889,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014715,
@@ -12257,7 +12514,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.INTCONX.3M.2X25MM,FTE.A.SB120.ROJ.AZ",
         "Proveedor": "1003894    RETI S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.3333333333333335,
+        "Meses de Vigencia": 2.8333333333333335,
         "Inicio Contrato": 44908,
         "Fin Contrato": 45639,
         "Moneda": "USD",
@@ -12266,7 +12523,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 53600,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014714,
@@ -12276,7 +12533,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.INTCONX.3M.2X6MM,FTE.A.PP45.ROJ.AZ",
         "Proveedor": "1018497    Nitto Optikon SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.3333333333333335,
+        "Meses de Vigencia": 2.8333333333333335,
         "Inicio Contrato": 44908,
         "Fin Contrato": 45639,
         "Moneda": "USD",
@@ -12285,7 +12542,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 82863.90000000002,
         "Saldo Disponible": 554779.1,
         "Saldo Disponible %": 0.8700465621045005,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014709,
@@ -12294,7 +12551,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Qualys Enterprise Web Application Scann",
         "Proveedor": "2027231    QUALYS INC.",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.033333333333335,
+        "Meses de Vigencia": 15.533333333333333,
         "Inicio Contrato": 44907,
         "Fin Contrato": 46020,
         "Moneda": "USD",
@@ -12303,7 +12560,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 160642.13,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014557,
@@ -12313,7 +12570,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "GMPA.PLAST.P/CBL RG6 BCA.C/CVO.",
         "Proveedor": "1034373    Fischer Argentina SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44893,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12322,7 +12579,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 37840,
         "Saldo Disponible": 67548.3,
         "Saldo Disponible %": 0.6409468603251025,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014548,
@@ -12332,7 +12589,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.D/AC.D.3 mm C/VNA.D/PVC (ROLL.100MT)",
         "Proveedor": "1011950    ACERAR ACEROS ARGENTINOS",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.8333333333333335,
+        "Meses de Vigencia": 2.3333333333333335,
         "Inicio Contrato": 44893,
         "Fin Contrato": 45624,
         "Moneda": "USD",
@@ -12341,7 +12598,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 319780,
         "Saldo Disponible": 702171.6,
         "Saldo Disponible %": 0.6870888993177368,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014545,
@@ -12351,7 +12608,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.D/AC.D.3 mm C/VNA.D/PVC (ROLL.100MT)",
         "Proveedor": "1011957    IPH S.A.I.C.F.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.8333333333333335,
+        "Meses de Vigencia": 2.3333333333333335,
         "Inicio Contrato": 44893,
         "Fin Contrato": 45624,
         "Moneda": "USD",
@@ -12360,7 +12617,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 215508.3600000001,
         "Saldo Disponible": 1082014.64,
         "Saldo Disponible %": 0.8339078690705289,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014538,
@@ -12370,7 +12627,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "KIT D/UNIN.P/LAM.D/AL.D/2 FGS-HAEJ-C",
         "Proveedor": "1010914    COMMSCOPE CONNECTIVITY",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.8,
+        "Meses de Vigencia": 2.3,
         "Inicio Contrato": 44893,
         "Fin Contrato": 45623,
         "Moneda": "USD",
@@ -12379,7 +12636,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 41296.78,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014447,
@@ -12389,7 +12646,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "BUL.3/8\"\" X 1\"\"CZA.RED.CUELL.CUAD.P/CBL",
         "Proveedor": "1015242    TMI METALURGICA SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.8333333333333335,
+        "Meses de Vigencia": 2.3333333333333335,
         "Inicio Contrato": 44893,
         "Fin Contrato": 45624,
         "Moneda": "USD",
@@ -12398,7 +12655,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 778229.9100000001,
         "Saldo Disponible": 358598.96,
         "Saldo Disponible %": 0.3154379427397898,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014446,
@@ -12408,7 +12665,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TORN. HEX.1/4X25 mm ZN.",
         "Proveedor": "1004544    INDUSTRIAS KC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.8333333333333335,
+        "Meses de Vigencia": 2.3333333333333335,
         "Inicio Contrato": 44893,
         "Fin Contrato": 45624,
         "Moneda": "USD",
@@ -12417,7 +12674,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 7508.21,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014445,
@@ -12427,7 +12684,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MENS.PST.LUZ (CORTA)",
         "Proveedor": "1011975    FAMEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.8333333333333335,
+        "Meses de Vigencia": 2.3333333333333335,
         "Inicio Contrato": 44893,
         "Fin Contrato": 45624,
         "Moneda": "USD",
@@ -12436,7 +12693,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 53750,
         "Saldo Disponible": 365806.96,
         "Saldo Disponible %": 0.8718886703726713,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014443,
@@ -12446,7 +12703,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TIRAF.Ø 5,5 MM(7/32\")/38 MM(1 1/2\") D/L",
         "Proveedor": "1013343    DISTRIBUIDORA BULONES CO",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.8333333333333335,
+        "Meses de Vigencia": 2.3333333333333335,
         "Inicio Contrato": 44893,
         "Fin Contrato": 45624,
         "Moneda": "USD",
@@ -12455,7 +12712,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 330,
         "Saldo Disponible": 221900.21,
         "Saldo Disponible %": 0.9985150533764063,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014401,
@@ -12465,7 +12722,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.12FO SM MPO 15M #QFA-1WWSMPN015MCC",
         "Proveedor": "1010914    COMMSCOPE CONNECTIVITY",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.4,
+        "Meses de Vigencia": 1.9,
         "Inicio Contrato": 44883,
         "Fin Contrato": 45611,
         "Moneda": "USD",
@@ -12474,7 +12731,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 48058.42,
         "Saldo Disponible": 59389.3,
         "Saldo Disponible %": 0.5527274101302475,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014364,
@@ -12484,7 +12741,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SOP.MENS.SR-130. SAMET",
         "Proveedor": "1003068    TRANSELEC S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.466666666666667,
+        "Meses de Vigencia": 1.9666666666666666,
         "Inicio Contrato": 44882,
         "Fin Contrato": 45613,
         "Moneda": "USD",
@@ -12493,7 +12750,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 16865.07,
         "Saldo Disponible": 35340.19,
         "Saldo Disponible %": 0.6769469206742769,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014363,
@@ -12503,7 +12760,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PROL.(ZAPATILLA) 5 TOMAS C/RLEV.TERM.",
         "Proveedor": "1011987    MAGNANO OSVALDO",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.466666666666667,
+        "Meses de Vigencia": 1.9666666666666666,
         "Inicio Contrato": 44882,
         "Fin Contrato": 45613,
         "Moneda": "USD",
@@ -12512,7 +12769,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 340.1999999999998,
         "Saldo Disponible": 2123.63,
         "Saldo Disponible %": 0.8619222917165552,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014362,
@@ -12522,7 +12779,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CPLA.UNIN.7/8 P/CÑO GALV.DAISA URT078L",
         "Proveedor": "1014885    ELECTRICIDAD HAEDO SACIF",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.466666666666667,
+        "Meses de Vigencia": 1.9666666666666666,
         "Inicio Contrato": 44882,
         "Fin Contrato": 45613,
         "Moneda": "USD",
@@ -12531,7 +12788,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 3963.1499999999996,
         "Saldo Disponible": 5373.01,
         "Saldo Disponible %": 0.575505346952066,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014361,
@@ -12541,7 +12798,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TERMIN.D/CU.ESTÑ.OJAL 1/4 P/CBL.4MM",
         "Proveedor": "1009472    ELECTROMILENIO S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.466666666666667,
+        "Meses de Vigencia": 1.9666666666666666,
         "Inicio Contrato": 44882,
         "Fin Contrato": 45613,
         "Moneda": "USD",
@@ -12550,7 +12807,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 14901.38,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014282,
@@ -12560,7 +12817,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MANGUE.NEG.P/PROTEC.CBLE. RED Ø1\"",
         "Proveedor": "1005134    STRADA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 2.2,
+        "Meses de Vigencia": 1.7,
         "Inicio Contrato": 44874,
         "Fin Contrato": 45605,
         "Moneda": "USD",
@@ -12569,7 +12826,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 42648,
         "Saldo Disponible": 48372,
         "Saldo Disponible %": 0.5314436387607119,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014234,
@@ -12579,7 +12836,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "GMPA.PLAST.P/CBL.DROP.OPT.PLANO.FTTH",
         "Proveedor": "1013316    GOMEZ HUGO ALBERTO",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44872,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12588,7 +12845,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 93500,
         "Saldo Disponible": 86900,
         "Saldo Disponible %": 0.4817073170731707,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014233,
@@ -12598,7 +12855,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "GMPA.PLAST.P/CBL RG6 BCA.C/CVO.",
         "Proveedor": "1000195    BARRAZA PATRICIA ESTER",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44872,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -12607,7 +12864,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 82520,
         "Saldo Disponible": 57450,
         "Saldo Disponible %": 0.4104450953775809,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014210,
@@ -12616,16 +12873,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Implementación Capa IP (RL) _ Transporte",
         "Proveedor": "1004162    NOKIA SOLUTIONS AND NETW",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44869,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
         "Precio Neto": 0,
         "Saldo inicial": 115000000,
-        "Consumo": 92316573.15,
-        "Saldo Disponible": 22683426.85,
-        "Saldo Disponible %": 0.19724719000000002,
-        "Hoy": 45539
+        "Consumo": 88465877.07,
+        "Saldo Disponible": 26534122.93,
+        "Saldo Disponible %": 0.23073150373913043,
+        "Hoy": 45554
       },
       {
         "NPA": 7600014208,
@@ -12635,7 +12892,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONF.MAT.INST.F.4RACKS+2P Z1",
         "Proveedor": "1016936    PITTELLA E HIJOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.8666666666666667,
+        "Meses de Vigencia": 1.3666666666666667,
         "Inicio Contrato": 44869,
         "Fin Contrato": 45595,
         "Moneda": "USD",
@@ -12644,7 +12901,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 33130.1,
         "Saldo Disponible": 25129.9,
         "Saldo Disponible %": 0.4313405423961552,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014207,
@@ -12654,7 +12911,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONF.MAT.INST.F.4RACKS+2P Z1",
         "Proveedor": "1014955    CRITICAL SYSTEMS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.8666666666666667,
+        "Meses de Vigencia": 1.3666666666666667,
         "Inicio Contrato": 44869,
         "Fin Contrato": 45595,
         "Moneda": "USD",
@@ -12663,7 +12920,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 32114,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014206,
@@ -12672,7 +12929,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MO p Instalacion STD Confinamiento",
         "Proveedor": "1014955    CRITICAL SYSTEMS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.8666666666666667,
+        "Meses de Vigencia": 1.3666666666666667,
         "Inicio Contrato": 44869,
         "Fin Contrato": 45595,
         "Moneda": "ARS",
@@ -12681,7 +12938,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 7899470,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014205,
@@ -12690,7 +12947,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MO p Instalacion STD Confinamiento",
         "Proveedor": "1016936    PITTELLA E HIJOS S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.8666666666666667,
+        "Meses de Vigencia": 1.3666666666666667,
         "Inicio Contrato": 44869,
         "Fin Contrato": 45595,
         "Moneda": "ARS",
@@ -12699,7 +12956,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 6893255,
         "Saldo Disponible": 3442525,
         "Saldo Disponible %": 0.3330687185679262,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014118,
@@ -12708,7 +12965,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Set up Fee Serv Cloud p/ plataforma FLOW",
         "Proveedor": "2029260    Qwilt Inc",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44713,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -12717,7 +12974,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 756290.85,
         "Saldo Disponible": 114685.15,
         "Saldo Disponible %": 0.13167429412521126,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014077,
@@ -12727,7 +12984,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DISTR.120M FTTX 5MM CONECT.REFORZ.",
         "Proveedor": "2000422    WUHAN FIBERHOME INTERNAT",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.7,
+        "Meses de Vigencia": 1.2,
         "Inicio Contrato": 44860,
         "Fin Contrato": 45590,
         "Moneda": "USD",
@@ -12736,7 +12993,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 190000,
         "Saldo Disponible": 50675,
         "Saldo Disponible %": 0.21055365118936326,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014076,
@@ -12746,7 +13003,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DISTR.120M FTTX 5MM CONECT.REFORZ.",
         "Proveedor": "2000442    FTTMAS LIMITED",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.7,
+        "Meses de Vigencia": 1.2,
         "Inicio Contrato": 44860,
         "Fin Contrato": 45590,
         "Moneda": "USD",
@@ -12755,7 +13012,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 307840,
         "Saldo Disponible": 1226808.5,
         "Saldo Disponible %": 0.7994068348550173,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600014003,
@@ -12765,7 +13022,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "TARJ.AUTOLAM.C/INSCR.\"CBL.D/FIB.OPT.\"",
         "Proveedor": "1031010    LOPEZ BRAÑEIRO NICOLAS Y",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.5333333333333334,
+        "Meses de Vigencia": 1.0333333333333334,
         "Inicio Contrato": 44854,
         "Fin Contrato": 45585,
         "Moneda": "USD",
@@ -12774,7 +13031,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7600,
         "Saldo Disponible": 9120,
         "Saldo Disponible %": 0.5454545454545454,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013975,
@@ -12784,16 +13041,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "MODUL.OPT.12FO LC/APC-MTP #EMOD-CP12-DC.",
         "Proveedor": "2000481    CORNING OPTICAL COMMUNIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44894,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 136.75,
         "Saldo inicial": 9522214.83,
-        "Consumo": 1039788.5199999996,
-        "Saldo Disponible": 8482426.31,
-        "Saldo Disponible %": 0.8908039212973733,
-        "Hoy": 45539
+        "Consumo": 1194678.5200000005,
+        "Saldo Disponible": 8327536.31,
+        "Saldo Disponible %": 0.8745377476428978,
+        "Hoy": 45554
       },
       {
         "NPA": 7600013971,
@@ -12803,7 +13060,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONECT.OPT.MEC.SC/APC P/CBL.DROP",
         "Proveedor": "2000521    JIANGSU ZHONGTIAN TECHNO",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 44853,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -12812,7 +13069,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 39750,
         "Saldo Disponible": 105046,
         "Saldo Disponible %": 0.7254758418740849,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013966,
@@ -12822,7 +13079,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DROP SEMCONEC.SC-APC P/EDIF.FTTH 40M",
         "Proveedor": "2000442    FTTMAS LIMITED",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 44853,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -12831,7 +13088,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1145660,
         "Saldo Disponible": 326,
         "Saldo Disponible %": 0.00028447118900230893,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013965,
@@ -12841,7 +13098,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CBL.DROP PLANO 40M G.657 CONECT.REFORZ.",
         "Proveedor": "2000482    ELECTROSON TELECOMUNICAC",
         "Status": "Vigente",
-        "Meses de Vigencia": 1.9,
+        "Meses de Vigencia": 1.4,
         "Inicio Contrato": 44853,
         "Fin Contrato": 45596,
         "Moneda": "USD",
@@ -12850,7 +13107,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1324310,
         "Saldo Disponible": 73665,
         "Saldo Disponible %": 0.05269407535900141,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013768,
@@ -12860,7 +13117,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CM WI FI 3.1 P/TELEF C/ACC SERIAL",
         "Proveedor": "2000717    Vantiva USA LLC",
         "Status": "Vigente",
-        "Meses de Vigencia": 1,
+        "Meses de Vigencia": 0.5,
         "Inicio Contrato": 44839,
         "Fin Contrato": 45569,
         "Moneda": "USD",
@@ -12869,7 +13126,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 11869000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013755,
@@ -12878,7 +13135,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Gestiones Municipales para Obras Civiles",
         "Proveedor": "1026279    VISA GUILLERMO ESTEBAN",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44839,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -12887,7 +13144,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 853600,
         "Saldo Disponible": 646400,
         "Saldo Disponible %": 0.43093333333333333,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013754,
@@ -12896,7 +13153,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Gestiones Municipales para Obras Civiles",
         "Proveedor": "1029311    TABARES MARIA DANIELA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44839,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -12905,7 +13162,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 309915,
         "Saldo Disponible": 890085,
         "Saldo Disponible %": 0.7417375,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013753,
@@ -12914,7 +13171,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Gestiones Municipales para Obras Civiles",
         "Proveedor": "1007377    ESTUDIO CAS SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44839,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -12923,7 +13180,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 3700000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013750,
@@ -12932,7 +13189,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Gestiones Municipales para Obras Civiles",
         "Proveedor": "1029319    EBCEL S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44839,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -12941,7 +13198,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 700000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013749,
@@ -12950,7 +13207,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Gestiones Municipales para Obras Civiles",
         "Proveedor": "1006016    ATLANTICA CONSULTING GRO",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44839,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -12959,7 +13216,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2535184.2,
         "Saldo Disponible": 364815.8,
         "Saldo Disponible %": 0.12579855172413792,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013698,
@@ -12969,7 +13226,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "APM 150K C/30KW EMERSON #NXRE0305525",
         "Proveedor": "2026908    VERTIV CONO SUR LIMITADA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44835,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -12978,7 +13235,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 29881.6,
         "Saldo Disponible": 53059.4,
         "Saldo Disponible %": 0.6397246235275678,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013683,
@@ -12988,7 +13245,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ORDENADOR HORZ.1U BELDEN #TEL-BHH191UC",
         "Proveedor": "2025795    BELDEN INC.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8333333333333334,
+        "Meses de Vigencia": 0.3333333333333333,
         "Inicio Contrato": 44834,
         "Fin Contrato": 45564,
         "Moneda": "USD",
@@ -12997,25 +13254,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 25915.58,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600013660,
-        "Pos": 10,
-        "Fecha": 45146,
-        "Descripción": "Reparacion modulos de TX (TRANSPORTE)",
-        "Proveedor": "1003887    C.I.S. GROUP LATINOAMERI",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 45146,
-        "Fin Contrato": 45534,
-        "Moneda": "USD",
-        "Precio Neto": 0,
-        "Saldo inicial": 108844.39,
-        "Consumo": 0,
-        "Saldo Disponible": 108844.39,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013598,
@@ -13025,7 +13264,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ADAP.UNION SC-UPC / SC-UPC AZUL",
         "Proveedor": "1010599    FURUKAWA ELECTRIC LATAM",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.133333333333334,
+        "Meses de Vigencia": 3.6333333333333333,
         "Inicio Contrato": 44932,
         "Fin Contrato": 45663,
         "Moneda": "USD",
@@ -13034,7 +13273,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 767.9999999999999,
         "Saldo Disponible": 921.6,
         "Saldo Disponible %": 0.5454545454545455,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013597,
@@ -13044,7 +13283,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "ADAPT.OPT.FC-APC/SC-APC.",
         "Proveedor": "1012763    ADECOMM S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.133333333333334,
+        "Meses de Vigencia": 3.6333333333333333,
         "Inicio Contrato": 44932,
         "Fin Contrato": 45663,
         "Moneda": "USD",
@@ -13053,7 +13292,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 651.7999999999993,
         "Saldo Disponible": 22825.8,
         "Saldo Disponible %": 0.9722373666814326,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013587,
@@ -13062,7 +13301,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Cargo de conexion Camara Cero",
         "Proveedor": "1010672    SENCINET LATAM ARGENTINA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44827,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13071,7 +13310,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 102670,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013568,
@@ -13081,7 +13320,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CABEZA D/CABLE 144 FO LADO DERECHO",
         "Proveedor": "1002740    QUANTUM TECNOLOGIA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.6,
+        "Meses de Vigencia": 0.1,
         "Inicio Contrato": 44826,
         "Fin Contrato": 45557,
         "Moneda": "USD",
@@ -13090,7 +13329,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 54775.26,
         "Saldo Disponible": 9737.74,
         "Saldo Disponible %": 0.150942290701099,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013567,
@@ -13100,7 +13339,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CABEZA DE CABLE 19\" P/12 FO",
         "Proveedor": "1001979    QUALITY TECH S.R.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.6,
+        "Meses de Vigencia": 0.1,
         "Inicio Contrato": 44826,
         "Fin Contrato": 45557,
         "Moneda": "USD",
@@ -13109,7 +13348,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 23765,
         "Saldo Disponible": 15349,
         "Saldo Disponible %": 0.39241703737792094,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013566,
@@ -13119,7 +13358,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CABEZA DE CABLE 19\" P/12 FO",
         "Proveedor": "1004774    KOC LATINOAMERICA S. A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.6,
+        "Meses de Vigencia": 0.1,
         "Inicio Contrato": 44826,
         "Fin Contrato": 45557,
         "Moneda": "USD",
@@ -13128,7 +13367,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 71450,
         "Saldo Disponible": 170170,
         "Saldo Disponible %": 0.7042877245261154,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013561,
@@ -13137,7 +13376,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte de certificados",
         "Proveedor": "2028272    LINDANUY S.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 14.066666666666666,
+        "Meses de Vigencia": 13.566666666666666,
         "Inicio Contrato": 44834,
         "Fin Contrato": 45961,
         "Moneda": "USD",
@@ -13146,7 +13385,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 739200,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013511,
@@ -13155,7 +13394,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INST. SIST. DETECC. Y AUTO EXT. INCENDIO",
         "Proveedor": "1014938    DIGI - PLAY GROUP SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44824,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -13164,7 +13403,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 44666,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013510,
@@ -13173,7 +13412,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "INST. SIST. DETECC. Y AUTO EXT. INCENDIO",
         "Proveedor": "1014938    DIGI - PLAY GROUP SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44824,
         "Fin Contrato": 45565,
         "Moneda": "ARS",
@@ -13182,26 +13421,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 8000000,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600013465,
-        "Pos": 10,
-        "Fecha": 44823,
-        "Material/Servicio": 10710028,
-        "Descripción": "BLOQUEO C/VAL.P/SUBREP.P/CAB D=22A 45MM",
-        "Proveedor": "1004982    POWERCOM S.A.",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.4666666666666667,
-        "Inicio Contrato": 44823,
-        "Fin Contrato": 45553,
-        "Moneda": "USD",
-        "Precio Neto": 59.9,
-        "Saldo inicial": 22163,
-        "Consumo": 22163,
-        "Saldo Disponible": 0,
-        "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600013441,
@@ -13210,7 +13430,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SWAP FO 2012 fecha 22/9/2022 a 21/9/2023",
         "Proveedor": "1011501    TELEFONICA DE ARGENTINA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.9,
+        "Meses de Vigencia": 3.4,
         "Inicio Contrato": 44820,
         "Fin Contrato": 45656,
         "Moneda": "USD",
@@ -13219,119 +13439,25 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 31230,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
-        "NPA": 7600013346,
+        "NPA": 7600013066,
         "Pos": 10,
-        "Fecha": 44816,
-        "Material/Servicio": 30500043,
-        "Descripción": "CON. F D/COMPRES. P/MINICOAX",
-        "Proveedor": "2000602    Digicomm International I",
+        "Fecha": 44799,
+        "Descripción": "Implementación Capa IP (RL) _ Transporte",
+        "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.23333333333333334,
-        "Inicio Contrato": 44816,
-        "Fin Contrato": 45546,
+        "Meses de Vigencia": 3.433333333333333,
+        "Inicio Contrato": 44799,
+        "Fin Contrato": 45657,
         "Moneda": "USD",
-        "Precio Neto": 1.46,
-        "Saldo inicial": 23214,
-        "Consumo": 0,
-        "Saldo Disponible": 23214,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600013344,
-        "Pos": 10,
-        "Fecha": 44816,
-        "Material/Servicio": 30500043,
-        "Descripción": "CON. F D/COMPRES. P/MINICOAX",
-        "Proveedor": "2000592    ADVANCED MEDIA TECHNOLOG",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.23333333333333334,
-        "Inicio Contrato": 44816,
-        "Fin Contrato": 45546,
-        "Moneda": "USD",
-        "Precio Neto": 1.4,
-        "Saldo inicial": 51940,
-        "Consumo": 0,
-        "Saldo Disponible": 51940,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600013266,
-        "Pos": 10,
-        "Fecha": 44812,
-        "Descripción": "OIL, C, 5-GAL 011 00312 000",
-        "Proveedor": "1012697    CA Group S.A.",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 44812,
-        "Fin Contrato": 45535,
-        "Moneda": "USD",
-        "Precio Neto": 5600,
-        "Saldo inicial": 10000,
-        "Consumo": 9374.5,
-        "Saldo Disponible": 625.5,
-        "Saldo Disponible %": 0.06255,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600013265,
-        "Pos": 10,
-        "Fecha": 44812,
-        "Descripción": "Mantto D./Chillers",
-        "Proveedor": "1012697    CA Group S.A.",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 44812,
-        "Fin Contrato": 45535,
-        "Moneda": "ARS",
-        "Precio Neto": 959904,
-        "Saldo inicial": 5713612,
-        "Consumo": 5179782,
-        "Saldo Disponible": 533830,
-        "Saldo Disponible %": 0.0934312655462079,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600013215,
-        "Pos": 10,
-        "Fecha": 44810,
-        "Material/Servicio": 60100393,
-        "Descripción": "ATEN.3DB 5-1218MHZ ATX MAXNET II",
-        "Proveedor": "2000602    Digicomm International I",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.03333333333333333,
-        "Inicio Contrato": 44812,
-        "Fin Contrato": 45540,
-        "Moneda": "USD",
-        "Precio Neto": 1.03,
-        "Saldo inicial": 785211.82,
-        "Consumo": 50979.04999999993,
-        "Saldo Disponible": 734232.77,
-        "Saldo Disponible %": 0.9350760537455995,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600013213,
-        "Pos": 10,
-        "Fecha": 44810,
-        "Material/Servicio": 60100393,
-        "Descripción": "ATEN.3DB 5-1218MHZ ATX MAXNET II",
-        "Proveedor": "2000592    ADVANCED MEDIA TECHNOLOG",
-        "Status": "Vigente",
-        "Meses de Vigencia": 0.03333333333333333,
-        "Inicio Contrato": 44812,
-        "Fin Contrato": 45540,
-        "Moneda": "USD",
-        "Precio Neto": 2.06,
-        "Saldo inicial": 237662.32,
-        "Consumo": 4532,
-        "Saldo Disponible": 233130.32,
-        "Saldo Disponible %": 0.9809309275445935,
-        "Hoy": 45539
+        "Precio Neto": 0,
+        "Saldo inicial": 96000,
+        "Consumo": 9796.220000000001,
+        "Saldo Disponible": 86203.78,
+        "Saldo Disponible %": 0.8979560416666666,
+        "Hoy": 45554
       },
       {
         "NPA": 7600012885,
@@ -13341,7 +13467,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CJA.P/288 EMP.C/CRRE.MEC#FBG-CBV-800-288",
         "Proveedor": "2000482    ELECTROSON TELECOMUNICAC",
         "Status": "Vigente",
-        "Meses de Vigencia": 11.666666666666666,
+        "Meses de Vigencia": 11.166666666666666,
         "Inicio Contrato": 45517,
         "Fin Contrato": 45889,
         "Moneda": "USD",
@@ -13350,26 +13476,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 46015.20000000001,
         "Saldo Disponible": 191729.8,
         "Saldo Disponible %": 0.8064514500830722,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600012856,
-        "Pos": 10,
-        "Fecha": 44785,
-        "Material/Servicio": 310200569,
-        "Descripción": "DISTRIB.D/CTE.ALTERN.PDU TRIF.16A",
-        "Proveedor": "2000675    Bluenergy LLC",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 44798,
-        "Fin Contrato": 45534,
-        "Moneda": "USD",
-        "Precio Neto": 103.48,
-        "Saldo inicial": 72436,
-        "Consumo": 0,
-        "Saldo Disponible": 72436,
-        "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600012846,
@@ -13378,16 +13485,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Reparacion y calibracion instrumeto",
         "Proveedor": "1010645    PLANEX S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.966666666666667,
+        "Meses de Vigencia": 4.466666666666667,
         "Inicio Contrato": 45345,
         "Fin Contrato": 45688,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 253060,
-        "Consumo": 122440,
-        "Saldo Disponible": 130620,
-        "Saldo Disponible %": 0.516162174978266,
-        "Hoy": 45539
+        "Consumo": 126440,
+        "Saldo Disponible": 126620,
+        "Saldo Disponible %": 0.5003556468821624,
+        "Hoy": 45554
       },
       {
         "NPA": 7600012466,
@@ -13396,7 +13503,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SW agreement Nokia Lito Acceso Móvil",
         "Proveedor": "2000533    NOKIA SPAIN SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 44763,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -13405,7 +13512,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 9118062.14,
         "Saldo Disponible": 162047.86,
         "Saldo Disponible %": 0.017461846896211358,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600012394,
@@ -13415,7 +13522,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CAJA EMPS PRESURIZ.P/CAB DIAM. 55 A 65MM",
         "Proveedor": "1002740    QUANTUM TECNOLOGIA SA",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.9,
+        "Meses de Vigencia": 10.4,
         "Inicio Contrato": 44774,
         "Fin Contrato": 45866,
         "Moneda": "USD",
@@ -13424,7 +13531,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 116051.65000000002,
         "Saldo Disponible": 143462.52,
         "Saldo Disponible %": 0.5528118946260236,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600012360,
@@ -13434,7 +13541,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CONECTOR ABIERTO P/CONDUC. 0.4a0.6 MM",
         "Proveedor": "1011456    KINGTRON SRL",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.566666666666666,
+        "Meses de Vigencia": 10.066666666666666,
         "Inicio Contrato": 44768,
         "Fin Contrato": 45856,
         "Moneda": "USD",
@@ -13443,7 +13550,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 106500,
         "Saldo Disponible": 118500,
         "Saldo Disponible %": 0.5266666666666666,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600012358,
@@ -13452,7 +13559,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Fortify Scan Model Machine SP-AN253",
         "Proveedor": "1010737    NOVELL DE ARGENTINA S.A",
         "Status": "Vigente",
-        "Meses de Vigencia": 10.433333333333334,
+        "Meses de Vigencia": 9.933333333333334,
         "Inicio Contrato": 44757,
         "Fin Contrato": 45852,
         "Moneda": "USD",
@@ -13461,7 +13568,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 399692,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600012349,
@@ -13470,7 +13577,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Creditos de capacitacion",
         "Proveedor": "1029210    AMAZON WEB SERVICES ARGE",
         "Status": "Vigente",
-        "Meses de Vigencia": 22.133333333333333,
+        "Meses de Vigencia": 21.633333333333333,
         "Inicio Contrato": 44754,
         "Fin Contrato": 46203,
         "Moneda": "ARS",
@@ -13479,7 +13586,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 25000000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600012050,
@@ -13488,7 +13595,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicio de Transporte Bosque Alegre",
         "Proveedor": "1033485    Transportes Cordoba SAS",
         "Status": "Vigente",
-        "Meses de Vigencia": 9,
+        "Meses de Vigencia": 8.5,
         "Inicio Contrato": 44713,
         "Fin Contrato": 45809,
         "Moneda": "ARS",
@@ -13497,7 +13604,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 10123890,
         "Saldo Disponible": 491874,
         "Saldo Disponible %": 0.04633430057412731,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600011995,
@@ -13506,7 +13613,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Smartcare - Crecimiento Probes",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 44735,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -13515,7 +13622,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 412086.4099999999,
         "Saldo Disponible": 1569885.59,
         "Saldo Disponible %": 0.7920826278070529,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600011955,
@@ -13523,17 +13630,17 @@ let npas=JSON.parse(JSON.stringify(
         "Fecha": 44733,
         "Descripción": "Serv.Instalación RE-LH Split",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44713,
-        "Fin Contrato": 45534,
+        "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 266804,
-        "Consumo": 72458.95999999999,
-        "Saldo Disponible": 194345.04,
-        "Saldo Disponible %": 0.7284187643363668,
-        "Hoy": 45539
+        "Consumo": 77631.64000000001,
+        "Saldo Disponible": 189172.36,
+        "Saldo Disponible %": 0.7090311989325497,
+        "Hoy": 45554
       },
       {
         "NPA": 7600011669,
@@ -13542,7 +13649,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CYBERARK Adaptive Multi-Factor Authentic",
         "Proveedor": "2028272    LINDANUY S.L.",
         "Status": "Vigente",
-        "Meses de Vigencia": 9.966666666666667,
+        "Meses de Vigencia": 9.466666666666667,
         "Inicio Contrato": 44729,
         "Fin Contrato": 45838,
         "Moneda": "USD",
@@ -13551,7 +13658,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 609600,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600011459,
@@ -13560,7 +13667,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte Base migrada",
         "Proveedor": "2025226    THEO TECHNOLOGIES NV",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44701,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13569,7 +13676,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 37500,
         "Saldo Disponible": 10380,
         "Saldo Disponible %": 0.21679197994987467,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600011458,
@@ -13578,7 +13685,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Player Base Migrada",
         "Proveedor": "2025226    THEO TECHNOLOGIES NV",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44701,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13587,7 +13694,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 250000,
         "Saldo Disponible": 70000,
         "Saldo Disponible %": 0.21875,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600011420,
@@ -13595,35 +13702,17 @@ let npas=JSON.parse(JSON.stringify(
         "Fecha": 44700,
         "Descripción": "Licencias Software RE.LH Split",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44713,
-        "Fin Contrato": 45534,
+        "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 103757,
         "Consumo": 87677.68,
         "Saldo Disponible": 16079.32,
         "Saldo Disponible %": 0.15497094171959483,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600011414,
-        "Pos": 10,
-        "Fecha": 44700,
-        "Descripción": "Lote Materiles Inst.RE.LH Split",
-        "Proveedor": "1005176    CYAC S.R.L.",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
-        "Inicio Contrato": 44708,
-        "Fin Contrato": 45534,
-        "Moneda": "USD",
-        "Precio Neto": 0,
-        "Saldo inicial": 385232,
-        "Consumo": 97369.47999999998,
-        "Saldo Disponible": 287862.52,
-        "Saldo Disponible %": 0.7472445695061678,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600011336,
@@ -13632,7 +13721,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Acometida Av. del Campo",
         "Proveedor": "1001929    CIRION TECHNOLOGIES ARGE",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44693,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13641,7 +13730,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 71850,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600011208,
@@ -13649,17 +13738,17 @@ let npas=JSON.parse(JSON.stringify(
         "Fecha": 44686,
         "Descripción": "Lote Materiles Inst.RE.LH Full Indoor",
         "Proveedor": "1006976    CERAGON ARGENTINA SA",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.16666666666666666,
+        "Status": "Vigente",
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44708,
-        "Fin Contrato": 45534,
+        "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 1879908,
-        "Consumo": 1186450.76,
-        "Saldo Disponible": 693457.24,
-        "Saldo Disponible %": 0.36887828553312185,
-        "Hoy": 45539
+        "Consumo": 1205955.3,
+        "Saldo Disponible": 673952.7,
+        "Saldo Disponible %": 0.3585030224883345,
+        "Hoy": 45554
       },
       {
         "NPA": 7600011024,
@@ -13668,7 +13757,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "UM 200 Mbps San Antonio de los Cobres",
         "Proveedor": "1004158    EMPRESA ARGENTINA DE SOL",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44672,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13677,7 +13766,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 24000,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600010496,
@@ -13686,7 +13775,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Software Agreement Core Móvil 2022",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 44644,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -13695,7 +13784,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 27909547.04,
         "Saldo Disponible": 9000452.96,
         "Saldo Disponible %": 0.24384863072338123,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600010489,
@@ -13704,16 +13793,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Wireless Huawei",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44562,
         "Fin Contrato": 46022,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 23310000,
-        "Consumo": 9261354.85,
-        "Saldo Disponible": 14048645.15,
-        "Saldo Disponible %": 0.6026874796224796,
-        "Hoy": 45539
+        "Consumo": 9499025.6,
+        "Saldo Disponible": 13810974.4,
+        "Saldo Disponible %": 0.5924913942513943,
+        "Hoy": 45554
       },
       {
         "NPA": 7600010486,
@@ -13722,7 +13811,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SmartCare Software Annual Fee",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44643,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -13731,7 +13820,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 22893000.24,
         "Saldo Disponible": 507000.76,
         "Saldo Disponible %": 0.021666698219371873,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600010458,
@@ -13740,7 +13829,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SOC Engineer man-days",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44643,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -13749,7 +13838,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1180264.8,
         "Saldo Disponible": 430373.2,
         "Saldo Disponible %": 0.2672066597211788,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600010436,
@@ -13758,16 +13847,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "4G Licenses Buffet",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44642,
         "Fin Contrato": 46022,
         "Moneda": "USD",
         "Precio Neto": 0,
         "Saldo inicial": 49290000,
-        "Consumo": 18519749.05,
-        "Saldo Disponible": 30770250.95,
-        "Saldo Disponible %": 0.624269648001623,
-        "Hoy": 45539
+        "Consumo": 18519749.03,
+        "Saldo Disponible": 30770250.97,
+        "Saldo Disponible %": 0.6242696484073849,
+        "Hoy": 45554
       },
       {
         "NPA": 7600010383,
@@ -13777,7 +13866,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "CPE 5G H122-573 P/EXT.B78 HUAWE#02312TMD",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44638,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -13786,7 +13875,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 97873528.83,
         "Saldo Disponible": 43986471.17,
         "Saldo Disponible %": 0.31006958388552097,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600010276,
@@ -13795,7 +13884,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "AATT Acceso Móvil (2G/3G/4G)_2024",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 28.266666666666666,
+        "Meses de Vigencia": 27.766666666666666,
         "Inicio Contrato": 44927,
         "Fin Contrato": 46387,
         "Moneda": "USD",
@@ -13804,7 +13893,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 26200000.2,
         "Saldo Disponible": 9000000.8,
         "Saldo Disponible %": 0.2556818336454025,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009967,
@@ -13813,7 +13902,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte PULA",
         "Proveedor": "1010607    ORACLE ARGENTINA S.R.L",
         "Status": "Vigente",
-        "Meses de Vigencia": 24.166666666666668,
+        "Meses de Vigencia": 23.666666666666668,
         "Inicio Contrato": 44620,
         "Fin Contrato": 46264,
         "Moneda": "ARS",
@@ -13822,7 +13911,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 227612670.10999995,
         "Saldo Disponible": 415525410.55,
         "Saldo Disponible %": 0.646090510024815,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009966,
@@ -13831,7 +13920,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Soporte  ULA",
         "Proveedor": "1010607    ORACLE ARGENTINA S.R.L",
         "Status": "Vigente",
-        "Meses de Vigencia": 18.533333333333335,
+        "Meses de Vigencia": 18.033333333333335,
         "Inicio Contrato": 44620,
         "Fin Contrato": 46095,
         "Moneda": "ARS",
@@ -13840,7 +13929,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 291727508.12,
         "Saldo Disponible": 442785049.1,
         "Saldo Disponible %": 0.6028284264817242,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009885,
@@ -13849,7 +13938,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Servicios Profesionales Recambio HW",
         "Proveedor": "1015632    ARRIS DE ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44615,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13858,7 +13947,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0,
         "Saldo Disponible": 1,
         "Saldo Disponible %": 1,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009859,
@@ -13868,7 +13957,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "E6000 RSM-2-KIT RSM-2/RSM PIC-2 #1000325",
         "Proveedor": "2000566    ARRIS SOLUTIONS, INC.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44613,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13877,7 +13966,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 6.400000000023283,
         "Saldo Disponible": 499993.6,
         "Saldo Disponible %": 0.9999872,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009837,
@@ -13886,7 +13975,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Expansión de Licencias Docsis 3.1",
         "Proveedor": "2000566    ARRIS SOLUTIONS, INC.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44562,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13895,7 +13984,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 16992399.43,
         "Saldo Disponible": 3398938.57,
         "Saldo Disponible %": 0.1666854117174655,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009653,
@@ -13904,7 +13993,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Granja + Enlaces FO 1er año",
         "Proveedor": "1002039    COOPERATIVA TELEFONICA P",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44550,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13913,7 +14002,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 111435.48,
         "Saldo Disponible": 1664.52,
         "Saldo Disponible %": 0.014717241379310344,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009575,
@@ -13923,7 +14012,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "PAN.D/CRGA.TELECT MOD.NRG600BT10-C 600A",
         "Proveedor": "1012472    BUENOS AIRES TECHNOLOGIE",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44589,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -13932,7 +14021,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 398146.7,
         "Saldo Disponible": 344317.3,
         "Saldo Disponible %": 0.4637494881906732,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009391,
@@ -13941,7 +14030,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m(Materiales)",
         "Proveedor": "1026160    SUMAR SERVICIOS INDUSTRI",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44562,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -13950,7 +14039,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 106861.10999999999,
         "Saldo Disponible": 545422.89,
         "Saldo Disponible %": 0.83617395183693,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009371,
@@ -13959,7 +14048,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Sol.Const.GE65Kva RLE12m(Materiales)",
         "Proveedor": "1013389    DURANTE EDGARDO OMAR",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.8666666666666667,
+        "Meses de Vigencia": 0.36666666666666664,
         "Inicio Contrato": 44562,
         "Fin Contrato": 45565,
         "Moneda": "USD",
@@ -13968,7 +14057,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 209212.17000000004,
         "Saldo Disponible": 584171.83,
         "Saldo Disponible %": 0.7363040217599548,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600009038,
@@ -13977,7 +14066,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SmartCare Software Annual Fee",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44559,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -13986,7 +14075,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 7800100.12,
         "Saldo Disponible": 0.88,
         "Saldo Disponible %": 1.1281905195842977e-7,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600008465,
@@ -13995,7 +14084,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias y Servicios",
         "Proveedor": "2000480    CISCO SYSTEMS, INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 6.7,
+        "Meses de Vigencia": 6.2,
         "Inicio Contrato": 44645,
         "Fin Contrato": 45740,
         "Moneda": "USD",
@@ -14004,7 +14093,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 189190.28,
         "Saldo Disponible": 0.72,
         "Saldo Disponible %": 0.0000038056778599404832,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600008401,
@@ -14013,7 +14102,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Expansión Capaciidad SmartCare - HW",
         "Proveedor": "2000455    HUAWEI INTERNATIONAL CO.",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44557,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -14022,7 +14111,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 477392.47,
         "Saldo Disponible": 1.53,
         "Saldo Disponible %": 0.0000032048999359020015,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600008248,
@@ -14032,16 +14121,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "EDGE8 ARNS.NO ESCL.SM MTP 8FO/LC-APC.2M",
         "Proveedor": "2000481    CORNING OPTICAL COMMUNIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44517,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 158.63,
         "Saldo inicial": 350890.16,
-        "Consumo": 152964.53999999998,
-        "Saldo Disponible": 197925.62,
-        "Saldo Disponible %": 0.5640671713336162,
-        "Hoy": 45539
+        "Consumo": 160692.53999999998,
+        "Saldo Disponible": 190197.62,
+        "Saldo Disponible %": 0.5420431852520459,
+        "Hoy": 45554
       },
       {
         "NPA": 7600008083,
@@ -14050,7 +14139,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Evolución gestor de Presurización de mul",
         "Proveedor": "1010645    PLANEX S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44504,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -14059,7 +14148,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 129976,
         "Saldo Disponible": 243024,
         "Saldo Disponible %": 0.6515388739946381,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600008023,
@@ -14068,7 +14157,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Canon AUSOL 10 años 200,4 Km",
         "Proveedor": "1012233    AUTOPISTAS DEL SOL S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 76.96666666666667,
+        "Meses de Vigencia": 76.46666666666667,
         "Inicio Contrato": 44197,
         "Fin Contrato": 47848,
         "Moneda": "USD",
@@ -14077,7 +14166,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 4569120,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600007987,
@@ -14087,7 +14176,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "EDGE8 ARNS.NO ESCL.SM MTP 8FO/LC-APC.4M",
         "Proveedor": "2000481    CORNING OPTICAL COMMUNIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44497,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -14096,7 +14185,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 835676.0200000005,
         "Saldo Disponible": 5359162.76,
         "Saldo Disponible %": 0.8651012480424873,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600007514,
@@ -14105,7 +14194,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Housing por 2 racks",
         "Proveedor": "1032033    SERVICIOS Y TELECOMUNICA",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44475,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -14114,7 +14203,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 133200,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600007476,
@@ -14123,7 +14212,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS HUB SATELITAL",
         "Proveedor": "1010645    PLANEX S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44473,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -14132,7 +14221,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 90550.74,
         "Saldo Disponible": 13594.26,
         "Saldo Disponible %": 0.13053204666570647,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600007358,
@@ -14141,7 +14230,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "LICENCIAS DE SOFTWARE",
         "Proveedor": "1003075    DELL AMERICA LATINA CORP",
         "Status": "Vigente",
-        "Meses de Vigencia": 0.6333333333333333,
+        "Meses de Vigencia": 0.13333333333333333,
         "Inicio Contrato": 44462,
         "Fin Contrato": 45558,
         "Moneda": "USD",
@@ -14150,25 +14239,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 17878.74,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
-      },
-      {
-        "NPA": 7600006940,
-        "Pos": 10,
-        "Fecha": 44433,
-        "Descripción": "Asistente Virtual",
-        "Proveedor": "1031864    LEADAKI S.A.",
-        "Status": "Vencido",
-        "Meses de Vigencia": -0.13333333333333333,
-        "Inicio Contrato": 44467,
-        "Fin Contrato": 45535,
-        "Moneda": "ARS",
-        "Precio Neto": 2745119.7,
-        "Saldo inicial": 16500000,
-        "Consumo": 7640428.07,
-        "Saldo Disponible": 8859571.93,
-        "Saldo Disponible %": 0.5369437533333333,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600005938,
@@ -14177,7 +14248,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Mant. Lic. eGRC - Año 1",
         "Proveedor": "1007089    LICENCIASONLINE S.A",
         "Status": "Vigente",
-        "Meses de Vigencia": 18.566666666666666,
+        "Meses de Vigencia": 18.066666666666666,
         "Inicio Contrato": 44150,
         "Fin Contrato": 46096,
         "Moneda": "USD",
@@ -14186,7 +14257,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 296736,
         "Saldo Disponible": 74184,
         "Saldo Disponible %": 0.2,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600003663,
@@ -14195,7 +14266,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Fusion Sphere License",
         "Proveedor": "1002401    HUAWEI TECH INVESTMENT C",
         "Status": "Vigente",
-        "Meses de Vigencia": 42.9,
+        "Meses de Vigencia": 42.4,
         "Inicio Contrato": 44270,
         "Fin Contrato": 46826,
         "Moneda": "USD",
@@ -14204,7 +14275,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1081512.72,
         "Saldo Disponible": 150007.09,
         "Saldo Disponible %": 0.12180647747761361,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600003553,
@@ -14213,7 +14284,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencia soporte CORE PEAK BANDWITH",
         "Proveedor": "2000480    CISCO SYSTEMS, INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44197,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -14222,7 +14293,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 29365247.34,
         "Saldo Disponible": 4212752.66,
         "Saldo Disponible %": 0.125461690988147,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600003357,
@@ -14232,7 +14303,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "RETENC.P/CBL. DROP OPT. (CABLE CLAMP)",
         "Proveedor": "1028967    TUREK DANIEL LEONARDO",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 45291,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -14241,7 +14312,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 226115,
         "Saldo Disponible": 325385,
         "Saldo Disponible %": 0.59,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600003269,
@@ -14250,7 +14321,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVICIOS RED MOVIL",
         "Proveedor": "1004867    SERVICIO SATELITAL S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44211,
         "Fin Contrato": 45657,
         "Moneda": "ARS",
@@ -14259,7 +14330,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 326107105.88,
         "Saldo Disponible": 144737695.67,
         "Saldo Disponible %": 0.30740000780199755,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600003097,
@@ -14268,16 +14339,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Renov. Protecc. Base de Datos          -",
         "Proveedor": "1002048    HP FINANCIAL SERVICES AR",
         "Status": "Vigente",
-        "Meses de Vigencia": 15.8,
+        "Meses de Vigencia": 15.3,
         "Inicio Contrato": 44188,
         "Fin Contrato": 46013,
         "Moneda": "USD",
         "Precio Neto": 784093.8,
         "Saldo inicial": 784093.8,
-        "Consumo": 535797.43,
-        "Saldo Disponible": 248296.37,
-        "Saldo Disponible %": 0.31666666666666665,
-        "Hoy": 45539
+        "Consumo": 548865.66,
+        "Saldo Disponible": 235228.14,
+        "Saldo Disponible %": 0.3,
+        "Hoy": 45554
       },
       {
         "NPA": 7600002705,
@@ -14286,16 +14357,16 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Endpoint Protection Platforms - Mantenim",
         "Proveedor": "1002048    HP FINANCIAL SERVICES AR",
         "Status": "Vigente",
-        "Meses de Vigencia": 15.8,
+        "Meses de Vigencia": 15.3,
         "Inicio Contrato": 44188,
         "Fin Contrato": 46013,
         "Moneda": "USD",
         "Precio Neto": 999456,
         "Saldo inicial": 999456,
-        "Consumo": 682961.6,
-        "Saldo Disponible": 316494.4,
-        "Saldo Disponible %": 0.3166666666666667,
-        "Hoy": 45539
+        "Consumo": 699619.2,
+        "Saldo Disponible": 299836.8,
+        "Saldo Disponible %": 0.3,
+        "Hoy": 45554
       },
       {
         "NPA": 7600002023,
@@ -14304,7 +14375,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias CISCO - Proyecto QWILT y Softw",
         "Proveedor": "2000480    CISCO SYSTEMS, INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44152,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -14313,7 +14384,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1939033.64,
         "Saldo Disponible": 6.36,
         "Saldo Disponible %": 0.0000032799735951811206,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600000786,
@@ -14323,7 +14394,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "SERVER P/PLATAFORMA NETFLIX STORAGE",
         "Proveedor": "2000459    NETFLIX STREAMING SERVIC",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44070,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -14332,7 +14403,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 0.7699999999999996,
         "Saldo Disponible": 4.23,
         "Saldo Disponible %": 0.8460000000000001,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600000147,
@@ -14341,7 +14412,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias Cisco IGW",
         "Proveedor": "2000480    CISCO SYSTEMS, INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 44036,
         "Fin Contrato": 45657,
         "Moneda": "USD",
@@ -14350,7 +14421,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 156000,
         "Saldo Disponible": 243361,
         "Saldo Disponible %": 0.6093759781250547,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 7600000052,
@@ -14360,7 +14431,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Precio por nodo Superdome Banda 1",
         "Proveedor": "1003795    HEWLETT PACKARD ARG. S.R",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 44012,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -14369,7 +14440,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 2493193.11,
         "Saldo Disponible": 438286.89,
         "Saldo Disponible %": 0.14951044864709975,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 4600062109,
@@ -14378,7 +14449,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Licencias y Soporte Año 1",
         "Proveedor": "2024128    CITRIX SYSTEMS, INC",
         "Status": "Vigente",
-        "Meses de Vigencia": 4.8,
+        "Meses de Vigencia": 4.3,
         "Inicio Contrato": 43829,
         "Fin Contrato": 45683,
         "Moneda": "USD",
@@ -14387,7 +14458,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 1356524.03,
         "Saldo Disponible": 0,
         "Saldo Disponible %": 0,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 4600057761,
@@ -14396,7 +14467,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "O&M del IRU SWAP 2010 - año 2019",
         "Proveedor": "1010520    AMX ARGENTINA S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 43598,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -14405,7 +14476,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 487800,
         "Saldo Disponible": 97560,
         "Saldo Disponible %": 0.16666666666666666,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 4600055722,
@@ -14414,7 +14485,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Alcorta -Cargos de instalación",
         "Proveedor": "1006193    COMUNICACIONES Y CONSUMO",
         "Status": "Vigente",
-        "Meses de Vigencia": 16.1,
+        "Meses de Vigencia": 15.6,
         "Inicio Contrato": 43553,
         "Fin Contrato": 46022,
         "Moneda": "USD",
@@ -14423,7 +14494,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 515400,
         "Saldo Disponible": 195030.62,
         "Saldo Disponible %": 0.27452451303408065,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 4600054349,
@@ -14432,7 +14503,7 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Arrendamiento 4 pelos de IRU de FO 2018",
         "Proveedor": "1010835    COOP.DE SAN BERNARDO LTD",
         "Status": "Vigente",
-        "Meses de Vigencia": 113.5,
+        "Meses de Vigencia": 113,
         "Inicio Contrato": 43417,
         "Fin Contrato": 48944,
         "Moneda": "USD",
@@ -14441,7 +14512,7 @@ let npas=JSON.parse(JSON.stringify(
         "Consumo": 172800,
         "Saldo Disponible": 388800,
         "Saldo Disponible %": 0.6923076923076923,
-        "Hoy": 45539
+        "Hoy": 45554
       },
       {
         "NPA": 4600054082,
@@ -14450,17 +14521,18 @@ let npas=JSON.parse(JSON.stringify(
         "Descripción": "Conectividad satelital total contrato",
         "Proveedor": "1004867    SERVICIO SATELITAL S.A.",
         "Status": "Vigente",
-        "Meses de Vigencia": 3.933333333333333,
+        "Meses de Vigencia": 3.433333333333333,
         "Inicio Contrato": 43395,
         "Fin Contrato": 45657,
         "Moneda": "USD",
         "Precio Neto": 16893000,
         "Saldo inicial": 16407253.24,
-        "Consumo": 6168535.0600000005,
-        "Saldo Disponible": 10238718.18,
-        "Saldo Disponible %": 0.6240360912476536,
-        "Hoy": 45539
+        "Consumo": 6313265.0600000005,
+        "Saldo Disponible": 10093988.18,
+        "Saldo Disponible %": 0.615214992561424,
+        "Hoy": 45554
       }
     ]
   }
+
 ))
