@@ -14,18 +14,18 @@ let proveedores=JSON.parse(JSON.stringify(
       {
         "Proveedor": 1015969,
         "Contratista": "ANNESE VICTOR ANGEL",
-        "NPA": 7600023542
+        "NPA": 7600028139
       },
       {
         "Proveedor": 1034690,
         "Contratista": "Lizarraga Carolina",
-        "NPA": 7600025632
+        "NPA": 7600028144
 
       },
       {
         "Proveedor": 1016685,
         "Contratista": "Wilion Conte y Asociados",
-        "NPA": 7600023780
+        "NPA": 7600028140
       },
       {
         "Proveedor": 1016859,
@@ -35,7 +35,7 @@ let proveedores=JSON.parse(JSON.stringify(
       {
         "Proveedor": "1016936",
         "Contratista": "Pittella E Hijos S.A.",
-        "NPA": 7600026821
+        "NPA": 7600028147
       },
       {
         "Proveedor": 1007735,
